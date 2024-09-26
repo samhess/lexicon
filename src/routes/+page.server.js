@@ -12,6 +12,6 @@ export const load = async () => {
     isEditable: true,
     name: 'expressions'
   }
-  const records = await db.expressions.findMany()
+  const records = await db.expressions.findMany({orderBy:{malagasy:'asc'}})
   return {entity, records}
 }

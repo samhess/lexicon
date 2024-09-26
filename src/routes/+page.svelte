@@ -6,7 +6,7 @@
 </script>
 
 <article class="prose">
-  <h1>Welcome to Malagasy Crash Course</h1>
+  <h1>Malagasy Crash Course</h1>
   <DataTable {entity} {records} on:updateData={()=>invalidateAll()}>
     <svelte:fragment let:records let:rowDblClick>
       {#each records as expression}

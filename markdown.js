@@ -1,12 +1,12 @@
 import db from './src/lib/server/database.js'
 import {writeFile} from 'fs/promises'
 
-const expressions = await db.expressions.findMany()
+const expressions = await db.expressions.findMany({orderBy:{malagasy:'asc'}})
 
 let markdown = `
 # Malagasy Expressions
 
-> Note: There are many dialetcs
+> Note: There are many malagasy dialetcs
 
 | Malagasy             | English              | Comment              |
 -----------------------|----------------------|-----------------------
