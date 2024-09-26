@@ -3,7 +3,7 @@ import db from '$lib/server/database.js'
 export const load = async () => {
   const entity = {
     attributes: {
-      id: {name:'ID', show:true},
+      id: {name:'ID', show:false},
       malagasy: {name:'Malagasy'},
       english: {name:'English'},
       comment: {name:'Comment'}
