@@ -8,12 +8,16 @@ After traveling around Madagascar and spending some time on Nosy Be, I managed t
 
 | Malagasy             | English              | Comment              |
 -----------------------|----------------------|-----------------------
-| aza fady             | please, sorry        |                      |
-| inona vaovao         | what's the news?     | what's up?           |
+| JIRAMA               | water and electricity | abbreviation of jiro sy rano malagasy |
+| azafady              | please, sorry        | composed of aza fady  |
+| inona vaovao         | what's the news?     | Response: tsisy vaovao |
+| iray tavela          | another one          | literally one is left |
 | mbola tsara          | hello                | Sakalava, literally still good |
+| misaotra             | thank you            |                      |
 | ngoma anao zaho      | I miss you           |                      |
 | salama               | hello                | also salaam          |
-| tsaiky lehilahy      | young man            |                      |
+| tiako anao           | I love you           | composed of tia (love) ko (I) and anao (you) |
+| tsaiky lehilahy      | boy                  | composed of tsaiky (child) lehilahy (man) |
 | tsisy miresaka       | no news              | nothing to say       |
 | tsisy vaovao         | no news              |                      |
 | tsy mavandy          | don't lie            | don't lie to me      |
@@ -35,6 +39,7 @@ After traveling around Madagascar and spending some time on Nosy Be, I managed t
 | ohatrinona           | adverb               | how much             |
 | eto                  | adverb               | here                 |
 | ny                   | article              | the                  |
+| sy                   | conjunction          | and                  |
 | ary                  | conjunction          | and                  |
 | vola                 | noun                 | money                |
 | vary                 | noun                 | rice                 |
@@ -46,11 +51,16 @@ After traveling around Madagascar and spending some time on Nosy Be, I managed t
 | sira                 | noun                 | salt                 |
 | siramamy             | noun                 | sugar                |
 | malalako             | noun                 | my dear              |
+| kibo                 | noun                 | belly                |
+| fo                   | noun                 | heart                |
+| foko                 | noun                 | tribe                |
+| lamba                | noun                 | clothes              |
+| vazaha               | noun                 | foreigner            |
+| vady                 | noun                 | wife or husband      |
 | mosary               | verb                 | to be hungry / to starve |
 | mandeha              | verb                 | to walk              |
 | hody                 | verb                 | to go home           |
 | misy                 | verb                 | there is             |
 | mila                 | verb                 | to need              |
-| misaotra             | verb                 | thank you            |
 | mihinana             | verb                 | to eat               |
 | aza                  | verb                 | don't                |
