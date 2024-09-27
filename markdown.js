@@ -7,7 +7,7 @@ const expressions = await db.expressions.findMany({
 })
 const words = await db.expressions.findMany({
   where: {NOT:{partOfSpeech:'collocation'}},
-  orderBy:{partOfSpeech:'asc'}
+  orderBy:{malagasy:'asc'}
 })
 
 let markdown = `
@@ -30,12 +30,12 @@ for (const expression of expressions) {
 markdown += `
 ## Malagasy Words
 
-| Malagasy             | Part of Speech       | English              |
------------------------|----------------------|-----------------------
+| Malagasy             | Part of Speech       | English              | Comment              |
+-----------------------|----------------------|----------------------|-----------------------
 `
 
 for (const word of words) {
-  const {malagasy, partOfSpeech, english} = word
-  markdown += `| ${malagasy.padEnd(20)} | ${partOfSpeech.padEnd(20)} | ${(english).padEnd(20)} |\r\n`
+  const {malagasy, partOfSpeech, english, comment} = word
+  markdown += `| ${malagasy.padEnd(20)} | ${partOfSpeech.padEnd(20)} | ${(english).padEnd(20)} | ${(comment??'').padEnd(20)} |\r\n`
 }
 await writeFile('./README.md', markdown)

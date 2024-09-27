@@ -10,6 +10,7 @@ After traveling around Madagascar and spending some time on Nosy Be, I managed t
 -----------------------|----------------------|-----------------------
 | JIRAMA               | water and electricity | abbreviation of jiro sy rano malagasy |
 | azafady              | please, sorry        | composed of aza fady  |
+| azala                | damn                 |                      |
 | inona vaovao         | what's the news?     | Response: tsisy vaovao |
 | iray tavela          | another one          | literally one is left |
 | mbola tsara          | hello                | Sakalava, literally still good |
@@ -25,42 +26,44 @@ After traveling around Madagascar and spending some time on Nosy Be, I managed t
 
 ## Malagasy Words
 
-| Malagasy             | Part of Speech       | English              |
------------------------|----------------------|-----------------------
-| tsara                | adjective            | good / nice          |
-| ratsy                | adjective            | bad / ugly           |
-| mafana               | adjective            | hot                  |
-| manitsy              | adjective            | cold                 |
-| madiniky             | adjective            | small                |
-| maventy              | adjective            | big / heavy          |
-| tsy                  | adverb               | not                  |
-| tsisy                | adverb               | nothing              |
-| firy                 | adverb               | how many             |
-| ohatrinona           | adverb               | how much             |
-| eto                  | adverb               | here                 |
-| ny                   | article              | the                  |
-| sy                   | conjunction          | and                  |
-| ary                  | conjunction          | and                  |
-| vola                 | noun                 | money                |
-| vary                 | noun                 | rice                 |
-| mofo                 | noun                 | bread                |
-| rano                 | noun                 | water                |
-| vava                 | noun                 | mouth                |
-| ronono               | noun                 | milk                 |
-| nono                 | noun                 | breast               |
-| sira                 | noun                 | salt                 |
-| siramamy             | noun                 | sugar                |
-| malalako             | noun                 | my dear              |
-| kibo                 | noun                 | belly                |
-| fo                   | noun                 | heart                |
-| foko                 | noun                 | tribe                |
-| lamba                | noun                 | clothes              |
-| vazaha               | noun                 | foreigner            |
-| vady                 | noun                 | wife or husband      |
-| mosary               | verb                 | to be hungry / to starve |
-| mandeha              | verb                 | to walk              |
-| hody                 | verb                 | to go home           |
-| misy                 | verb                 | there is             |
-| mila                 | verb                 | to need              |
-| mihinana             | verb                 | to eat               |
-| aza                  | verb                 | don't                |
+| Malagasy             | Part of Speech       | English              | Comment              |
+-----------------------|----------------------|----------------------|-----------------------
+| ary                  | conjunction          | and                  | used for last addition after using sy |
+| asa                  | noun                 | work                 |                      |
+| aza                  | verb                 | do not               |                      |
+| eto                  | adverb               | here                 |                      |
+| firy                 | adverb               | how many             |                      |
+| fo                   | noun                 | heart                |                      |
+| foko                 | noun                 | tribe                |                      |
+| hody                 | verb                 | to go home           |                      |
+| kibo                 | noun                 | belly                |                      |
+| lamba                | noun                 | clothes              |                      |
+| madiniky             | adjective            | small                |                      |
+| mafana               | adjective            | hot                  |                      |
+| malalako             | noun                 | my dear              | composed of malala (dear) and ko (my) |
+| mandeha              | verb                 | to walk              |                      |
+| manitsy              | adjective            | cold                 |                      |
+| maventy              | adjective            | big / heavy          | rano mavente (a big bottle of water) |
+| miasa                | verb                 | to work              |                      |
+| mihinana             | verb                 | to eat               |                      |
+| mila                 | verb                 | to need              |                      |
+| misy                 | verb                 | there is             |                      |
+| mofo                 | noun                 | bread                |                      |
+| mosary               | verb                 | to be hungry / to starve |                      |
+| nono                 | noun                 | breast               |                      |
+| ny                   | article              | the                  |                      |
+| ohatrinona           | adverb               | how much             | pronounced like "otsin" |
+| rano                 | noun                 | water                |                      |
+| ratsy                | adjective            | bad / ugly           |                      |
+| ronono               | noun                 | milk                 | composed of ro (bouillon) and nono (breast) |
+| sira                 | noun                 | salt                 |                      |
+| siramamy             | noun                 | sugar                | composed of sira (salt) and mamy (sweet) |
+| sy                   | conjunction          | and                  | often cut short as ry |
+| tsara                | adjective            | good / nice          |                      |
+| tsisy                | adverb               | nothing              | short for tsy misy   |
+| tsy                  | adverb               | not                  |                      |
+| vady                 | noun                 | wife or husband      | vadiko would be my wife |
+| vary                 | noun                 | rice                 |                      |
+| vava                 | noun                 | mouth                |                      |
+| vazaha               | noun                 | foreigner            | like mzungu in Africa |
+| vola                 | noun                 | money                |                      |
