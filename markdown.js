@@ -1,7 +1,7 @@
 import db from './src/lib/server/database.js'
 import {writeFile} from 'fs/promises'
 
-const expressions = await db.expressions.findMany({
+const phrases = await db.expressions.findMany({
   where: {partOfSpeech:'collocation'},
   orderBy:{malagasy:'asc'}
 })
@@ -16,19 +16,19 @@ let markdown = `
 
 After traveling around Madagascar and spending some time on Nosy Be, I managed to understand the following words and phrases.
 
-## Malagasy Expressions
+## Phrases
 
 | Malagasy             | English              | Comment              |
 -----------------------|----------------------|-----------------------
 `
 
-for (const expression of expressions) {
-  const {malagasy, english, comment} = expression
+for (const phrase of phrases) {
+  const {malagasy, english, comment} = phrase
   markdown += `| ${malagasy.padEnd(20)} | ${english.padEnd(20)} | ${(comment??'').padEnd(20)} |\r\n`
 }
 
 markdown += `
-## Malagasy Words
+## Words
 
 | Malagasy             | Part of Speech       | English              | Comment              |
 -----------------------|----------------------|----------------------|-----------------------

@@ -4,11 +4,11 @@
 
 After traveling around Madagascar and spending some time on Nosy Be, I managed to understand the following words and phrases.
 
-## Malagasy Expressions
+## Phrases
 
 | Malagasy             | English              | Comment              |
 -----------------------|----------------------|-----------------------
-| JIRAMA               | water and electricity | abbreviation of jiro sy rano malagasy |
+| JIRAMA               | water and electricity | acronym for jiro sy rano malagasy |
 | azafady              | please, sorry        | composed of aza fady  |
 | azala                | damn                 |                      |
 | inona vaovao         | what's the news?     | Response: tsisy vaovao |
@@ -24,12 +24,12 @@ After traveling around Madagascar and spending some time on Nosy Be, I managed t
 | tsy mavandy          | don't lie            | don't lie to me      |
 | zah hiala            | leave me alone       | literally I will leave |
 
-## Malagasy Words
+## Words
 
 | Malagasy             | Part of Speech       | English              | Comment              |
 -----------------------|----------------------|----------------------|-----------------------
 | ary                  | conjunction          | and                  | used for last addition after using sy |
-| asa                  | noun                 | work                 |                      |
+| asa                  | noun                 | work                 | verb miasa           |
 | aza                  | verb                 | do not               |                      |
 | eto                  | adverb               | here                 |                      |
 | firy                 | adverb               | how many             |                      |
@@ -58,7 +58,7 @@ After traveling around Madagascar and spending some time on Nosy Be, I managed t
 | ronono               | noun                 | milk                 | composed of ro (bouillon) and nono (breast) |
 | sira                 | noun                 | salt                 |                      |
 | siramamy             | noun                 | sugar                | composed of sira (salt) and mamy (sweet) |
-| sy                   | conjunction          | and                  | often cut short as ry |
+| sy                   | conjunction          | and                  |                      |
 | tsara                | adjective            | good / nice          |                      |
 | tsisy                | adverb               | nothing              | short for tsy misy   |
 | tsy                  | adverb               | not                  |                      |

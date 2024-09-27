@@ -10,5 +10,13 @@
 </svelte:head>
 
 <main class="mx-auto max-w-7xl pt-10 px-2 md:px-4">
-  <slot />
+  <article class="prose">
+    <nav>
+      <a href="/phrases">Phrases</a> &nbsp;
+      <a href="/words">Words</a> &nbsp;
+      <a href="/admin">Parts of Speech</a>
+    </nav>
+    <h2 class="mt-5">Malagasy Introduction</h2>
+    <slot />
+  </article>
 </main>
