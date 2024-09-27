@@ -14,8 +14,16 @@ datasource db {
 }
 
 model Expressions {
-  id       Int     @id @default(autoincrement())
-  malagasy String
-  english  String
-  comment  String?
+  id           Int          @id @default(autoincrement())
+  malagasy     String
+  partOfSpeech String?
+  english      String
+  comment      String?
+  PartOfSpeech PartOfSpeech? @relation(fields: [partOfSpeech], references: [code], onUpdate: Cascade, onDelete: Cascade)
+}
+
+model PartOfSpeech {
+  code        String        @id
+  name        String
+  Expressions Expressions[]
 }

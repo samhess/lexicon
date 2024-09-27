@@ -4,19 +4,18 @@ import {json} from '@sveltejs/kit'
 /** @type {import('./$types').RequestHandler} */
 export async function POST({request}) {
   const data = await request.json()
-  await db.expressions.create({
+  await db.partOfSpeech.create({
     data
   })
   return json({})
 }
 
 export async function PUT({request}) {
-  const {PartOfSpeech, id, ...data} = await request.json()
-  await db.expressions.update({
-    where: {id:parseInt(id)},
+  const {code,...scalars} = await request.json()
+  await db.partOfSpeech.update({
+    where: {code},
     data: {
-      ...data,
-      PartOfSpeech:{connect:{code:PartOfSpeech.value}}
+      ...scalars
     }
   })
   return json({})

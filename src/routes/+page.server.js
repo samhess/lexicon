@@ -5,6 +5,7 @@ export const load = async () => {
     attributes: {
       id: {name:'ID', show:false},
       malagasy: {name:'Malagasy'},
+      PartOfSpeech: {name:'Part of Speech', key:'code'},
       english: {name:'English'},
       comment: {name:'Comment'}
     },
@@ -12,6 +13,10 @@ export const load = async () => {
     isEditable: true,
     name: 'expressions'
   }
-  const records = await db.expressions.findMany({orderBy:{malagasy:'asc'}})
+  const records = await db.expressions.findMany({
+    include: {PartOfSpeech:true},
+    orderBy:{partOfSpeech:'asc'}
+  })
+  //console.log(records)
   return {entity, records}
 }
