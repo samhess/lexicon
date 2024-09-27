@@ -11,9 +11,12 @@ const words = await db.expressions.findMany({
 })
 
 let markdown = `
+# Malagasy Introduction
 > Note: There are about 18 ethnic groups and hence many dialetcs. The language of the coast dwellers may differ heavily from the Merina people in the capital.
 
-# Malagasy Expressions
+After traveling around Madagascar and spending some time on Nosy Be, I managed to understand the following words and phrases.
+
+## Malagasy Expressions
 
 | Malagasy             | English              | Comment              |
 -----------------------|----------------------|-----------------------
@@ -25,7 +28,7 @@ for (const expression of expressions) {
 }
 
 markdown += `
-# Malagasy Words
+## Malagasy Words
 
 | Malagasy             | Part of Speech       | English              |
 -----------------------|----------------------|-----------------------
