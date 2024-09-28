@@ -1,6 +1,6 @@
 <script>
   import {invalidateAll} from '$app/navigation'
-  import DataTable from '$lib/components/DataTable.svelte'
+  import {DataTable} from '@samhess/svelte-components'
   export let data
   $: ({entity, records} = data)
 </script>

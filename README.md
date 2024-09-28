@@ -11,7 +11,7 @@ After traveling around Madagascar and spending some time on Nosy Be, I managed t
 | JIRAMA               | water and electricity | acronym for jiro sy rano malagasy |
 | azafady              | please, sorry        | composed of aza fady  |
 | azala                | damn                 |                      |
-| inona vaovao         | what's the news?     | Response: tsisy vaovao |
+| inona vaovao         | what's the news?     | usually, the response is tsisy vaovao |
 | iray tavela          | another one          | literally one is left |
 | mbola tsara          | hello                | Sakalava, literally still good |
 | misaotra             | thank you            |                      |
@@ -66,4 +66,5 @@ After traveling around Madagascar and spending some time on Nosy Be, I managed t
 | vary                 | noun                 | rice                 |                      |
 | vava                 | noun                 | mouth                |                      |
 | vazaha               | noun                 | foreigner            | like mzungu in Africa |
+| vita                 | verb                 | finished             |                      |
 | vola                 | noun                 | money                |                      |
