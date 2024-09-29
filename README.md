@@ -19,9 +19,9 @@ of those words and expressions.
 | Malagasy             | English              | Comment              |
 -----------------------|----------------------|-----------------------
 | JIRAMA               | water and electricity | acronym for jiro sy rano malagasy |
-| azafady              | excuse me, please, sorry | in contrast to english it is used for both asking and excusing |
+| azafady              | excuse me, please, sorry | in contrast to english it is used for both asking and apologizing |
 | azala                | damn                 | to express disappointment |
-| inona vaovao         | what's the news?     | usually, the response is tsisy vaovao |
+| inona no vaovao      | what's the news?     | usually, the response is tsisy vaovao |
 | iray tavela          | another one          | literally one is left |
 | mbola tsara          | hello                | Sakalava, literally still good |
 | misaotra betsaka     | thank you very much  | normally just misaotra |
@@ -34,7 +34,7 @@ of those words and expressions.
 | tsisy vaovao         | no news              |                      |
 | tsy haiko            | I don't know         |                      |
 | tsy mavandy          | don't lie            | don't lie to me      |
-| tsy misy olana!      | no worries!          |                      |
+| tsy misy olana!      | no worries!          | there is no problem, hakuna matata |
 | veloma!              | Farewell!            |                      |
 | zah hiala            | leave me alone       | literally I will leave |
 
@@ -45,24 +45,28 @@ of those words and expressions.
 | anarana              | noun                 | name                 |                      |
 | ary                  | conjunction          | and                  | used for last addition after connecting nouns with sy |
 | asa                  | noun                 | work                 | verb miasa           |
+| be                   | adjective            | big                  |                      |
 | eto                  | adverb               | here                 |                      |
 | firy                 | adverb               | how many             |                      |
 | fo                   | noun                 | heart                |                      |
 | foko                 | noun                 | tribe                | heart of mine        |
+| hamaray              | adverb               | tomorrow             | rahampitso in the capital |
 | hoatrinona           | adverb               | how much?            | other spelling ohatrinona |
 | ia                   | adverb               | yes                  | eny in some dialetcs |
 | kely                 | adjective            | little               | also kelikely a little bit |
 | kibo                 | noun                 | belly                |                      |
 | lamba                | noun                 | clothes              |                      |
+| loaka                | noun                 | hole                 |                      |
 | madinika             | adjective            | small                | other spelling madiniky |
 | mafana               | adjective            | hot                  |                      |
 | mahay                | verb                 | to know something    |                      |
+| malagasy             | adjective            | Malagasy, Madagascan | short gasy           |
 | malala               | adjective            | beloved              | malalako meaning my dear |
 | mamita               | verb                 | to finish            | vita means finished  |
 | mandeha              | verb                 | to walk              |                      |
 | manintsy             | adjective            | cold                 |                      |
 | maventy              | adjective            | big, heavy           | rano maventy (a big bottle of water) |
-| miambe               | verb                 | wait, pay attention  | ambe zah! wait for me! |
+| miambe               | verb                 | to wait, to pay attention | ambesa! wait!        |
 | miasa                | verb                 | to work              |                      |
 | mihinana             | verb                 | to eat               |                      |
 | mila                 | verb                 | to want, to need     |                      |
@@ -71,12 +75,14 @@ of those words and expressions.
 | mofo                 | noun                 | bread                | pronounced like mofu but u does not exist in malagasy |
 | mosary               | noun                 | hunger               | zaho musary means I am starving |
 | nono                 | noun                 | breast               |                      |
+| nosy                 | noun                 | island               | Nosy Be the big island |
 | ny                   | article              | the                  | determined atricle   |
 | olana                | noun                 | problem              |                      |
 | ondana               | noun                 | a pillow             |                      |
 | rano                 | noun                 | water                |                      |
 | ratsy                | adjective            | bad, ugly            |                      |
 | ronono               | noun                 | milk                 | composed of ro (bouillon) and nono (breast) |
+| sipa                 | noun                 | girlfriend, boyfriend | vady is much more common |
 | sira                 | noun                 | salt                 |                      |
 | siramamy             | noun                 | sugar                | composed of sira (salt) and mamy (sweet) |
 | sy                   | conjunction          | and                  |                      |
