@@ -1,70 +1,93 @@
 
 # Malagasy Introduction
+Malagasy belongs to the Austronesian language family. 
+For speakers of Indo-European languages it can be quite hard to start with Malagasy.
+The vocabulary is hardly similar and even the sentence structure is different, 
+as the subject is normally placed at the end (verb-object-subject order).
+
 > Note: There are about 18 ethnic groups and hence many dialetcs. The language of the coast dwellers may differ heavily from the Merina people in the capital.
 
-After traveling around Madagascar and spending some time on Nosy Be, I managed to understand the following words and phrases.
+After traveling around Madagascar and spending some time on Nosy Be, 
+I managed to understand the following words and phrases.
+It is certainly not enough to replace French in daily situations. 
+The list shows what I was able to absorb in everyday life due to the frequency or speciality 
+of those words and expressions.
+
 
 ## Phrases
 
 | Malagasy             | English              | Comment              |
 -----------------------|----------------------|-----------------------
 | JIRAMA               | water and electricity | acronym for jiro sy rano malagasy |
-| azafady              | please, sorry        | composed of aza fady  |
-| azala                | damn                 |                      |
+| azafady              | excuse me, please, sorry | in contrast to english it is used for both asking and excusing |
+| azala                | damn                 | to express disappointment |
 | inona vaovao         | what's the news?     | usually, the response is tsisy vaovao |
 | iray tavela          | another one          | literally one is left |
 | mbola tsara          | hello                | Sakalava, literally still good |
 | misaotra             | thank you            |                      |
 | ngoma anao zaho      | I miss you           |                      |
+| ny anarako dia Samuel | my name is Samuel    | actually the name of mine is Samuel |
 | salama               | hello                | also salaam          |
 | tiako anao           | I love you           | composed of tia (love) ko (I) and anao (you) |
 | tsaiky lehilahy      | boy                  | composed of tsaiky (child) lehilahy (man) |
 | tsisy miresaka       | no news              | nothing to say       |
 | tsisy vaovao         | no news              |                      |
+| tsy haiko            | I don't know         |                      |
 | tsy mavandy          | don't lie            | don't lie to me      |
+| tsy misy olana!      | no worries!          |                      |
+| veloma!              | Farewell!            |                      |
 | zah hiala            | leave me alone       | literally I will leave |
 
 ## Words
 
 | Malagasy             | Part of Speech       | English              | Comment              |
 -----------------------|----------------------|----------------------|-----------------------
-| ary                  | conjunction          | and                  | used for last addition after using sy |
+| anarana              | noun                 | name                 |                      |
+| ary                  | conjunction          | and                  | used for last addition after connecting nouns with sy |
 | asa                  | noun                 | work                 | verb miasa           |
-| aza                  | verb                 | do not               |                      |
 | eto                  | adverb               | here                 |                      |
 | firy                 | adverb               | how many             |                      |
 | fo                   | noun                 | heart                |                      |
-| foko                 | noun                 | tribe                |                      |
-| hody                 | verb                 | to go home           |                      |
+| foko                 | noun                 | tribe                | heart of mine        |
+| hoatrinona           | adverb               | how much?            | other spelling ohatrinona |
+| ia                   | adverb               | yes                  | eny in some dialetcs |
+| kely                 | adjective            | little               | also kelikely a little bit |
 | kibo                 | noun                 | belly                |                      |
 | lamba                | noun                 | clothes              |                      |
-| madiniky             | adjective            | small                |                      |
+| madinika             | adjective            | small                | other spelling madiniky |
 | mafana               | adjective            | hot                  |                      |
-| malalako             | noun                 | my dear              | composed of malala (dear) and ko (my) |
+| mahay                | verb                 | to know something    |                      |
+| malala               | adjective            | beloved              | malalako meaning my dear |
+| mamita               | verb                 | to finish            | vita means finished  |
 | mandeha              | verb                 | to walk              |                      |
-| manitsy              | adjective            | cold                 |                      |
-| maventy              | adjective            | big / heavy          | rano mavente (a big bottle of water) |
+| manintsy             | adjective            | cold                 |                      |
+| maventy              | adjective            | big, heavy           | rano maventy (a big bottle of water) |
+| miambe               | verb                 | wait, pay attention  | ambe zah! wait for me! |
 | miasa                | verb                 | to work              |                      |
 | mihinana             | verb                 | to eat               |                      |
-| mila                 | verb                 | to need              |                      |
+| mila                 | verb                 | to want, to need     |                      |
 | misy                 | verb                 | there is             |                      |
-| mofo                 | noun                 | bread                |                      |
-| mosary               | verb                 | to be hungry / to starve |                      |
+| mody                 | verb                 | to go home           |                      |
+| mofo                 | noun                 | bread                | pronounced like mofu but u does not exist in malagasy |
+| mosary               | noun                 | hunger               | zaho musary means I am starving |
 | nono                 | noun                 | breast               |                      |
-| ny                   | article              | the                  |                      |
-| ohatrinona           | adverb               | how much             | pronounced like "otsin" |
+| ny                   | article              | the                  | determined atricle   |
+| olana                | noun                 | problem              |                      |
+| ondana               | noun                 | a pillow             |                      |
 | rano                 | noun                 | water                |                      |
-| ratsy                | adjective            | bad / ugly           |                      |
+| ratsy                | adjective            | bad, ugly            |                      |
 | ronono               | noun                 | milk                 | composed of ro (bouillon) and nono (breast) |
 | sira                 | noun                 | salt                 |                      |
 | siramamy             | noun                 | sugar                | composed of sira (salt) and mamy (sweet) |
 | sy                   | conjunction          | and                  |                      |
-| tsara                | adjective            | good / nice          |                      |
+| tsara                | adjective            | good, nice           |                      |
+| tsia                 | adverb               | no                   |                      |
 | tsisy                | adverb               | nothing              | short for tsy misy   |
 | tsy                  | adverb               | not                  |                      |
-| vady                 | noun                 | wife or husband      | vadiko would be my wife |
+| vady                 | noun                 | spouse               | vadiko would be spouse of mine (my spouse) |
 | vary                 | noun                 | rice                 |                      |
 | vava                 | noun                 | mouth                |                      |
 | vazaha               | noun                 | foreigner            | like mzungu in Africa |
-| vita                 | verb                 | finished             |                      |
+| velona               | adjective            | living               |                      |
+| voky                 | adjective            | full                 | no more hungry       |
 | vola                 | noun                 | money                |                      |

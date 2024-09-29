@@ -24,3 +24,9 @@ export async function PUT({request}) {
   })
   return json({})
 }
+
+export async function DELETE({request}) {
+  const {id} = await request.json()
+  await db.expressions.delete({where:{id:parseInt(id)}})
+  return json({})
+}

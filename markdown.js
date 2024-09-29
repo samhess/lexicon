@@ -12,9 +12,19 @@ const words = await db.expressions.findMany({
 
 let markdown = `
 # Malagasy Introduction
+Malagasy belongs to the Austronesian language family. 
+For speakers of Indo-European languages it can be quite hard to start with Malagasy.
+The vocabulary is hardly similar and even the sentence structure is different, 
+as the subject is normally placed at the end (verb-object-subject order).
+
 > Note: There are about 18 ethnic groups and hence many dialetcs. The language of the coast dwellers may differ heavily from the Merina people in the capital.
 
-After traveling around Madagascar and spending some time on Nosy Be, I managed to understand the following words and phrases.
+After traveling around Madagascar and spending some time on Nosy Be, 
+I managed to understand the following words and phrases.
+It is certainly not enough to replace French in daily situations. 
+The list shows what I was able to absorb in everyday life due to the frequency or speciality 
+of those words and expressions.
+
 
 ## Phrases
 
