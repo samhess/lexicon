@@ -18,25 +18,25 @@ of those words and expressions.
 
 | Malagasy             | English              | Comment              |
 -----------------------|----------------------|-----------------------
-| JIRAMA               | water and electricity | acronym for jiro sy rano malagasy |
-| azafady              | excuse me, please, sorry | in contrast to english it is used for both asking and apologizing |
-| azala                | damn                 | to express disappointment |
-| inona no vaovao      | what's the news?     | usually, the response is tsisy vaovao |
-| iray tavela          | another one          | literally one is left |
-| mbola tsara          | hello                | Sakalava, literally still good |
-| misaotra betsaka     | thank you very much  | normally just misaotra |
-| ngoma anao zaho      | I miss you           | miss-you-I           |
-| ny anarako dia Samuel | my name is Samuel    | literally the name of mine is Samuel as -ko is a genitive suffix |
-| salama               | hello                | from arabic salaam   |
-| tiako anao           | I love you           | composed of tia (love) -ko (of me) and anao (you) |
-| tsaiky lehilahy      | boy                  | composed of tsaiky (child) lehilahy (man) |
-| tsisy miresaka       | no news              | nothing to say       |
-| tsisy vaovao         | no news              |                      |
-| tsy haiko            | I don't know         |                      |
-| tsy mavandy          | don't lie            | don't lie to me      |
-| tsy misy olana!      | no worries!          | there is no problem, hakuna matata |
-| veloma!              | Farewell!            |                      |
-| zah hiala            | leave me alone       | literally I will leave |
+| Araiky tavela        | Another one (drink)  | Literally one is left |
+| Azafady              | Excuse me, please, sorry | In contrast to english it is used for both asking and apologizing |
+| Azala!               | Damn!                | To express disappointment |
+| Inona no vaovao?     | What's the news?     | Usually, the response is tsisy vaovao |
+| JIRAMA               | Water and electricity (utility company) | Acronym for jiro sy rano malagasy. Tsisy JIRAMA means there is no power... and maybe no water, too |
+| Mbola tsara          | Hello                | Sakalava: literally still good |
+| Misaotra betsaka!    | Thank you very much! | Normally just misaotra |
+| Ngoma anao zaho      | I miss you           | Miss-you-I           |
+| Ny anarako dia Samuel | My name is Samuel    | Literally the name of mine is Samuel as -ko is a genitive suffix |
+| Salama               | Hello                | From arabic salaam   |
+| Tiako anao           | I love you           | Composed of tia (love) -ko (of me) and anao (you) |
+| Tsaiky lehilahy      | A boy, young man     | Composed of tsaiky (child) lehilahy (man) |
+| Tsisy miresaka       | No news              | Nothing to say       |
+| Tsisy vaovao         | No news              |                      |
+| Tsy haiko            | I don't know         |                      |
+| Tsy mavandy!         | Don't tell me lies   |                      |
+| Tsy misy olana!      | No worries!          | There is no problem, hakuna matata |
+| Veloma!              | Farewell!            |                      |
+| Zah hiala!           | Leave me alone!      | Literally I will leave |
 
 ## Words
 
@@ -53,9 +53,13 @@ of those words and expressions.
 | hamaray              | adverb               | tomorrow             | rahampitso in the capital |
 | hoatrinona           | adverb               | how much?            | other spelling ohatrinona |
 | ia                   | adverb               | yes                  | eny in some dialetcs |
+| ianao                | pronoun              | you                  |                      |
+| izaho                | pronoun              | I                    | aho in the capital, zah or zaho in the province |
 | kely                 | adjective            | little               | also kelikely a little bit |
 | kibo                 | noun                 | belly                |                      |
+| kiraro               | noun                 | shoes                | also savaty          |
 | lamba                | noun                 | clothes              |                      |
+| lehilahy             | noun                 | man                  |                      |
 | loaka                | noun                 | hole                 |                      |
 | madinika             | adjective            | small                | other spelling madiniky |
 | mafana               | adjective            | hot                  |                      |
@@ -63,6 +67,7 @@ of those words and expressions.
 | malagasy             | adjective            | Malagasy, Madagascan | short gasy           |
 | malala               | adjective            | beloved              | malalako meaning my dear |
 | mamita               | verb                 | to finish            | vita means finished  |
+| manangy              | noun                 | woman                | also vehivavy        |
 | mandeha              | verb                 | to walk              |                      |
 | manintsy             | adjective            | cold                 |                      |
 | maventy              | adjective            | big, heavy           | rano maventy (a big bottle of water) |
@@ -91,6 +96,7 @@ of those words and expressions.
 | tsisy                | adverb               | nothing              | short for tsy misy   |
 | tsy                  | adverb               | not                  |                      |
 | vady                 | noun                 | spouse               | vadiko would be spouse of mine (my spouse) |
+| vaovao               | adjective            | new                  |                      |
 | vary                 | noun                 | rice                 |                      |
 | vava                 | noun                 | mouth                |                      |
 | vazaha               | noun                 | foreigner            | like mzungu in Africa |
