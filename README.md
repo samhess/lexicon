@@ -24,11 +24,11 @@ of those words and expressions.
 | inona vaovao         | what's the news?     | usually, the response is tsisy vaovao |
 | iray tavela          | another one          | literally one is left |
 | mbola tsara          | hello                | Sakalava, literally still good |
-| misaotra             | thank you            |                      |
-| ngoma anao zaho      | I miss you           |                      |
-| ny anarako dia Samuel | my name is Samuel    | actually the name of mine is Samuel |
-| salama               | hello                | also salaam          |
-| tiako anao           | I love you           | composed of tia (love) ko (I) and anao (you) |
+| misaotra betsaka     | thank you very much  | normally just misaotra |
+| ngoma anao zaho      | I miss you           | miss-you-I           |
+| ny anarako dia Samuel | my name is Samuel    | literally the name of mine is Samuel as -ko is a genitive suffix |
+| salama               | hello                | from arabic salaam   |
+| tiako anao           | I love you           | composed of tia (love) -ko (of me) and anao (you) |
 | tsaiky lehilahy      | boy                  | composed of tsaiky (child) lehilahy (man) |
 | tsisy miresaka       | no news              | nothing to say       |
 | tsisy vaovao         | no news              |                      |
