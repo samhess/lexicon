@@ -1,5 +1,7 @@
-import db from './src/lib/server/database.js'
+import db from '../src/lib/server/database.js'
 import {writeFile} from 'fs/promises'
+
+const mdFile = '../README.md'
 
 const phrases = await db.expressions.findMany({
   where: {partOfSpeech:'collocation'},
@@ -22,8 +24,8 @@ as the subject is normally placed at the end (verb-object-subject order).
 After traveling around Madagascar and spending some time on Nosy Be, 
 I managed to understand the following words and phrases.
 It is certainly not enough to replace French in daily situations. 
-The list shows what I was able to absorb in everyday life due to the frequency or speciality 
-of those words and expressions.
+The list shows what I was able to catch in everyday life due to the frequency or oddness 
+of those words and phrases.
 
 
 ## Phrases
@@ -48,4 +50,4 @@ for (const word of words) {
   const {malagasy, partOfSpeech, english, comment} = word
   markdown += `| ${malagasy.padEnd(20)} | ${partOfSpeech.padEnd(20)} | ${(english).padEnd(20)} | ${(comment??'').padEnd(20)} |\r\n`
 }
-await writeFile('./README.md', markdown)
+await writeFile(mdFile, markdown)

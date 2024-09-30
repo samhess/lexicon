@@ -10,8 +10,8 @@ as the subject is normally placed at the end (verb-object-subject order).
 After traveling around Madagascar and spending some time on Nosy Be, 
 I managed to understand the following words and phrases.
 It is certainly not enough to replace French in daily situations. 
-The list shows what I was able to absorb in everyday life due to the frequency or speciality 
-of those words and expressions.
+The list shows what I was able to catch in everyday life due to the frequency or oddness 
+of those words and phrases.
 
 
 ## Phrases
@@ -25,6 +25,7 @@ of those words and expressions.
 | JIRAMA               | Water and electricity (utility company) | Acronym for jiro sy rano malagasy. Tsisy JIRAMA means there is no power... and maybe no water, too |
 | Mbola tsara          | Hello                | Sakalava: literally still good |
 | Misaotra betsaka!    | Thank you very much! | Normally just misaotra |
+| Misy moka            | There are mosquitoes | Misy môko (Sakalava) |
 | Ngoma anao zaho      | I miss you           | Miss-you-I           |
 | Ny anarako dia Samuel | My name is Samuel    | Literally the name of mine is Samuel as -ko is a genitive suffix |
 | Salama               | Hello                | From arabic salaam   |
@@ -76,6 +77,7 @@ of those words and expressions.
 | mihinana             | verb                 | to eat               |                      |
 | mila                 | verb                 | to want, to need     |                      |
 | misy                 | verb                 | there is             |                      |
+| mitsangatsanga       | verb                 | to walk around, to stroll | mandehandeha         |
 | mody                 | verb                 | to go home           |                      |
 | mofo                 | noun                 | bread                | pronounced like mofu but u does not exist in malagasy |
 | mosary               | noun                 | hunger               | zaho musary means I am starving |
@@ -91,6 +93,7 @@ of those words and expressions.
 | sira                 | noun                 | salt                 |                      |
 | siramamy             | noun                 | sugar                | composed of sira (salt) and mamy (sweet) |
 | sy                   | conjunction          | and                  |                      |
+| teny                 | noun                 | word                 |                      |
 | tsara                | adjective            | good, nice           |                      |
 | tsia                 | adverb               | no                   |                      |
 | tsisy                | adverb               | nothing              | short for tsy misy   |
