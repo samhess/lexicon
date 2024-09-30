@@ -9,9 +9,10 @@
   <title>Malagasy &mdash; {breadcrumb}</title>
 </svelte:head>
 
-<nav class="mx-auto max-w-7xl pt-10 px-2 md:px-4">
-  <a href="/phrases">Phrases</a> &nbsp;
-  <a href="/words">Words</a> &nbsp;
+<nav class="mx-auto max-w-7xl pt-10 px-2 md:px-4 space-x-5">
+  <a href="/phrases">My Phrases</a>
+  <a href="/words">My Words</a>
+  <a href="/lexicon">Lexicon</a>
   <a href="/admin">Parts of Speech</a>
 </nav>
 <main class="mx-auto max-w-7xl px-2 md:px-4">

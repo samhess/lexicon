@@ -1,4 +1,5 @@
-import { load } from 'cheerio'
+import {load} from 'cheerio'
+import db from '../src/lib/server/database.js'
 
 const ranges = [
   { range: 'a-aba' },
@@ -33,18 +34,13 @@ function getRanges($, tableElement, headers) {
   const data = []
   for (const row of rows) {
     const fields = $(row).children('td:first').children('a')
-    if (fields.length>0) {
+    if (fields.length) {
       const record = {}
       for (const [index,field] of Array.from(fields).entries()) {
-        const path = $(field).attr('href')
-        const url = new URL(path, 'https://motmalgache.org')
+        const url = new URL($(field).attr('href'), 'https://motmalgache.org')
         record[headers[index]] = url.searchParams.get('range')
       }
-      if (Object.values(record).length) {
-        data.push(record)
-      }
-    } else {
-      console.warn(`skipping table row with ${fields.length} column`)
+      data.push(record)
     }
   }
   return data
@@ -81,20 +77,43 @@ async function getAllRanges() {
   }
 }
 
+
+
 const url = new URL('bins/alphaLists','https://motmalgache.org')
 url.searchParams.set('lang','mg')
-let count = 0
-for (const range of ranges) {
+for (const range of ranges.slice(0,1)) {
   url.searchParams.set('range',range.range)
   const response = await fetch(url)
   if (response.ok) {
     const html = await response.text()
     const $ = load(html, null, false)
     const table = $('table.menuLink').eq(1)
-    const data = getTableData($,table,['malagasy','english','french'])
-    console.log(`${data.length} words in the range ${range.range}`)
-    count += data.length
+    const records = getTableData($,table,['term','en','fr'])
+    for (const record of records) {
+      const english = record.english??''
+      if (/\(.*\)$/.test(record.term)) {
+        const {groups} = record.term.match(/(?<term>.*)\s\((?<root>.*)\)$/)
+        const {root,term} = groups
+        await db.root.upsert({where:{term:root},create:{term:root},update:{term:root}})
+        await db.lexicon.upsert({
+          where: {term},
+          create: {term,english,Root:{connect:{term:root}}},
+          update: {english,Root:{connect:{term:root}}}
+        })
+        console.log(`upserted ${term} (${root})`)
+      } else {
+        const {term} = record
+        await db.lexicon.upsert({
+          where: {term},
+          create: {term,english},
+          update: {english}
+        })
+        console.log(`upserted ${term}`)
+      }
+    }
+    console.log(`seeded ${records.length} terms in the range ${range.range}`)
   }
 }
-console.log(`${count} words in total`)
+const count = await db.lexicon.count()
+console.log(`${count} terms in lexicon`)
 

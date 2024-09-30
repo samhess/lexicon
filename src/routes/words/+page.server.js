@@ -13,7 +13,7 @@ export const load = async () => {
     isEditable: true,
     name: 'Words'
   }
-  const records = await db.expressions.findMany({
+  const records = await db.vocabulary.findMany({
     where: {NOT:{partOfSpeech:'collocation'}},
     include: {PartOfSpeech:true},
     orderBy: {malagasy:'asc'}
