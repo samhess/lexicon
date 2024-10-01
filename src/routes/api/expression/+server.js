@@ -4,7 +4,7 @@ import {json} from '@sveltejs/kit'
 /** @type {import('./$types').RequestHandler} */
 export async function POST({request}) {
   const {PartOfSpeech, ...attributes} = await request.json()
-  await db.expressions.create({
+  await db.vocabulary.create({
     data: {
       ...attributes,
       PartOfSpeech:{connect:{code:PartOfSpeech.value}}
@@ -15,7 +15,7 @@ export async function POST({request}) {
 
 export async function PUT({request}) {
   const {PartOfSpeech, id, ...attributes} = await request.json()
-  await db.expressions.update({
+  await db.vocabulary.update({
     where: {id:parseInt(id)},
     data: {
       ...attributes,
@@ -27,6 +27,6 @@ export async function PUT({request}) {
 
 export async function DELETE({request}) {
   const {id} = await request.json()
-  await db.expressions.delete({where:{id:parseInt(id)}})
+  await db.vocabulary.delete({where:{id:parseInt(id)}})
   return json({})
 }

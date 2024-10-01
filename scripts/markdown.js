@@ -3,23 +3,28 @@ import {writeFile} from 'fs/promises'
 
 const mdFile = '../README.md'
 
-const phrases = await db.expressions.findMany({
+const phrases = await db.vocabulary.findMany({
   where: {partOfSpeech:'collocation'},
   orderBy:{malagasy:'asc'}
 })
-const words = await db.expressions.findMany({
+const words = await db.vocabulary.findMany({
   where: {NOT:{partOfSpeech:'collocation'}},
   orderBy:{malagasy:'asc'}
 })
 
 let markdown = `
 # Malagasy Introduction
+
 Malagasy belongs to the Austronesian language family. 
 For speakers of Indo-European languages it can be quite hard to start with Malagasy.
 The vocabulary is hardly similar and even the sentence structure is different, 
-as the subject is normally placed at the end (verb-object-subject order).
+as the subject is normally placed after the verb and object (verb-object-subject order).
+However, in the province and at the coast, they do use the subject-verb-object order which is much more comfortable for
+speakers with Roman or Germanic language background.
 
-> Note: There are about 18 ethnic groups and hence many dialetcs. The language of the coast dwellers may differ heavily from the Merina people in the capital.
+> VOS example (capital): Manasa lamba aho (Do-laundry-I)
+
+> SVA axample (coastal regions): Zaho manasa lamba (I-do-laundry)
 
 After traveling around Madagascar and spending some time on Nosy Be, 
 I managed to understand the following words and phrases.

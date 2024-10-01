@@ -13,6 +13,7 @@
   <a href="/phrases">My Phrases</a>
   <a href="/words">My Words</a>
   <a href="/lexicon">Lexicon</a>
+  <a href="/roots">Roots</a>
   <a href="/admin">Parts of Speech</a>
 </nav>
 <main class="mx-auto max-w-7xl px-2 md:px-4">

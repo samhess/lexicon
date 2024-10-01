@@ -4,19 +4,13 @@ export const load = async () => {
   const entity = {
     attributes: {
       term: {name:'Term'},
-      dialect: {name:'Dialect'},
-      root: {name:'Root'},
-      partOfSpeech: {name:'Part of Speech'},
-      standard: {name:'Standard Malagasy', key:'code'},
       english: {name:'English'}
-
     },
-    endpoint: 'lexicon',
+    endpoint: 'roots',
     isEditable: true,
-    name: 'Lexicon'
+    name: 'Roots'
   }
-  const records = await db.lexicon.findMany({
-    include: {PartOfSpeech:true},
+  const records = await db.root.findMany({
     orderBy: {term:'asc'},
     take:1000
   })

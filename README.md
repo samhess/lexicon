@@ -1,11 +1,16 @@
 
 # Malagasy Introduction
+
 Malagasy belongs to the Austronesian language family. 
 For speakers of Indo-European languages it can be quite hard to start with Malagasy.
 The vocabulary is hardly similar and even the sentence structure is different, 
-as the subject is normally placed at the end (verb-object-subject order).
+as the subject is normally placed after the verb and object (verb-object-subject order).
+However, in the province and at the coast, they do use the subject-verb-object order which is much more comfortable for
+speakers with Roman or Germanic language background.
 
-> Note: There are about 18 ethnic groups and hence many dialetcs. The language of the coast dwellers may differ heavily from the Merina people in the capital.
+> VOS example (capital): Manasa lamba aho (Do-laundry-I)
+
+> SVA axample (coastal regions): Zaho manasa lamba (I-do-laundry)
 
 After traveling around Madagascar and spending some time on Nosy Be, 
 I managed to understand the following words and phrases.
@@ -26,8 +31,10 @@ of those words and phrases.
 | Mbola tsara          | Hello                | Sakalava: literally still good |
 | Misaotra betsaka!    | Thank you very much! | Normally just misaotra |
 | Misy moka            | There are mosquitoes | Misy môko (Sakalava) |
+| Mora mora!           | Easy easy!           | Tranquillo!          |
 | Ngoma anao zaho      | I miss you           | Miss-you-I           |
 | Ny anarako dia Samuel | My name is Samuel    | Literally the name of mine is Samuel as -ko is a genitive suffix |
+| Rano maventy araiky, azafady! | A big bottle of water, please! | water-big-one-please |
 | Salama               | Hello                | From arabic salaam   |
 | Tiako anao           | I love you           | Composed of tia (love) -ko (of me) and anao (you) |
 | Tsaiky lehilahy      | A boy, young man     | Composed of tsaiky (child) lehilahy (man) |
@@ -74,12 +81,15 @@ of those words and phrases.
 | maventy              | adjective            | big, heavy           | rano maventy (a big bottle of water) |
 | miambe               | verb                 | to wait, to pay attention | ambesa! wait!        |
 | miasa                | verb                 | to work              |                      |
+| mifoha               | verb                 | to wake up, to get out of bed |                      |
 | mihinana             | verb                 | to eat               |                      |
 | mila                 | verb                 | to want, to need     |                      |
 | misy                 | verb                 | there is             |                      |
 | mitsangatsanga       | verb                 | to walk around, to stroll | mandehandeha         |
 | mody                 | verb                 | to go home           |                      |
 | mofo                 | noun                 | bread                | pronounced like mofu but u does not exist in malagasy |
+| mora                 | adjective            | easy                 |                      |
+| moramora             | adverb               | slowly, slowly       |                      |
 | mosary               | noun                 | hunger               | zaho musary means I am starving |
 | nono                 | noun                 | breast               |                      |
 | nosy                 | noun                 | island               | Nosy Be the big island |
