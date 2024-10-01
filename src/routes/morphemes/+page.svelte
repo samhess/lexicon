@@ -11,7 +11,7 @@
     {#each records as term}
       <tr on:dblclick={()=>rowDblClick(term)}>
         <td>
-          <a href={`https://malagasyword.org/bins/teny2/${term.term}`} target="_blank">{term.term}</a>
+          <a href={`/morphemes/${term.term}`}>{term.term}</a>
         </td>
         <td>{term.type}</td>
         <td>{term.meaning}</td>

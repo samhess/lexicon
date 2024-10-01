@@ -1,4 +1,3 @@
-import {load} from 'cheerio'
 import db from '../src/lib/server/database.js'
 
 const morphemes = await db.morpheme.findMany()
