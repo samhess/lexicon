@@ -1,6 +1,4 @@
 
-# Malagasy Introduction
-
 Malagasy belongs to the Austronesian language family. 
 For speakers of Indo-European languages it can be quite hard to start with Malagasy.
 The vocabulary is hardly similar and even the sentence structure is different, 
@@ -14,7 +12,7 @@ speakers with Roman or Germanic language background.
 
 After traveling around Madagascar and spending some time on Nosy Be, 
 I managed to understand the following words and phrases.
-It is certainly not enough to replace French in daily situations. 
+It is certainly not enough to replace French in everyday situations. 
 The list shows what I was able to catch in everyday life due to the frequency or oddness 
 of those words and phrases.
 
@@ -22,7 +20,7 @@ of those words and phrases.
 ## Phrases
 
 | Malagasy             | English              | Comment              |
------------------------|----------------------|-----------------------
+:----------------------|:---------------------|:----------------------
 | Araiky tavela        | Another one (drink)  | Literally one is left |
 | Azafady              | Excuse me, please, sorry | In contrast to english it is used for both asking and apologizing |
 | Azala!               | Damn!                | To express disappointment |
@@ -49,7 +47,7 @@ of those words and phrases.
 ## Words
 
 | Malagasy             | Part of Speech       | English              | Comment              |
------------------------|----------------------|----------------------|-----------------------
+:----------------------|:---------------------|:---------------------|:----------------------
 | anarana              | noun                 | name                 |                      |
 | ary                  | conjunction          | and                  | used for last addition after connecting nouns with sy |
 | asa                  | noun                 | work                 | verb miasa           |

@@ -13,8 +13,6 @@ const words = await db.vocabulary.findMany({
 })
 
 let markdown = `
-# Malagasy Introduction
-
 Malagasy belongs to the Austronesian language family. 
 For speakers of Indo-European languages it can be quite hard to start with Malagasy.
 The vocabulary is hardly similar and even the sentence structure is different, 
@@ -28,7 +26,7 @@ speakers with Roman or Germanic language background.
 
 After traveling around Madagascar and spending some time on Nosy Be, 
 I managed to understand the following words and phrases.
-It is certainly not enough to replace French in daily situations. 
+It is certainly not enough to replace French in everyday situations. 
 The list shows what I was able to catch in everyday life due to the frequency or oddness 
 of those words and phrases.
 
@@ -36,7 +34,7 @@ of those words and phrases.
 ## Phrases
 
 | Malagasy             | English              | Comment              |
------------------------|----------------------|-----------------------
+:----------------------|:---------------------|:----------------------
 `
 
 for (const phrase of phrases) {
@@ -48,7 +46,7 @@ markdown += `
 ## Words
 
 | Malagasy             | Part of Speech       | English              | Comment              |
------------------------|----------------------|----------------------|-----------------------
+:----------------------|:---------------------|:---------------------|:----------------------
 `
 
 for (const word of words) {
