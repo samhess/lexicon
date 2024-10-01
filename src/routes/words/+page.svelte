@@ -8,14 +8,16 @@
 <h3>Words</h3>
 <DataTable {entity} {records} on:updateData={()=>invalidateAll()}>
   <svelte:fragment let:records let:rowDblClick>
-    {#each records as word}
-      <tr on:dblclick={()=>rowDblClick(word)}>
+    {#each records as term}
+      <tr on:dblclick={()=>rowDblClick(term)}>
         <td>
-          <a href={`https://malagasyword.org/bins/teny2/${word.malagasy}`} target="_blank">{word.malagasy}</a>
+          <a href={`https://malagasyword.org/bins/teny2/${term.term}`} target="_blank">{term.term}</a>
         </td>
-        <td>{word.PartOfSpeech?.name}</td>
-        <td>{word.english}</td>
-        <td>{word.comment??''}</td>
+        <td>{term.dialect??''}</td>
+        <td>{term.root??''}</td>
+        <td>{term.PartOfSpeech?.name??''}</td>
+        <td>{term.standard??''}</td>
+        <td>{term.english}</td>
       </tr>
     {/each}
   </svelte:fragment>

@@ -3,20 +3,22 @@ import db from '$lib/server/database.js'
 export const load = async () => {
   const entity = {
     attributes: {
-      id: {name:'ID', show:false},
-      malagasy: {name:'Malagasy'},
-      PartOfSpeech: {name:'Part of Speech', key:'code'},
-      english: {name:'English'},
-      comment: {name:'Comment'}
+      term: {name:'Term'},
+      dialect: {name:'Dialect'},
+      root: {name:'Morphemes'},
+      partOfSpeech: {name:'Part of Speech'},
+      standard: {name:'Standard Malagasy', key:'code'},
+      english: {name:'English'}
+
     },
-    endpoint: 'expression',
+    endpoint: 'word',
     isEditable: true,
     name: 'Words'
   }
-  const records = await db.vocabulary.findMany({
-    where: {NOT:{partOfSpeech:'collocation'}},
+  const records = await db.word.findMany({
     include: {PartOfSpeech:true},
-    orderBy: {malagasy:'asc'}
+    orderBy: {term:'asc'},
+    take:5000
   })
   //console.log(records)
   return {entity, records}

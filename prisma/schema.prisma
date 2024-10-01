@@ -11,32 +11,14 @@ model Dialect {
   key        String       @id
   name       String
   Vocabulary Vocabulary[]
-  Lexicon    Lexicon[]
+  Word       Word[]
 }
 
 model PartOfSpeech {
   code       String       @id
   name       String
   Vocabulary Vocabulary[]
-  Lexicon    Lexicon[]
-}
-
-model Root {
-  term    String    @id
-  Lexicon Lexicon[]
-}
-
-model Lexicon {
-  term         String        @id
-  dialect      String?
-  standard     String?
-  root         String?
-  partOfSpeech String?
-  english      String
-  comment      String?
-  Dialect      Dialect?      @relation(fields: [dialect], references: [key], onDelete: Cascade)
-  PartOfSpeech PartOfSpeech? @relation(fields: [partOfSpeech], references: [code], onDelete: Cascade)
-  Root         Root?         @relation(fields: [root], references: [term], onDelete: Cascade)
+  Word       Word[]
 }
 
 model Vocabulary {
@@ -46,6 +28,34 @@ model Vocabulary {
   partOfSpeech String?
   english      String
   comment      String?
-  Dialect      Dialect?      @relation(fields: [dialect], references: [key], onDelete: Cascade)
   PartOfSpeech PartOfSpeech? @relation(fields: [partOfSpeech], references: [code], onDelete: Cascade)
+  Dialect      Dialect?      @relation(fields: [dialect], references: [key], onDelete: Cascade)
+}
+
+model Morpheme {
+  term           String           @id
+  type           String?
+  meaning        String?
+  WordToMorpheme WordToMorpheme[]
+}
+
+model Word {
+  term           String           @id
+  dialect        String?
+  standard       String?
+  root           String?
+  partOfSpeech   String?
+  english        String?
+  PartOfSpeech   PartOfSpeech?    @relation(fields: [partOfSpeech], references: [code], onDelete: Cascade)
+  Dialect        Dialect?         @relation(fields: [dialect], references: [key], onDelete: Cascade)
+  WordToMorpheme WordToMorpheme[]
+}
+
+model WordToMorpheme {
+  word     String
+  morpheme String
+  Morpheme Morpheme? @relation(fields: [morpheme], references: [term], onDelete: Cascade)
+  Word     Word?     @relation(fields: [word], references: [term], onDelete: Cascade)
+
+  @@id([word, morpheme])
 }
