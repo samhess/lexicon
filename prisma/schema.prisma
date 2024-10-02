@@ -35,7 +35,6 @@ model Vocabulary {
 
 model Morpheme {
   term           String           @id
-  type           String?
   meaning        String?
   partOfSpeech   String?
   PartOfSpeech   PartOfSpeech?    @relation(fields: [partOfSpeech], references: [code], onDelete: Cascade)

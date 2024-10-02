@@ -13,9 +13,16 @@ export const load = async ({params}) => {
   }
   const record = await db.morpheme.findUnique({
     where:{term:morpheme},
-    include: {WordToMorpheme:true}
+    include: {WordToMorpheme:{include:{Word:true}}}
   })
-  console.log(record)
+  // @ts-ignore
+  record.derivates = record?.WordToMorpheme.map(w=>{
+    return {
+      term: w.Word?.term,
+      partOfSpeech: w.Word?.partOfSpeech
+    }
+  })
+  //console.log(record)
   return {entity, record}
 
 }

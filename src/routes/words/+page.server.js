@@ -4,11 +4,11 @@ export const load = async () => {
   const entity = {
     attributes: {
       term: {name:'Term'},
-      dialect: {name:'Dialect'},
-      morphemes: {name:'Morphemes'},
       partOfSpeech: {name:'Part of Speech'},
       root: {name:'Root Form'},
+      dialect: {name:'Dialect'},
       standard: {name:'Standard Malagasy', key:'code'},
+      morphemes: {name:'Morphemes'},
       english: {name:'English'}
 
     },

@@ -17,16 +17,16 @@
         </td>
       </tr>
       <tr on:dblclick={()=>rowDblClick(records[0])}>
-        <td>Type</td>
-        <td>{records[0].type}</td>
+        <td>Part of Speech</td>
+        <td>{records[0].partOfSpeech}</td>
       </tr>
       <tr on:dblclick={()=>rowDblClick(records[0])}>
         <td>Meaning</td>
         <td>{records[0].meaning}</td>
       </tr>
       <tr on:dblclick={()=>rowDblClick(records[0])}>
-        <td>Words</td>
-        <td>{records[0].WordToMorpheme.map(m=>m.word + `(${m.type})`).join(', ')}</td>
+        <td>Derivates</td>
+        <td>{records[0].derivates.map(d=>d.term + ` (${d.partOfSpeech})`).join(', ')}</td>
       </tr>
   </svelte:fragment>
 </DataTable>

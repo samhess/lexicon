@@ -5,9 +5,7 @@ export const load = async () => {
     attributes: {
       term: {name:'Term'},
       partOfSpeech: {name:'Part of Speech'},
-      type: {name:'Type'},
       meaning: {name:'Meaning'}
-
     },
     endpoint: 'morpheme',
     isEditable: true,

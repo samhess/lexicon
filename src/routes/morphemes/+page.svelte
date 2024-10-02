@@ -14,8 +14,12 @@
           <a href={`/morphemes/${term.term}`}>{term.term}</a>
         </td>
         <td>{term.PartOfSpeech?.name??''}</td>
-        <td>{term.type}</td>
-        <td>{term.meaning}</td>
+        <td>
+          <a href={`https://malagasyword.org/bins/teny2/${term.term}`} target="_blank">{
+            (term.meaning??'lookup').slice(0,20)
+            }
+          </a>
+        </td>
       </tr>
     {/each}
   </svelte:fragment>
