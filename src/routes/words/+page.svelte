@@ -16,8 +16,11 @@
           <a href={`https://malagasyword.org/bins/teny2/${term.term}`} target="_blank">{term.term}</a>
         </td>
         <td>{term.dialect??''}</td>
-        <td>{term.WordToMorpheme.map(({morpheme})=>morpheme).join(', ') }</td>
-        <td>{term.root??''}</td>
+        <td>
+          {#each term.WordToMorpheme as {morpheme}}
+            <a class="pe-2" href={`/morphemes/${morpheme}`}>{morpheme}</a>
+          {/each}
+        </td>
         <td>{term.PartOfSpeech?.name??''}</td>
         <td>{term.standard??''}</td>
         <td>{term.english}</td>

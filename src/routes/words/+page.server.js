@@ -6,7 +6,6 @@ export const load = async () => {
       term: {name:'Term'},
       dialect: {name:'Dialect'},
       morphemes: {name:'Morphemes'},
-      root: {name:'Roots'},
       partOfSpeech: {name:'Part of Speech'},
       standard: {name:'Standard Malagasy', key:'code'},
       english: {name:'English'}
@@ -17,7 +16,7 @@ export const load = async () => {
     name: 'Words'
   }
   const records = await db.word.findMany({
-    where:{term:'ambokony'},
+    //where:{term:'ambokony'},
     include: {PartOfSpeech:true, WordToMorpheme:true},
     orderBy: {term:'asc'},
     take:5000

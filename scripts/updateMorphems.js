@@ -1,36 +1,50 @@
+import {load} from 'cheerio'
 import db from '../src/lib/server/database.js'
 
-const morphemes = await db.morpheme.findMany()
-for (const morpheme of morphemes) {
-  const {term, type, meaning} = morpheme
-  if (term.includes(',')) {
-    await db.morpheme.delete({where: {term}})
-    const terms = term.split(/,\s/)
-    for (const term of terms) {
-      await db.morpheme.upsert({
-        where: {term},
-        create: {term, type:'root'},
-        update: {term, type:'root'}
-      })
+function getTableData($, tableElement, headers=[]) {
+  const rows = $(tableElement).find('tr')
+  const data = []
+  for (const row of rows) {
+    const fields = $(row).children('td')
+    if (fields.length) {
+      const record = {}
+      for (const [index,field] of Array.from(fields).entries()) {
+        const value = $(field).text().trim().split('\n')[0]
+        record[headers[index]] = value
+      }
+      if (Object.values(record).length) {
+        data.push(record)
+      }
     }
   }
-  if (/^~.*~$/.test(term)) {
-    // infix
-  }
-  if (term.startsWith('-')) {
-    // suffix
-    await db.morpheme.update({where:{term}, data:{type:'suffix'}})
-  }
-  if (!term.startsWith('~') && term.endsWith('-')) {
-    const term1 = term.replace(/-$/,'~')
-    // prefix
-    await db.morpheme.update({
-      where: {term}, 
-      data: {
-        term:term1,
-        type:'prefix'}
-    })
-    console.log(term1)
+  return data
+}
+
+async function getMorphems(type) {
+  const url = new URL('bins/rootLists','https://malagasyword.org')
+  url.searchParams.set('o',type)
+  const response = await fetch(url)
+  if (response.ok) {
+    const html = await response.text()
+    const $ = load(html, null, false)
+    const table = $('table.menuLink').eq(0)
+    return getTableData($,table,['term','words'])
   }
 }
+
+const morphems = await getMorphems('posn')
+console.log(morphems.length)
+for (const morphem of morphems) {
+  const exists = await db.morpheme.findUnique({where:{term:morphem.term}})
+  if (exists) {
+    await db.morpheme.update({
+      where:{term:morphem.term},
+      data: {type:'noun'}
+    })
+
+  } else {
+    console.log(`${morphem.term} not in db`)
+  }
+}
+console.log(`OK: ${morphems.length}`)
 

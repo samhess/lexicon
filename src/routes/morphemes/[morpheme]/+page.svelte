@@ -26,7 +26,7 @@
       </tr>
       <tr on:dblclick={()=>rowDblClick(records[0])}>
         <td>Words</td>
-        <td>{records[0].WordToMorpheme.map(m=>m.word).join(', ')}</td>
+        <td>{records[0].WordToMorpheme.map(m=>m.word + `(${m.type})`).join(', ')}</td>
       </tr>
   </svelte:fragment>
 </DataTable>
