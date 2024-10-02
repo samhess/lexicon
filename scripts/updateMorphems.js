@@ -1,7 +1,7 @@
 import {load} from 'cheerio'
 import db from '../src/lib/server/database.js'
 
-function parseEntry($, start) {
+export function parseEntry($, start) {
   const record = {}
   let attr = $('table').eq(start).find('tr').first().children('td').first().text().trim()
   if (attr.startsWith('Entry')) {
@@ -11,12 +11,12 @@ function parseEntry($, start) {
   if (attr.startsWith('Part of speech')) {
     const td = $('table').eq(start+1).find('tr').children('td').last()
     record.partOfSpeech = $(td).contents().eq(2).text().trim()
-    .replace(/\s\s/, ' ')
-    .replace(/(past) (of.*)/, '$1')
-    .replace(/(imperative) (of.*)/, '$1')
-    .replace(/(morphological form) (of)/, '$1')
-    .replace(/Unspecified/, 'unspecified')
-    .replace(/particule/, 'particle')
+      .replace(/\s\s/, ' ')
+      .replace(/(past) (of.*)/, '$1')
+      .replace(/(imperative) (of.*)/, '$1')
+      .replace(/(morphological form) (of)/, '$1')
+      .replace(/Unspecified/, 'unspecified')
+      .replace(/particule/, 'particle')
     record.root = $(td).find('a').text().trim() ?? ''
   }
   attr = $('table').eq(start+2).find('tr').first().children('td').first().text().trim()
@@ -34,7 +34,7 @@ function parseEntry($, start) {
   return record
 }
 
-async function getEntries(morpheme) {
+export async function getEntries(morpheme) {
   const url = new URL(`/bins/teny2/${morpheme.term}`,'https://malagasyword.org')
   const response = await fetch(url)
   if (response.ok) {

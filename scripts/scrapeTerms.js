@@ -105,16 +105,16 @@ async function scrapeTerms(ranges) {
         if (/\(.*\)$/.test(record.term)) {
           const {groups} = record.term.match(/(?<term>.*)\s\((?<root>.*)\)$/)
           const {root,term} = groups
-          await db.root.upsert({where:{term:root},create:{term:root},update:{term:root}})
-          await db.lexicon.upsert({
-            where: {term},
-            create: {term,english,Root:{connect:{term:root}}},
-            update: {english,Root:{connect:{term:root}}}
-          })
+/*           await db.morpheme.upsert({where:{term:root},create:{term:root},update:{term:root}})
+          await db.wordToMorpheme.create({
+            where: {word_morpheme},
+            data: {
+              term,morpheme:{connect:{term:root}}}
+          }) */
           console.log(`upserted ${term} (${root})`)
         } else {
           const {term} = record
-          await db.lexicon.upsert({
+          await db.word.upsert({
             where: {term},
             create: {term,english},
             update: {english}

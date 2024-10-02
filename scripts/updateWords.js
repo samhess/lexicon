@@ -1,57 +1,35 @@
 import db from '../src/lib/server/database.js'
+import {getEntries, parseEntry} from './updateMorphems.js'
 
 const words = await db.word.findMany()
-for (const word of words) {
-  const {dialect, standard, root, term, partOfSpeech, english} = word
-  if (root) {
-    if (root.includes(',')) {
-      const morphemes = root.split(/,\s/)
-      for (const morphem of morphemes) {
-
-      }
-    } else {
-      const morpheme = root
-      .replace(/^a-$/,'a~')
-      .replace(/^faha-$/,'faha~')
-      .replace(/^h-$/,'h~')
-      .replace(/^ha-$/,'ha~')
-      .replace(/^ho-$/,'ho~')
-      .replace(/^i-$/,'i~')
-      .replace(/^ki-$/,'ki~')
-      .replace(/^maha-$/,'maha~')
-      .replace(/^mana-$/,'mana~')
-      .replace(/^manka-$/,'manka~')
-      .replace(/^mi-$/,'mi~')
-      .replace(/^ra-$/,'ra~')
-    const exists = await db.morpheme.findUnique({where:{term:morpheme}})
-    if (exists) {
-      const exists = await db.wordToMorpheme.findUnique({where:{word_morpheme:{word:term,morpheme}}})
-      if (!exists) {
-        await db.wordToMorpheme.upsert({
-          where: {word_morpheme: {word:term,morpheme}},
-          create: {word:term, morpheme},
-          update: {word:term, morpheme}
-        })
+for (const word of words.slice(0,20000)) {
+  if (!word.partOfSpeech) {
+    const entries = await getEntries(word)
+    const entry = entries.find(item=>item.term===word.term)
+    
+    if (entry) {
+      const {term,en,partOfSpeech,root} = entry
+      if (partOfSpeech) {
+        const exists = await db.partOfSpeech.findUnique({where:{code:partOfSpeech}})
+        if (exists) {
+          await db.word.update({
+            where:{term},
+            data:{
+              partOfSpeech,
+              english:en,
+              root
+            }
+          })
+        } 
+        else {
+          console.log(`${partOfSpeech} is not a part of speech`)
+        }
       } else {
-        //console.log(word)
+        console.log(`${partOfSpeech} is not a part of speech ${word.term}`)
       }
-      await db.wordToMorpheme.upsert({
-        where: {word_morpheme: {word:term,morpheme}},
-        create: {word:term, morpheme},
-        update: {word:term, morpheme}
-      })
     } else {
-      console.log(`${morpheme} of ${term} does not exist`)
+      console.log(`could not find entry for ${word.term}`)
+      //await db.word.delete({where:{term:morpheme.term}})
     }
-    }
-  }
-
-  if (/^~.*~$/.test(term)) {
-    // infix
-  }
-  if (term.startsWith('-')) {
-    // suffix
-    //await db.morpheme.update({where:{term}, data:{type:'suffix'}})
   }
 }
-
