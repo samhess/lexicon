@@ -13,6 +13,7 @@
         <td>
           <a href={`/morphemes/${term.term}`}>{term.term}</a>
         </td>
+        <td>{term.PartOfSpeech?.name??''}</td>
         <td>{term.type}</td>
         <td>{term.meaning}</td>
       </tr>

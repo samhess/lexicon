@@ -19,6 +19,7 @@ model PartOfSpeech {
   name       String
   Vocabulary Vocabulary[]
   Word       Word[]
+  Morpheme   Morpheme[]
 }
 
 model Vocabulary {
@@ -36,6 +37,8 @@ model Morpheme {
   term           String           @id
   type           String?
   meaning        String?
+  partOfSpeech   String?
+  PartOfSpeech   PartOfSpeech?    @relation(fields: [partOfSpeech], references: [code], onDelete: Cascade)
   WordToMorpheme WordToMorpheme[]
 }
 

@@ -23,6 +23,7 @@
         </td>
         <td>{term.PartOfSpeech?.name??''}</td>
         <td>{term.standard??''}</td>
+        <td>{term.root??''}</td>
         <td>{term.english}</td>
       </tr>
     {/each}
