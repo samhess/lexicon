@@ -20,10 +20,10 @@ function parseEntry(entry) {
     if (property.startsWith('Entry')) {
       record.term = $('table').eq(i).find('tr').children('td').last().find('span').last().text().trim()
     }
-    if (property.startsWith('Subtitle')) {
+    if (property=='Subtitle') {
       record.subtitle = getText($,i)
     }
-    if (property.startsWith('Part of speech')) {
+    if (property=='Part of speech') {
       const td = $('table').eq(i).find('tr').children('td').last()
       const form = $(td).contents().eq(2).text().trim()
                       .replace(/\s\s/, ' ')
@@ -38,19 +38,19 @@ function parseEntry(entry) {
         record.part.of = root
       }
     }
-    if (property.startsWith('Explanations in Malagasy')) {
+    if (property=='Explanations in Malagasy') {
       record.mg = getExplanation($,i) 
     }
-    if (property.startsWith('Explanations in English')) {
+    if (property=='Explanations in English') {
       record.en = getExplanation($,i) 
     }
-    if (property.startsWith('Explanations in French')) {
+    if (property=='Explanations in French') {
       record.fr = getExplanation($,i) 
     }
-    if (property.startsWith('Anagrams')) {
+    if (property=='Anagrams') {
       record.anagrams = getText($,i)
     }
-    if (property === 'Compound words') {
+    if (property=='Compound words') {
       record.isElementary = true
     }
   }
