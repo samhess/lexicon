@@ -1,5 +1,5 @@
 import { redirect } from '@sveltejs/kit'
 
 export const load = async () => {
-  return redirect(308, '/phrases')
+  return redirect(302, '/words')
 }
