@@ -8,29 +8,20 @@ datasource db {
 }
 
 model Dialect {
-  key        String       @id
-  name       String
-  Vocabulary Vocabulary[]
-  Word       Word[]
+  code        String       @id
+  name        String
+  description String?
+  Vocabulary  Vocabulary[]
+  Language    Language[]
+  Word        Word[]
 }
 
-model PartOfSpeech {
-  code       String       @id
-  name       String
-  Vocabulary Vocabulary[]
-  Word       Word[]
-  Morpheme   Morpheme[]
-}
-
-model Vocabulary {
-  id           Int           @id @default(autoincrement())
-  malagasy     String
-  dialect      String?
-  partOfSpeech String?
-  english      String
-  comment      String?
-  PartOfSpeech PartOfSpeech? @relation(fields: [partOfSpeech], references: [code], onDelete: Cascade)
-  Dialect      Dialect?      @relation(fields: [dialect], references: [key], onDelete: Cascade)
+model Language {
+  code    String   @id
+  name    String?
+  dialect String?
+  Dialect Dialect? @relation(fields: [dialect], references: [code], onDelete: Cascade)
+  Word    Word[]
 }
 
 model Morpheme {
@@ -41,15 +32,25 @@ model Morpheme {
   WordToMorpheme WordToMorpheme[]
 }
 
+model PartOfSpeech {
+  code       String       @id
+  name       String
+  Vocabulary Vocabulary[]
+  Word       Word[]
+  Morpheme   Morpheme[]
+}
+
 model Word {
   term           String           @id
+  language       String?
   dialect        String?
   standard       String?
   root           String?
   partOfSpeech   String?
   english        String?
   PartOfSpeech   PartOfSpeech?    @relation(fields: [partOfSpeech], references: [code], onDelete: Cascade)
-  Dialect        Dialect?         @relation(fields: [dialect], references: [key], onDelete: Cascade)
+  Language       Language?        @relation(fields: [language], references: [code], onDelete: Cascade)
+  Dialect        Dialect?         @relation(fields: [dialect], references: [code], onDelete: Cascade)
   WordToMorpheme WordToMorpheme[]
 }
 
@@ -60,4 +61,15 @@ model WordToMorpheme {
   Word     Word?     @relation(fields: [word], references: [term], onDelete: Cascade)
 
   @@id([word, morpheme])
+}
+
+model Vocabulary {
+  id           Int           @id @default(autoincrement())
+  malagasy     String
+  dialect      String?
+  partOfSpeech String?
+  english      String
+  comment      String?
+  PartOfSpeech PartOfSpeech? @relation(fields: [partOfSpeech], references: [code], onDelete: Cascade)
+  Dialect      Dialect?      @relation(fields: [dialect], references: [code], onDelete: Cascade)
 }

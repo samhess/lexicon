@@ -2,7 +2,7 @@ import db from '../src/lib/server/database.js'
 import {getEntries} from './lib/malagasyWord.js'
 
 const words = await db.word.findMany()
-for (const word of words.slice(0,31000)) {
+for (const word of words.slice(0,32000)) {
   if (!word.partOfSpeech) {
     const entries = await getEntries(word)
     const entry = entries.find(item=>item.term===word.term)
