@@ -1,0 +1,92 @@
+[
+  {
+    "code": "mlg",
+    "alpha2": "mg",
+    "name": "Malagasy",
+    "description": null
+  },
+  {
+    "code": "bhr",
+    "alpha2": "mg",
+    "name": "Bara Malagasy",
+    "description": null
+  },
+  {
+    "code": "bmm",
+    "alpha2": "mg",
+    "name": "Northern Betsimisaraka Malagasy",
+    "description": null
+  },
+  {
+    "code": "bzc",
+    "alpha2": "mg",
+    "name": "Southern Betsimisaraka Malagasy",
+    "description": null
+  },
+  {
+    "code": "msh",
+    "alpha2": "mg",
+    "name": "Masikoro Malagasy",
+    "description": null
+  },
+  {
+    "code": "plt",
+    "alpha2": "mg",
+    "name": "Plateau Malagasy",
+    "description": "includes Betsileo, Bezanozano, Merina, Sihanaka, Taifasy, Taimoro, Tanala and Vakinankaratra"
+  },
+  {
+    "code": "skg",
+    "alpha2": "mg",
+    "name": "Sakalava Malagasy",
+    "description": null
+  },
+  {
+    "code": "tdx",
+    "alpha2": "mg",
+    "name": "Tandroy-Mahafaly Malagasy",
+    "description": null
+  },
+  {
+    "code": "tkg",
+    "alpha2": "mg",
+    "name": "Tesaka Malagasy",
+    "description": null
+  },
+  {
+    "code": "txy",
+    "alpha2": "mg",
+    "name": "Tanosy Malagasy",
+    "description": null
+  },
+  {
+    "code": "xmv",
+    "alpha2": "mg",
+    "name": "Antankarana Malagasy",
+    "description": null
+  },
+  {
+    "code": "xmw",
+    "alpha2": "mg",
+    "name": "Tsimihety Malagasy",
+    "description": null
+  },
+  {
+    "code": "eng",
+    "alpha2": "en",
+    "name": "English",
+    "description": null
+  },
+  {
+    "code": "ena",
+    "alpha2": "en",
+    "name": "American English",
+    "description": "American"
+  },
+  {
+    "code": "enb",
+    "alpha2": "en",
+    "name": "Britisch English",
+    "description": "Britisch"
+  }
+]

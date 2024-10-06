@@ -1,0 +1,892 @@
+[
+  {
+    "term": "Mbola tsara",
+    "language": "skg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "loc",
+    "english": "Hello",
+    "comment": "literally still good"
+  },
+  {
+    "term": "Salama",
+    "language": "plt",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "loc",
+    "english": "Hello",
+    "comment": "From arabic salaam"
+  },
+  {
+    "term": "Ngoma anao zaho",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "loc",
+    "english": "I miss you",
+    "comment": "Miss-you-I"
+  },
+  {
+    "term": "mosary",
+    "language": "skg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "hunger",
+    "comment": "zaho mosary means I am starving"
+  },
+  {
+    "term": "mandeha",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "v",
+    "english": "to walk",
+    "comment": null
+  },
+  {
+    "term": "mody",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "v",
+    "english": "to go home",
+    "comment": null
+  },
+  {
+    "term": "Tsy mavandy!",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "loc",
+    "english": "Don't tell me lies",
+    "comment": ""
+  },
+  {
+    "term": "Inona no vaovao?",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "loc",
+    "english": "What's the news? ",
+    "comment": "Usually, the response is tsisy vaovao"
+  },
+  {
+    "term": "Tsisy miresaka ",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "loc",
+    "english": "No news",
+    "comment": "Nothing to say"
+  },
+  {
+    "term": "tsy",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "adv",
+    "english": "not",
+    "comment": null
+  },
+  {
+    "term": "tsisy",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "tsy misy",
+    "root": null,
+    "partOfSpeech": "adv",
+    "english": "nothing",
+    "comment": "short for tsy misy"
+  },
+  {
+    "term": "misy",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "v",
+    "english": "there is",
+    "comment": null
+  },
+  {
+    "term": "mila",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "v",
+    "english": "to want, to need",
+    "comment": null
+  },
+  {
+    "term": "Misaotra betsaka!",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "loc",
+    "english": "Thank you very much!",
+    "comment": "Normally just misaotra"
+  },
+  {
+    "term": "tsara ",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "adj",
+    "english": "good, nice",
+    "comment": null
+  },
+  {
+    "term": "ratsy ",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "adj",
+    "english": "bad, ugly",
+    "comment": null
+  },
+  {
+    "term": "Azafady ",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "loc",
+    "english": "Excuse me, please, sorry",
+    "comment": "In contrast to english it is used for both asking and apologizing"
+  },
+  {
+    "term": "firy",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "adv",
+    "english": "how many",
+    "comment": null
+  },
+  {
+    "term": "hoatrinona",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "adv",
+    "english": "how much?",
+    "comment": "other spelling ohatrinona"
+  },
+  {
+    "term": "vola",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "money",
+    "comment": null
+  },
+  {
+    "term": "vary",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "rice",
+    "comment": null
+  },
+  {
+    "term": "mofo",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "bread",
+    "comment": "pronounced like mofu but u does not exist in malagasy"
+  },
+  {
+    "term": "rano",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "water",
+    "comment": null
+  },
+  {
+    "term": "mafana",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "adj",
+    "english": "hot",
+    "comment": null
+  },
+  {
+    "term": "manintsy",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "adj",
+    "english": "cold",
+    "comment": null
+  },
+  {
+    "term": "mihinana",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "v",
+    "english": "to eat",
+    "comment": null
+  },
+  {
+    "term": "Tsisy vaovao",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "loc",
+    "english": "No news",
+    "comment": null
+  },
+  {
+    "term": "sy",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "conj",
+    "english": "and",
+    "comment": ""
+  },
+  {
+    "term": "ny",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "art",
+    "english": "the",
+    "comment": "determined atricle"
+  },
+  {
+    "term": "madinika",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "madiniky",
+    "root": null,
+    "partOfSpeech": "adj",
+    "english": "small",
+    "comment": "other spelling madiniky"
+  },
+  {
+    "term": "maventy",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "adj",
+    "english": "big, heavy",
+    "comment": "rano maventy (a big bottle of water)"
+  },
+  {
+    "term": "Tsaiky lehilahy",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "loc",
+    "english": "A boy, young man",
+    "comment": "Composed of tsaiky (child) lehilahy (man)"
+  },
+  {
+    "term": "vava",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "mouth",
+    "comment": null
+  },
+  {
+    "term": "ronono",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "milk",
+    "comment": "composed of ro (bouillon) and nono (breast)"
+  },
+  {
+    "term": "nono",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "breast",
+    "comment": null
+  },
+  {
+    "term": "sira",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "salt",
+    "comment": null
+  },
+  {
+    "term": "siramamy",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "sugar",
+    "comment": "composed of sira (salt) and mamy (sweet)"
+  },
+  {
+    "term": "miambe",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "v",
+    "english": "to wait, to pay attention",
+    "comment": "ambesa! wait!"
+  },
+  {
+    "term": "eto",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "adv",
+    "english": "here",
+    "comment": null
+  },
+  {
+    "term": "Zah hiala!",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "loc",
+    "english": "Leave me alone!",
+    "comment": "Literally I will leave"
+  },
+  {
+    "term": "malala",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "adj",
+    "english": "beloved",
+    "comment": "malalako meaning my dear"
+  },
+  {
+    "term": "kibo",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "belly",
+    "comment": null
+  },
+  {
+    "term": "fo",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "heart",
+    "comment": null
+  },
+  {
+    "term": "foko",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "tribe",
+    "comment": "heart of mine"
+  },
+  {
+    "term": "Araiky tavela",
+    "language": "skg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "loc",
+    "english": "Another one (drink)",
+    "comment": "Literally one is left"
+  },
+  {
+    "term": "JIRAMA",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "loc",
+    "english": "Water and electricity (utility company)",
+    "comment": "Acronym for jiro sy rano malagasy. Tsisy JIRAMA means there is no power... and maybe no water, too"
+  },
+  {
+    "term": "ary",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "conj",
+    "english": "and",
+    "comment": "used for last addition after connecting nouns with sy"
+  },
+  {
+    "term": "Tiako anao",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "loc",
+    "english": "I love you",
+    "comment": "Composed of tia (love) -ko (of me) and anao (you)"
+  },
+  {
+    "term": "lamba",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "clothes",
+    "comment": null
+  },
+  {
+    "term": "vazaha",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "foreigner",
+    "comment": "like mzungu in Africa"
+  },
+  {
+    "term": "vady",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "spouse",
+    "comment": "vadiko would be spouse of mine (my spouse)"
+  },
+  {
+    "term": "miasa",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "v",
+    "english": "to work",
+    "comment": null
+  },
+  {
+    "term": "asa",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": "asa",
+    "partOfSpeech": "n",
+    "english": "work",
+    "comment": "verb miasa"
+  },
+  {
+    "term": "Azala!",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "loc",
+    "english": "Damn!",
+    "comment": "To express disappointment"
+  },
+  {
+    "term": "mamita",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": "mita",
+    "partOfSpeech": "v",
+    "english": "to finish",
+    "comment": "vita means finished"
+  },
+  {
+    "term": "voky",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "adj",
+    "english": "full",
+    "comment": "no more hungry"
+  },
+  {
+    "term": "anarana",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "name",
+    "comment": null
+  },
+  {
+    "term": "velona",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "adj",
+    "english": "living",
+    "comment": null
+  },
+  {
+    "term": "Veloma!",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "loc",
+    "english": "Farewell!",
+    "comment": null
+  },
+  {
+    "term": "ondana",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "a pillow",
+    "comment": null
+  },
+  {
+    "term": "kely",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "adj",
+    "english": "little",
+    "comment": "also kelikely a little bit"
+  },
+  {
+    "term": "Ny anarako dia Samuel",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "loc",
+    "english": "My name is Samuel",
+    "comment": "Literally the name of mine is Samuel as -ko is a genitive suffix"
+  },
+  {
+    "term": "tsia",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "adv",
+    "english": "no",
+    "comment": null
+  },
+  {
+    "term": "ia",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "adv",
+    "english": "yes",
+    "comment": "eny in some dialetcs"
+  },
+  {
+    "term": "Tsy misy olana!",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "loc",
+    "english": "No worries!",
+    "comment": "There is no problem, hakuna matata"
+  },
+  {
+    "term": "olana",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "problem",
+    "comment": null
+  },
+  {
+    "term": "Tsy haiko",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "loc",
+    "english": "I don't know",
+    "comment": null
+  },
+  {
+    "term": "mahay",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "v",
+    "english": "to know something",
+    "comment": null
+  },
+  {
+    "term": "hamaray",
+    "language": "skg",
+    "dialect": null,
+    "standard": "rahampitso",
+    "root": null,
+    "partOfSpeech": "adv",
+    "english": "tomorrow",
+    "comment": "rahampitso in the capital"
+  },
+  {
+    "term": "nosy",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "island",
+    "comment": "Nosy Be the big island"
+  },
+  {
+    "term": "be",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "adj",
+    "english": "big",
+    "comment": null
+  },
+  {
+    "term": "loaka",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "hole ",
+    "comment": ""
+  },
+  {
+    "term": "sipa",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "girlfriend, boyfriend",
+    "comment": "vady is much more common"
+  },
+  {
+    "term": "malagasy",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "adj",
+    "english": "Malagasy, Madagascan",
+    "comment": "short gasy"
+  },
+  {
+    "term": "manangy",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "woman",
+    "comment": "also vehivavy"
+  },
+  {
+    "term": "lehilahy",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "man",
+    "comment": null
+  },
+  {
+    "term": "kiraro",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "shoes",
+    "comment": "also savaty"
+  },
+  {
+    "term": "vaovao",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "adj",
+    "english": "new",
+    "comment": null
+  },
+  {
+    "term": "izaho",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "prn",
+    "english": "I",
+    "comment": "aho in the capital, zah or zaho in the province"
+  },
+  {
+    "term": "ianao",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "prn",
+    "english": "you",
+    "comment": null
+  },
+  {
+    "term": "Misy moka ",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "loc",
+    "english": "There are mosquitoes",
+    "comment": "Misy môko (Sakalava)"
+  },
+  {
+    "term": "mitsangantsangana",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "mandehandeha",
+    "root": null,
+    "partOfSpeech": "v",
+    "english": "to walk around, to stroll",
+    "comment": ""
+  },
+  {
+    "term": "teny",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "word",
+    "comment": null
+  },
+  {
+    "term": "mifoha",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "v",
+    "english": "to wake up, to get out of bed",
+    "comment": null
+  },
+  {
+    "term": "moramora",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "adv",
+    "english": "slowly, slowly",
+    "comment": null
+  },
+  {
+    "term": "mora",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "adj",
+    "english": "easy",
+    "comment": null
+  },
+  {
+    "term": "Mora mora!",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "loc",
+    "english": "Easy easy!",
+    "comment": "Tranquillo!"
+  },
+  {
+    "term": "Rano maventy araiky, azafady!",
+    "language": "mlg",
+    "dialect": null,
+    "standard": "",
+    "root": null,
+    "partOfSpeech": "loc",
+    "english": "A big bottle of water, please!",
+    "comment": "water-big-one-please"
+  },
+  {
+    "term": "savaty",
+    "language": "skg",
+    "dialect": null,
+    "standard": "kiraro",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "shoes",
+    "comment": null
+  }
+]

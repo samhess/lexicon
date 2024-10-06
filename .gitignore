@@ -21,3 +21,5 @@ vite.config.ts.timestamp-*
 
 # Database
 malagasy.db
+
+scripts/backup/old

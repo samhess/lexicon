@@ -1,0 +1,54 @@
+[
+  {
+    "code": "n",
+    "name": "noun"
+  },
+  {
+    "code": "adj",
+    "name": "adjective"
+  },
+  {
+    "code": "adv",
+    "name": "adverb"
+  },
+  {
+    "code": "v",
+    "name": "verb"
+  },
+  {
+    "code": "conj",
+    "name": "conjunction"
+  },
+  {
+    "code": "num",
+    "name": "numeral"
+  },
+  {
+    "code": "interj",
+    "name": "interjection"
+  },
+  {
+    "code": "prn",
+    "name": "pronoun"
+  },
+  {
+    "code": "art",
+    "name": "article"
+  },
+  {
+    "code": "prep",
+    "name": "preposition"
+  },
+  {
+    "code": "loc",
+    "name": "locution"
+  },
+  {
+    "code": "affix",
+    "name": "affix"
+  },
+  {
+    "code": "particle",
+    "name": "particle"
+  }
+]
