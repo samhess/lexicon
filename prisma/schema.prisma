@@ -1,0 +1,35 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Language {
+  code        String  @id
+  alpha2      String?
+  name        String?
+  description String?
+  Word        Word[]
+}
+
+model PartOfSpeech {
+  code String @id
+  name String
+  Word Word[]
+}
+
+model Word {
+  term         String        @id
+  language     String?
+  dialect      String?
+  standard     String?
+  root         String?
+  partOfSpeech String?
+  english      String?
+  comment      String?
+  PartOfSpeech PartOfSpeech? @relation(fields: [partOfSpeech], references: [code], onDelete: Cascade)
+  Language     Language?     @relation(fields: [language], references: [code], onDelete: Cascade)
+}

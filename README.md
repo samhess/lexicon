@@ -26,7 +26,7 @@ of those words and phrases.
 | Azala!               | Damn!                | To express disappointment |
 | Inona no vaovao?     | What's the news?     | Usually, the response is tsisy vaovao |
 | JIRAMA               | Water and electricity (utility company) | Acronym for jiro sy rano malagasy. Tsisy JIRAMA means there is no power... and maybe no water, too |
-| Mbola tsara          | Hello                | Sakalava: literally still good |
+| Mbola tsara          | Hello                | literally still good |
 | Misaotra betsaka!    | Thank you very much! | Normally just misaotra |
 | Misy moka            | There are mosquitoes | Misy môko (Sakalava) |
 | Mora mora!           | Easy easy!           | Tranquillo!          |
@@ -83,12 +83,12 @@ of those words and phrases.
 | mihinana             | verb                 | to eat               |                      |
 | mila                 | verb                 | to want, to need     |                      |
 | misy                 | verb                 | there is             |                      |
-| mitsangatsanga       | verb                 | to walk around, to stroll | mandehandeha         |
+| mitsangantsangana    | verb                 | to walk around, to stroll |                      |
 | mody                 | verb                 | to go home           |                      |
 | mofo                 | noun                 | bread                | pronounced like mofu but u does not exist in malagasy |
 | mora                 | adjective            | easy                 |                      |
 | moramora             | adverb               | slowly, slowly       |                      |
-| mosary               | noun                 | hunger               | zaho musary means I am starving |
+| mosary               | noun                 | hunger               | zaho mosary means I am starving |
 | nono                 | noun                 | breast               |                      |
 | nosy                 | noun                 | island               | Nosy Be the big island |
 | ny                   | article              | the                  | determined atricle   |
@@ -97,6 +97,7 @@ of those words and phrases.
 | rano                 | noun                 | water                |                      |
 | ratsy                | adjective            | bad, ugly            |                      |
 | ronono               | noun                 | milk                 | composed of ro (bouillon) and nono (breast) |
+| savaty               | noun                 | shoes                |                      |
 | sipa                 | noun                 | girlfriend, boyfriend | vady is much more common |
 | sira                 | noun                 | salt                 |                      |
 | siramamy             | noun                 | sugar                | composed of sira (salt) and mamy (sweet) |

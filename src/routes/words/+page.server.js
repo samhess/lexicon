@@ -4,8 +4,8 @@ export const load = async () => {
   const entity = {
     attributes: {
       term: {name:'Term'},
-      language: {name:'Language'},
-      partOfSpeech: {name:'Part of Speech'},
+      Language: {name:'Language', key:'code'},
+      PartOfSpeech: {name:'Part of Speech', key:'code'},
       root: {name:'Root Form'},
       standard: {name:'Standard Form'},
       english: {name:'English'},
