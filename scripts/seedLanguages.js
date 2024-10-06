@@ -24,9 +24,11 @@ const languages = [
 ]
 for (const language of languages) {
   const {code, name, description} = language
+  let alpha2 = 'mg'
+  if (['eng','ena','enb'].includes(code)) alpha2='en'
   await db.language.upsert({
     where: {code},
-    create: {name,description},
-    update: {name,description}
+    create: language,
+    update: {alpha2,name,description}
   })
 }

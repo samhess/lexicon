@@ -3,13 +3,14 @@ import {writeFile} from 'fs/promises'
 
 const mdFile = '../README.md'
 
-const phrases = await db.vocabulary.findMany({
-  where: {partOfSpeech:'collocation'},
-  orderBy:{malagasy:'asc'}
+const phrases = await db.word.findMany({
+  where: {partOfSpeech:'loc'},
+  orderBy:{term:'asc'}
 })
-const words = await db.vocabulary.findMany({
-  where: {NOT:{partOfSpeech:'collocation'}},
-  orderBy:{malagasy:'asc'}
+const words = await db.word.findMany({
+  where: {NOT:{partOfSpeech:'loc'}},
+  include: {PartOfSpeech:true, Language:true},
+  orderBy:{term:'asc'}
 })
 
 let markdown = `
@@ -38,8 +39,8 @@ of those words and phrases.
 `
 
 for (const phrase of phrases) {
-  const {malagasy, english, comment} = phrase
-  markdown += `| ${malagasy.padEnd(20)} | ${english.padEnd(20)} | ${(comment??'').padEnd(20)} |\r\n`
+  const {term, english, comment} = phrase
+  markdown += `| ${term.padEnd(20)} | ${english.padEnd(20)} | ${(comment??'').padEnd(20)} |\r\n`
 }
 
 markdown += `
@@ -50,7 +51,7 @@ markdown += `
 `
 
 for (const word of words) {
-  const {malagasy, partOfSpeech, english, comment} = word
-  markdown += `| ${malagasy.padEnd(20)} | ${partOfSpeech.padEnd(20)} | ${(english).padEnd(20)} | ${(comment??'').padEnd(20)} |\r\n`
+  const {term, PartOfSpeech, english, comment} = word
+  markdown += `| ${term.padEnd(20)} | ${PartOfSpeech.name.padEnd(20)} | ${(english).padEnd(20)} | ${(comment??'').padEnd(20)} |\r\n`
 }
 await writeFile(mdFile, markdown)

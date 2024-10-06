@@ -18,7 +18,7 @@ export const load = async () => {
   }
   const records = await db.word.findMany({
     where:{term:'ambokony'},
-    include: {PartOfSpeech:true, WordToMorpheme:true},
+    include: {PartOfSpeech:true},
     orderBy: {term:'asc'},
     take:5000
   })

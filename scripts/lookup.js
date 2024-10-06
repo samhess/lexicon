@@ -4,7 +4,7 @@ export function lookupDialect(name) {
     .replace('Betsileo','plt')
     .replace('Betsimisaraka Atsimo','bzc')
     .replace('Betsimisaraka Avaratra','bmm')
-    .replace('Betsimisaraka','bzc')
+    .replace('Betsimisaraka','mlg')
     .replace('Bezanozano','plt')
     .replace('Mahafaly','tdx')
     .replace('Makoa','skg')

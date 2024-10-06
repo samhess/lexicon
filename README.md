@@ -69,22 +69,22 @@ of those words and phrases.
 | loaka                | noun                 | hole                 |                      |
 | madinika             | adjective            | small                | other spelling madiniky |
 | mafana               | adjective            | hot                  |                      |
-| mahay                | active verb          | to know something    |                      |
+| mahay                | verb                 | to know something    |                      |
 | malagasy             | adjective            | Malagasy, Madagascan | short gasy           |
 | malala               | adjective            | beloved              | malalako meaning my dear |
-| mamita               | active verb          | to finish            | vita means finished  |
+| mamita               | verb                 | to finish            | vita means finished  |
 | manangy              | noun                 | woman                | also vehivavy        |
-| mandeha              | active verb          | to walk              |                      |
+| mandeha              | verb                 | to walk              |                      |
 | manintsy             | adjective            | cold                 |                      |
 | maventy              | adjective            | big, heavy           | rano maventy (a big bottle of water) |
-| miambe               | active verb          | to wait, to pay attention | ambesa! wait!        |
-| miasa                | active verb          | to work              |                      |
-| mifoha               | active verb          | to wake up, to get out of bed |                      |
-| mihinana             | active verb          | to eat               |                      |
-| mila                 | active verb          | to want, to need     |                      |
-| misy                 | active verb          | there is             |                      |
-| mitsangatsanga       | active verb          | to walk around, to stroll | mandehandeha         |
-| mody                 | active verb          | to go home           |                      |
+| miambe               | verb                 | to wait, to pay attention | ambesa! wait!        |
+| miasa                | verb                 | to work              |                      |
+| mifoha               | verb                 | to wake up, to get out of bed |                      |
+| mihinana             | verb                 | to eat               |                      |
+| mila                 | verb                 | to want, to need     |                      |
+| misy                 | verb                 | there is             |                      |
+| mitsangatsanga       | verb                 | to walk around, to stroll | mandehandeha         |
+| mody                 | verb                 | to go home           |                      |
 | mofo                 | noun                 | bread                | pronounced like mofu but u does not exist in malagasy |
 | mora                 | adjective            | easy                 |                      |
 | moramora             | adverb               | slowly, slowly       |                      |
