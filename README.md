@@ -54,6 +54,7 @@ of those words and phrases.
 | ary                  | conjunction          | and                  | used for last addition after connecting nouns with sy |
 | asa                  | noun                 | work                 | verb miasa           |
 | be                   | adjective            | big                  |                      |
+| eny                  | adverb               | yes                  |                      |
 | eto                  | adverb               | here                 |                      |
 | firy                 | adverb               | how many             |                      |
 | fo                   | noun                 | heart                |                      |
@@ -61,25 +62,26 @@ of those words and phrases.
 | gasy                 | adjective            | Malagasy, Madagascan |                      |
 | hamaray              | adverb               | tomorrow             |                      |
 | hoatrinona           | adverb               | how much?            | other spelling ohatrinona |
-| ia                   | adverb               | yes                  | eny in some dialetcs |
+| ia                   | adverb               | yes                  |                      |
 | ianao                | pronoun              | you                  |                      |
-| izaho                | pronoun              | I                    | aho in the capital, zah or zaho in the province |
-| kely                 | adjective            | little               | also kelikely a little bit |
+| izaho                | pronoun              | I                    |                      |
+| kelikely             | adjective            | a bit                |                      |
+| kely                 | adjective            | little               |                      |
 | kibo                 | noun                 | belly                |                      |
 | kiraro               | noun                 | shoes                | also savaty          |
 | lamba                | noun                 | clothes              |                      |
 | lehilahy             | noun                 | man                  |                      |
 | loaka                | noun                 | hole                 |                      |
-| madinika             | adjective            | small                | other spelling madiniky |
+| madiniky             | adjective            | small                |                      |
 | mafana               | adjective            | hot                  |                      |
 | mahay                | verb                 | to know something    |                      |
-| malagasy             | adjective            | Malagasy, Madagascan | short gasy           |
-| malala               | adjective            | beloved              | malalako meaning my dear |
+| malagasy             | adjective            | Malagasy, Madagascan |                      |
+| malala               | adjective            | beloved              |                      |
+| malalako             | noun                 | my dear              |                      |
 | maloto               | adjective            | dirty                |                      |
-| mamita               | verb                 | to finish            | vita means finished  |
+| mamita               | verb                 | to finish            |                      |
 | mamy                 | adverb               | sweet                |                      |
-| managy               | noun                 | a woman              |                      |
-| manangy              | noun                 | woman                | also vehivavy        |
+| manangy              | noun                 | a woman              |                      |
 | mandeha              | verb                 | to walk              |                      |
 | manintsy             | adjective            | cold                 |                      |
 | marary               | adjective            | ill                  |                      |
@@ -125,6 +127,7 @@ of those words and phrases.
 | vava                 | noun                 | mouth                |                      |
 | vazaha               | noun                 | foreigner            | like mzungu in Africa |
 | velona               | adjective            | living               |                      |
+| vita                 | verb                 | finished             |                      |
 | voky                 | adjective            | full                 | no more hungry       |
 | vola                 | noun                 | money                |                      |
 | zaza                 | noun                 | child                |                      |

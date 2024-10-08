@@ -319,15 +319,15 @@
     "comment": "determined atricle"
   },
   {
-    "term": "madinika",
+    "term": "madiniky",
     "rank": 0,
     "language": "mlg",
     "dialect": null,
-    "standard": "madiniky",
+    "standard": "madinika",
     "root": null,
     "partOfSpeech": "adj",
     "english": "small",
-    "comment": "other spelling madiniky"
+    "comment": ""
   },
   {
     "term": "maventy",
@@ -448,7 +448,7 @@
     "root": "lala",
     "partOfSpeech": "adj",
     "english": "beloved",
-    "comment": "malalako meaning my dear"
+    "comment": ""
   },
   {
     "term": "kibo",
@@ -602,7 +602,7 @@
     "root": "mita",
     "partOfSpeech": "v",
     "english": "to finish",
-    "comment": "vita means finished"
+    "comment": ""
   },
   {
     "term": "voky",
@@ -668,7 +668,7 @@
     "root": null,
     "partOfSpeech": "adj",
     "english": "little",
-    "comment": "also kelikely a little bit"
+    "comment": ""
   },
   {
     "term": "Ny anarako dia Samuel",
@@ -701,7 +701,7 @@
     "root": null,
     "partOfSpeech": "adv",
     "english": "yes",
-    "comment": "eny in some dialetcs"
+    "comment": ""
   },
   {
     "term": "Tsy misy olana!",
@@ -811,18 +811,18 @@
     "root": null,
     "partOfSpeech": "adj",
     "english": "Malagasy, Madagascan",
-    "comment": "short gasy"
+    "comment": ""
   },
   {
     "term": "manangy",
     "rank": 0,
     "language": "mlg",
     "dialect": null,
-    "standard": "",
+    "standard": "vehivavy",
     "root": null,
     "partOfSpeech": "n",
-    "english": "woman",
-    "comment": "also vehivavy"
+    "english": "a woman",
+    "comment": ""
   },
   {
     "term": "lehilahy",
@@ -866,7 +866,7 @@
     "root": null,
     "partOfSpeech": "prn",
     "english": "I",
-    "comment": "aho in the capital, zah or zaho in the province"
+    "comment": ""
   },
   {
     "term": "ianao",
@@ -1045,14 +1045,14 @@
     "comment": null
   },
   {
-    "term": "managy",
+    "term": "vita",
     "rank": 0,
-    "language": "skg",
+    "language": "mlg",
     "dialect": null,
-    "standard": "vehivavy",
+    "standard": "",
     "root": null,
-    "partOfSpeech": "n",
-    "english": "a woman",
+    "partOfSpeech": "v",
+    "english": "finished",
     "comment": null
   },
   {
@@ -1119,6 +1119,39 @@
     "root": "miambe",
     "partOfSpeech": "loc",
     "english": "wait!",
+    "comment": null
+  },
+  {
+    "term": "kelikely",
+    "rank": 0,
+    "language": "mlg",
+    "dialect": null,
+    "standard": null,
+    "root": null,
+    "partOfSpeech": "adj",
+    "english": "a bit",
+    "comment": null
+  },
+  {
+    "term": "eny",
+    "rank": 0,
+    "language": "mlg",
+    "dialect": null,
+    "standard": null,
+    "root": null,
+    "partOfSpeech": "adv",
+    "english": "yes",
+    "comment": null
+  },
+  {
+    "term": "malalako",
+    "rank": 0,
+    "language": "mlg",
+    "dialect": null,
+    "standard": null,
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "my dear",
     "comment": null
   }
 ]
