@@ -23,6 +23,7 @@ model PartOfSpeech {
 
 model Word {
   term         String        @id
+  rank         Int?
   language     String?
   dialect      String?
   standard     String?

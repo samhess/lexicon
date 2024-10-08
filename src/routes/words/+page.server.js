@@ -17,10 +17,8 @@ export const load = async () => {
     name: 'Words'
   }
   const records = await db.word.findMany({
-    where:{partOfSpeech:{not:null}},
     include: {PartOfSpeech:true, Language:true},
     orderBy: {term:'asc'},
-    take:5000
   })
   //console.log(records[0])
   return {entity, records}

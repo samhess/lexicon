@@ -21,6 +21,7 @@ of those words and phrases.
 
 | Malagasy             | English              | Comment              |
 :----------------------|:---------------------|:----------------------
+| Ambesa!              | wait!                |                      |
 | Araiky tavela        | Another one (drink)  | Literally one is left |
 | Azafady              | Excuse me, please, sorry | In contrast to english it is used for both asking and apologizing |
 | Azala!               | Damn!                | To express disappointment |
@@ -28,11 +29,11 @@ of those words and phrases.
 | JIRAMA               | Water and electricity (utility company) | Acronym for jiro sy rano malagasy. Tsisy JIRAMA means there is no power... and maybe no water, too |
 | Mbola tsara          | Hello                | literally still good |
 | Misaotra betsaka!    | Thank you very much! | Normally just misaotra |
-| Misy moka            | There are mosquitoes | Misy môko (Sakalava) |
+| Misy môko            | There are mosquitoes |                      |
 | Mora mora!           | Easy easy!           | Tranquillo!          |
-| Ngoma anao zaho      | I miss you           | Miss-you-I           |
+| Ngoma anao zaho      | I miss you           |                      |
 | Ny anarako dia Samuel | My name is Samuel    | Literally the name of mine is Samuel as -ko is a genitive suffix |
-| Rano maventy araiky, azafady! | A big bottle of water, please! | water-big-one-please |
+| Rano maventy araiky, azafady! | A big bottle of water, please! |                      |
 | Salama               | Hello                | From arabic salaam   |
 | Tiako anao           | I love you           | Composed of tia (love) -ko (of me) and anao (you) |
 | Tsaiky lehilahy      | A boy, young man     | Composed of tsaiky (child) lehilahy (man) |
@@ -49,6 +50,7 @@ of those words and phrases.
 | Malagasy             | Part of Speech       | English              | Comment              |
 :----------------------|:---------------------|:---------------------|:----------------------
 | anarana              | noun                 | name                 |                      |
+| araiky               | numeral              | one                  |                      |
 | ary                  | conjunction          | and                  | used for last addition after connecting nouns with sy |
 | asa                  | noun                 | work                 | verb miasa           |
 | be                   | adjective            | big                  |                      |
@@ -56,7 +58,8 @@ of those words and phrases.
 | firy                 | adverb               | how many             |                      |
 | fo                   | noun                 | heart                |                      |
 | foko                 | noun                 | tribe                | heart of mine        |
-| hamaray              | adverb               | tomorrow             | rahampitso in the capital |
+| gasy                 | adjective            | Malagasy, Madagascan |                      |
+| hamaray              | adverb               | tomorrow             |                      |
 | hoatrinona           | adverb               | how much?            | other spelling ohatrinona |
 | ia                   | adverb               | yes                  | eny in some dialetcs |
 | ianao                | pronoun              | you                  |                      |
@@ -72,23 +75,29 @@ of those words and phrases.
 | mahay                | verb                 | to know something    |                      |
 | malagasy             | adjective            | Malagasy, Madagascan | short gasy           |
 | malala               | adjective            | beloved              | malalako meaning my dear |
+| maloto               | adjective            | dirty                |                      |
 | mamita               | verb                 | to finish            | vita means finished  |
+| mamy                 | adverb               | sweet                |                      |
+| managy               | noun                 | a woman              |                      |
 | manangy              | noun                 | woman                | also vehivavy        |
 | mandeha              | verb                 | to walk              |                      |
 | manintsy             | adjective            | cold                 |                      |
-| maventy              | adjective            | big, heavy           | rano maventy (a big bottle of water) |
-| miambe               | verb                 | to wait, to pay attention | ambesa! wait!        |
+| marary               | adjective            | ill                  |                      |
+| maventy              | adjective            | big, heavy           |                      |
+| miambe               | verb                 | to wait, to pay attention |                      |
 | miasa                | verb                 | to work              |                      |
 | mifoha               | verb                 | to wake up, to get out of bed |                      |
 | mihinana             | verb                 | to eat               |                      |
 | mila                 | verb                 | to want, to need     |                      |
 | misy                 | verb                 | there is             |                      |
-| mitsangantsangana    | verb                 | to walk around, to stroll |                      |
+| mitsangantsangana    | verb                 | to stroll            |                      |
 | mody                 | verb                 | to go home           |                      |
 | mofo                 | noun                 | bread                | pronounced like mofu but u does not exist in malagasy |
 | mora                 | adjective            | easy                 |                      |
 | moramora             | adverb               | slowly, slowly       |                      |
 | mosary               | noun                 | hunger               | zaho mosary means I am starving |
+| môko                 | noun                 | mosquitoes           |                      |
+| ngoma                | noun                 | miss                 |                      |
 | nono                 | noun                 | breast               |                      |
 | nosy                 | noun                 | island               | Nosy Be the big island |
 | ny                   | article              | the                  | determined atricle   |
@@ -102,12 +111,15 @@ of those words and phrases.
 | sira                 | noun                 | salt                 |                      |
 | siramamy             | noun                 | sugar                | composed of sira (salt) and mamy (sweet) |
 | sy                   | conjunction          | and                  |                      |
+| tavela               | noun                 | leftover             |                      |
 | teny                 | noun                 | word                 |                      |
+| tsaiky               | noun                 | child                |                      |
 | tsara                | adjective            | good, nice           |                      |
 | tsia                 | adverb               | no                   |                      |
-| tsisy                | adverb               | nothing              | short for tsy misy   |
+| tsisy                | adverb               | nothing              |                      |
 | tsy                  | adverb               | not                  |                      |
-| vady                 | noun                 | spouse               | vadiko would be spouse of mine (my spouse) |
+| vadiko               | noun                 | my spouse            |                      |
+| vady                 | noun                 | spouse               |                      |
 | vaovao               | adjective            | new                  |                      |
 | vary                 | noun                 | rice                 |                      |
 | vava                 | noun                 | mouth                |                      |
@@ -115,3 +127,4 @@ of those words and phrases.
 | velona               | adjective            | living               |                      |
 | voky                 | adjective            | full                 | no more hungry       |
 | vola                 | noun                 | money                |                      |
+| zaza                 | noun                 | child                |                      |

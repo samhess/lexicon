@@ -1,6 +1,7 @@
 [
   {
     "term": "Mbola tsara",
+    "rank": 0,
     "language": "skg",
     "dialect": null,
     "standard": "",
@@ -11,6 +12,7 @@
   },
   {
     "term": "Salama",
+    "rank": 0,
     "language": "plt",
     "dialect": null,
     "standard": "",
@@ -21,16 +23,18 @@
   },
   {
     "term": "Ngoma anao zaho",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
     "root": null,
     "partOfSpeech": "loc",
     "english": "I miss you",
-    "comment": "Miss-you-I"
+    "comment": ""
   },
   {
     "term": "mosary",
+    "rank": 0,
     "language": "skg",
     "dialect": null,
     "standard": "",
@@ -41,6 +45,7 @@
   },
   {
     "term": "mandeha",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -51,6 +56,7 @@
   },
   {
     "term": "mody",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -61,6 +67,7 @@
   },
   {
     "term": "Tsy mavandy!",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -71,6 +78,7 @@
   },
   {
     "term": "Inona no vaovao?",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -81,6 +89,7 @@
   },
   {
     "term": "Tsisy miresaka ",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -91,6 +100,7 @@
   },
   {
     "term": "tsy",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -101,16 +111,18 @@
   },
   {
     "term": "tsisy",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "tsy misy",
     "root": null,
     "partOfSpeech": "adv",
     "english": "nothing",
-    "comment": "short for tsy misy"
+    "comment": ""
   },
   {
     "term": "misy",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -121,6 +133,7 @@
   },
   {
     "term": "mila",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -131,6 +144,7 @@
   },
   {
     "term": "Misaotra betsaka!",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -141,6 +155,7 @@
   },
   {
     "term": "tsara ",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -151,6 +166,7 @@
   },
   {
     "term": "ratsy ",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -161,6 +177,7 @@
   },
   {
     "term": "Azafady ",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -171,6 +188,7 @@
   },
   {
     "term": "firy",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -181,6 +199,7 @@
   },
   {
     "term": "hoatrinona",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -191,6 +210,7 @@
   },
   {
     "term": "vola",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -201,6 +221,7 @@
   },
   {
     "term": "vary",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -211,6 +232,7 @@
   },
   {
     "term": "mofo",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -221,6 +243,7 @@
   },
   {
     "term": "rano",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -231,6 +254,7 @@
   },
   {
     "term": "mafana",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -241,6 +265,7 @@
   },
   {
     "term": "manintsy",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -251,6 +276,7 @@
   },
   {
     "term": "mihinana",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -261,6 +287,7 @@
   },
   {
     "term": "Tsisy vaovao",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -271,6 +298,7 @@
   },
   {
     "term": "sy",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -281,6 +309,7 @@
   },
   {
     "term": "ny",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -291,6 +320,7 @@
   },
   {
     "term": "madinika",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "madiniky",
@@ -301,16 +331,18 @@
   },
   {
     "term": "maventy",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
     "root": null,
     "partOfSpeech": "adj",
     "english": "big, heavy",
-    "comment": "rano maventy (a big bottle of water)"
+    "comment": ""
   },
   {
     "term": "Tsaiky lehilahy",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -321,6 +353,7 @@
   },
   {
     "term": "vava",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -331,6 +364,7 @@
   },
   {
     "term": "ronono",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -341,6 +375,7 @@
   },
   {
     "term": "nono",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -351,6 +386,7 @@
   },
   {
     "term": "sira",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -361,6 +397,7 @@
   },
   {
     "term": "siramamy",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -371,16 +408,18 @@
   },
   {
     "term": "miambe",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
     "root": null,
     "partOfSpeech": "v",
     "english": "to wait, to pay attention",
-    "comment": "ambesa! wait!"
+    "comment": ""
   },
   {
     "term": "eto",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -391,6 +430,7 @@
   },
   {
     "term": "Zah hiala!",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -401,16 +441,18 @@
   },
   {
     "term": "malala",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
-    "root": null,
+    "root": "lala",
     "partOfSpeech": "adj",
     "english": "beloved",
     "comment": "malalako meaning my dear"
   },
   {
     "term": "kibo",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -421,6 +463,7 @@
   },
   {
     "term": "fo",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -431,6 +474,7 @@
   },
   {
     "term": "foko",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -441,9 +485,10 @@
   },
   {
     "term": "Araiky tavela",
+    "rank": 0,
     "language": "skg",
     "dialect": null,
-    "standard": "",
+    "standard": "iray tavela",
     "root": null,
     "partOfSpeech": "loc",
     "english": "Another one (drink)",
@@ -451,6 +496,7 @@
   },
   {
     "term": "JIRAMA",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -461,6 +507,7 @@
   },
   {
     "term": "ary",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -471,6 +518,7 @@
   },
   {
     "term": "Tiako anao",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -481,6 +529,7 @@
   },
   {
     "term": "lamba",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -491,6 +540,7 @@
   },
   {
     "term": "vazaha",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -501,16 +551,18 @@
   },
   {
     "term": "vady",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
     "root": null,
     "partOfSpeech": "n",
     "english": "spouse",
-    "comment": "vadiko would be spouse of mine (my spouse)"
+    "comment": ""
   },
   {
     "term": "miasa",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -521,6 +573,7 @@
   },
   {
     "term": "asa",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -531,6 +584,7 @@
   },
   {
     "term": "Azala!",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -541,6 +595,7 @@
   },
   {
     "term": "mamita",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -551,6 +606,7 @@
   },
   {
     "term": "voky",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -561,6 +617,7 @@
   },
   {
     "term": "anarana",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -571,6 +628,7 @@
   },
   {
     "term": "velona",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -581,6 +639,7 @@
   },
   {
     "term": "Veloma!",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -591,6 +650,7 @@
   },
   {
     "term": "ondana",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -601,6 +661,7 @@
   },
   {
     "term": "kely",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -611,6 +672,7 @@
   },
   {
     "term": "Ny anarako dia Samuel",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -621,6 +683,7 @@
   },
   {
     "term": "tsia",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -631,6 +694,7 @@
   },
   {
     "term": "ia",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -641,6 +705,7 @@
   },
   {
     "term": "Tsy misy olana!",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -651,6 +716,7 @@
   },
   {
     "term": "olana",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -661,6 +727,7 @@
   },
   {
     "term": "Tsy haiko",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -671,6 +738,7 @@
   },
   {
     "term": "mahay",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -681,16 +749,18 @@
   },
   {
     "term": "hamaray",
+    "rank": 0,
     "language": "skg",
     "dialect": null,
     "standard": "rahampitso",
     "root": null,
     "partOfSpeech": "adv",
     "english": "tomorrow",
-    "comment": "rahampitso in the capital"
+    "comment": ""
   },
   {
     "term": "nosy",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -701,6 +771,7 @@
   },
   {
     "term": "be",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -711,6 +782,7 @@
   },
   {
     "term": "loaka",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -721,6 +793,7 @@
   },
   {
     "term": "sipa",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -731,6 +804,7 @@
   },
   {
     "term": "malagasy",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -741,6 +815,7 @@
   },
   {
     "term": "manangy",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -751,6 +826,7 @@
   },
   {
     "term": "lehilahy",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -761,6 +837,7 @@
   },
   {
     "term": "kiraro",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -771,6 +848,7 @@
   },
   {
     "term": "vaovao",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -781,6 +859,7 @@
   },
   {
     "term": "izaho",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -791,6 +870,7 @@
   },
   {
     "term": "ianao",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -800,27 +880,30 @@
     "comment": null
   },
   {
-    "term": "Misy moka ",
+    "term": "Misy môko",
+    "rank": 0,
+    "language": "skg",
+    "dialect": null,
+    "standard": "misy moka",
+    "root": null,
+    "partOfSpeech": "loc",
+    "english": "There are mosquitoes",
+    "comment": ""
+  },
+  {
+    "term": "mitsangantsangana",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
     "root": null,
-    "partOfSpeech": "loc",
-    "english": "There are mosquitoes",
-    "comment": "Misy môko (Sakalava)"
-  },
-  {
-    "term": "mitsangantsangana",
-    "language": "mlg",
-    "dialect": null,
-    "standard": "mandehandeha",
-    "root": null,
     "partOfSpeech": "v",
-    "english": "to walk around, to stroll",
+    "english": "to stroll",
     "comment": ""
   },
   {
     "term": "teny",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -831,6 +914,7 @@
   },
   {
     "term": "mifoha",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -841,6 +925,7 @@
   },
   {
     "term": "moramora",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -851,6 +936,7 @@
   },
   {
     "term": "mora",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -861,6 +947,7 @@
   },
   {
     "term": "Mora mora!",
+    "rank": 0,
     "language": "mlg",
     "dialect": null,
     "standard": "",
@@ -871,22 +958,167 @@
   },
   {
     "term": "Rano maventy araiky, azafady!",
-    "language": "mlg",
+    "rank": 0,
+    "language": "skg",
     "dialect": null,
     "standard": "",
     "root": null,
     "partOfSpeech": "loc",
     "english": "A big bottle of water, please!",
-    "comment": "water-big-one-please"
+    "comment": ""
   },
   {
     "term": "savaty",
+    "rank": 0,
     "language": "skg",
     "dialect": null,
     "standard": "kiraro",
     "root": null,
     "partOfSpeech": "n",
     "english": "shoes",
+    "comment": null
+  },
+  {
+    "term": "marary",
+    "rank": 0,
+    "language": "mlg",
+    "dialect": null,
+    "standard": null,
+    "root": null,
+    "partOfSpeech": "adj",
+    "english": "ill",
+    "comment": null
+  },
+  {
+    "term": "môko",
+    "rank": 0,
+    "language": "skg",
+    "dialect": null,
+    "standard": null,
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "mosquitoes",
+    "comment": null
+  },
+  {
+    "term": "tavela",
+    "rank": 0,
+    "language": "mlg",
+    "dialect": null,
+    "standard": null,
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "leftover",
+    "comment": null
+  },
+  {
+    "term": "araiky",
+    "rank": 0,
+    "language": "skg",
+    "dialect": null,
+    "standard": "iray",
+    "root": null,
+    "partOfSpeech": "num",
+    "english": "one",
+    "comment": null
+  },
+  {
+    "term": "tsaiky",
+    "rank": 0,
+    "language": "skg",
+    "dialect": null,
+    "standard": "tsaika",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "child",
+    "comment": null
+  },
+  {
+    "term": "zaza",
+    "rank": 0,
+    "language": "mlg",
+    "dialect": null,
+    "standard": null,
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "child",
+    "comment": null
+  },
+  {
+    "term": "managy",
+    "rank": 0,
+    "language": "skg",
+    "dialect": null,
+    "standard": "vehivavy",
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "a woman",
+    "comment": null
+  },
+  {
+    "term": "ngoma",
+    "rank": 0,
+    "language": "mlg",
+    "dialect": null,
+    "standard": null,
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "miss",
+    "comment": null
+  },
+  {
+    "term": "maloto",
+    "rank": 0,
+    "language": "mlg",
+    "dialect": null,
+    "standard": null,
+    "root": "loto",
+    "partOfSpeech": "adj",
+    "english": "dirty",
+    "comment": null
+  },
+  {
+    "term": "gasy",
+    "rank": 0,
+    "language": "mlg",
+    "dialect": null,
+    "standard": "malagasy",
+    "root": null,
+    "partOfSpeech": "adj",
+    "english": "Malagasy, Madagascan",
+    "comment": null
+  },
+  {
+    "term": "vadiko",
+    "rank": 0,
+    "language": "mlg",
+    "dialect": null,
+    "standard": null,
+    "root": null,
+    "partOfSpeech": "n",
+    "english": "my spouse",
+    "comment": null
+  },
+  {
+    "term": "mamy",
+    "rank": 0,
+    "language": "mlg",
+    "dialect": null,
+    "standard": null,
+    "root": null,
+    "partOfSpeech": "adv",
+    "english": "sweet",
+    "comment": null
+  },
+  {
+    "term": "Ambesa!",
+    "rank": 0,
+    "language": "mlg",
+    "dialect": null,
+    "standard": null,
+    "root": "miambe",
+    "partOfSpeech": "loc",
+    "english": "wait!",
     "comment": null
   }
 ]
