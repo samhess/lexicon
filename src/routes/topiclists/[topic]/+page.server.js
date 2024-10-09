@@ -4,13 +4,12 @@ export const load = async () => {
   const entity = {
     attributes: {
       term: {name:'Term'},
-      Language: {name:'Language', key:'code'},
-      PartOfSpeech: {name:'Part of Speech', key:'code'},
-      root: {name:'Root Form'},
-      standard: {name:'Standard Form'},
-      english: {name:'English'},
-      comment: {name:'Comment'},
-      Topic: {name:'Topic', key:'key'},
+      dialect: {name:'Dialect'},
+      morphemes: {name:'Morphemes'},
+      root: {name:'Roots'},
+      partOfSpeech: {name:'Part of Speech'},
+      standard: {name:'Standard Malagasy', key:'code'},
+      english: {name:'English'}
 
     },
     endpoint: 'word',
@@ -18,8 +17,10 @@ export const load = async () => {
     name: 'Words'
   }
   const records = await db.word.findMany({
-    include: {PartOfSpeech:true, Language:true, Topic:true},
+    where:{term:'ambokony'},
+    include: {PartOfSpeech:true},
     orderBy: {term:'asc'},
+    take:5000
   })
   //console.log(records[0])
   return {entity, records}

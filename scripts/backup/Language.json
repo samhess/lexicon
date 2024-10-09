@@ -3,7 +3,7 @@
     "code": "mlg",
     "alpha2": "mg",
     "name": "Malagasy",
-    "description": null
+    "description": "inclusive"
   },
   {
     "code": "bhr",
@@ -75,7 +75,7 @@
     "code": "eng",
     "alpha2": "en",
     "name": "English",
-    "description": null
+    "description": "inclusive"
   },
   {
     "code": "ena",

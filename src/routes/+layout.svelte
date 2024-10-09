@@ -11,6 +11,7 @@
 
 <nav class="mx-auto max-w-7xl pt-10 px-2 md:px-4 space-x-5">
   <a href="/words">Words</a>
+  <a href="/topiclists">Topic Lists</a>
   <a href="/languages">Languages</a>
   <a href="/parts">Parts of Speech</a>
 </nav>

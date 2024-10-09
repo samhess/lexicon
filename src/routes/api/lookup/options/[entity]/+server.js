@@ -13,6 +13,10 @@ export async function GET({params}) {
     options = await db.partOfSpeech.findMany({orderBy: {code: 'asc'}})
     options = options.map(({code, name}) => ({value:code, name:`${code}: ${name}`}))
   }
+  if (entity==='Topic') {
+    options = await db.topic.findMany({orderBy: {key: 'asc'}})
+    options = options.map(({key, name}) => ({value:key, name}))
+  }
   options.unshift({value:'', name:`\u2014\u2014\u2014 select ${entity} \u2014\u2014\u2014`})
   return json(options)
 }

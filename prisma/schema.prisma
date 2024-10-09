@@ -21,6 +21,12 @@ model PartOfSpeech {
   Word Word[]
 }
 
+model Topic {
+  key  String @id
+  name String
+  Word Word[]
+}
+
 model Word {
   term         String        @id
   rank         Int?
@@ -29,8 +35,10 @@ model Word {
   standard     String?
   root         String?
   partOfSpeech String?
+  topic        String?
   english      String?
   comment      String?
   PartOfSpeech PartOfSpeech? @relation(fields: [partOfSpeech], references: [code], onDelete: Cascade)
   Language     Language?     @relation(fields: [language], references: [code], onDelete: Cascade)
+  Topic        Topic?        @relation(fields: [topic], references: [key])
 }

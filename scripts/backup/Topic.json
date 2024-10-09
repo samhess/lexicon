@@ -1,0 +1,94 @@
+[
+  {
+    "key": "clothes-accessories",
+    "name": "Clothes and Accessories"
+  },
+  {
+    "key": "colours",
+    "name": "Colours"
+  },
+  {
+    "key": "communications-technology",
+    "name": "Communications and Technology"
+  },
+  {
+    "key": "education",
+    "name": "Education"
+  },
+  {
+    "key": "entertainment-media",
+    "name": "Entertainment and Media"
+  },
+  {
+    "key": "environment",
+    "name": "Environment"
+  },
+  {
+    "key": "food-drink",
+    "name": "Food and Drink"
+  },
+  {
+    "key": "health",
+    "name": "Health, Medicine and Exercise"
+  },
+  {
+    "key": "hobbies-leisure",
+    "name": "Hobbies and Leisure"
+  },
+  {
+    "key": "house-home",
+    "name": "House and Home"
+  },
+  {
+    "key": "language",
+    "name": "Language"
+  },
+  {
+    "key": "emotions",
+    "name": "Personal Feelings, Opinions and Experiences"
+  },
+  {
+    "key": "places-buildings",
+    "name": "Places: Buildings"
+  },
+  {
+    "key": "places-countryside",
+    "name": "Places: Countryside"
+  },
+  {
+    "key": "places-town-city",
+    "name": "Places: Town and City"
+  },
+  {
+    "key": "services",
+    "name": "Services"
+  },
+  {
+    "key": "shopping",
+    "name": "Shopping"
+  },
+  {
+    "key": "sport",
+    "name": "Sport"
+  },
+  {
+    "key": "natural-world",
+    "name": "The Natural World"
+  },
+  {
+    "key": "time",
+    "name": "Time"
+  },
+  {
+    "key": "travel-transport",
+    "name": "Travel and Transport"
+  },
+  {
+    "key": "weather",
+    "name": "Weather"
+  },
+  {
+    "key": "work-jobs",
+    "name": "Work and Jobs"
+  }
+]
