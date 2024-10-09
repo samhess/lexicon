@@ -6,12 +6,11 @@ export const load = async () => {
       term: {name:'Term'},
       Language: {name:'Language', key:'code'},
       PartOfSpeech: {name:'Part of Speech', key:'code'},
-      root: {name:'Root Form'},
-      standard: {name:'Standard Form'},
-      english: {name:'English'},
-      comment: {name:'Comment'},
       Topic: {name:'Topic', key:'key'},
-
+      root: {name:'Root Form'},
+      standard: {name:'Standard Term'},
+      english: {name:'English'},
+      comment: {name:'Comment'}
     },
     endpoint: 'word',
     isEditable: true,

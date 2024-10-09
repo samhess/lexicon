@@ -4,12 +4,12 @@ export const load = async () => {
   const entity = {
     attributes: {
       code: {name:'Code'},
-      name: {name:'Part of Speech'},
+      name: {name:'Word Type'},
       words: {name:'Words'},
     },
-    endpoint: 'partofspeech',
+    endpoint: 'wordtype',
     isEditable: true,
-    name: 'Parts of Speech'
+    name: 'Word Types'
   }
   const records = await db.partOfSpeech.findMany({
     include: {_count:true},

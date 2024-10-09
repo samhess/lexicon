@@ -10,10 +10,10 @@
 </svelte:head>
 
 <nav class="mx-auto max-w-7xl pt-10 px-2 md:px-4 space-x-5 text-lg">
-  <a href="/words">Words</a>
-  <a href="/topics">Topics</a>
   <a href="/languages">Languages</a>
-  <a href="/parts">Parts of Speech</a>
+  <a href="/topics">Topics</a>
+  <a href="/wordtypes">Word Types</a>
+  <a href="/words">Words</a>
 </nav>
 <main class="mx-auto max-w-7xl px-2 md:px-4 pt-5">
   <article class="prose">

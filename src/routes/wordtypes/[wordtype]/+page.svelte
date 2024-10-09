@@ -1,13 +1,11 @@
 <script>
-// @ts-nocheck
-
   import {invalidateAll} from '$app/navigation'
   import {DataTable} from '@samhess/svelte-components'
   export let data
-  $: ({entity, records, partOfSpeech} = data)
+  $: ({entity, records, wordtype} = data)
 </script>
 
-<h3>{partOfSpeech.name+'s'}</h3>
+<h3>{wordtype.name+'s'}</h3>
 <DataTable {entity} {records} on:updateData={()=>invalidateAll()}>
   <svelte:fragment let:records let:rowDblClick>
     {#each records as term}

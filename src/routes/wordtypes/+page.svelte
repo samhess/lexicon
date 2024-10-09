@@ -5,15 +5,15 @@
   $: ({entity, records} = data)
 </script>
 
-<h3>Words by Part of Speech</h3>
+<h3>Words by Word Type</h3>
 <DataTable {entity} {records} on:updateData={()=>invalidateAll()}>
   <svelte:fragment let:records let:rowDblClick>
-    {#each records as part}
-      <tr on:dblclick={()=>rowDblClick(part)}>
-        <td>{part.code}</td>
-        <td>{part.name}</td>
+    {#each records as wordtype}
+      <tr on:dblclick={()=>rowDblClick(wordtype)}>
+        <td>{wordtype.code}</td>
+        <td>{wordtype.name}</td>
         <td>
-          <a href={`/parts/${part.code}`}>{part._count.Word}</a>
+          <a href={`/wordtypes/${wordtype.code}`}>{wordtype._count.Word}</a>
         </td>
       </tr>
     {/each}
