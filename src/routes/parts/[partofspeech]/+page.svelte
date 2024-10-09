@@ -4,10 +4,10 @@
   import {invalidateAll} from '$app/navigation'
   import {DataTable} from '@samhess/svelte-components'
   export let data
-  $: ({entity, records} = data)
+  $: ({entity, records, partOfSpeech} = data)
 </script>
 
-<h3>Words</h3>
+<h3>{partOfSpeech.name+'s'}</h3>
 <DataTable {entity} {records} on:updateData={()=>invalidateAll()}>
   <svelte:fragment let:records let:rowDblClick>
     {#each records as term}
@@ -15,11 +15,9 @@
         <td>
           <a href={`https://malagasyword.org/bins/teny2/${term.term}`} target="_blank">{term.term}</a>
         </td>
-        <td>{term.dialect??''}</td>
-        <td>{term.root??''}</td>
+        <td>{term.Language?.name??''}</td>
         <td>{term.PartOfSpeech?.name??''}</td>
-        <td>{term.standard??''}</td>
-        <td>{term.english}</td>
+        <td>{term.Topic?.name??''}</td>
       </tr>
     {/each}
   </svelte:fragment>

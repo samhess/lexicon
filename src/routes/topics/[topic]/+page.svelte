@@ -1,23 +1,25 @@
 <script>
+// @ts-nocheck
+
   import {invalidateAll} from '$app/navigation'
   import {DataTable} from '@samhess/svelte-components'
   export let data
-  $: ({entity, records} = data)
+  $: ({entity, records, topic} = data)
 </script>
 
-<h3>Words by Part of Speech</h3>
+<h3>{topic.name}</h3>
 <DataTable {entity} {records} on:updateData={()=>invalidateAll()}>
   <svelte:fragment let:records let:rowDblClick>
-    {#each records as part}
-      <tr on:dblclick={()=>rowDblClick(part)}>
-        <td>{part.code}</td>
-        <td>{part.name}</td>
-        <td>
-          <a href={`/parts/${part.code}`}>{part._count.Word}</a>
-        </td>
+    {#each records as term}
+      <tr on:dblclick={()=>rowDblClick(term)}>
+        <td>{term.term}</td>
+        <td>{term.Language?.name??''}</td>
+        <td>{term.PartOfSpeech?.name??''}</td>
+        <td>{term.Topic?.name??''}</td>
       </tr>
     {/each}
   </svelte:fragment>
 </DataTable>
+
 
 

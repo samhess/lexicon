@@ -5,11 +5,15 @@ export const load = async () => {
     attributes: {
       code: {name:'Code'},
       name: {name:'Part of Speech'},
+      words: {name:'Words'},
     },
     endpoint: 'partofspeech',
     isEditable: true,
     name: 'Parts of Speech'
   }
-  const records = await db.partOfSpeech.findMany({orderBy:{name:'asc'}})
+  const records = await db.partOfSpeech.findMany({
+    include: {_count:true},
+    orderBy:{name:'asc'}
+  })
   return {entity, records}
 }

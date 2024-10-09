@@ -6,12 +6,16 @@ export const load = async () => {
       code: {name:'Code'},
       alpha2: {name:'Two Letter Code'},
       name: {name:'Language'},
-      description: {name:'Description'}
+      description: {name:'Description'},
+      words: {name:'Words'}
     },
     endpoint: 'language',
     isEditable: true,
     name: 'Languages'
   }
-  const records = await db.language.findMany({orderBy:{alpha2:'asc'}})
+  const records = await db.language.findMany({
+    include:{_count:true},
+    orderBy:{alpha2:'asc'}
+  })
   return {entity, records}
 }

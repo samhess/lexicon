@@ -5,19 +5,19 @@
   $: ({entity, records} = data)
 </script>
 
-<h3>Words by Part of Speech</h3>
+<h3>Words by Topic</h3>
 <DataTable {entity} {records} on:updateData={()=>invalidateAll()}>
   <svelte:fragment let:records let:rowDblClick>
-    {#each records as part}
-      <tr on:dblclick={()=>rowDblClick(part)}>
-        <td>{part.code}</td>
-        <td>{part.name}</td>
+    {#each records as topic}
+      <tr on:dblclick={()=>rowDblClick(topic)}>
+        <td>{topic.name}</td>
         <td>
-          <a href={`/parts/${part.code}`}>{part._count.Word}</a>
+          <a href={`/topics/${topic.key}`}>{topic._count.Word}</a>
         </td>
       </tr>
     {/each}
   </svelte:fragment>
 </DataTable>
+
 
 
