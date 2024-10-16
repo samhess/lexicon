@@ -17,8 +17,10 @@ export async function POST({request}) {
 
 export async function PUT({request}) {
   const {Language, PartOfSpeech, Topic, term, ...attributes} = await request.json()
+  const partOfSpeech = PartOfSpeech.value
+  const language = Language.value
   await db.word.update({
-    where: {term},
+    where: {term_partOfSpeech_language:{term,partOfSpeech,language}},
     data: {
       ...attributes,
       Language:{connect:{code:Language?.value??'eng'}},
@@ -30,7 +32,11 @@ export async function PUT({request}) {
 }
 
 export async function DELETE({request}) {
-  const {term} = await request.json()
-  await db.word.delete({where:{term}})
+  const {Language, PartOfSpeech, term} = await request.json()
+  const partOfSpeech = PartOfSpeech.value
+  const language = Language.value
+  await db.word.delete({
+    where: {term_partOfSpeech_language:{term,partOfSpeech,language}},
+  })
   return json({})
 }

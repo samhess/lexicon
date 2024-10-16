@@ -1,54 +1,54 @@
 [
   {
     "code": "n",
-    "name": "noun"
+    "name": "Noun"
   },
   {
     "code": "adj",
-    "name": "adjective"
+    "name": "Adjective"
   },
   {
     "code": "adv",
-    "name": "adverb"
+    "name": "Adverb"
   },
   {
     "code": "v",
-    "name": "verb"
+    "name": "Verb"
   },
   {
     "code": "conj",
-    "name": "conjunction"
+    "name": "Conjunction"
   },
   {
     "code": "num",
-    "name": "numeral"
+    "name": "Numeral"
   },
   {
     "code": "interj",
-    "name": "interjection"
+    "name": "Interjection"
   },
   {
     "code": "prn",
-    "name": "pronoun"
+    "name": "Pronoun"
   },
   {
     "code": "art",
-    "name": "article"
+    "name": "Article"
   },
   {
     "code": "prep",
-    "name": "preposition"
+    "name": "Preposition"
   },
   {
     "code": "loc",
-    "name": "locution"
+    "name": "Locution"
   },
   {
     "code": "affix",
-    "name": "affix"
+    "name": "Affix"
   },
   {
     "code": "particle",
-    "name": "particle"
+    "name": "Particle"
   }
 ]

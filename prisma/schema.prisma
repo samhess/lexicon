@@ -28,17 +28,18 @@ model Topic {
 }
 
 model Word {
-  term         String        @id
-  rank         Int?
-  language     String?
-  dialect      String?
-  standard     String?
-  root         String?
-  partOfSpeech String?
-  topic        String?
-  english      String?
+  term         String
+  partOfSpeech String
+  language     String
   comment      String?
-  PartOfSpeech PartOfSpeech? @relation(fields: [partOfSpeech], references: [code], onDelete: Cascade)
-  Language     Language?     @relation(fields: [language], references: [code], onDelete: Cascade)
+  english      String?
+  rank         Int?
+  root         String?
+  standard     String?
+  topic        String?
+  PartOfSpeech PartOfSpeech  @relation(fields: [partOfSpeech], references: [code], onDelete: Cascade)
+  Language     Language      @relation(fields: [language], references: [code], onDelete: Cascade)
   Topic        Topic?        @relation(fields: [topic], references: [key])
+
+  @@unique([term,partOfSpeech,language])
 }

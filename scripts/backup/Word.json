@@ -8212,7 +8212,7 @@
     "rank": null,
     "language": "ena",
     "dialect": null,
-    "standard": null,
+    "standard": "automn",
     "root": null,
     "partOfSpeech": "n",
     "topic": "time",
@@ -19604,6 +19604,18 @@
     "root": null,
     "partOfSpeech": "n",
     "topic": "entertainment-media",
+    "english": null,
+    "comment": null
+  },
+  {
+    "term": "the",
+    "rank": null,
+    "language": "eng",
+    "dialect": null,
+    "standard": null,
+    "root": null,
+    "partOfSpeech": "art",
+    "topic": "language",
     "english": null,
     "comment": null
   }
