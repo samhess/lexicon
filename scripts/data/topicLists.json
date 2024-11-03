@@ -1,0 +1,7326 @@
+[
+  {
+    "word": "backpack",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "bag",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "belt",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "blouse",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "boot",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "bracelet",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "button",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "cap",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "chain",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "clothes",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "coat",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "collar",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "cotton",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "dress",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "earring",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "fashion",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "fasten",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "fit",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "(v)",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "fold (v)",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "glasses",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "glove",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "get dressed",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "go (with/together) (phr v)",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "handbag",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "handkerchief",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "hat",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "jacket",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "jeans",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "jewellery / jewelry",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "jumper",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "kit",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "knit",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "label",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "laundry",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "leather",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "make-up",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "match (v)",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "material",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "necklace",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "old-fashioned ( adj)",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "pants",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "pattern",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "perfume",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "plastic",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "pocket",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "pullover",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "purse",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "put on",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "raincoat",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "ring",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "scarf",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "shirt",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "shoe",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "shorts",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "silk",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "size",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "skirt",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "sleeve(less)",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "socks",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "stripe",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "suit",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "sunglasses",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "sweater",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "sweatshirt",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "swimming costume",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "take off",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "tie tights",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "tracksuit",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "trainers",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "trousers",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "T-shirt",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "sandal",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "sweatshirt",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "swimsuit",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "try on",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "umbrella",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "underpants",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "underwear",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "undress",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "uniform",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "wallet",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "watch",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "wear (out)",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "wool(len)",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "(dark/light/pale)",
+    "topic": "Colours"
+  },
+  {
+    "word": "black",
+    "topic": "Colours"
+  },
+  {
+    "word": "blue",
+    "topic": "Colours"
+  },
+  {
+    "word": "brown",
+    "topic": "Colours"
+  },
+  {
+    "word": "gold",
+    "topic": "Colours"
+  },
+  {
+    "word": "golden",
+    "topic": "Colours"
+  },
+  {
+    "word": "green",
+    "topic": "Colours"
+  },
+  {
+    "word": "grey / gray",
+    "topic": "Colours"
+  },
+  {
+    "word": "orange",
+    "topic": "Colours"
+  },
+  {
+    "word": "pink",
+    "topic": "Colours"
+  },
+  {
+    "word": "purple",
+    "topic": "Colours"
+  },
+  {
+    "word": "red",
+    "topic": "Colours"
+  },
+  {
+    "word": "silver",
+    "topic": "Colours"
+  },
+  {
+    "word": "white",
+    "topic": "Colours"
+  },
+  {
+    "word": "yellow",
+    "topic": "Colours"
+  },
+  {
+    "word": "access",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "delete",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "hardware",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "operator",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "address",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "dial",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "headline",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "parcel",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "app",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "dial up",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "homepage",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "password",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "at",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "/ @",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "digital",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "install",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "PC",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "blog",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "digital camera",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "internet",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "phone",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "blogger",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "disc/disk",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "invent",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "photograph",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "by post",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "dot",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "invention",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "photography",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "calculator",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "download (n & v)",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "IT",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "podcast",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "call (v)",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "drag",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "keyboard",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "postcard",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "call back",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "DVD (player)",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "laptop",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "print",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "CD (player)",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "electronic(s)",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "(computer)",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "printer",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "cell phone",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "email",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "machine",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "program(me)",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "chat",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "engaged",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "message",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "reply",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "chat room",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "enter",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "mobile phone",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "ring",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "click (v)",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "envelope",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "mouse",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "ring up",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "computer",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "equipment",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "mouse mat",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "robot",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "connect",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "fax",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "MP3 player",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "screen",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "connection",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "file",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "net",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "server",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "data",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "hang up",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "online",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "sign up (v)",
+    "topic": "Communications and Technology"
+  },
+  {
+    "word": "smartphone",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "talk",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "turn on",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "webcam",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "social media",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "telephone",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "upload (n & v)",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "web page",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "software",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "switch off",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "switch on",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "text",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "text message",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "turn off",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "video clip",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "volume",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "web",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "website",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "absent",
+    "topic": "Education"
+  },
+  {
+    "word": "advanced",
+    "topic": "Education"
+  },
+  {
+    "word": "arithmetic",
+    "topic": "Education"
+  },
+  {
+    "word": "art",
+    "topic": "Education"
+  },
+  {
+    "word": "beginner",
+    "topic": "Education"
+  },
+  {
+    "word": "bell",
+    "topic": "Education"
+  },
+  {
+    "word": "biology",
+    "topic": "Education"
+  },
+  {
+    "word": "blackboard",
+    "topic": "Education"
+  },
+  {
+    "word": "board",
+    "topic": "Education"
+  },
+  {
+    "word": "book",
+    "topic": "Education"
+  },
+  {
+    "word": "bookshelf",
+    "topic": "Education"
+  },
+  {
+    "word": "break(time)",
+    "topic": "Education"
+  },
+  {
+    "word": "break up",
+    "topic": "Education"
+  },
+  {
+    "word": "certificate",
+    "topic": "Education"
+  },
+  {
+    "word": "chemistry",
+    "topic": "Education"
+  },
+  {
+    "word": "class",
+    "topic": "Education"
+  },
+  {
+    "word": "classroom",
+    "topic": "Education"
+  },
+  {
+    "word": "clever",
+    "topic": "Education"
+  },
+  {
+    "word": "coach",
+    "topic": "Education"
+  },
+  {
+    "word": "college",
+    "topic": "Education"
+  },
+  {
+    "word": "composition",
+    "topic": "Education"
+  },
+  {
+    "word": "course",
+    "topic": "Education"
+  },
+  {
+    "word": "curriculum",
+    "topic": "Education"
+  },
+  {
+    "word": "degree desk",
+    "topic": "Education"
+  },
+  {
+    "word": "dictionary",
+    "topic": "Education"
+  },
+  {
+    "word": "diploma",
+    "topic": "Education"
+  },
+  {
+    "word": "drama",
+    "topic": "Education"
+  },
+  {
+    "word": "economics",
+    "topic": "Education"
+  },
+  {
+    "word": "elementary",
+    "topic": "Education"
+  },
+  {
+    "word": "essay",
+    "topic": "Education"
+  },
+  {
+    "word": "geography",
+    "topic": "Education"
+  },
+  {
+    "word": "history",
+    "topic": "Education"
+  },
+  {
+    "word": "handwriting",
+    "topic": "Education"
+  },
+  {
+    "word": "homework",
+    "topic": "Education"
+  },
+  {
+    "word": "information",
+    "topic": "Education"
+  },
+  {
+    "word": "instructions",
+    "topic": "Education"
+  },
+  {
+    "word": "instructor",
+    "topic": "Education"
+  },
+  {
+    "word": "intermediate",
+    "topic": "Education"
+  },
+  {
+    "word": "IT",
+    "topic": "Education"
+  },
+  {
+    "word": "know",
+    "topic": "Education"
+  },
+  {
+    "word": "laboratory (lab)",
+    "topic": "Education"
+  },
+  {
+    "word": "language",
+    "topic": "Education"
+  },
+  {
+    "word": "learn",
+    "topic": "Education"
+  },
+  {
+    "word": "lesson",
+    "topic": "Education"
+  },
+  {
+    "word": "level",
+    "topic": "Education"
+  },
+  {
+    "word": "library",
+    "topic": "Education"
+  },
+  {
+    "word": "mark",
+    "topic": "Education"
+  },
+  {
+    "word": "mathematics",
+    "topic": "Education"
+  },
+  {
+    "word": "math(s)",
+    "topic": "Education"
+  },
+  {
+    "word": "music",
+    "topic": "Education"
+  },
+  {
+    "word": "nature studies",
+    "topic": "Education"
+  },
+  {
+    "word": "note",
+    "topic": "Education"
+  },
+  {
+    "word": "notice board",
+    "topic": "Education"
+  },
+  {
+    "word": "pencil case",
+    "topic": "Education"
+  },
+  {
+    "word": "photography",
+    "topic": "Education"
+  },
+  {
+    "word": "physics",
+    "topic": "Education"
+  },
+  {
+    "word": "practice (n)",
+    "topic": "Education"
+  },
+  {
+    "word": "practise (v)",
+    "topic": "Education"
+  },
+  {
+    "word": "primary school",
+    "topic": "Education"
+  },
+  {
+    "word": "project",
+    "topic": "Education"
+  },
+  {
+    "word": "pupil",
+    "topic": "Education"
+  },
+  {
+    "word": "qualification",
+    "topic": "Education"
+  },
+  {
+    "word": "read",
+    "topic": "Education"
+  },
+  {
+    "word": "register",
+    "topic": "Education"
+  },
+  {
+    "word": "remember",
+    "topic": "Education"
+  },
+  {
+    "word": "research",
+    "topic": "Education"
+  },
+  {
+    "word": "rubber",
+    "topic": "Education"
+  },
+  {
+    "word": "ruler",
+    "topic": "Education"
+  },
+  {
+    "word": "school",
+    "topic": "Education"
+  },
+  {
+    "word": "science",
+    "topic": "Education"
+  },
+  {
+    "word": "secondary",
+    "topic": "Education"
+  },
+  {
+    "word": "school",
+    "topic": "Education"
+  },
+  {
+    "word": "student",
+    "topic": "Education"
+  },
+  {
+    "word": "studies",
+    "topic": "Education"
+  },
+  {
+    "word": "study (v)",
+    "topic": "Education"
+  },
+  {
+    "word": "subject",
+    "topic": "Education"
+  },
+  {
+    "word": "teach",
+    "topic": "Education"
+  },
+  {
+    "word": "teacher",
+    "topic": "Education"
+  },
+  {
+    "word": "technology",
+    "topic": "Education"
+  },
+  {
+    "word": "term",
+    "topic": "Education"
+  },
+  {
+    "word": "test",
+    "topic": "Education"
+  },
+  {
+    "word": "university",
+    "topic": "Education"
+  },
+  {
+    "word": "act (v)",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "action",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "actor",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "actress",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "ad",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "admission",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "adventure",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "advert",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "advertisement",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "app",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "art",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "article",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "audience",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "ballet",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "band",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "bestseller",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "board game",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "book",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "chess",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "cinema",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "circus",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "classical music",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "comedy",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "comic",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "competition",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "concert",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "dance",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "dancer disc",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "/ disk disco",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "display",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "DJ / disc jockey",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "documentary",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "drama",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "draw",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "drawing",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "film star",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "fireworks",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "folk music",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "fun",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "go out",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "group",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "guitar",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "guitarist",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "headline",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "headphones",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "hero",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "heroine",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "hip hop",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "hit song",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "horror",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "instrument",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "interval",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "interview(er)",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "magic",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "MP3 player",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "museum",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "music",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "musician",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "news",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "newspaper",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "opera",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "orchestra",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "paint",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "painter",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "perform",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "performance",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "performer",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "play",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "podcast",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "poem",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "pop music",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "camera",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "DVD (player)",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "jazz music",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "presenter",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "card",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "entrance",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "journalist",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "production",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "cartoon",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "celebrity",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "CD (player)",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "channel",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "exhibition",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "exit",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "festival",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "film",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "film maker",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "keyboard",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "laugh",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "listen to",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "look at",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "programme",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "quiz",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "recording",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "review",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "rock music",
+    "topic": "Entertainment and Media"
+  },
+  {
+    "word": "romantic",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "row",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "scene",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "screen",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "selfie",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "series",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "soap opera",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "soundtrack",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "stage",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "star",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "studio",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "talk show",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "television",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "thriller",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "video",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "bottle bank",
+    "topic": "Environment"
+  },
+  {
+    "word": "climate change",
+    "topic": "Environment"
+  },
+  {
+    "word": "gas (Am Eng)",
+    "topic": "Environment"
+  },
+  {
+    "word": "litter",
+    "topic": "Environment"
+  },
+  {
+    "word": "petrol (Br Eng)",
+    "topic": "Environment"
+  },
+  {
+    "word": "pollution",
+    "topic": "Environment"
+  },
+  {
+    "word": "prohibited",
+    "topic": "Environment"
+  },
+  {
+    "word": "public transport",
+    "topic": "Environment"
+  },
+  {
+    "word": "recycle",
+    "topic": "Environment"
+  },
+  {
+    "word": "recycled",
+    "topic": "Environment"
+  },
+  {
+    "word": "recycling",
+    "topic": "Environment"
+  },
+  {
+    "word": "rubbish (bin)",
+    "topic": "Environment"
+  },
+  {
+    "word": "traffic (jam)",
+    "topic": "Environment"
+  },
+  {
+    "word": "volunteer (n)",
+    "topic": "Environment"
+  },
+  {
+    "word": "apple",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "cookie",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "ingredients",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "rice",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "bake (v)",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "corn",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "jam",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "roast (v & adj)",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "banana",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "cream",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "jug",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "roll",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "barbecue (n & v)",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "cucumber",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "juice",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "salad",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "bean",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "cup",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "kitchen",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "salmon",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "biscuit",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "curry",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "knife",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "salt",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "bitter (adj)",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "cut",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "lamb",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "sandwich",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "boil (v)",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "delicious",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "lemon",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "sauce",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "boiled",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "dessert",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "lemonade",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "saucepan",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "bottle",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "diet",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "lettuce",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "saucer",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "bowl",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "dinner",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "lunch",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "sausage",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "box",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "dish",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "main course",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "slice (n)",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "bread",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "drink",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "meal",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "snack",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "break",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "duck",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "meat",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "soft drink",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "breakfast",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "eat",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "melon",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "soup",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "broccoli",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "egg",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "menu",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "sour",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "bunch (of",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "fish",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "microwave (n)",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "spicy bananas)",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "flavour",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "milk",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "spinach",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "burger",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "flour",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "mineral water",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "spoon",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "butter",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "food",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "mushroom oil",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "steak",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "cabbage",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "fork",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "omelette",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "strawberry",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "café / cafe",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "French fries",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "onion",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "sugar",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "cafeteria",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "fresh",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "orange",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "sweet (adj & n)",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "cake",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "fridge",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "pan",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "takeaway",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "can (of beans)",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "fried",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "pasta",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "taste",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "candy",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "fruit",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "pea",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "tasty",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "canteen carrot",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "fruit juice",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "peach",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "tea thirsty",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "cereal",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "fry",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "peanut",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "toast",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "cheese",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "frying pan",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "pear",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "tomato",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "chef",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "garlic",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "pepper",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "tuna",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "chicken",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "glass",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "picnic",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "turkey",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "chilli",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "grape",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "pie",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "vegetable",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "chips",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "grill (n & v)",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "piece of cake",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "vegetarian",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "chocolate",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "grilled",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "pineapple",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "waiter",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "coconut",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "herbs",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "pizza",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "waitress",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "coffee",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "honey",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "plate",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "wash up",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "cola",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "hot",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "potato",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "yog(h) urt",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "cook (n & v)",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "hungry",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "recipe",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "cooker",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "ice",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "refreshments",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "ice cream",
+    "topic": "Food and Drink"
+  },
+  {
+    "word": "accident",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "danger",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "head",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "problem",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "ache",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "dangerous",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "headache",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "recover",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "ambulance",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "dead",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "health",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "rest (n & v)",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "ankle",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "dentist",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "hear (v)",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "run",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "appointment",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "die",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "heart",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "shoulder",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "arm",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "diet",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "heel",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "sick",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "aspirin",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "doctor",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "hospital",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "skin",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "baby",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "ear",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "hurt",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "soap",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "bandage",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "earache",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "ill",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "sore throat",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "bleed (v)",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "emergency",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "illness",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "stomach",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "blood (n)",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "exercise",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "injure",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "stomach ache",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "body",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "eye",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "keep fit",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "stress",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "bone",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "face",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "knee",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "swim",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "brain",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "fall",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "leg",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "tablet",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "break",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "feel better/ill/sick",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "lie down",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "take exercise",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "breath",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "fever",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "medicine",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "temperature",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "breathe",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "finger",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "nose",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "thumb",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "check",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "fit",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "nurse",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "tired",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "chemist",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "flu",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "operate",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "toes",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "chin",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "foot",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "operation",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "tooth",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "clean",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "get better/worse",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "pain",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "toothache",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "cold (n)",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "go jogging",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "painful",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "toothbrush",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "comb",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "gym",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "patient (n)",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "walk",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "cough (n & v)",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "gymnastics",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "pharmacy",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "well (adj)",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "cut",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "hair",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "pill",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "damage",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "hand",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "prescription",
+    "topic": "Health, Medicine and Exercise"
+  },
+  {
+    "word": "barbecue",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "beach",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "bicycle",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "bike",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "camera",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "camp",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "camping",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "campsite",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "CD (player)",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "chess",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "club",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "collect(or)",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "collection",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "computer",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "cruise",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "dance",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "dancing",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "doll",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "draw",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "drawing",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "DVD (player)",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "facilities",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "fan",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "festival",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "fiction",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "gallery",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "go out",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "go shopping",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "guitar",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "hang out",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "hire",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "hike",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "hobby",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "holidays",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "ice skates",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "jogging",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "join in",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "keen on",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "keep fit",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "magazine",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "member(ship)",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "model",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "museum",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "music",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "musician",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "nightlife",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "opening hours",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "paint",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "painting",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "park",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "party",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "photograph",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "picnic",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "playground",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "quiz",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "rope",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "sculpture",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "sightseeing",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "slide",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "sunbathe",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "tent",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "torch",
+    "topic": "Hobbies and Leisure"
+  },
+  {
+    "word": "Ho",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "use and",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "accommodation",
+    "topic": "Home"
+  },
+  {
+    "word": "computer",
+    "topic": "Home"
+  },
+  {
+    "word": "heating",
+    "topic": "Home"
+  },
+  {
+    "word": "rent",
+    "topic": "Home"
+  },
+  {
+    "word": "address",
+    "topic": "Home"
+  },
+  {
+    "word": "air conditioning",
+    "topic": "Home"
+  },
+  {
+    "word": "alarm (fire/car)",
+    "topic": "Home"
+  },
+  {
+    "word": "alarm clock",
+    "topic": "Home"
+  },
+  {
+    "word": "antique",
+    "topic": "Home"
+  },
+  {
+    "word": "apartment",
+    "topic": "Home"
+  },
+  {
+    "word": "armchair",
+    "topic": "Home"
+  },
+  {
+    "word": "balcony",
+    "topic": "Home"
+  },
+  {
+    "word": "basin",
+    "topic": "Home"
+  },
+  {
+    "word": "bath(tub)",
+    "topic": "Home"
+  },
+  {
+    "word": "bathroom",
+    "topic": "Home"
+  },
+  {
+    "word": "bed",
+    "topic": "Home"
+  },
+  {
+    "word": "bedroom",
+    "topic": "Home"
+  },
+  {
+    "word": "bell",
+    "topic": "Home"
+  },
+  {
+    "word": "bin",
+    "topic": "Home"
+  },
+  {
+    "word": "blanket",
+    "topic": "Home"
+  },
+  {
+    "word": "blind",
+    "topic": "Home"
+  },
+  {
+    "word": "block",
+    "topic": "Home"
+  },
+  {
+    "word": "(notice) board",
+    "topic": "Home"
+  },
+  {
+    "word": "bookcase",
+    "topic": "Home"
+  },
+  {
+    "word": "bookshelf",
+    "topic": "Home"
+  },
+  {
+    "word": "bowl",
+    "topic": "Home"
+  },
+  {
+    "word": "box",
+    "topic": "Home"
+  },
+  {
+    "word": "brush",
+    "topic": "Home"
+  },
+  {
+    "word": "bucket",
+    "topic": "Home"
+  },
+  {
+    "word": "bulb",
+    "topic": "Home"
+  },
+  {
+    "word": "candle",
+    "topic": "Home"
+  },
+  {
+    "word": "carpet",
+    "topic": "Home"
+  },
+  {
+    "word": "ceiling",
+    "topic": "Home"
+  },
+  {
+    "word": "cellar",
+    "topic": "Home"
+  },
+  {
+    "word": "central heating",
+    "topic": "Home"
+  },
+  {
+    "word": "chair",
+    "topic": "Home"
+  },
+  {
+    "word": "channel (with",
+    "topic": "Home"
+  },
+  {
+    "word": "TV)",
+    "topic": "Home"
+  },
+  {
+    "word": "chest of drawers",
+    "topic": "Home"
+  },
+  {
+    "word": "clock",
+    "topic": "Home"
+  },
+  {
+    "word": "cooker",
+    "topic": "Home"
+  },
+  {
+    "word": "cottage",
+    "topic": "Home"
+  },
+  {
+    "word": "cupboard",
+    "topic": "Home"
+  },
+  {
+    "word": "curtain",
+    "topic": "Home"
+  },
+  {
+    "word": "cushion",
+    "topic": "Home"
+  },
+  {
+    "word": "desk digital",
+    "topic": "Home"
+  },
+  {
+    "word": "(adj)",
+    "topic": "Home"
+  },
+  {
+    "word": "dining room",
+    "topic": "Home"
+  },
+  {
+    "word": "dish",
+    "topic": "Home"
+  },
+  {
+    "word": "dishwasher",
+    "topic": "Home"
+  },
+  {
+    "word": "door",
+    "topic": "Home"
+  },
+  {
+    "word": "downstairs",
+    "topic": "Home"
+  },
+  {
+    "word": "drawer",
+    "topic": "Home"
+  },
+  {
+    "word": "dustbin",
+    "topic": "Home"
+  },
+  {
+    "word": "duvet",
+    "topic": "Home"
+  },
+  {
+    "word": "DVD (player)",
+    "topic": "Home"
+  },
+  {
+    "word": "electric(al)",
+    "topic": "Home"
+  },
+  {
+    "word": "entrance",
+    "topic": "Home"
+  },
+  {
+    "word": "fan",
+    "topic": "Home"
+  },
+  {
+    "word": "flat",
+    "topic": "Home"
+  },
+  {
+    "word": "flatmate",
+    "topic": "Home"
+  },
+  {
+    "word": "floor",
+    "topic": "Home"
+  },
+  {
+    "word": "freezer",
+    "topic": "Home"
+  },
+  {
+    "word": "fridge",
+    "topic": "Home"
+  },
+  {
+    "word": "frying pan",
+    "topic": "Home"
+  },
+  {
+    "word": "furniture",
+    "topic": "Home"
+  },
+  {
+    "word": "garage",
+    "topic": "Home"
+  },
+  {
+    "word": "garden",
+    "topic": "Home"
+  },
+  {
+    "word": "gas",
+    "topic": "Home"
+  },
+  {
+    "word": "gate",
+    "topic": "Home"
+  },
+  {
+    "word": "grill",
+    "topic": "Home"
+  },
+  {
+    "word": "ground (floor)",
+    "topic": "Home"
+  },
+  {
+    "word": "hall",
+    "topic": "Home"
+  },
+  {
+    "word": "handle",
+    "topic": "Home"
+  },
+  {
+    "word": "heat (v)",
+    "topic": "Home"
+  },
+  {
+    "word": "heater",
+    "topic": "Home"
+  },
+  {
+    "word": "hi-fi",
+    "topic": "Home"
+  },
+  {
+    "word": "home",
+    "topic": "Home"
+  },
+  {
+    "word": "house",
+    "topic": "Home"
+  },
+  {
+    "word": "housewife",
+    "topic": "Home"
+  },
+  {
+    "word": "housework",
+    "topic": "Home"
+  },
+  {
+    "word": "iron",
+    "topic": "Home"
+  },
+  {
+    "word": "jug",
+    "topic": "Home"
+  },
+  {
+    "word": "kettle",
+    "topic": "Home"
+  },
+  {
+    "word": "key",
+    "topic": "Home"
+  },
+  {
+    "word": "kitchen",
+    "topic": "Home"
+  },
+  {
+    "word": "ladder",
+    "topic": "Home"
+  },
+  {
+    "word": "lamp",
+    "topic": "Home"
+  },
+  {
+    "word": "laptop",
+    "topic": "Home"
+  },
+  {
+    "word": "(computer)",
+    "topic": "Home"
+  },
+  {
+    "word": "lift",
+    "topic": "Home"
+  },
+  {
+    "word": "light",
+    "topic": "Home"
+  },
+  {
+    "word": "(clothes) line",
+    "topic": "Home"
+  },
+  {
+    "word": "living-room",
+    "topic": "Home"
+  },
+  {
+    "word": "lock",
+    "topic": "Home"
+  },
+  {
+    "word": "microwave (n)",
+    "topic": "Home"
+  },
+  {
+    "word": "mirror",
+    "topic": "Home"
+  },
+  {
+    "word": "mug",
+    "topic": "Home"
+  },
+  {
+    "word": "neighbour",
+    "topic": "Home"
+  },
+  {
+    "word": "oil",
+    "topic": "Home"
+  },
+  {
+    "word": "oven",
+    "topic": "Home"
+  },
+  {
+    "word": "pan",
+    "topic": "Home"
+  },
+  {
+    "word": "path",
+    "topic": "Home"
+  },
+  {
+    "word": "pillow",
+    "topic": "Home"
+  },
+  {
+    "word": "pipe",
+    "topic": "Home"
+  },
+  {
+    "word": "plant",
+    "topic": "Home"
+  },
+  {
+    "word": "plug",
+    "topic": "Home"
+  },
+  {
+    "word": "plug in",
+    "topic": "Home"
+  },
+  {
+    "word": "property",
+    "topic": "Home"
+  },
+  {
+    "word": "radio",
+    "topic": "Home"
+  },
+  {
+    "word": "refrigerator",
+    "topic": "Home"
+  },
+  {
+    "word": "remote control",
+    "topic": "Home"
+  },
+  {
+    "word": "repair",
+    "topic": "Home"
+  },
+  {
+    "word": "roof",
+    "topic": "Home"
+  },
+  {
+    "word": "room",
+    "topic": "Home"
+  },
+  {
+    "word": "roommate",
+    "topic": "Home"
+  },
+  {
+    "word": "rubbish",
+    "topic": "Home"
+  },
+  {
+    "word": "safe (adj)",
+    "topic": "Home"
+  },
+  {
+    "word": "seat",
+    "topic": "Home"
+  },
+  {
+    "word": "sheet",
+    "topic": "Home"
+  },
+  {
+    "word": "shelf",
+    "topic": "Home"
+  },
+  {
+    "word": "shower",
+    "topic": "Home"
+  },
+  {
+    "word": "sink",
+    "topic": "Home"
+  },
+  {
+    "word": "sitting room",
+    "topic": "Home"
+  },
+  {
+    "word": "sofa",
+    "topic": "Home"
+  },
+  {
+    "word": "stairs",
+    "topic": "Home"
+  },
+  {
+    "word": "stay (v)",
+    "topic": "Home"
+  },
+  {
+    "word": "step",
+    "topic": "Home"
+  },
+  {
+    "word": "surround",
+    "topic": "Home"
+  },
+  {
+    "word": "switch",
+    "topic": "Home"
+  },
+  {
+    "word": "table",
+    "topic": "Home"
+  },
+  {
+    "word": "tap",
+    "topic": "Home"
+  },
+  {
+    "word": "telephone",
+    "topic": "Home"
+  },
+  {
+    "word": "television",
+    "topic": "Home"
+  },
+  {
+    "word": "toilet",
+    "topic": "Home"
+  },
+  {
+    "word": "towel",
+    "topic": "Home"
+  },
+  {
+    "word": "tower",
+    "topic": "Home"
+  },
+  {
+    "word": "toy",
+    "topic": "Home"
+  },
+  {
+    "word": "TV (screen/set)",
+    "topic": "Home"
+  },
+  {
+    "word": "upstairs (adv)",
+    "topic": "Home"
+  },
+  {
+    "word": "vase",
+    "topic": "Home"
+  },
+  {
+    "word": "video",
+    "topic": "Home"
+  },
+  {
+    "word": "wall",
+    "topic": "Home"
+  },
+  {
+    "word": "washing",
+    "topic": "Home"
+  },
+  {
+    "word": "machine",
+    "topic": "Home"
+  },
+  {
+    "word": "window",
+    "topic": "Home"
+  },
+  {
+    "word": "advanced",
+    "topic": "Language"
+  },
+  {
+    "word": "answer",
+    "topic": "Language"
+  },
+  {
+    "word": "argue",
+    "topic": "Language"
+  },
+  {
+    "word": "ask",
+    "topic": "Language"
+  },
+  {
+    "word": "beginner",
+    "topic": "Language"
+  },
+  {
+    "word": "chat",
+    "topic": "Language"
+  },
+  {
+    "word": "communicate",
+    "topic": "Language"
+  },
+  {
+    "word": "communication",
+    "topic": "Language"
+  },
+  {
+    "word": "elementary",
+    "topic": "Language"
+  },
+  {
+    "word": "email",
+    "topic": "Language"
+  },
+  {
+    "word": "grammar",
+    "topic": "Language"
+  },
+  {
+    "word": "intermediate",
+    "topic": "Language"
+  },
+  {
+    "word": "joke",
+    "topic": "Language"
+  },
+  {
+    "word": "letter",
+    "topic": "Language"
+  },
+  {
+    "word": "mean",
+    "topic": "Language"
+  },
+  {
+    "word": "meaning",
+    "topic": "Language"
+  },
+  {
+    "word": "mention",
+    "topic": "Language"
+  },
+  {
+    "word": "message",
+    "topic": "Language"
+  },
+  {
+    "word": "pronounce",
+    "topic": "Language"
+  },
+  {
+    "word": "pronunciation",
+    "topic": "Language"
+  },
+  {
+    "word": "question",
+    "topic": "Language"
+  },
+  {
+    "word": "say",
+    "topic": "Language"
+  },
+  {
+    "word": "sentence",
+    "topic": "Language"
+  },
+  {
+    "word": "shout",
+    "topic": "Language"
+  },
+  {
+    "word": "speak",
+    "topic": "Language"
+  },
+  {
+    "word": "talk",
+    "topic": "Language"
+  },
+  {
+    "word": "tell",
+    "topic": "Language"
+  },
+  {
+    "word": "translate",
+    "topic": "Language"
+  },
+  {
+    "word": "translation",
+    "topic": "Language"
+  },
+  {
+    "word": "vocabulary",
+    "topic": "Language"
+  },
+  {
+    "word": "word",
+    "topic": "Language"
+  },
+  {
+    "word": "able",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "afraid",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "alone",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "amazed",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "amazing",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "amusing",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "angry",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "annoyed",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "anxious",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "ashamed",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "awesome",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "awful",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "bad",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "beautiful",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "better",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "bored",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "boring",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "bossy",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "brave",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "brilliant",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "busy",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "calm",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "careful",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "challenging",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "charming",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "cheerful",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "clear",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "clever",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "confident",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "confused",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "confusing",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "cool",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "crazy",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "cruel",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "curious",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "cute",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "delighted",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "depressed",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "different",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "difficult",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "disappointed",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "disappointing",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "easy",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "embarrassed",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "embarrassing",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "enjoyable",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "excellent",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "excited",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "exciting",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "famous",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "fantastic",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "favourite",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "fine",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "fit",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "fond",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "free",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "frightened",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "frightening",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "friendly",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "funny",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "generous",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "gentle",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "glad",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "good",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "great",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "guilty",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "happy",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "hard",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "healthy",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "heavy",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "high",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "hungry",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "important",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "impressed",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "intelligent",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "interested",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "interesting",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "jealous",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "keen",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "kind",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "lazy",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "lovely",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "lucky",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "mad",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "married",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "miserable",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "modern",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "negative",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "nervous",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "nice",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "noisy",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "normal",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "old",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "old-fashioned",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "ordinary",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "original",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "patient",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "personal",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "pleasant",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "poor",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "positive",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "pretty",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "quick",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "quiet",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "ready",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "real",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "realistic",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "reasonable",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "relaxed",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "reliable",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "relieved",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "rich",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "right",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "rude",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "sad",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "satisfied",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "serious",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "slim",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "slow",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "small",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "smart",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "sorry",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "soft",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "special",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "strange",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "strong",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "stupid",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "sure",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "surprised",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "sweet",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "tall",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "terrible",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "tired",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "true",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "typical",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "unable",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "unhappy",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "unusual",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "useful",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "well",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "wonderful",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "worried",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "wrong",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "young",
+    "topic": "Personal Feelings, Opinions and Experiences (Adjectives)"
+  },
+  {
+    "word": "apartment block / apartment building",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "bank",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "bookshop",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "bookstore",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "building",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "cafe / café",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "cafeteria",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "castle",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "cinema",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "clinic",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "club",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "college",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "cottage",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "department store",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "disco",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "elevator",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "entrance",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "exit",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "factory",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "flat",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "gallery",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "garage",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "grocery store",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "guest-house",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "hospital",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "hotel",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "house",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "library",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "lift",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "mall (shopping)",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "museum",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "office",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "palace",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "police station",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "post office",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "prison",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "railway station",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "ruin",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "school",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "shop",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "sports centre",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "stadium",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "supermarket",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "swimming pool",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "theatre",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "tourist information centre",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "tower",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "university",
+    "topic": "Places: Buildings"
+  },
+  {
+    "word": "area",
+    "topic": "Places:"
+  },
+  {
+    "word": "field",
+    "topic": "Places:"
+  },
+  {
+    "word": "path",
+    "topic": "Places:"
+  },
+  {
+    "word": "sea",
+    "topic": "Places:"
+  },
+  {
+    "word": "bay",
+    "topic": "Places:"
+  },
+  {
+    "word": "forest",
+    "topic": "Places:"
+  },
+  {
+    "word": "port",
+    "topic": "Places:"
+  },
+  {
+    "word": "seaside",
+    "topic": "Places:"
+  },
+  {
+    "word": "beach",
+    "topic": "Places:"
+  },
+  {
+    "word": "harbour",
+    "topic": "Places:"
+  },
+  {
+    "word": "railway",
+    "topic": "Places:"
+  },
+  {
+    "word": "sky",
+    "topic": "Places:"
+  },
+  {
+    "word": "campsite",
+    "topic": "Places:"
+  },
+  {
+    "word": "hill",
+    "topic": "Places:"
+  },
+  {
+    "word": "rainforest",
+    "topic": "Places:"
+  },
+  {
+    "word": "stream",
+    "topic": "Places:"
+  },
+  {
+    "word": "canal",
+    "topic": "Places:"
+  },
+  {
+    "word": "island",
+    "topic": "Places:"
+  },
+  {
+    "word": "region",
+    "topic": "Places:"
+  },
+  {
+    "word": "valley",
+    "topic": "Places:"
+  },
+  {
+    "word": "cliff",
+    "topic": "Places:"
+  },
+  {
+    "word": "lake",
+    "topic": "Places:"
+  },
+  {
+    "word": "river",
+    "topic": "Places:"
+  },
+  {
+    "word": "village",
+    "topic": "Places:"
+  },
+  {
+    "word": "desert",
+    "topic": "Places:"
+  },
+  {
+    "word": "land",
+    "topic": "Places:"
+  },
+  {
+    "word": "rock",
+    "topic": "Places:"
+  },
+  {
+    "word": "waterfall",
+    "topic": "Places:"
+  },
+  {
+    "word": "earth",
+    "topic": "Places:"
+  },
+  {
+    "word": "farm",
+    "topic": "Places:"
+  },
+  {
+    "word": "mountain",
+    "topic": "Places:"
+  },
+  {
+    "word": "ocean",
+    "topic": "Places:"
+  },
+  {
+    "word": "sand",
+    "topic": "Places:"
+  },
+  {
+    "word": "scenery",
+    "topic": "Places:"
+  },
+  {
+    "word": "wood",
+    "topic": "Places:"
+  },
+  {
+    "word": "apartment",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "building",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "airport",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "booking office",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "bridge",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "bus station",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "bus stop",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "car park",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "cash machine",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "cashpoint",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "city centre",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "corner",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "crossing",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "crossroads",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "fountain",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "market",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "motorway",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "monument",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "park",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "pavement",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "petrol station",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "playground",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "road",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "roundabout",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "route",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "shopping centre",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "(shopping) mall",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "signpost",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "square",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "station",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "street",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "subway",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "town",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "tunnel",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "turning",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "underground",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "zoo",
+    "topic": "Places: Town and City"
+  },
+  {
+    "word": "bank",
+    "topic": "Services"
+  },
+  {
+    "word": "café / café",
+    "topic": "Services"
+  },
+  {
+    "word": "cafeteria",
+    "topic": "Services"
+  },
+  {
+    "word": "cinema",
+    "topic": "Services"
+  },
+  {
+    "word": "dentist",
+    "topic": "Services"
+  },
+  {
+    "word": "doctor",
+    "topic": "Services"
+  },
+  {
+    "word": "gallery",
+    "topic": "Services"
+  },
+  {
+    "word": "garage",
+    "topic": "Services"
+  },
+  {
+    "word": "hairdresser",
+    "topic": "Services"
+  },
+  {
+    "word": "hotel",
+    "topic": "Services"
+  },
+  {
+    "word": "library",
+    "topic": "Services"
+  },
+  {
+    "word": "museum",
+    "topic": "Services"
+  },
+  {
+    "word": "post office",
+    "topic": "Services"
+  },
+  {
+    "word": "restaurant",
+    "topic": "Services"
+  },
+  {
+    "word": "sports centre",
+    "topic": "Services"
+  },
+  {
+    "word": "swimming pool",
+    "topic": "Services"
+  },
+  {
+    "word": "theatre",
+    "topic": "Services"
+  },
+  {
+    "word": "tourist information",
+    "topic": "Services"
+  },
+  {
+    "word": "ad",
+    "topic": "Shopping"
+  },
+  {
+    "word": "closed",
+    "topic": "Shopping"
+  },
+  {
+    "word": "go shopping",
+    "topic": "Shopping"
+  },
+  {
+    "word": "reduced",
+    "topic": "Shopping"
+  },
+  {
+    "word": "advert",
+    "topic": "Shopping"
+  },
+  {
+    "word": "collect",
+    "topic": "Shopping"
+  },
+  {
+    "word": "hire",
+    "topic": "Shopping"
+  },
+  {
+    "word": "rent",
+    "topic": "Shopping"
+  },
+  {
+    "word": "advertise",
+    "topic": "Shopping"
+  },
+  {
+    "word": "complain",
+    "topic": "Shopping"
+  },
+  {
+    "word": "inexpensive",
+    "topic": "Shopping"
+  },
+  {
+    "word": "reserve",
+    "topic": "Shopping"
+  },
+  {
+    "word": "advertisement",
+    "topic": "Shopping"
+  },
+  {
+    "word": "cost (n & v)",
+    "topic": "Shopping"
+  },
+  {
+    "word": "label",
+    "topic": "Shopping"
+  },
+  {
+    "word": "return",
+    "topic": "Shopping"
+  },
+  {
+    "word": "assistant",
+    "topic": "Shopping"
+  },
+  {
+    "word": "credit card",
+    "topic": "Shopping"
+  },
+  {
+    "word": "logo",
+    "topic": "Shopping"
+  },
+  {
+    "word": "save",
+    "topic": "Shopping"
+  },
+  {
+    "word": "bargain",
+    "topic": "Shopping"
+  },
+  {
+    "word": "customer",
+    "topic": "Shopping"
+  },
+  {
+    "word": "luxury",
+    "topic": "Shopping"
+  },
+  {
+    "word": "second-hand",
+    "topic": "Shopping"
+  },
+  {
+    "word": "bill",
+    "topic": "Shopping"
+  },
+  {
+    "word": "damaged",
+    "topic": "Shopping"
+  },
+  {
+    "word": "mall",
+    "topic": "Shopping"
+  },
+  {
+    "word": "sell",
+    "topic": "Shopping"
+  },
+  {
+    "word": "book",
+    "topic": "Shopping"
+  },
+  {
+    "word": "dear",
+    "topic": "Shopping"
+  },
+  {
+    "word": "money",
+    "topic": "Shopping"
+  },
+  {
+    "word": "shop",
+    "topic": "Shopping"
+  },
+  {
+    "word": "buy",
+    "topic": "Shopping"
+  },
+  {
+    "word": "department",
+    "topic": "Shopping"
+  },
+  {
+    "word": "order",
+    "topic": "Shopping"
+  },
+  {
+    "word": "shop assistant",
+    "topic": "Shopping"
+  },
+  {
+    "word": "cash store",
+    "topic": "Shopping"
+  },
+  {
+    "word": "pay (for)",
+    "topic": "Shopping"
+  },
+  {
+    "word": "shopper",
+    "topic": "Shopping"
+  },
+  {
+    "word": "cent",
+    "topic": "Shopping"
+  },
+  {
+    "word": "deposit",
+    "topic": "Shopping"
+  },
+  {
+    "word": "penny",
+    "topic": "Shopping"
+  },
+  {
+    "word": "shopping",
+    "topic": "Shopping"
+  },
+  {
+    "word": "change",
+    "topic": "Shopping"
+  },
+  {
+    "word": "dollar",
+    "topic": "Shopping"
+  },
+  {
+    "word": "pound",
+    "topic": "Shopping"
+  },
+  {
+    "word": "spend",
+    "topic": "Shopping"
+  },
+  {
+    "word": "cheap",
+    "topic": "Shopping"
+  },
+  {
+    "word": "euro",
+    "topic": "Shopping"
+  },
+  {
+    "word": "price",
+    "topic": "Shopping"
+  },
+  {
+    "word": "supermarket",
+    "topic": "Shopping"
+  },
+  {
+    "word": "cheque",
+    "topic": "Shopping"
+  },
+  {
+    "word": "exchange",
+    "topic": "Shopping"
+  },
+  {
+    "word": "reasonable",
+    "topic": "Shopping"
+  },
+  {
+    "word": "try on",
+    "topic": "Shopping"
+  },
+  {
+    "word": "choose",
+    "topic": "Shopping"
+  },
+  {
+    "word": "expensive",
+    "topic": "Shopping"
+  },
+  {
+    "word": "receipt",
+    "topic": "Shopping"
+  },
+  {
+    "word": "close (v)",
+    "topic": "Shopping"
+  },
+  {
+    "word": "for sale",
+    "topic": "Shopping"
+  },
+  {
+    "word": "reduce",
+    "topic": "Shopping"
+  },
+  {
+    "word": "athlete",
+    "topic": "Sport"
+  },
+  {
+    "word": "extreme sports",
+    "topic": "Sport"
+  },
+  {
+    "word": "pitch (n)",
+    "topic": "Sport"
+  },
+  {
+    "word": "squash",
+    "topic": "Sport"
+  },
+  {
+    "word": "athletics",
+    "topic": "Sport"
+  },
+  {
+    "word": "badminton",
+    "topic": "Sport"
+  },
+  {
+    "word": "ball",
+    "topic": "Sport"
+  },
+  {
+    "word": "baseball",
+    "topic": "Sport"
+  },
+  {
+    "word": "basketball",
+    "topic": "Sport"
+  },
+  {
+    "word": "bat",
+    "topic": "Sport"
+  },
+  {
+    "word": "bathing suit",
+    "topic": "Sport"
+  },
+  {
+    "word": "beach",
+    "topic": "Sport"
+  },
+  {
+    "word": "bicycle",
+    "topic": "Sport"
+  },
+  {
+    "word": "bike",
+    "topic": "Sport"
+  },
+  {
+    "word": "boat",
+    "topic": "Sport"
+  },
+  {
+    "word": "boxing",
+    "topic": "Sport"
+  },
+  {
+    "word": "catch (v)",
+    "topic": "Sport"
+  },
+  {
+    "word": "champion",
+    "topic": "Sport"
+  },
+  {
+    "word": "championship",
+    "topic": "Sport"
+  },
+  {
+    "word": "changing room",
+    "topic": "Sport"
+  },
+  {
+    "word": "climb (v)",
+    "topic": "Sport"
+  },
+  {
+    "word": "climbing",
+    "topic": "Sport"
+  },
+  {
+    "word": "club",
+    "topic": "Sport"
+  },
+  {
+    "word": "coach (n)",
+    "topic": "Sport"
+  },
+  {
+    "word": "compete",
+    "topic": "Sport"
+  },
+  {
+    "word": "competition",
+    "topic": "Sport"
+  },
+  {
+    "word": "competitor",
+    "topic": "Sport"
+  },
+  {
+    "word": "contest",
+    "topic": "Sport"
+  },
+  {
+    "word": "court",
+    "topic": "Sport"
+  },
+  {
+    "word": "cricket",
+    "topic": "Sport"
+  },
+  {
+    "word": "cycling",
+    "topic": "Sport"
+  },
+  {
+    "word": "cyclist",
+    "topic": "Sport"
+  },
+  {
+    "word": "dancing",
+    "topic": "Sport"
+  },
+  {
+    "word": "diving",
+    "topic": "Sport"
+  },
+  {
+    "word": "enter (a",
+    "topic": "Sport"
+  },
+  {
+    "word": "competition)",
+    "topic": "Sport"
+  },
+  {
+    "word": "(sports) facilities",
+    "topic": "Sport"
+  },
+  {
+    "word": "fishing",
+    "topic": "Sport"
+  },
+  {
+    "word": "fitness",
+    "topic": "Sport"
+  },
+  {
+    "word": "football",
+    "topic": "Sport"
+  },
+  {
+    "word": "football player",
+    "topic": "Sport"
+  },
+  {
+    "word": "game",
+    "topic": "Sport"
+  },
+  {
+    "word": "goal",
+    "topic": "Sport"
+  },
+  {
+    "word": "goalkeeper",
+    "topic": "Sport"
+  },
+  {
+    "word": "golf",
+    "topic": "Sport"
+  },
+  {
+    "word": "gym",
+    "topic": "Sport"
+  },
+  {
+    "word": "gymnastics",
+    "topic": "Sport"
+  },
+  {
+    "word": "helmet",
+    "topic": "Sport"
+  },
+  {
+    "word": "high jump",
+    "topic": "Sport"
+  },
+  {
+    "word": "hit (v)",
+    "topic": "Sport"
+  },
+  {
+    "word": "hockey",
+    "topic": "Sport"
+  },
+  {
+    "word": "horse-riding",
+    "topic": "Sport"
+  },
+  {
+    "word": "ice hockey",
+    "topic": "Sport"
+  },
+  {
+    "word": "ice skates",
+    "topic": "Sport"
+  },
+  {
+    "word": "ice skating",
+    "topic": "Sport"
+  },
+  {
+    "word": "instructor",
+    "topic": "Sport"
+  },
+  {
+    "word": "jogging",
+    "topic": "Sport"
+  },
+  {
+    "word": "join in",
+    "topic": "Sport"
+  },
+  {
+    "word": "kick (v)",
+    "topic": "Sport"
+  },
+  {
+    "word": "kit",
+    "topic": "Sport"
+  },
+  {
+    "word": "league",
+    "topic": "Sport"
+  },
+  {
+    "word": "locker (room)",
+    "topic": "Sport"
+  },
+  {
+    "word": "long jump",
+    "topic": "Sport"
+  },
+  {
+    "word": "luck",
+    "topic": "Sport"
+  },
+  {
+    "word": "match",
+    "topic": "Sport"
+  },
+  {
+    "word": "member",
+    "topic": "Sport"
+  },
+  {
+    "word": "motor-racing",
+    "topic": "Sport"
+  },
+  {
+    "word": "net",
+    "topic": "Sport"
+  },
+  {
+    "word": "play (v)",
+    "topic": "Sport"
+  },
+  {
+    "word": "point(s)",
+    "topic": "Sport"
+  },
+  {
+    "word": "practice (n)",
+    "topic": "Sport"
+  },
+  {
+    "word": "practise (v)",
+    "topic": "Sport"
+  },
+  {
+    "word": "prize",
+    "topic": "Sport"
+  },
+  {
+    "word": "race",
+    "topic": "Sport"
+  },
+  {
+    "word": "race track",
+    "topic": "Sport"
+  },
+  {
+    "word": "racing",
+    "topic": "Sport"
+  },
+  {
+    "word": "racket",
+    "topic": "Sport"
+  },
+  {
+    "word": "reserve (n)",
+    "topic": "Sport"
+  },
+  {
+    "word": "rest (n & v)",
+    "topic": "Sport"
+  },
+  {
+    "word": "ride (n & v)",
+    "topic": "Sport"
+  },
+  {
+    "word": "rider",
+    "topic": "Sport"
+  },
+  {
+    "word": "riding",
+    "topic": "Sport"
+  },
+  {
+    "word": "rugby",
+    "topic": "Sport"
+  },
+  {
+    "word": "run (n & v)",
+    "topic": "Sport"
+  },
+  {
+    "word": "running",
+    "topic": "Sport"
+  },
+  {
+    "word": "sail (n & v)",
+    "topic": "Sport"
+  },
+  {
+    "word": "sailing",
+    "topic": "Sport"
+  },
+  {
+    "word": "score",
+    "topic": "Sport"
+  },
+  {
+    "word": "sea",
+    "topic": "Sport"
+  },
+  {
+    "word": "season",
+    "topic": "Sport"
+  },
+  {
+    "word": "shoot(ing)",
+    "topic": "Sport"
+  },
+  {
+    "word": "shorts",
+    "topic": "Sport"
+  },
+  {
+    "word": "skateboard",
+    "topic": "Sport"
+  },
+  {
+    "word": "skating",
+    "topic": "Sport"
+  },
+  {
+    "word": "skiing",
+    "topic": "Sport"
+  },
+  {
+    "word": "snowboard",
+    "topic": "Sport"
+  },
+  {
+    "word": "snowboarding",
+    "topic": "Sport"
+  },
+  {
+    "word": "soccer",
+    "topic": "Sport"
+  },
+  {
+    "word": "sport(s)",
+    "topic": "Sport"
+  },
+  {
+    "word": "sports centre",
+    "topic": "Sport"
+  },
+  {
+    "word": "stadium",
+    "topic": "Sport"
+  },
+  {
+    "word": "surf",
+    "topic": "Sport"
+  },
+  {
+    "word": "surfboard",
+    "topic": "Sport"
+  },
+  {
+    "word": "surfboarding",
+    "topic": "Sport"
+  },
+  {
+    "word": "surfing",
+    "topic": "Sport"
+  },
+  {
+    "word": "swim",
+    "topic": "Sport"
+  },
+  {
+    "word": "swimming",
+    "topic": "Sport"
+  },
+  {
+    "word": "swimming costume",
+    "topic": "Sport"
+  },
+  {
+    "word": "swimming pool",
+    "topic": "Sport"
+  },
+  {
+    "word": "swimsuit",
+    "topic": "Sport"
+  },
+  {
+    "word": "table tennis",
+    "topic": "Sport"
+  },
+  {
+    "word": "take part",
+    "topic": "Sport"
+  },
+  {
+    "word": "team",
+    "topic": "Sport"
+  },
+  {
+    "word": "tennis",
+    "topic": "Sport"
+  },
+  {
+    "word": "tennis player",
+    "topic": "Sport"
+  },
+  {
+    "word": "throw (v)",
+    "topic": "Sport"
+  },
+  {
+    "word": "ticket",
+    "topic": "Sport"
+  },
+  {
+    "word": "tired",
+    "topic": "Sport"
+  },
+  {
+    "word": "track",
+    "topic": "Sport"
+  },
+  {
+    "word": "tracksuit",
+    "topic": "Sport"
+  },
+  {
+    "word": "trainer(s)",
+    "topic": "Sport"
+  },
+  {
+    "word": "train(ing)",
+    "topic": "Sport"
+  },
+  {
+    "word": "versus / v",
+    "topic": "Sport"
+  },
+  {
+    "word": "volleyball",
+    "topic": "Sport"
+  },
+  {
+    "word": "walk (v)",
+    "topic": "Sport"
+  },
+  {
+    "word": "watch (v)",
+    "topic": "Sport"
+  },
+  {
+    "word": "water skiing",
+    "topic": "Sport"
+  },
+  {
+    "word": "win",
+    "topic": "Sport"
+  },
+  {
+    "word": "workout",
+    "topic": "Sport"
+  },
+  {
+    "word": "yoga",
+    "topic": "Sport"
+  },
+  {
+    "word": "air",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "animal",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "autumn",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "beach",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "bee",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "bird",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "branch",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "bush",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "butterfly",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "cave",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "cliff",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "climate",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "coast",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "continent",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "country",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "countryside",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "desert",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "dolphin",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "donkey",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "duck",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "earth",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "east",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "elephant",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "environment",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "environmental",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "explore(r)",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "fall (Am Eng)",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "farmland",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "field",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "fire",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "fish",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "flood",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "flower",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "forest",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "freeze",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "frog",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "fur",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "giraffe",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "grass",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "grow",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "hill",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "hot",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "ice",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "island",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "jungle",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "kangaroo",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "lake",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "land",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "leaf",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "lion",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "monkey",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "moon",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "mosquito",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "mountain",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "mouse/mice",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "nature north",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "parrot",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "penguin",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "planet",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "plant",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "pollution",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "rabbit",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "rainforest",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "range",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "river",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "rock",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "sand",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "scenery",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "sea",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "shark",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "sky",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "south",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "space",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "species",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "spring",
+    "topic": "The Natural World"
+  },
+  {
+    "word": "star",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "sunshine",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "waves",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "wool",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "stone",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "tiger",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "west",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "world",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "summer",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "sun",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "tree",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "valley",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "wild",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "wildlife",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "zebra",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "sunrise",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "water",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "winter",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "sunset",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "waterfall",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "wood",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "afternoon",
+    "topic": "Time"
+  },
+  {
+    "word": "evening",
+    "topic": "Time"
+  },
+  {
+    "word": "night",
+    "topic": "Time"
+  },
+  {
+    "word": "weekday",
+    "topic": "Time"
+  },
+  {
+    "word": "a.m. / p.m.",
+    "topic": "Time"
+  },
+  {
+    "word": "half (past)",
+    "topic": "Time"
+  },
+  {
+    "word": "noon",
+    "topic": "Time"
+  },
+  {
+    "word": "weekend",
+    "topic": "Time"
+  },
+  {
+    "word": "ages (for ages)",
+    "topic": "Time"
+  },
+  {
+    "word": "holidays",
+    "topic": "Time"
+  },
+  {
+    "word": "o’clock",
+    "topic": "Time"
+  },
+  {
+    "word": "weekly",
+    "topic": "Time"
+  },
+  {
+    "word": "appointment",
+    "topic": "Time"
+  },
+  {
+    "word": "hour",
+    "topic": "Time"
+  },
+  {
+    "word": "past",
+    "topic": "Time"
+  },
+  {
+    "word": "winter",
+    "topic": "Time"
+  },
+  {
+    "word": "approximately",
+    "topic": "Time"
+  },
+  {
+    "word": "January - December",
+    "topic": "Time"
+  },
+  {
+    "word": "quarter (past / to)",
+    "topic": "Time"
+  },
+  {
+    "word": "working hours",
+    "topic": "Time"
+  },
+  {
+    "word": "autumn",
+    "topic": "Time"
+  },
+  {
+    "word": "meeting",
+    "topic": "Time"
+  },
+  {
+    "word": "second",
+    "topic": "Time"
+  },
+  {
+    "word": "year",
+    "topic": "Time"
+  },
+  {
+    "word": "birthday",
+    "topic": "Time"
+  },
+  {
+    "word": "midnight",
+    "topic": "Time"
+  },
+  {
+    "word": "spring",
+    "topic": "Time"
+  },
+  {
+    "word": "yesterday",
+    "topic": "Time"
+  },
+  {
+    "word": "century",
+    "topic": "Time"
+  },
+  {
+    "word": "minute",
+    "topic": "Time"
+  },
+  {
+    "word": "summer",
+    "topic": "Time"
+  },
+  {
+    "word": "clock",
+    "topic": "Time"
+  },
+  {
+    "word": "moment",
+    "topic": "Time"
+  },
+  {
+    "word": "time",
+    "topic": "Time"
+  },
+  {
+    "word": "daily",
+    "topic": "Time"
+  },
+  {
+    "word": "Monday - Sunday",
+    "topic": "Time"
+  },
+  {
+    "word": "today",
+    "topic": "Time"
+  },
+  {
+    "word": "date",
+    "topic": "Time"
+  },
+  {
+    "word": "month",
+    "topic": "Time"
+  },
+  {
+    "word": "tomorrow",
+    "topic": "Time"
+  },
+  {
+    "word": "day",
+    "topic": "Time"
+  },
+  {
+    "word": "monthly",
+    "topic": "Time"
+  },
+  {
+    "word": "tonight",
+    "topic": "Time"
+  },
+  {
+    "word": "diary",
+    "topic": "Time"
+  },
+  {
+    "word": "morning",
+    "topic": "Time"
+  },
+  {
+    "word": "week",
+    "topic": "Time"
+  },
+  {
+    "word": "abroad",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "accommodation",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "(aero) / (air)plane",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "airline",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "airport",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "ambulance",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "announcement",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "arrival",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "arrive",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "astronaut",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "at sea",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "backpack",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "backpacker",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "backpacking",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "bag",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "baggage",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "bicycle / bike",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "board (v)",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "boarding pass",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "boat",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "border",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "bridge",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "brochure",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "bus",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "bus station",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "bus stop",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "by air",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "by land",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "by rail by road by sea cab cabin canal capital city car car alarm car park case catch (v) change (v) charter check in (v) check-in (n) check out (v) coach confirm country crossing crossroads currency customs cycle (n & v) cyclist delay delayed deliver depart",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "departure",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "destination",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "direction",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "document(s)",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "dollar",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "double room",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "drive",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "driver",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "driving/driver’s",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "licence",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "due",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "duty-free",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "embassy",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "euro",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "exchange rate",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "facilities",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "far",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "fare",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "ferry",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "flight",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "fly",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "foreign",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "fuel",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "garage",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "gas / gas station (Am Eng)",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "gate",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "guest",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "guide",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "guidebook",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "handlebars",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "harbour",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "helicopter",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "hitchhike",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "hotel",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "immigration",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "jet",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "journey",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "land (v)",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "leave",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "left",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "light",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "lorry",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "luggage",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "machine",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "map",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "mechanic",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "mirror",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "miss",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "motorbike",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "motorway",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "move",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "nationality",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "on board",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "on business",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "on foot",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "on holiday",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "on time",
+    "topic": "Travel and Transport"
+  },
+  {
+    "word": "on vacation",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "oil",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "operator",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "overnight",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "park (v)",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "parking lot",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "parking space",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "passenger",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "passport",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "path",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "petrol",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "petrol station",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "pilot",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "platform",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "public transport",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "rail(road)",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "railway reception repair (v) reservation reserve return (n & v) ride road sign rocket roundabout route sail (v) scooter (bus) service ship sightseeing signpost single room",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "spaceship",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "speed",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "subway",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "suitcase",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "take off",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "taxi",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "tour (n & v)",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "tour guide",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "tourist",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "tourist information centre",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "traffic",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "traffic jam",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "traffic lights",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "train",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "tram",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "translate",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "translation",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "travel",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "trip",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "tunnel",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "tyre/tire",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "underground",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "underground train",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "vehicle",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "visa",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "visit(or)",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "waiting room",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "way",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "wheel",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "window",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "windscreen",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "blow",
+    "topic": "Weather"
+  },
+  {
+    "word": "breeze",
+    "topic": "Weather"
+  },
+  {
+    "word": "centigrade",
+    "topic": "Weather"
+  },
+  {
+    "word": "cloud",
+    "topic": "Weather"
+  },
+  {
+    "word": "cloudy",
+    "topic": "Weather"
+  },
+  {
+    "word": "cold",
+    "topic": "Weather"
+  },
+  {
+    "word": "cool",
+    "topic": "Weather"
+  },
+  {
+    "word": "degrees",
+    "topic": "Weather"
+  },
+  {
+    "word": "dry",
+    "topic": "Weather"
+  },
+  {
+    "word": "forecast",
+    "topic": "Weather"
+  },
+  {
+    "word": "fog",
+    "topic": "Weather"
+  },
+  {
+    "word": "foggy",
+    "topic": "Weather"
+  },
+  {
+    "word": "freezing",
+    "topic": "Weather"
+  },
+  {
+    "word": "frozen",
+    "topic": "Weather"
+  },
+  {
+    "word": "gale",
+    "topic": "Weather"
+  },
+  {
+    "word": "get wet",
+    "topic": "Weather"
+  },
+  {
+    "word": "heat",
+    "topic": "Weather"
+  },
+  {
+    "word": "hot",
+    "topic": "Weather"
+  },
+  {
+    "word": "humid",
+    "topic": "Weather"
+  },
+  {
+    "word": "ice",
+    "topic": "Weather"
+  },
+  {
+    "word": "icy",
+    "topic": "Weather"
+  },
+  {
+    "word": "lightning",
+    "topic": "Weather"
+  },
+  {
+    "word": "mild",
+    "topic": "Weather"
+  },
+  {
+    "word": "rain",
+    "topic": "Weather"
+  },
+  {
+    "word": "shower",
+    "topic": "Weather"
+  },
+  {
+    "word": "snow",
+    "topic": "Weather"
+  },
+  {
+    "word": "snowfall",
+    "topic": "Weather"
+  },
+  {
+    "word": "storm",
+    "topic": "Weather"
+  },
+  {
+    "word": "sun",
+    "topic": "Weather"
+  },
+  {
+    "word": "sunny",
+    "topic": "Weather"
+  },
+  {
+    "word": "sunshine",
+    "topic": "Weather"
+  },
+  {
+    "word": "temperature",
+    "topic": "Weather"
+  },
+  {
+    "word": "thunder(storm)",
+    "topic": "Weather"
+  },
+  {
+    "word": "warm",
+    "topic": "Weather"
+  },
+  {
+    "word": "weather",
+    "topic": "Weather"
+  },
+  {
+    "word": "wet",
+    "topic": "Weather"
+  },
+  {
+    "word": "wind",
+    "topic": "Weather"
+  },
+  {
+    "word": "windy",
+    "topic": "Weather"
+  },
+  {
+    "word": "actor",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "actress",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "application",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "apply",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "architect",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "army",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "artist",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "assistant",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "astronaut",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "athlete",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "babysitter",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "banker",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "barber",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "boss",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "break (n)",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "businessman",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "businesswoman",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "butcher",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "cameraman",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "candidate",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "canteen",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "captain",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "career",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "chef",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "chemist",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "cleaner",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "colleague",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "company",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "computer",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "conference",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "contract",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "cook",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "crew",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "customs officer",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "CV",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "dancer",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "dentist",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "department",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "designer",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "desk",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "detective",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "diary",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "diploma",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "director",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "diver",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "doctor earn",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "email",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "employ (v)",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "employee",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "employer",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "employment",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "engineer",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "explorer",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "factory",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "farm",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "farmer",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "film star",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "firefighter",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "football player/",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "footballer",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "full time",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "goalkeeper",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "guard",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "guest",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "guide",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "hairdresser",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "housewife",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "housework",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "instructions",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "instructor",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "job",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "journalist",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "judge",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "king",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "laboratory",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "lawyer",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "lecturer",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "letter",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "librarian",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "manager",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "mechanic",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "meeting",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "message",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "model",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "musician",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "novelist",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "nurse",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "occupation",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "office",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "officer ( e.g.",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "prison/police )",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "out of work",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "owner",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "painter",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "part time",
+    "topic": "Work and Jobs"
+  },
+  {
+    "word": "photographer",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "pilot",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "poet",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "policeman",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "police officer",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "policewoman",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "politician",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "porter",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "postman",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "president",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "profession",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "professional",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "professor",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "(computer) programmer",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "publisher",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "qualification",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "queen",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "quit",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "receptionist",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "reporter",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "retire",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "retirement",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "sailor",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "salary",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "sales assistant",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "salesman",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "saleswoman",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "scientist",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "secretary",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "security guard",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "shop assistant",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "shopper",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "singer",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "soldier",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "staff",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "student",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "taxi driver",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "teacher",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "tennis player",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "tour guide",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "trade",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "travel agent",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "unemployed",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "uniform",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "volunteer (n)",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "wage(s)",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "waiter/waitress",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "work",
+    "topic": "Clothes and Accessories"
+  },
+  {
+    "word": "worker",
+    "topic": "Clothes and Accessories"
+  }
+]
