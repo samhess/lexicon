@@ -47,43 +47,31 @@ async function downloadFile(remote,local) {
   } 
 }
 
-function parseWords(items) {
-  const left = []
-  const right = []
-  let y1 = 0
-  let y2 = 0
+function parseWords(items,words) {
   for (const item of items) {
     item.x = Math.round(item.transform[4]/10)
     item.y = Math.round(item.transform[5]/10)
-    const text = item.str
+    const text = item.str.replace(/\u2019/g,'\u0027')
     if (item.y >= 8 && item.y <= 79) { // skip header and footer
       if (text) {
-        if (text !==' ') {
-          if (item.x < 30) {
-            //console.log(`${item.y} ${text}`) 
-            if (item.y === y1) {
-              let word = left.pop() ?? ''
-              word += word ? ' ' + text : text
-              left.push(word)
+        if (text !==' ' && !/^[A-Z]$/.test(text)) {
+          if ([6,7,32,33].includes(item.x)) { // 6,7 or 32,33
+            words.push(text)
+          } else { // 
+            if (words.length) {
+              let word = words.pop()
+              //console.log(`${word} + ${text} => ${word} ${text}`) 
+              word += ' ' + text
+              words.push(word)
             } else {
-              y1 = item.y
-              left.push(text)
-            }
-          } else {
-            if (item.y === y2) {
-              let word = right.pop() ?? ''
-              word += word ? ' ' + text : text
-              right.push(word)
-            } else {
-              y2 = item.y
-              right.push(text)
+              console.log(`${item.x} ${text}`) 
             }
           }
         }
       }
     }
   }
-  return left.concat(right)
+  return words
 }
 
 function parseTopicLists(items, topic) {
@@ -91,7 +79,7 @@ function parseTopicLists(items, topic) {
   for (const item of items.slice(0,1000)) {
     item.x = Math.round(item.transform[4]/10)
     item.y = Math.round(item.transform[5]/10)
-    const text = item.str
+    const text = item.str.replace(/\u2019/g,'\u0027')
     if (item.y >= 8 && item.y <= 79) { // skip header and footer
       if (text) {
         if (/^[A-Z]/.test(text)) {
@@ -125,8 +113,7 @@ async function getVocabulary() {
   for (let i=4; i<=39; i++) {// pages 4 to 39
     const page = await doc.getPage(i)
     const {items} = await page.getTextContent()
-    const words = parseWords(items)
-    vocabulary.push(...words)
+    parseWords(items,vocabulary)
   }
   return vocabulary.filter(word =>
     word.endsWith(')')
