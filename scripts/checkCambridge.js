@@ -5,6 +5,13 @@ import {getDocument} from 'pdfjs-dist'
 
 // https://www.ef.com/wwen/english-resources/english-vocabulary/
 
+const input = {
+  remote: new URL('images/506887-b1-preliminary-2020-vocabulary-list.pdf', 'https://www.cambridgeenglish.org'),
+  local: resolve('data','vocabulary.pdf')
+}
+const output1 = resolve('data','vocabulary.json')
+const output2 = resolve('data','topicLists.json')
+
 const topics = [
   'Clothes and Accessories',
   'Colours',
@@ -17,9 +24,9 @@ const topics = [
   'Hobbies and Leisure',
   'Home',
   'Language',
-  'Personal Feelings, Opinions and Experiences (Adjectives)',
+  'Personal Feelings, Opinions and Experiences',
   'Places: Buildings',
-  'Places:',
+  'Places: Countryside',
   'Places: Town and City',
   'Services',
   'Shopping',
@@ -30,15 +37,6 @@ const topics = [
   'Weather',
   'Work and Jobs'
 ]
-
-
-const input = {
-  remote: new URL('images/506887-b1-preliminary-2020-vocabulary-list.pdf', 'https://www.cambridgeenglish.org'),
-  local: resolve('data','vocabulary.pdf')
-}
-
-const output1 = resolve('data','vocabulary.json')
-const output2 = resolve('data','topicLists.json')
 
 async function downloadFile(remote,local) {
   const response = await fetch(remote)
@@ -60,7 +58,7 @@ function parseWords(items) {
     const text = item.str
     if (item.y >= 8 && item.y <= 79) { // skip header and footer
       if (text) {
-        if (text !==' ' && !/^[A-Z]$/.test(text)) {
+        if (text !==' ') {
           if (item.x < 30) {
             //console.log(`${item.y} ${text}`) 
             if (item.y === y1) {
@@ -88,52 +86,38 @@ function parseWords(items) {
   return left.concat(right)
 }
 
-function parseTopicLists(items) {
+function parseTopicLists(items, topic) {
   const words = []
-  let y1 = 0
-  let y2 = 0
-  let topic = 'Clothes and Accessories'
   for (const item of items.slice(0,1000)) {
     item.x = Math.round(item.transform[4]/10)
     item.y = Math.round(item.transform[5]/10)
     const text = item.str
-
     if (item.y >= 8 && item.y <= 79) { // skip header and footer
-      //console.log(item) 
       if (text) {
         if (/^[A-Z]/.test(text)) {
-          if (topics.includes(text)) {
-           topic = text
-           //console.log(topic) 
+          let fixedTopic = text.replace(/^Places:$/,'Places: Countryside').replace(/\s\(Adjectives\)$/,'')
+          if (topics.includes(fixedTopic)) {
+            topic = fixedTopic
           }
         }
-        if (text !==' ' && !topics.concat(['Appendix 2','Topic Lists']).includes(text)) {
-          if ([9,10,19,20,31,32,42,43].includes(item.x)) {
+        if (text !==' ' && !topics.concat(['Appendix 2','Topic Lists','Countryside']).includes(text)) {
+          if ([9,10,20,21,31,32,42,43].includes(item.x)) {
             words.push({word:text,topic})
-            if (item.x >= 9 && item.x < 20) {
-              //console.log(`${item.x} ${text}`) 
-            } else if (item.x >= 19 && item.x < 31) {
-              //console.log(`${item.x} ${text}`) 
-            } else if (item.x >= 31 && item.x < 42) {
-              //console.log(`${item.x} ${text}`) 
-            } else if (item.x >= 42) {
-              //console.log(`${item.x} ${text}`) 
-            }
           } else {
             if (words.length) {
               let {word,topic} = words.pop()
+              //console.log(`${word} + ${text} => ${word} ${text}`) 
               word += ' ' + text
               words.push({word,topic})
             } else {
-              //console.log(`${item.x} ${text}`) 
+              console.log(`${item.x} ${text}`) 
             }
           }
         } 
       }
     }
   }
-  //console.log(words)
-  return words
+  return {words, topic}
 }
 
 async function getVocabulary() {
@@ -142,7 +126,6 @@ async function getVocabulary() {
     const page = await doc.getPage(i)
     const {items} = await page.getTextContent()
     const words = parseWords(items)
-    //console.log(words)
     vocabulary.push(...words)
   }
   return vocabulary.filter(word =>
@@ -172,12 +155,13 @@ await writeFile(output1, JSON.stringify(words,undefined,2))
 console.log(`${words.length} words written to ${output1}`)
 
 const topicLists = []
+let topic = 'Clothes and Accessories'
 for (let i=41; i<=51; i++) { // pages 41 to 51
   const page = await doc.getPage(i)
   const {items} = await page.getTextContent()
-  const words = parseTopicLists(items)
-  //console.log(words)
-  topicLists.push(...words)
+  const results = parseTopicLists(items,topic)
+  topicLists.push(...results.words)
+  topic = results.topic
 }
 await writeFile(output2, JSON.stringify(topicLists,undefined,2))
 console.log(`${topicLists.length} words written to ${output2}`)
