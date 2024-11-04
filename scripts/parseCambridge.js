@@ -88,8 +88,9 @@ function parseTopicLists(items, topic) {
             topic = fixedTopic
           }
         }
-        if (text !==' ' && !topics.concat(['Appendix 2','Topic Lists','Countryside']).includes(text)) {
-          if ([9,10,20,21,31,32,42,43].includes(item.x)) {
+        const blacklist = ['Appendix 2','Topic Lists','Places:','Countryside','Personal Feelings, Opinions and Experiences (Adjectives)']
+        if (text !==' ' && !topics.concat(blacklist).includes(text)) {
+          if ([9,10,20,21,31,32,42,43].includes(item.x)) { // at the beginning of a column
             words.push({word:text,topic})
           } else {
             if (words.length) {
@@ -115,13 +116,7 @@ async function getVocabulary() {
     const {items} = await page.getTextContent()
     parseWords(items,vocabulary)
   }
-  return vocabulary.filter(word =>
-    word.endsWith(')')
-    && !word.startsWith('•') 
-    && !word.startsWith('(') 
-    && !word.includes('(Br Eng)')
-    && !word.includes('(Am Eng)')
-  )
+  return vocabulary
 }
 
 if (!existsSync(input.local)) {
