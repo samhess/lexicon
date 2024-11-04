@@ -110,13 +110,19 @@ function parseTopicLists(items, topic) {
 }
 
 async function getVocabulary() {
-  const vocabulary = []
+  const terms = []
   for (let i=4; i<=39; i++) {// pages 4 to 39
     const page = await doc.getPage(i)
     const {items} = await page.getTextContent()
-    parseWords(items,vocabulary)
+    parseWords(items,terms)
   }
-  return vocabulary
+  for (const [index,term] of terms.entries()) {
+    if (term.endsWith(')') && !term.includes('(')) {
+      terms[index-1] += ' ' + term
+      terms.splice(index,1)
+    }
+  }
+  return terms
 }
 
 if (!existsSync(input.local)) {
