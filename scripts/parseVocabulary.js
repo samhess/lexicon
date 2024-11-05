@@ -4,6 +4,8 @@ import {readFile, writeFile} from 'fs/promises'
 const contents = await readFile('./data/vocabulary.json')
 const terms = JSON.parse(contents)
 
+const outFile = './data/vocabulary.json.json'
+
 const endings = [
   '(av & v)',
   '(adj)',
@@ -75,29 +77,29 @@ const endings = [
 ]
 
 const words = []
-for (const term of terms) {
+for (const [index,term] of terms.entries()) {
   const word = {term}
   const bulletPos = term.indexOf(' •')
   if (bulletPos !== -1) {
-    word.examples = term.slice(bulletPos).replace(' • ','').split(' • ')
     word.term = term.slice(0,bulletPos)
+    word.examples = term.slice(bulletPos).replace(' • ','').split(' • ')
   }
-  const enbPos = term.indexOf(' (Br Eng) (Am Eng:')
+  const enbPos = word.term.indexOf(' (Br Eng) (Am Eng:')
   if (enbPos !== -1) {
     word.language = 'enb'
-    word.dialect = term.slice(enbPos)
-    word.term = term.slice(0,enbPos)
+    word.dialect = word.term.slice(enbPos)
+    word.term = word.term.slice(0,enbPos)
   }
-  const enaPos = term.indexOf(' (Am Eng) (Br Eng:')
+  const enaPos = word.term.indexOf(' (Am Eng) (Br Eng:')
   if (enaPos !== -1) {
     word.language = 'ena'
-    word.dialect = term.slice(enaPos)
-    word.term = term.slice(0,enaPos)
+    word.dialect = word.term.slice(enaPos)
+    word.term = word.term.slice(0,enaPos)
   }
-  const enaPos2 = term.indexOf(' (Am Eng)')
+  const enaPos2 = word.term.indexOf(' (Am Eng)')
   if (enaPos2 !== -1) {
     word.language = 'ena'
-    word.term = term.slice(0,enaPos2)
+    word.term = word.term.slice(0,enaPos2)
   }
   for (const ending of endings) {
     const term = word.term
@@ -113,8 +115,24 @@ for (const term of terms) {
       word.type = ending.slice(1,-1).replace(' &', ',')
     }
   }
-  if (word.term.endsWith(')')) console.log(word.term)
-  words.push(word)
+  if (['film star', 'truck', 'zebra'].includes(word.term)) {
+    word.type = 'n'
+  }
+  if (word.term === 'through') {
+    word.type = 'adj, adv, prep'
+  }
+  if (word.term.startsWith('look out')) {
+    word.term = 'look out'
+    word.type = 'phr v'
+    word.examples = ['Look out!']
+  }
+  if (word.term.endsWith(')')) {
+    //console.log(word.term)
+  }
+  if (word.term) {
+    words.push(word)
+  }
 }
 
-await writeFile('./data/vocabulary.json.json', JSON.stringify(words,null,2))
+await writeFile(outFile, JSON.stringify(words,null,2))
+console.log(`${words.length} words written to ${outFile}`)

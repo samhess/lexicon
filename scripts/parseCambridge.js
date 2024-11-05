@@ -121,7 +121,20 @@ async function getVocabulary() {
       terms[index-1] += ' ' + term
       terms.splice(index,1)
     }
+    if (term==='fork (n) form (n)') {
+      terms[index] = 'fork (n)'
+      terms.splice(index+1,0,'form (n)')
+    }
+    if (term==='girl (n) girlfriend (n)') {
+      terms[index] = 'girl (n)'
+      terms.splice(index+1,0,'girlfriend (n)')
+    }
+    if (term==='rob (v) robot (n)') {
+      terms[index] = 'rob (v)'
+      terms.splice(index+1,0,'robot (n)')
+    }
   }
+
   return terms
 }
 

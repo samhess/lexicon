@@ -4205,15 +4205,13 @@
     "type": "adv"
   },
   {
-    "term": "fall (n & v) • in the fall",
+    "term": "fall",
     "examples": [
       "in the fall (n) (Am Eng) (Br Eng: autumn )",
       "a fall in the price (n)",
       "He fell and hurt his leg. (v)"
     ],
-    "language": "ena",
-    "dialect": " (Am Eng) (Br Eng: autumn ) • a fall in the price (n) • He fell and hurt his leg. (v)",
-    "type": "n"
+    "type": "n, v"
   },
   {
     "term": "false",
@@ -4411,7 +4409,8 @@
     "type": "n"
   },
   {
-    "term": "film star"
+    "term": "film star",
+    "type": "n"
   },
   {
     "term": "final",
@@ -4654,7 +4653,11 @@
     "type": "v"
   },
   {
-    "term": "fork (n) form",
+    "term": "fork",
+    "type": "n"
+  },
+  {
+    "term": "form",
     "type": "n"
   },
   {
@@ -4996,7 +4999,11 @@
     "type": "n"
   },
   {
-    "term": "girl (n) girlfriend",
+    "term": "girl",
+    "type": "n"
+  },
+  {
+    "term": "girlfriend",
     "type": "n"
   },
   {
@@ -5911,10 +5918,6 @@
   {
     "term": "hut",
     "type": "n"
-  },
-  {
-    "term": "",
-    "type": "pron"
   },
   {
     "term": "ice",
@@ -7014,7 +7017,11 @@
     "type": "v"
   },
   {
-    "term": "look out (phr v) Look out!"
+    "term": "look out",
+    "type": "phr v",
+    "examples": [
+      "Look out!"
+    ]
   },
   {
     "term": "look up",
@@ -10091,7 +10098,11 @@
     "type": "adj, v"
   },
   {
-    "term": "rob (v) robot",
+    "term": "rob",
+    "type": "v"
+  },
+  {
+    "term": "robot",
     "type": "n"
   },
   {
@@ -11060,12 +11071,12 @@
     "type": "adj"
   },
   {
-    "term": "smart (adj) • a smart idea",
+    "term": "smart",
     "examples": [
       "a smart idea (Am Eng)",
       "smart clothes"
     ],
-    "language": "ena"
+    "type": "adj"
   },
   {
     "term": "smartphone",
@@ -12331,11 +12342,8 @@
     "type": "n"
   },
   {
-    "term": "through"
-  },
-  {
-    "term": "",
-    "type": "prep"
+    "term": "through",
+    "type": "adj, adv, prep"
   },
   {
     "term": "throw",
@@ -12722,7 +12730,8 @@
   {
     "term": "truck",
     "language": "ena",
-    "dialect": " (Am Eng) (Br Eng: lorry )"
+    "dialect": " (Am Eng) (Br Eng: lorry )",
+    "type": "n"
   },
   {
     "term": "trunk",
@@ -12730,7 +12739,7 @@
       "the trunk of a car"
     ],
     "language": "ena",
-    "dialect": " (Am Eng) (Br Eng: boot ) • the trunk of a car",
+    "dialect": " (Am Eng) (Br Eng: boot )",
     "type": "n"
   },
   {
@@ -13925,7 +13934,8 @@
     "type": "n"
   },
   {
-    "term": "zebra"
+    "term": "zebra",
+    "type": "n"
   },
   {
     "term": "zero",
