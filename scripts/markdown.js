@@ -8,7 +8,7 @@ const phrases = await db.word.findMany({
   orderBy:{term:'asc'}
 })
 const words = await db.word.findMany({
-  where: {NOT:{partOfSpeech:'loc'}},
+  where: {Language:{code:{notIn:['ena','enb','eng']}}, NOT:{partOfSpeech:'loc'}},
   include: {PartOfSpeech:true, Language:true},
   orderBy:{term:'asc'}
 })
@@ -52,6 +52,6 @@ markdown += `
 
 for (const word of words) {
   const {term, PartOfSpeech, english, comment} = word
-  markdown += `| ${term.padEnd(20)} | ${PartOfSpeech.name.padEnd(20)} | ${(english).padEnd(20)} | ${(comment??'').padEnd(20)} |\r\n`
+  markdown += `| ${term.padEnd(20)} | ${PartOfSpeech.name.padEnd(20)} | ${(english??'').padEnd(20)} | ${(comment??'').padEnd(20)} |\r\n`
 }
 await writeFile(mdFile, markdown)

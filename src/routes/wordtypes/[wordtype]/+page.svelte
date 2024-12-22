@@ -1,15 +1,15 @@
 <script>
   import {invalidateAll} from '$app/navigation'
   import {DataTable} from '@samhess/svelte-components'
-  export let data
-  $: ({entity, records, wordtype} = data)
+  let { data } = $props();
+  let {entity, records, wordtype} = $derived(data)
 </script>
 
 <h3>{wordtype.name+'s'}</h3>
-<DataTable {entity} {records} on:updateData={()=>invalidateAll()}>
-  <svelte:fragment let:records let:rowDblClick>
+<DataTable {entity} {records} update={()=>invalidateAll()}>
+  {#snippet children({ records, rowDblClick })}
     {#each records as term}
-      <tr on:dblclick={()=>rowDblClick(term)}>
+      <tr ondblclick={()=>rowDblClick(term)}>
         <td>
           <a href={`https://malagasyword.org/bins/teny2/${term.term}`} target="_blank">{term.term}</a>
         </td>
@@ -18,7 +18,7 @@
         <td>{term.Topic?.name??''}</td>
       </tr>
     {/each}
-  </svelte:fragment>
+  {/snippet}
 </DataTable>
 
 

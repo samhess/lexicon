@@ -25,15 +25,15 @@
   },
   {
     "code": "interj",
-    "name": "Interjection"
+    "name": "Interjections and exclamations"
   },
   {
-    "code": "prn",
+    "code": "pron",
     "name": "Pronoun"
   },
   {
-    "code": "art",
-    "name": "Article"
+    "code": "det",
+    "name": "Determiner"
   },
   {
     "code": "prep",
@@ -50,5 +50,13 @@
   {
     "code": "particle",
     "name": "Particle"
+  },
+  {
+    "code": "phr-v",
+    "name": "Phrasal verb"
+  },
+  {
+    "code": "prep-phr",
+    "name": "Prepositional Phrase"
   }
 ]

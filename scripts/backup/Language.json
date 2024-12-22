@@ -88,5 +88,11 @@
     "alpha2": "en",
     "name": "Britisch English",
     "description": "Britisch"
+  },
+  {
+    "code": "swa",
+    "alpha2": "sw",
+    "name": "Swahili",
+    "description": "inclusive"
   }
 ]
