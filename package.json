@@ -1,17 +1,17 @@
 {
 	"name": "learn-malagasy",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.3.1",
-		"@sveltejs/kit": "^2.14.0",
+		"@sveltejs/kit": "^2.15.0",
 		"@sveltejs/vite-plugin-svelte": "^5.0.3",
 		"@tailwindcss/forms": "^0.5.9",
 		"@tailwindcss/typography": "^0.5.15",
@@ -28,6 +28,6 @@
 	"type": "module",
 	"dependencies": {
 		"@prisma/client": "^6.1.0",
-		"@samhess/svelte-components": "^0.0.6"
+		"@samhess/svelte-components": "^0.1.0"
 	}
 }
