@@ -1,6 +1,16 @@
 @import 'tailwindcss';
 
-@config '../tailwind.config.js';
+@theme {
+  --color-primary-500: var(--color-sky-500);
+  --color-primary-600: var(--color-sky-600);
+  --color-secondary-500: var(--color-slate-500);
+  --color-secondary-600: var(--color-slate-600);
+  --color-danger-500: var(--color-red-500);
+  --color-danger-600: var(--color-red-600);
+}
+
+@plugin '@tailwindcss/typography';
+@plugin '@tailwindcss/forms';
 
 /*
   The default border color has changed to `currentColor` in Tailwind CSS v4,
@@ -18,9 +28,6 @@
   ::file-selector-button {
     border-color: var(--color-gray-200, currentColor);
   }
-}
-
-@layer components {
   button {
     @apply bg-slate-400 text-white;
     @apply rounded-sm px-3 py-2;
@@ -42,6 +49,7 @@
     @apply border-slate-400;
     padding-left: 20px;
     padding-right: 20px;
+    margin: auto;
   }
   input, select {
     display: block;
@@ -56,9 +64,11 @@
   @apply bg-secondary-500 hover:bg-secondary-600;
 }
 .btn-danger {
-  @apply bg-danger-500 hover:bg-danger-600 border-danger-600;
+  @apply bg-danger-500 hover:bg-danger-600;
 }
-
+.prose {
+  max-width: none;
+}
 
 
 
