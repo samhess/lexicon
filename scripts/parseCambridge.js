@@ -1,7 +1,7 @@
 import {writeFile, readFile} from 'fs/promises'
 import {existsSync} from 'fs'
 import {resolve} from 'path'
-import {getDocument} from 'pdfjs-dist'
+import {getDocument} from 'pdfjs-dist/legacy/build/pdf.mjs'
 
 // https://www.ef.com/wwen/english-resources/english-vocabulary/
 
