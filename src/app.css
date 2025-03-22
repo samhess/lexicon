@@ -1,77 +1,142 @@
 @import 'tailwindcss';
 
+@plugin "@tailwindcss/forms";
+
 @theme {
-  --color-primary-500: var(--color-sky-500);
-  --color-primary-600: var(--color-sky-600);
-  --color-secondary-500: var(--color-slate-500);
-  --color-secondary-600: var(--color-slate-600);
-  --color-danger-500: var(--color-red-500);
-  --color-danger-600: var(--color-red-600);
+  --color-primary: var(--color-sky-600);
+  --color-secondary: var(--color-slate-600);
+  --color-success: var(--color-green-600);
+  --color-warning: var(--color-yellow-600);
+  --color-danger: var(--color-red-600);
+  --color-info: var(--color-cyan-600);
 }
 
-@plugin '@tailwindcss/typography';
-@plugin '@tailwindcss/forms';
-
-/*
-  The default border color has changed to `currentColor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
-
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
 @layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentColor);
+  .prose {
+    color: var(--tw-prose-body);
+    max-width: none;
+    :where(p):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+    :where([class~="lead"]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+      color: var(--tw-prose-lead);
+      font-size: 1.25em;
+      line-height: 1.6;
+      margin-top: 1.2em;
+      margin-bottom: 1.2em;
+    }
+    :where(h1):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+      color: var(--tw-prose-headings);
+      font-weight: 800;
+      font-size: 2.25em;
+      margin-top: 0;
+      margin-bottom: 0.8888889em;
+      line-height: 1.1111111;
+    }
+    :where(h2):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+      color: var(--tw-prose-headings);
+      font-weight: 700;
+      font-size: 1.5em;
+      margin-top: 2em;
+      margin-bottom: 1em;
+      line-height: 1.3333333;
+    }
+    :where(h3):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+      color: var(--tw-prose-headings);
+      font-weight: 600;
+      font-size: 1.25em;
+      margin-top: 1.6em;
+      margin-bottom: 0.6em;
+      line-height: 1.6;
+    }
+    :where(h4):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+      color: var(--tw-prose-headings);
+      font-weight: 600;
+      margin-top: 1.5em;
+      margin-bottom: 0.5em;
+      line-height: 1.5;
+    }
+  }
+  a {
+    color: var(--color-sky-600);
+    text-decoration-line: none;
+  }
+  body {
+    @apply h-full
   }
   button {
-    @apply bg-slate-400 text-white;
-    @apply rounded-sm px-3 py-2;
+    @apply bg-sky-500 hover:bg-sky-600 text-white rounded px-3 py-1.5;
+  }
+  caption {
+    margin-top: 8px;
+    font-size: large;
     text-align: center;
-    min-width: 80px;
-  }
-  label {
-    font-weight: 600;
-    display: block;
-  }
-  table {
-    border-collapse: collapse;
-    caption-side: bottom;
-    margin-bottom: 10px;
   }
   dialog {
-    width: 60%;
-    border-width: 1px;
+    @apply w-3/5;
     @apply border-slate-400;
-    padding-left: 20px;
-    padding-right: 20px;
+    @apply border-2;
     margin: auto;
+  }
+  figcaption {
+    margin-top: 8px;
+    font-size: large;
+    text-align: center;
+  }
+  h1 {
+    font-size: var(--text-2xl);
+    font-weight: bold;
+  }
+  h2 {
+    font-size: var(--text-xl);
+  }
+  h3 {
+    font-size: var(--text-lg);
   }
   input, select {
     display: block;
     width: 100%;
+    font-weight: normal;
+    @apply mt-1 mb-2;
+    @apply !rounded;
+    @apply !border-slate-400;
+  }
+  img {
+    @apply aspect-video;
+  }
+  label {
+    @apply font-semibold;
+    display: block;
+  }
+  main {
+    @apply h-full;
+    @apply mx-auto max-w-5xl;
+  }
+  math {
+    math-style: normal;
+    @apply text-xl font-semibold;
+  }
+  table {
+    font-size: var(--text-sm);
+    border-collapse: collapse;
+    caption-side: bottom;
+    table-layout: fixed;
+    text-align: left;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 100%;
+  }
+  th,td {
+    white-space: nowrap;
+    padding: 4px;
+  }
+  td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  tbody tr {
+    @apply even:bg-gray-100 hover:bg-gray-200;
   }
 }
-
-.btn-primary {
-  @apply bg-primary-500 hover:bg-primary-600;
-}
-.btn-secondary {
-  @apply bg-secondary-500 hover:bg-secondary-600;
-}
-.btn-danger {
-  @apply bg-danger-500 hover:bg-danger-600;
-}
-.prose {
-  max-width: none;
-}
-
-
-
-
-
 

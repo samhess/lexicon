@@ -1,7 +1,7 @@
 <script>
   import {invalidateAll} from '$app/navigation'
-  import {DataTable} from '@samhess/svelte-components'
-  let { data } = $props();
+  import DataTable from '$lib/components/DataTable.svelte'
+  let {data} = $props()
   let {entity, records, wordtype} = $derived(data)
 </script>
 

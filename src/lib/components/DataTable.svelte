@@ -1,36 +1,36 @@
 <script>
   import EditDialog from '$lib/components/EditDialog.svelte'
-  import { capitalize } from '$lib/helpers'
+  import {ArrowUpDown} from 'lucide-svelte'
   
   /**
    * @typedef {Object} Props
    * @property {Object<string,any>} entity
    * @property {Object<any,any>[]} records
-   * @property {import('svelte').Snippet<[any]>} [beforeHeader]
+   * @property {Function} update
+   * @property {import('svelte').Snippet<[any]>} [toolbar]
    * @property {import('svelte').Snippet} [header]
    * @property {import('svelte').Snippet<[any]>} [children]
    * @property {import('svelte').Snippet} [footer]
-   * @property {function} update
    */
 
   /** @type {Props} */
   let {
     entity,
     records,
-    beforeHeader,
+    update,
+    toolbar,
     header,
     children,
-    footer,
-    update
+    footer
   } = $props()
+  let caption = $derived(`${entity.name} (${records.length})`)
   let {
     name = '', 
     attributes = {}, 
     isEditable = false,
-    sorting = {field:'name', direction:'asc'},
     endpoint = ''
-  } = $state(entity)
-  let caption = $derived(`${capitalize(name)} (${records.length})`)
+  } = $derived(entity)
+  let {sorting={field:'name',direction:'asc'}} = $state(entity)
   let sortedRecords = $derived(sortRecords(sorting))
   let editDialog = $state()
 
@@ -78,23 +78,23 @@
 {#if isEditable===true}
   <EditDialog entity={{name,endpoint,attributes}} bind:this={editDialog} edit={update}></EditDialog>
 {/if}
+{#if toolbar}{@render toolbar({addItem})}{:else}
+  {#if isEditable===true}
+    <div class="text-end pb-3">
+      <button class="" onclick={()=>addItem()}>Add</button>
+    </div>
+  {/if}
+{/if}
 <table class="table">
-  <caption class="text-center">{caption}</caption>
+  <caption class="text-center capitalize">{caption}</caption>
   <thead>
-    {#if beforeHeader}{@render beforeHeader({ addItem, })}{:else}
-      {#if isEditable===true}
-        <tr>
-          <td colspan={Object.keys(attributes).length} class="text-end pb-3">
-            <button class="btn btn-primary" onclick={()=>addItem()}>Add</button>
-          </td>
-        </tr>
-      {/if}
-    {/if}
     {#if header}{@render header()}{:else}
-      <tr>
+      <tr class="bg-gray-200">
         {#each Object.entries(attributes) as [key,props]}
           {#if props.show !== false}
-            <th class:text-end={props.align==='right'} onclick={()=>toggleSorting(key)}>{props.name}</th>
+            <th class:text-end={props.align==='right'} class:underline={sorting.field==key} onclick={()=>toggleSorting(key)}>
+              {props.name}<ArrowUpDown size=12 class="inline-block ms-0.5"/>
+            </th>
           {/if}
         {/each}
       </tr>
