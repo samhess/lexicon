@@ -46,7 +46,7 @@ for (const phrase of phrases) {
 markdown += `
 ## Words
 
-| Malagasy             | Part of Speech       | English              | Comment              |
+| Malagasy             | Word Type            | English              | Comment              |
 :----------------------|:---------------------|:---------------------|:----------------------
 `
 

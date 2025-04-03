@@ -1,4 +1,4 @@
-import {lookupDialect} from './lookup.js'
+import {lookupDialect} from './lib/lookup.js'
 import {getEntries} from './lib/malagasyDialect.js'
 import db from '../src/lib/server/database.js'
 

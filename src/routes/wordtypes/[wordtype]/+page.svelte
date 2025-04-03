@@ -14,7 +14,6 @@
           <a href={`https://malagasyword.org/bins/teny2/${term.term}`} target="_blank">{term.term}</a>
         </td>
         <td>{term.Language?.name??''}</td>
-        <td>{term.PartOfSpeech?.name??''}</td>
         <td>{term.Topic?.name??''}</td>
       </tr>
     {/each}

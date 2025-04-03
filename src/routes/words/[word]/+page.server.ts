@@ -1,24 +1,25 @@
 import db from '$lib/server/database.js'
 
-export const load = async () => {
+export const load = async ({params}) => {
   const entity = {
     attributes: {
       term: {name:'Term'},
-      Language: {name:'Language', key:'code'},
-      PartOfSpeech: {name:'Part of Speech', key:'code'},
-      Topic: {name:'Topic', key:'key'},
+      language: {name:'Language'},
       root: {name:'Root Form'},
+      partOfSpeech: {name:'Word Type'},
       standard: {name:'Standard Term'},
       english: {name:'English'},
-      comment: {name:'Comment'}
+      Topic: {name:'Topic'}
     },
     endpoint: 'word',
     isEditable: true,
     name: 'Words'
   }
   const records = await db.word.findMany({
-    include: {PartOfSpeech:true, Language:true, Topic:true},
+    where:{term:params.word},
+    include: {Language:true,PartOfSpeech:true,Topic:true},
     orderBy: {term:'asc'},
+    take:5000
   })
   //console.log(records[0])
   return {entity, records}

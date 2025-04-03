@@ -13,7 +13,6 @@
         <td>{term.term}</td>
         <td>{term.Language?.name??''}</td>
         <td>{term.PartOfSpeech?.name??''}</td>
-        <td>{term.Topic?.name??''}</td>
       </tr>
     {/each}
   {/snippet}

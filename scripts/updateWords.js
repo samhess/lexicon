@@ -21,7 +21,7 @@ for (const word of words.slice(0,32000)) {
           process.exit(1)
         }
       } else {
-        console.log(`part of speech of ${word.term} is undefined`)
+        console.log(`word type of ${word.term} is undefined`)
       }
     } else {
       console.log(`could not find entry for ${word.term}`)

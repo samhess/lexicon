@@ -47,7 +47,7 @@ of those words and phrases.
 
 ## Words
 
-| Malagasy             | Part of Speech       | English              | Comment              |
+| Malagasy             | Word Type            | English              | Comment              |
 :----------------------|:---------------------|:---------------------|:----------------------
 | anarana              | Noun                 | name                 |                      |
 | araiky               | Numeral              | one                  |                      |

@@ -5,7 +5,7 @@ export const load = async ({params}) => {
   const entity = {
     attributes: {
       term: {name:'Term'},
-      partOfSpeech: {name:'Part of Speech'},
+      PartOfSpeech: {name:'Word Type', key:'code'},
       standard: {name:'Standard Term'}
     },
     endpoint: 'word',

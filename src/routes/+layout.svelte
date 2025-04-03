@@ -1,20 +1,13 @@
-<script lang="js">
-  import { page } from '$app/state'
+<script>
+  import {page} from '$app/state'
   import '../app.css'
 
-  /**
-   * @typedef {Object} Props
-   * @property {import('svelte').Snippet} [children]
-   */
-
-  /** @type {Props} */
   let {children} = $props()
   let breadcrumb = $derived(page.route.id?.slice(1).replaceAll('/',' > ') ?? '')
-  
 </script>
 
 <svelte:head>
-  <title>Malagasy &mdash; {breadcrumb}</title>
+  <title>Language 101 &ndash; {breadcrumb}</title>
 </svelte:head>
 
 <nav class="mx-auto max-w-7xl pt-10 px-2 md:px-4 space-x-5 text-lg">

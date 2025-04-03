@@ -8,7 +8,6 @@ export const load = async ({params}) => {
       attributes: {
         term: {name:'Term'},
         Language: {name:'Language', key:'code'},
-        PartOfSpeech: {name:'Part of Speech', key:'code'},
         Topic: {name:'Topic', key:'key'}
       },
       endpoint: 'word',
