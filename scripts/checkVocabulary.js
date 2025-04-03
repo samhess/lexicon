@@ -1,7 +1,7 @@
 import db from '../src/lib/server/database.js'
 import {readFile, writeFile} from 'fs/promises'
 
-const contents = await readFile('./data/vocabulary.json.json')
+const contents = await readFile('./data/vocabulary.json',{encoding:'utf-8'})
 const words = JSON.parse(contents)
 
 for (const word of words) {
@@ -32,11 +32,7 @@ for (const word of words) {
       }
     } else {
       await db.word.create({
-        data: {
-          term,
-          language,
-          partOfSpeech
-        }
+        data: {term,language,partOfSpeech}
       })
     }
   }

@@ -2,49 +2,29 @@ import {writeFile, readFile} from 'fs/promises'
 import {existsSync} from 'fs'
 import {resolve} from 'path'
 import {getDocument} from 'pdfjs-dist/legacy/build/pdf.mjs'
-
-// https://www.ef.com/wwen/english-resources/english-vocabulary/
+import {topics} from './lib/constants.js'
 
 const input = {
   remote: new URL('images/506887-b1-preliminary-2020-vocabulary-list.pdf', 'https://www.cambridgeenglish.org'),
   local: resolve('data','vocabulary.pdf')
 }
-const output1 = resolve('data','vocabulary.json')
+const output1 = resolve('data','wordList.json')
 const output2 = resolve('data','topicLists.json')
 
-const topics = [
-  'Clothes and Accessories',
-  'Colours',
-  'Communications and Technology',
-  'Education',
-  'Entertainment and Media',
-  'Environment',
-  'Food and Drink',
-  'Health, Medicine and Exercise',
-  'Hobbies and Leisure',
-  'Home',
-  'Language',
-  'Personal Feelings, Opinions and Experiences',
-  'Places: Buildings',
-  'Places: Countryside',
-  'Places: Town and City',
-  'Services',
-  'Shopping',
-  'Sport',
-  'The Natural World',
-  'Time',
-  'Travel and Transport',
-  'Weather',
-  'Work and Jobs'
-]
-
-async function downloadFile(remote,local) {
-  const response = await fetch(remote)
-  if (response.ok) {
-    const arrayBuffer = await response.arrayBuffer()
-    await writeFile(local, Buffer.from(arrayBuffer))
-    return true
-  } 
+async function getData() {
+  if (existsSync(input.local)) {
+    const nodeBuffer = await readFile(input.local)
+    return nodeBuffer.buffer
+  } else {
+    const response = await fetch(input.remote)
+    if (response.ok) {
+      const arrayBuffer = await response.arrayBuffer()
+      await writeFile(input.local, Buffer.from(arrayBuffer))
+      return arrayBuffer
+    } else {
+      throw new Error(`downloading PDF from ${input.remote} failed`)
+    }
+  }
 }
 
 function parseWords(items,words) {
@@ -74,9 +54,9 @@ function parseWords(items,words) {
   return words
 }
 
-function parseTopicLists(items, topic) {
+function parseTopicList(items, topic) {
   const words = []
-  for (const item of items.slice(0,1000)) {
+  for (const item of items) {
     item.x = Math.round(item.transform[4]/10)
     item.y = Math.round(item.transform[5]/10)
     const text = item.str.replace(/\u2019/g,'\u0027')
@@ -109,9 +89,9 @@ function parseTopicLists(items, topic) {
   return {words, topic}
 }
 
-async function getVocabulary() {
+async function getVocabulary(start=4,end=39) {
   const terms = []
-  for (let i=4; i<=39; i++) {// pages 4 to 39
+  for (let i=start; i<=end; i++) {
     const page = await doc.getPage(i)
     const {items} = await page.getTextContent()
     parseWords(items,terms)
@@ -134,35 +114,30 @@ async function getVocabulary() {
       terms.splice(index+1,0,'robot (n)')
     }
   }
-
   return terms
 }
 
-if (!existsSync(input.local)) {
-  const success = await downloadFile(input.remote,input.local)
-  if (success) {
-    console.log(`Downloaded PDF to ${input.local}`)
-  } else {
-    console.log(`File download from ${input.remote} failed`) 
+async function getTopicLists(start=41,end=51) {
+  const topicLists = []
+  let topic = 'Clothes and Accessories'
+  for (let i=start; i<=end; i++) {
+    const page = await doc.getPage(i)
+    const {items} = await page.getTextContent()
+    const results = parseTopicList(items,topic)
+    topicLists.push(...results.words)
+    topic = results.topic
   }
+  return topicLists
 }
 
-const {buffer} = await readFile(input.local)
-const doc = await getDocument(buffer).promise
-//console.log(`The document has ${doc.numPages} pages`)
+const data = await getData()
+const doc = await getDocument(data).promise
+console.log(`The document has ${doc.numPages} pages`)
 
-const words = await getVocabulary()
+const words = await getVocabulary(4,39) // pages 4 to 39
 await writeFile(output1, JSON.stringify(words,undefined,2))
 console.log(`${words.length} words written to ${output1}`)
 
-const topicLists = []
-let topic = 'Clothes and Accessories'
-for (let i=41; i<=51; i++) { // pages 41 to 51
-  const page = await doc.getPage(i)
-  const {items} = await page.getTextContent()
-  const results = parseTopicLists(items,topic)
-  topicLists.push(...results.words)
-  topic = results.topic
-}
+const topicLists = await getTopicLists(41,51) // pages 41 to 51
 await writeFile(output2, JSON.stringify(topicLists,undefined,2))
 console.log(`${topicLists.length} words written to ${output2}`)
