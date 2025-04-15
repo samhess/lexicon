@@ -1,7 +1,6 @@
 import db from '$lib/server/database.js'
 import {json} from '@sveltejs/kit'
 
-/** @type {import('./$types').RequestHandler} */
 export async function GET({params}) {
   const {entity} = params
   let options = new Array()

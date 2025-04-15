@@ -1,7 +1,6 @@
 import db from '$lib/server/database.js'
 import {json} from '@sveltejs/kit'
 
-/** @type {import('./$types').RequestHandler} */
 export async function POST({request}) {
   const {Language, PartOfSpeech, Topic, ...attributes} = await request.json()
   await db.word.create({
