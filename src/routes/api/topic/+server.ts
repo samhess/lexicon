@@ -1,4 +1,4 @@
-import db from '$lib/server/database.js'
+import db from '$lib/server/database'
 import {json} from '@sveltejs/kit'
 
 export async function POST({request}) {

@@ -36,13 +36,13 @@ of those words and phrases.
 
 ## Phrases
 
-| Malagasy             | English              | Comment              |
-| :--------------------| :--------------------| :--------------------|
+| Malagasy                       | English                        | Comment                                |
+| :------------------------------| :------------------------------| :--------------------------------------|
 `
 
 for (const phrase of phrases) {
   const {term, english, comment} = phrase
-  markdown += `| ${term.padEnd(20)} | ${english.padEnd(20)} | ${(comment ?? '').padEnd(20)} |\r\n`
+  markdown += `| ${term.padEnd(30)} | ${english.padEnd(30)} | ${(comment ?? '').padEnd(40)} |\r\n`
 }
 
 markdown += `

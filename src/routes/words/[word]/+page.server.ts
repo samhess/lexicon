@@ -1,4 +1,4 @@
-import db from '$lib/server/database.js'
+import db from '$lib/server/database'
 
 export const load = async ({params}) => {
   const entity = {

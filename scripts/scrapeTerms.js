@@ -1,5 +1,5 @@
 import {load} from 'cheerio'
-import db from '../src/lib/server/database.js'
+import db from '../src/lib/server/database.ts'
 
 const ranges = [
   {range: 'a-aba', count: 112},

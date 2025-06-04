@@ -37893,5 +37893,38 @@
     "root": null,
     "standard": null,
     "topic": null
+  },
+  {
+    "term": "avy",
+    "partOfSpeech": "prep",
+    "language": "mlg",
+    "comment": "zaho avy ... => I am from ...",
+    "english": "from",
+    "rank": null,
+    "root": null,
+    "standard": null,
+    "topic": null
+  },
+  {
+    "term": "mipetraka",
+    "partOfSpeech": "v",
+    "language": "mlg",
+    "comment": null,
+    "english": "to live in ",
+    "rank": null,
+    "root": null,
+    "standard": null,
+    "topic": null
+  },
+  {
+    "term": "Karakôry",
+    "partOfSpeech": "loc",
+    "language": "skg",
+    "comment": null,
+    "english": "How are you doing?",
+    "rank": null,
+    "root": null,
+    "standard": null,
+    "topic": null
   }
 ]

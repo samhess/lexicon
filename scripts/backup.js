@@ -1,6 +1,6 @@
 import {writeFile} from 'node:fs/promises'
 import {format, resolve} from 'node:path'
-import db from '../src/lib/server/database.js'
+import db from '../src/lib/server/database.ts'
 
 const backupDir = resolve('.', 'backup')
 console.log(`Backup directory is ${backupDir}`)

@@ -1,4 +1,4 @@
-import db from '../src/lib/server/database.js'
+import db from '../src/lib/server/database.ts'
 import {getEntries} from './lib/malagasyWord.js'
 
 const words = await db.word.findMany()

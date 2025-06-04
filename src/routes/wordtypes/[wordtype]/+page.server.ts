@@ -1,4 +1,4 @@
-import db from '$lib/server/database.js'
+import db from '$lib/server/database'
 import {error} from '@sveltejs/kit'
 
 export const load = async ({params}) => {
