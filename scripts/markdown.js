@@ -1,7 +1,8 @@
 import db from '../src/lib/server/database.ts'
 import {writeFile} from 'fs/promises'
+import {resolve} from 'path'
 
-const mdFile = '../README.md'
+const mdFile = resolve(import.meta.dirname, '..', 'README.md')
 
 const phrases = await db.word.findMany({
   where: {partOfSpeech: 'loc'},
@@ -14,7 +15,8 @@ const words = await db.word.findMany({
 })
 
 let markdown = `
-Malagasy belongs to the Austronesian language family. 
+Malagasy belongs to the Austronesian language family.
+
 For speakers of Indo-European languages it can be quite hard to start with Malagasy.
 The vocabulary is hardly similar and even the sentence structure is different, 
 as the subject is normally placed after the verb and object (verb-object-subject order).
@@ -35,7 +37,7 @@ of those words and phrases.
 ## Phrases
 
 | Malagasy             | English              | Comment              |
-:----------------------|:---------------------|:----------------------
+| :--------------------| :--------------------| :--------------------|
 `
 
 for (const phrase of phrases) {
@@ -47,7 +49,7 @@ markdown += `
 ## Words
 
 | Malagasy             | Word Type            | English              | Comment              |
-:----------------------|:---------------------|:---------------------|:----------------------
+| :--------------------| :--------------------| :--------------------| :--------------------|
 `
 
 for (const word of words) {
