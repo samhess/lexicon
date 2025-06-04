@@ -1,5 +1,5 @@
-import { writeFile } from 'node:fs/promises'
-import { format, resolve } from 'node:path'
+import {writeFile} from 'node:fs/promises'
+import {format, resolve} from 'node:path'
 import db from '../src/lib/server/database.js'
 
 const backupDir = resolve('.', 'backup')
@@ -15,11 +15,10 @@ const tables = await db.$queryRaw`
   order by tbl_name;
 `
 for (const table of tables) {
-  const {tbl_name:entity} = table
+  const {tbl_name: entity} = table
   const records = await db[entity].findMany()
   const json = JSON.stringify(records, undefined, 2)
-  const path = format({dir:backupDir, name:entity, ext:'json'})
+  const path = format({dir: backupDir, name: entity, ext: 'json'})
   await writeFile(path, json)
   console.log(`backing up table ${entity}`)
 }
-

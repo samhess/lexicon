@@ -1,8 +1,8 @@
 import {load} from 'cheerio'
 
 export async function getEntries(dialect) {
-  const url = new URL(`/bins/ethnicLists`,'https://malagasyword.org')
-  url.searchParams.set('eth',dialect)
+  const url = new URL(`/bins/ethnicLists`, 'https://malagasyword.org')
+  url.searchParams.set('eth', dialect)
   const response = await fetch(url)
   if (response.ok) {
     const html = await response.text()

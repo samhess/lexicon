@@ -2,56 +2,56 @@ import db from '../src/lib/server/database.js'
 
 const parts = [
   {
-    code: "n",
-    name: "noun"
+    code: 'n',
+    name: 'noun'
   },
   {
-    code: "adj",
-    name: "adjective"
+    code: 'adj',
+    name: 'adjective'
   },
   {
-    code: "adv",
-    name: "adverb"
+    code: 'adv',
+    name: 'adverb'
   },
   {
-    code: "v",
-    name: "verb"
+    code: 'v',
+    name: 'verb'
   },
   {
-    code: "conj",
-    name: "conjunction"
+    code: 'conj',
+    name: 'conjunction'
   },
   {
-    code: "num",
-    name: "numeral"
+    code: 'num',
+    name: 'numeral'
   },
   {
-    code: "interjection",
-    name: "interjection"
+    code: 'interjection',
+    name: 'interjection'
   },
   {
-    code: "prn",
-    name: "pronoun"
+    code: 'prn',
+    name: 'pronoun'
   },
   {
-    code: "art",
-    name: "article"
+    code: 'art',
+    name: 'article'
   },
   {
-    code: "prep",
-    name: "preposition"
+    code: 'prep',
+    name: 'preposition'
   },
   {
-    code: "loc",
-    name: "locution"
+    code: 'loc',
+    name: 'locution'
   },
   {
-    code: "affix",
-    name: "affix"
+    code: 'affix',
+    name: 'affix'
   },
   {
-    code: "participle",
-    name: "participle"
+    code: 'participle',
+    name: 'participle'
   }
 ]
 for (const part of parts) {

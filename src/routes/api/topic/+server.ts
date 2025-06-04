@@ -10,7 +10,7 @@ export async function POST({request}) {
 }
 
 export async function PUT({request}) {
-  const {key,...scalars} = await request.json()
+  const {key, ...scalars} = await request.json()
   await db.topic.update({
     where: {key},
     data: {

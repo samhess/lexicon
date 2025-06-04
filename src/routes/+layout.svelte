@@ -3,7 +3,7 @@
   import '../app.css'
 
   let {children} = $props()
-  let breadcrumb = $derived(page.route.id?.slice(1).replaceAll('/',' > ') ?? '')
+  let breadcrumb = $derived(page.route.id?.slice(1).replaceAll('/', ' > ') ?? '')
 </script>
 
 <svelte:head>

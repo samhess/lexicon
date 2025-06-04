@@ -23,21 +23,21 @@ const topics = [
   'Time',
   'Travel and Transport',
   'Weather',
-  'Work and Jobs',
+  'Work and Jobs'
 ]
 
 for (const topic of topics) {
   const key = topic
-    .replace(/^The /,'')
-    .replace(/\sand\s/,'-')
-    .replace(/[,:]\s/,'-')
-    .replace(/\s/,'-')
+    .replace(/^The /, '')
+    .replace(/\sand\s/, '-')
+    .replace(/[,:]\s/, '-')
+    .replace(/\s/, '-')
     .toLowerCase()
-    .replace(/personal-feelings-opinions-experiences/,'emotions')
-    .replace(/health-medicine-exercise/,'health')
+    .replace(/personal-feelings-opinions-experiences/, 'emotions')
+    .replace(/health-medicine-exercise/, 'health')
   await db.topic.upsert({
     where: {key},
-    create: {key,name:topic},
-    update: {name:topic}
+    create: {key, name: topic},
+    update: {name: topic}
   })
 }

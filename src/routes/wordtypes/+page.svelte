@@ -6,10 +6,10 @@
 </script>
 
 <h3>Word Types</h3>
-<DataTable {entity} {records} update={()=>invalidateAll()}>
+<DataTable {entity} {records} update={() => invalidateAll()}>
   {#snippet children({records, rowDblClick})}
     {#each records as wordtype}
-      <tr ondblclick={()=>rowDblClick(wordtype)}>
+      <tr ondblclick={() => rowDblClick(wordtype)}>
         <td>{wordtype.code}</td>
         <td>
           <a href={`/wordtypes/${wordtype.code}`}>{wordtype.name}</a>
@@ -19,5 +19,3 @@
     {/each}
   {/snippet}
 </DataTable>
-
-

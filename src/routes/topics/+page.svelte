@@ -6,10 +6,10 @@
 </script>
 
 <h3>Topics</h3>
-<DataTable {entity} {records} update={()=>invalidateAll()}>
-  {#snippet children({ records, rowDblClick })}
+<DataTable {entity} {records} update={() => invalidateAll()}>
+  {#snippet children({records, rowDblClick})}
     {#each records as topic}
-      <tr ondblclick={()=>rowDblClick(topic)}>
+      <tr ondblclick={() => rowDblClick(topic)}>
         <td>
           <a href={`/topics/${topic.key}`}>{topic.name}</a>
         </td>
@@ -18,6 +18,3 @@
     {/each}
   {/snippet}
 </DataTable>
-
-
-

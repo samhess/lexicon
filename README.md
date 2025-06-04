@@ -8,7 +8,7 @@ speakers with Roman or Germanic language background.
 
 > VOS example (capital): Manasa lamba aho (Do-laundry-I)
 
-> SVA axample (coastal regions): Zaho manasa lamba (I-do-laundry)
+> SVA example (coastal regions): Zaho manasa lamba (I-do-laundry)
 
 After traveling around Madagascar and spending some time on Nosy Be, 
 I managed to understand the following words and phrases.
@@ -27,6 +27,7 @@ of those words and phrases.
 | Azala!               | Damn!                | To express disappointment |
 | Inona no vaovao?     | What's the news?     | Usually, the response is tsisy vaovao |
 | JIRAMA               | Water and electricity (utility company) | Acronym for jiro sy rano malagasy. Tsisy JIRAMA means there is no power... and maybe no water, too |
+| Karakôry             | How are you doing?   |                      |
 | Mbola tsara          | Hello                | literally still good |
 | Misaotra betsaka!    | Thank you very much! | Normally just misaotra |
 | Misy môko            | There are mosquitoes |                      |
@@ -53,6 +54,7 @@ of those words and phrases.
 | araiky               | Numeral              | one                  |                      |
 | ary                  | Conjunction          | and                  | used for last addition after connecting nouns with sy |
 | asa                  | Noun                 | work                 | verb miasa           |
+| avy                  | Preposition          | from                 | zaho avy ... => I am from ... |
 | be                   | Adjective            | big                  |                      |
 | eny                  | Adverb               | yes                  |                      |
 | eto                  | Adverb               | here                 |                      |
@@ -92,6 +94,7 @@ of those words and phrases.
 | mifoha               | Verb                 | to wake up, to get out of bed |                      |
 | mihinana             | Verb                 | to eat               |                      |
 | mila                 | Verb                 | to want, to need     |                      |
+| mipetraka            | Verb                 | to live in           |                      |
 | misy                 | Verb                 | there is             |                      |
 | mitsangantsangana    | Verb                 | to stroll            |                      |
 | mody                 | Verb                 | to go home           |                      |

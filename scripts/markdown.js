@@ -1,16 +1,16 @@
-import db from '../src/lib/server/database.js'
+import db from '../src/lib/server/database.ts'
 import {writeFile} from 'fs/promises'
 
 const mdFile = '../README.md'
 
 const phrases = await db.word.findMany({
-  where: {partOfSpeech:'loc'},
-  orderBy:{term:'asc'}
+  where: {partOfSpeech: 'loc'},
+  orderBy: {term: 'asc'}
 })
 const words = await db.word.findMany({
-  where: {Language:{code:{notIn:['ena','enb','eng']}}, NOT:{partOfSpeech:'loc'}},
-  include: {PartOfSpeech:true, Language:true},
-  orderBy:{term:'asc'}
+  where: {Language: {code: {notIn: ['ena', 'enb', 'eng']}}, NOT: {partOfSpeech: 'loc'}},
+  include: {PartOfSpeech: true, Language: true},
+  orderBy: {term: 'asc'}
 })
 
 let markdown = `
@@ -23,7 +23,7 @@ speakers with Roman or Germanic language background.
 
 > VOS example (capital): Manasa lamba aho (Do-laundry-I)
 
-> SVA axample (coastal regions): Zaho manasa lamba (I-do-laundry)
+> SVA example (coastal regions): Zaho manasa lamba (I-do-laundry)
 
 After traveling around Madagascar and spending some time on Nosy Be, 
 I managed to understand the following words and phrases.
@@ -40,7 +40,7 @@ of those words and phrases.
 
 for (const phrase of phrases) {
   const {term, english, comment} = phrase
-  markdown += `| ${term.padEnd(20)} | ${english.padEnd(20)} | ${(comment??'').padEnd(20)} |\r\n`
+  markdown += `| ${term.padEnd(20)} | ${english.padEnd(20)} | ${(comment ?? '').padEnd(20)} |\r\n`
 }
 
 markdown += `
@@ -52,6 +52,6 @@ markdown += `
 
 for (const word of words) {
   const {term, PartOfSpeech, english, comment} = word
-  markdown += `| ${term.padEnd(20)} | ${PartOfSpeech.name.padEnd(20)} | ${(english??'').padEnd(20)} | ${(comment??'').padEnd(20)} |\r\n`
+  markdown += `| ${term.padEnd(20)} | ${PartOfSpeech.name.padEnd(20)} | ${(english ?? '').padEnd(20)} | ${(comment ?? '').padEnd(20)} |\r\n`
 }
 await writeFile(mdFile, markdown)

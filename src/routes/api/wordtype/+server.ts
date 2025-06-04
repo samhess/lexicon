@@ -10,7 +10,7 @@ export async function POST({request}) {
 }
 
 export async function PUT({request}) {
-  const {code,...scalars} = await request.json()
+  const {code, ...scalars} = await request.json()
   await db.partOfSpeech.update({
     where: {code},
     data: {

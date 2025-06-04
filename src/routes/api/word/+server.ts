@@ -6,9 +6,9 @@ export async function POST({request}) {
   await db.word.create({
     data: {
       ...attributes,
-      Language:{connect:{code:Language.value}},
-      PartOfSpeech:{connect:{code:PartOfSpeech.value}},
-      Topic:{connect:{key:Topic.value}},
+      Language: {connect: {code: Language.value}},
+      PartOfSpeech: {connect: {code: PartOfSpeech.value}},
+      Topic: Topic.value ? {connect: {key: Topic.value}} : undefined
     }
   })
   return json({})
@@ -19,12 +19,12 @@ export async function PUT({request}) {
   const partOfSpeech = PartOfSpeech.value
   const language = Language.value
   await db.word.update({
-    where: {term_partOfSpeech_language:{term,partOfSpeech,language}},
+    where: {term_partOfSpeech_language: {term, partOfSpeech, language}},
     data: {
       ...attributes,
-      Language:{connect:{code:Language?.value??'eng'}},
-      PartOfSpeech:{connect:{code:PartOfSpeech.value}},
-      Topic:{connect:{key:Topic.value}},
+      Language: {connect: {code: Language?.value ?? 'eng'}},
+      PartOfSpeech: {connect: {code: PartOfSpeech.value}},
+      Topic: Topic.value ? {connect: {key: Topic.value}} : undefined
     }
   })
   return json({})
@@ -35,7 +35,7 @@ export async function DELETE({request}) {
   const partOfSpeech = PartOfSpeech.value
   const language = Language.value
   await db.word.delete({
-    where: {term_partOfSpeech_language:{term,partOfSpeech,language}},
+    where: {term_partOfSpeech_language: {term, partOfSpeech, language}}
   })
   return json({})
 }

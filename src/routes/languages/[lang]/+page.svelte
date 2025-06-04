@@ -6,18 +6,17 @@
 </script>
 
 <h3>{langauge?.name} Words</h3>
-<DataTable {entity} {records} update={()=>invalidateAll()}>
+<DataTable {entity} {records} update={() => invalidateAll()}>
   {#snippet children({records, rowDblClick})}
     {#each records as term}
-      <tr ondblclick={()=>rowDblClick(term)}>
+      <tr ondblclick={() => rowDblClick(term)}>
         <td>
-          <a href={`https://malagasyword.org/bins/teny2/${term.term}`} target="_blank">{term.term}</a>
+          <a href={`https://malagasyword.org/bins/teny2/${term.term}`} target="_blank"
+            >{term.term}</a>
         </td>
-        <td>{term.PartOfSpeech?.name??''}</td>
-        <td>{term.standard??''}</td>
+        <td>{term.PartOfSpeech?.name ?? ''}</td>
+        <td>{term.standard ?? ''}</td>
       </tr>
     {/each}
   {/snippet}
 </DataTable>
-
-
