@@ -6,5 +6,5 @@ bun.lock
 bun.lockb
 
 # Data files
-database
 scripts/data
+scripts/backup

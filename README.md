@@ -53,6 +53,7 @@ of those words and phrases.
 | araiky            | Numeral     | one                           |                                                       |
 | ary               | Conjunction | and                           | used for last addition after connecting nouns with sy |
 | asa               | Noun        | work                          | verb miasa                                            |
+| atsika roe        | Pronoun     | the two of us                 |                                                       |
 | avy               | Preposition | from                          | zaho avy ... => I am from ...                         |
 | be                | Adjective   | big                           |                                                       |
 | eny               | Adverb      | yes                           |                                                       |

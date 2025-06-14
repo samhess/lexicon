@@ -5,7 +5,7 @@ import {wordTypes} from './lib/constants.js'
 const contents = await readFile('./data/wordList.json', {encoding: 'utf-8'})
 const terms = JSON.parse(contents)
 
-const outFile = resolve('data', 'vocabulary.json') 
+const outFile = resolve('data', 'vocabulary.json')
 
 function fixTerm(term) {
   return term
