@@ -88,6 +88,7 @@ of those words and phrases.
 | manintsy          | Adjective   | cold                          |                                                       |
 | marary            | Adjective   | ill                           |                                                       |
 | matory            | Verb        | sleep                         |                                                       |
+| matsiro           | Adjective   | delicious                     |                                                       |
 | maventy           | Adjective   | big, heavy                    |                                                       |
 | miambe            | Verb        | to wait, to pay attention     |                                                       |
 | miasa             | Verb        | to work                       |                                                       |

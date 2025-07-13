@@ -21,10 +21,27 @@ model PartOfSpeech {
   Word Word[]
 }
 
+model Session {
+  id        String   @id
+  user      String
+  expiresAt DateTime
+  User      User     @relation(fields: [user], references: [email], onDelete: Cascade)
+}
+
 model Topic {
   key  String @id
   name String
   Word Word[]
+}
+
+model User {
+  firstname String?
+  lastname  String?
+  email     String      @id
+  password  String?
+  role      String      @default("user")
+  status    String      @default("enabled")
+  Session   Session[]
 }
 
 model Word {
