@@ -14,24 +14,24 @@
   },
   "type": "module",
   "dependencies": {
-    "@prisma/client": "^6.11.1",
+    "@prisma/client": "^6.13.0",
     "arctic": "^3.7.0",
-    "lucide-svelte": "^0.525.0"
+    "lucide-svelte": "^0.536.0"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^6.0.1",
-    "@sveltejs/kit": "^2.22.5",
+    "@sveltejs/kit": "^2.27.0",
     "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/typography": "^0.5.16",
     "@tailwindcss/vite": "^4.1.11",
-    "cheerio": "^1.1.0",
-    "pdfjs-dist": "^5.3.93",
+    "cheerio": "^1.1.2",
+    "pdfjs-dist": "^5.4.54",
     "prettier": "^3.6.2",
     "prettier-plugin-svelte": "^3.4.0",
-    "prisma": "^6.11.1",
-    "svelte": "^5.35.6",
-    "svelte-check": "^4.2.2",
+    "prisma": "^6.13.0",
+    "svelte": "^5.37.3",
+    "svelte-check": "^4.3.1",
     "tailwindcss": "^4.1.11",
-    "vite": "^7.0.4"
+    "vite": "^7.0.6"
   }
 }
