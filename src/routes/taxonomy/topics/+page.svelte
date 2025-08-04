@@ -5,18 +5,15 @@
   let {entity, records} = $derived(data)
 </script>
 
-<h3>Languages</h3>
+<h1>Topics</h1>
 <DataTable {entity} {records} update={() => invalidateAll()}>
   {#snippet children({records, rowDblClick})}
-    {#each records as language}
-      <tr ondblclick={() => rowDblClick(language)}>
-        <td>{language.code}</td>
-        <td>{language.alpha2}</td>
+    {#each records as topic}
+      <tr ondblclick={() => rowDblClick(topic)}>
         <td>
-          <a href={`/languages/${language.code}`}>{language.name}</a>
+          <a href={`/taxonomy/topics/${topic.key}`}>{topic.name}</a>
         </td>
-        <td>{language.description ?? ''}</td>
-        <td>{language._count.Word}</td>
+        <td>{topic._count.Word}</td>
       </tr>
     {/each}
   {/snippet}

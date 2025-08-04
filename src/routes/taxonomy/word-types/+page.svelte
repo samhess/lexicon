@@ -5,14 +5,14 @@
   let {entity, records} = $derived(data)
 </script>
 
-<h3>Word Types</h3>
+<h1>Word Types</h1>
 <DataTable {entity} {records} update={() => invalidateAll()}>
   {#snippet children({records, rowDblClick})}
     {#each records as wordtype}
       <tr ondblclick={() => rowDblClick(wordtype)}>
         <td>{wordtype.code}</td>
         <td>
-          <a href={`/wordtypes/${wordtype.code}`}>{wordtype.name}</a>
+          <a href={`/taxonomy/word-types/${wordtype.code}`}>{wordtype.name}</a>
         </td>
         <td>{wordtype._count.Word}</td>
       </tr>
