@@ -1,2 +1,3 @@
 # Malagasy Introduction
-[Malagasy Introduction](malagasy.pdf)
+
+Introduction to [Malagasy](malagasy.pdf) langauge.
