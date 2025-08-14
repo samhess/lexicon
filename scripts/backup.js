@@ -12,6 +12,7 @@ const tables = await db.$queryRaw`
     and tbl_name not like 'sqlite_%' 
     and tbl_name not like '_prisma_%'
     and tbl_name not like 'Session'
+    and tbl_name not like 'User'
   order by tbl_name;
 `
 for (const table of tables) {

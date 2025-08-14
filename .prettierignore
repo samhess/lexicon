@@ -8,3 +8,4 @@ bun.lockb
 # Data files
 scripts/data
 scripts/backup
+docs/assets

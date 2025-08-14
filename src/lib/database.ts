@@ -50,52 +50,7 @@ export async function getSelectOptions(entity: string) {
     return options
   } else if (modelNames.includes(entity)) {
     let options = new Array()
-    if (entity === 'Article') {
-      options = await db.article.findMany({orderBy: {title: 'asc'}})
-      options = options.map(({url, title}) => ({value: url, name: title}))
-    } else if (['Country', 'Domicile', 'Headquarter'].includes(entity)) {
-      options = await db.country.findMany({orderBy: {code: 'asc'}})
-      options = options.map(({code, name}) => ({value: code, name: `${code} \u2013 ${name}`}))
-    } else if (entity === 'Currency') {
-      options = await db.currency.findMany({orderBy: {code: 'asc'}})
-      options = options.map(({code, name}) => ({value: code, name: `${code} \u2013 ${name}`}))
-    } else if (entity === 'Gics') {
-      options = await db.gics.findMany({orderBy: {code: 'asc'}})
-      options = options.map(({code, name}) => ({value: code, name: `${code} \u2013 ${name}`}))
-    } else if (entity === 'Sector') {
-      options = await db.gicsSector.findMany({orderBy: {code: 'asc'}})
-      options = options.map(({code, name}) => ({value: code, name: `${code} \u2013 ${name}`}))
-    } else if (entity === 'Industry') {
-      options = await db.gicsIndustry.findMany({orderBy: {code: 'asc'}})
-      options = options.map(({code, name}) => ({value: code, name: `${code} \u2013 ${name}`}))
-    } else if (entity === 'IndustryGroup') {
-      options = await db.gicsIndustryGroup.findMany({orderBy: {code: 'asc'}})
-      options = options.map(({code, name}) => ({value: code, name: `${code} \u2013 ${name}`}))
-    } else if (entity === 'Instrument') {
-      options = await db.instrument.findMany({
-        include: {Company: true},
-        orderBy: {Company: {name: 'asc'}}
-      })
-      options = options.map(({isin, Company, ticker, exchange}) => ({
-        value: isin,
-        name: `${ticker}:${exchange} \u2013 ${isin} \u2013 ${Company?.name}`
-      }))
-    } else if (entity === 'Company') {
-      options = await db.company.findMany({orderBy: {name: 'asc'}})
-      options = options.map(({key, name, headquarter}) => ({
-        value: key,
-        name: `${name} \u2013 ${headquarter}`
-      }))
-    } else if (entity === 'Portfolio') {
-      options = await db.portfolio.findMany({orderBy: {name: 'asc'}})
-      options = options.map(({user, ticker, name}) => ({
-        value: `${user}:${ticker}`,
-        name: `${user}:${ticker} \u2013 ${name}`
-      }))
-    } else if (entity === 'Exchange') {
-      options = await db.exchange.findMany({orderBy: {mic: 'asc'}})
-      options = options.map(({mic, name}) => ({value: mic, name: `${mic} \u2013 ${name}`}))
-    } else if (entity === 'User') {
+    if (entity === 'User') {
       options = await db.user.findMany({orderBy: {email: 'asc'}})
       options = options.map(({email, firstname, lastname}) => ({
         value: email,

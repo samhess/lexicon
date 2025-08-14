@@ -1,1829 +1,1829 @@
 [
   {
     "term": "anarana",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": null,
-    "english": "name",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "name",
+    "comment": null,
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "araiky",
-    "partOfSpeech": "num",
-    "language": "skg",
-    "comment": null,
-    "english": "one",
     "rank": 0,
-    "root": null,
+    "language": "skg",
     "standard": "iray",
+    "root": null,
+    "wordtype": "num",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "num",
+    "english": "one",
+    "comment": null,
+    "WordType": {
+      "key": "num",
       "name": "Numeral"
     },
     "Language": {
-      "code": "skg",
-      "alpha2": "mg",
+      "key": "skg",
       "name": "Sakalava Malagasy",
-      "description": null
+      "description": null,
+      "alpha2": "mg"
     }
   },
   {
     "term": "ary",
-    "partOfSpeech": "conj",
-    "language": "mlg",
-    "comment": "used for last addition after connecting nouns with sy",
-    "english": "and",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "conj",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "conj",
+    "english": "and",
+    "comment": "used for last addition after connecting nouns with sy",
+    "WordType": {
+      "key": "conj",
       "name": "Conjunction"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "asa",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": "verb miasa",
-    "english": "work",
     "rank": 0,
-    "root": "asa",
+    "language": "mlg",
     "standard": "",
+    "root": "asa",
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "work",
+    "comment": "verb miasa",
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "atsika roe",
-    "partOfSpeech": "pron",
-    "language": "mlg",
-    "comment": null,
-    "english": "the two of us",
     "rank": null,
-    "root": null,
+    "language": "mlg",
     "standard": "isika",
+    "root": null,
+    "wordtype": "pron",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "pron",
+    "english": "the two of us",
+    "comment": null,
+    "WordType": {
+      "key": "pron",
       "name": "Pronoun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "avy",
-    "partOfSpeech": "prep",
-    "language": "mlg",
-    "comment": "zaho avy ... => I am from ...",
-    "english": "from",
     "rank": null,
-    "root": null,
+    "language": "mlg",
     "standard": null,
+    "root": null,
+    "wordtype": "prep",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "prep",
+    "english": "from",
+    "comment": "zaho avy ... => I am from ...",
+    "WordType": {
+      "key": "prep",
       "name": "Preposition"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "be",
-    "partOfSpeech": "adj",
-    "language": "mlg",
-    "comment": null,
-    "english": "big",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "adj",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adj",
+    "english": "big",
+    "comment": null,
+    "WordType": {
+      "key": "adj",
       "name": "Adjective"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "eny",
-    "partOfSpeech": "adv",
-    "language": "mlg",
-    "comment": null,
-    "english": "yes",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": null,
+    "root": null,
+    "wordtype": "adv",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adv",
+    "english": "yes",
+    "comment": null,
+    "WordType": {
+      "key": "adv",
       "name": "Adverb"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "eto",
-    "partOfSpeech": "adv",
-    "language": "mlg",
-    "comment": null,
-    "english": "here",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "adv",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adv",
+    "english": "here",
+    "comment": null,
+    "WordType": {
+      "key": "adv",
       "name": "Adverb"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "firy",
-    "partOfSpeech": "adv",
-    "language": "mlg",
-    "comment": null,
-    "english": "how many",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "adv",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adv",
+    "english": "how many",
+    "comment": null,
+    "WordType": {
+      "key": "adv",
       "name": "Adverb"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "fo",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": null,
-    "english": "heart",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "heart",
+    "comment": null,
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "foko",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": "heart of mine",
-    "english": "tribe",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "tribe",
+    "comment": "heart of mine",
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "gasy",
-    "partOfSpeech": "adj",
-    "language": "mlg",
-    "comment": null,
-    "english": "Malagasy, Madagascan",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "malagasy",
+    "root": null,
+    "wordtype": "adj",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adj",
+    "english": "Malagasy, Madagascan",
+    "comment": null,
+    "WordType": {
+      "key": "adj",
       "name": "Adjective"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "hamaray",
-    "partOfSpeech": "adv",
-    "language": "skg",
-    "comment": "",
-    "english": "tomorrow",
     "rank": 0,
-    "root": null,
+    "language": "skg",
     "standard": "rahampitso",
+    "root": null,
+    "wordtype": "adv",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adv",
+    "english": "tomorrow",
+    "comment": "",
+    "WordType": {
+      "key": "adv",
       "name": "Adverb"
     },
     "Language": {
-      "code": "skg",
-      "alpha2": "mg",
+      "key": "skg",
       "name": "Sakalava Malagasy",
-      "description": null
+      "description": null,
+      "alpha2": "mg"
     }
   },
   {
     "term": "hoatrinona",
-    "partOfSpeech": "adv",
-    "language": "mlg",
-    "comment": "other spelling ohatrinona",
-    "english": "how much?",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "adv",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adv",
+    "english": "how much?",
+    "comment": "other spelling ohatrinona",
+    "WordType": {
+      "key": "adv",
       "name": "Adverb"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "ia",
-    "partOfSpeech": "adv",
-    "language": "mlg",
-    "comment": "",
-    "english": "yes",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "adv",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adv",
+    "english": "yes",
+    "comment": "",
+    "WordType": {
+      "key": "adv",
       "name": "Adverb"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "ianao",
-    "partOfSpeech": "pron",
-    "language": "mlg",
-    "comment": null,
-    "english": "you",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "pron",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "pron",
+    "english": "you",
+    "comment": null,
+    "WordType": {
+      "key": "pron",
       "name": "Pronoun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "izaho",
-    "partOfSpeech": "pron",
-    "language": "mlg",
-    "comment": "",
-    "english": "I",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "pron",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "pron",
+    "english": "I",
+    "comment": "",
+    "WordType": {
+      "key": "pron",
       "name": "Pronoun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "kelikely",
-    "partOfSpeech": "adj",
-    "language": "mlg",
-    "comment": null,
-    "english": "a bit",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": null,
+    "root": null,
+    "wordtype": "adj",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adj",
+    "english": "a bit",
+    "comment": null,
+    "WordType": {
+      "key": "adj",
       "name": "Adjective"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "kely",
-    "partOfSpeech": "adj",
-    "language": "mlg",
-    "comment": "",
-    "english": "little",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "adj",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adj",
+    "english": "little",
+    "comment": "",
+    "WordType": {
+      "key": "adj",
       "name": "Adjective"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "kibo",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": null,
-    "english": "belly",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "belly",
+    "comment": null,
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "kiraro",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": "also savaty",
-    "english": "shoes",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "shoes",
+    "comment": "also savaty",
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "lamba",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": null,
-    "english": "clothes",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "clothes",
+    "comment": null,
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "lehilahy",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": null,
-    "english": "man",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "man",
+    "comment": null,
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "loaka",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": "",
-    "english": "hole ",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "hole ",
+    "comment": "",
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "madiniky",
-    "partOfSpeech": "adj",
-    "language": "mlg",
-    "comment": "",
-    "english": "small",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "madinika",
+    "root": null,
+    "wordtype": "adj",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adj",
+    "english": "small",
+    "comment": "",
+    "WordType": {
+      "key": "adj",
       "name": "Adjective"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "mafana",
-    "partOfSpeech": "adj",
-    "language": "mlg",
-    "comment": null,
-    "english": "hot",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "adj",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adj",
+    "english": "hot",
+    "comment": null,
+    "WordType": {
+      "key": "adj",
       "name": "Adjective"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "mahay",
-    "partOfSpeech": "v",
-    "language": "mlg",
-    "comment": null,
-    "english": "to know something",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "v",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "v",
+    "english": "to know something",
+    "comment": null,
+    "WordType": {
+      "key": "v",
       "name": "Verb"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "malagasy",
-    "partOfSpeech": "adj",
-    "language": "mlg",
-    "comment": "",
-    "english": "Malagasy, Madagascan",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "adj",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adj",
+    "english": "Malagasy, Madagascan",
+    "comment": "",
+    "WordType": {
+      "key": "adj",
       "name": "Adjective"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "malala",
-    "partOfSpeech": "adj",
-    "language": "mlg",
-    "comment": "",
-    "english": "beloved",
     "rank": 0,
-    "root": "lala",
+    "language": "mlg",
     "standard": "",
+    "root": "lala",
+    "wordtype": "adj",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adj",
+    "english": "beloved",
+    "comment": "",
+    "WordType": {
+      "key": "adj",
       "name": "Adjective"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "malalako",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": null,
-    "english": "my dear",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": null,
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "my dear",
+    "comment": null,
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "maloto",
-    "partOfSpeech": "adj",
-    "language": "mlg",
-    "comment": null,
-    "english": "dirty",
     "rank": 0,
-    "root": "loto",
+    "language": "mlg",
     "standard": null,
+    "root": "loto",
+    "wordtype": "adj",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adj",
+    "english": "dirty",
+    "comment": null,
+    "WordType": {
+      "key": "adj",
       "name": "Adjective"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "mamita",
-    "partOfSpeech": "v",
-    "language": "mlg",
-    "comment": "",
-    "english": "to finish",
     "rank": 0,
-    "root": "mita",
+    "language": "mlg",
     "standard": "",
+    "root": "mita",
+    "wordtype": "v",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "v",
+    "english": "to finish",
+    "comment": "",
+    "WordType": {
+      "key": "v",
       "name": "Verb"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "mamy",
-    "partOfSpeech": "adv",
-    "language": "mlg",
-    "comment": null,
-    "english": "sweet",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": null,
+    "root": null,
+    "wordtype": "adv",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adv",
+    "english": "sweet",
+    "comment": null,
+    "WordType": {
+      "key": "adv",
       "name": "Adverb"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "manangy",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": "",
-    "english": "a woman",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "vehivavy",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "a woman",
+    "comment": "",
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "mandeha",
-    "partOfSpeech": "v",
-    "language": "mlg",
-    "comment": null,
-    "english": "to walk",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "v",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "v",
+    "english": "to walk",
+    "comment": null,
+    "WordType": {
+      "key": "v",
       "name": "Verb"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "manintsy",
-    "partOfSpeech": "adj",
-    "language": "mlg",
-    "comment": null,
-    "english": "cold",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "adj",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adj",
+    "english": "cold",
+    "comment": null,
+    "WordType": {
+      "key": "adj",
       "name": "Adjective"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "marary",
-    "partOfSpeech": "adj",
-    "language": "mlg",
-    "comment": null,
-    "english": "ill",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": null,
+    "root": null,
+    "wordtype": "adj",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adj",
+    "english": "ill",
+    "comment": null,
+    "WordType": {
+      "key": "adj",
       "name": "Adjective"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "matory",
-    "partOfSpeech": "v",
-    "language": "mlg",
-    "comment": null,
-    "english": "sleep",
     "rank": null,
-    "root": null,
+    "language": "mlg",
     "standard": null,
+    "root": null,
+    "wordtype": "v",
     "topic": "house-home",
-    "PartOfSpeech": {
-      "code": "v",
+    "english": "sleep",
+    "comment": null,
+    "WordType": {
+      "key": "v",
       "name": "Verb"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "matsiro",
-    "partOfSpeech": "adj",
-    "language": "mlg",
-    "comment": null,
-    "english": "delicious",
     "rank": null,
-    "root": null,
+    "language": "mlg",
     "standard": null,
+    "root": null,
+    "wordtype": "adj",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adj",
+    "english": "delicious",
+    "comment": null,
+    "WordType": {
+      "key": "adj",
       "name": "Adjective"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "maventy",
-    "partOfSpeech": "adj",
-    "language": "mlg",
-    "comment": "",
-    "english": "big, heavy",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "adj",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adj",
+    "english": "big, heavy",
+    "comment": "",
+    "WordType": {
+      "key": "adj",
       "name": "Adjective"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "miambe",
-    "partOfSpeech": "v",
-    "language": "mlg",
-    "comment": "",
-    "english": "to wait, to pay attention",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "v",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "v",
+    "english": "to wait, to pay attention",
+    "comment": "",
+    "WordType": {
+      "key": "v",
       "name": "Verb"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "miasa",
-    "partOfSpeech": "v",
-    "language": "mlg",
-    "comment": null,
-    "english": "to work",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "v",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "v",
+    "english": "to work",
+    "comment": null,
+    "WordType": {
+      "key": "v",
       "name": "Verb"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "mifoha",
-    "partOfSpeech": "v",
-    "language": "mlg",
-    "comment": null,
-    "english": "to wake up, to get out of bed",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "v",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "v",
+    "english": "to wake up, to get out of bed",
+    "comment": null,
+    "WordType": {
+      "key": "v",
       "name": "Verb"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "mihinana",
-    "partOfSpeech": "v",
-    "language": "mlg",
-    "comment": null,
-    "english": "to eat",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "v",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "v",
+    "english": "to eat",
+    "comment": null,
+    "WordType": {
+      "key": "v",
       "name": "Verb"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "mila",
-    "partOfSpeech": "v",
-    "language": "mlg",
-    "comment": null,
-    "english": "to want, to need",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "v",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "v",
+    "english": "to want, to need",
+    "comment": null,
+    "WordType": {
+      "key": "v",
       "name": "Verb"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "mipetraka",
-    "partOfSpeech": "v",
-    "language": "mlg",
-    "comment": null,
-    "english": "to live in ",
     "rank": null,
-    "root": null,
+    "language": "mlg",
     "standard": null,
+    "root": null,
+    "wordtype": "v",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "v",
+    "english": "to live in ",
+    "comment": null,
+    "WordType": {
+      "key": "v",
       "name": "Verb"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "misy",
-    "partOfSpeech": "v",
-    "language": "mlg",
-    "comment": null,
-    "english": "there is",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "v",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "v",
+    "english": "there is",
+    "comment": null,
+    "WordType": {
+      "key": "v",
       "name": "Verb"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "mitsangantsangana",
-    "partOfSpeech": "v",
-    "language": "mlg",
-    "comment": "",
-    "english": "to stroll",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "v",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "v",
+    "english": "to stroll",
+    "comment": "",
+    "WordType": {
+      "key": "v",
       "name": "Verb"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "mody",
-    "partOfSpeech": "v",
-    "language": "mlg",
-    "comment": null,
-    "english": "to go home",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "v",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "v",
+    "english": "to go home",
+    "comment": null,
+    "WordType": {
+      "key": "v",
       "name": "Verb"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "mofo",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": "pronounced like mofu but u does not exist in malagasy",
-    "english": "bread",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "bread",
+    "comment": "pronounced like mofu but u does not exist in malagasy",
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "mora",
-    "partOfSpeech": "adj",
-    "language": "mlg",
-    "comment": null,
-    "english": "easy",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "adj",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adj",
+    "english": "easy",
+    "comment": null,
+    "WordType": {
+      "key": "adj",
       "name": "Adjective"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "moramora",
-    "partOfSpeech": "adv",
-    "language": "mlg",
-    "comment": null,
-    "english": "slowly, slowly",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "adv",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adv",
+    "english": "slowly, slowly",
+    "comment": null,
+    "WordType": {
+      "key": "adv",
       "name": "Adverb"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "mosary",
-    "partOfSpeech": "n",
-    "language": "skg",
-    "comment": "zaho mosary means I am starving",
-    "english": "hunger",
     "rank": 0,
-    "root": null,
+    "language": "skg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "hunger",
+    "comment": "zaho mosary means I am starving",
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "skg",
-      "alpha2": "mg",
+      "key": "skg",
       "name": "Sakalava Malagasy",
-      "description": null
+      "description": null,
+      "alpha2": "mg"
     }
   },
   {
     "term": "môko",
-    "partOfSpeech": "n",
-    "language": "skg",
-    "comment": null,
-    "english": "mosquitoes",
     "rank": 0,
-    "root": null,
+    "language": "skg",
     "standard": null,
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "mosquitoes",
+    "comment": null,
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "skg",
-      "alpha2": "mg",
+      "key": "skg",
       "name": "Sakalava Malagasy",
-      "description": null
+      "description": null,
+      "alpha2": "mg"
     }
   },
   {
     "term": "ngoma",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": null,
-    "english": "miss",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": null,
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "miss",
+    "comment": null,
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "nono",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": null,
-    "english": "breast",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "breast",
+    "comment": null,
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "nosy",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": "Nosy Be the big island",
-    "english": "island",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "island",
+    "comment": "Nosy Be the big island",
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "ny",
-    "partOfSpeech": "det",
-    "language": "mlg",
-    "comment": "determined atricle",
-    "english": "the",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "det",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "det",
+    "english": "the",
+    "comment": "determined atricle",
+    "WordType": {
+      "key": "det",
       "name": "Determiner"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "olana",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": null,
-    "english": "problem",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "problem",
+    "comment": null,
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "ondana",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": null,
-    "english": "a pillow",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "a pillow",
+    "comment": null,
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "rano",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": null,
-    "english": "water",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "water",
+    "comment": null,
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "ratsy ",
-    "partOfSpeech": "adj",
-    "language": "mlg",
-    "comment": null,
-    "english": "bad, ugly",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "adj",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adj",
+    "english": "bad, ugly",
+    "comment": null,
+    "WordType": {
+      "key": "adj",
       "name": "Adjective"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "ronono",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": "composed of ro (bouillon) and nono (breast)",
-    "english": "milk",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "milk",
+    "comment": "composed of ro (bouillon) and nono (breast)",
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "savaty",
-    "partOfSpeech": "n",
-    "language": "skg",
-    "comment": null,
-    "english": "shoes",
     "rank": 0,
-    "root": null,
+    "language": "skg",
     "standard": "kiraro",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "shoes",
+    "comment": null,
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "skg",
-      "alpha2": "mg",
+      "key": "skg",
       "name": "Sakalava Malagasy",
-      "description": null
+      "description": null,
+      "alpha2": "mg"
     }
   },
   {
     "term": "sipa",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": "vady is much more common",
-    "english": "girlfriend, boyfriend",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "girlfriend, boyfriend",
+    "comment": "vady is much more common",
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "sira",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": null,
-    "english": "salt",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "salt",
+    "comment": null,
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "siramamy",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": "composed of sira (salt) and mamy (sweet)",
-    "english": "sugar",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "sugar",
+    "comment": "composed of sira (salt) and mamy (sweet)",
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "sy",
-    "partOfSpeech": "conj",
-    "language": "mlg",
-    "comment": "",
-    "english": "and",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "conj",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "conj",
+    "english": "and",
+    "comment": "",
+    "WordType": {
+      "key": "conj",
       "name": "Conjunction"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "tavela",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": null,
-    "english": "leftover",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": null,
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "leftover",
+    "comment": null,
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "teny",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": null,
-    "english": "word",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "word",
+    "comment": null,
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "tsaiky",
-    "partOfSpeech": "n",
-    "language": "skg",
-    "comment": null,
-    "english": "child",
     "rank": 0,
-    "root": null,
+    "language": "skg",
     "standard": "tsaika",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "child",
+    "comment": null,
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "skg",
-      "alpha2": "mg",
+      "key": "skg",
       "name": "Sakalava Malagasy",
-      "description": null
+      "description": null,
+      "alpha2": "mg"
     }
   },
   {
     "term": "tsara ",
-    "partOfSpeech": "adj",
-    "language": "mlg",
-    "comment": null,
-    "english": "good, nice",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "adj",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adj",
+    "english": "good, nice",
+    "comment": null,
+    "WordType": {
+      "key": "adj",
       "name": "Adjective"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "tsia",
-    "partOfSpeech": "adv",
-    "language": "mlg",
-    "comment": null,
-    "english": "no",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "adv",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adv",
+    "english": "no",
+    "comment": null,
+    "WordType": {
+      "key": "adv",
       "name": "Adverb"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "tsisy",
-    "partOfSpeech": "adv",
-    "language": "mlg",
-    "comment": "",
-    "english": "nothing",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "tsy misy",
+    "root": null,
+    "wordtype": "adv",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adv",
+    "english": "nothing",
+    "comment": "",
+    "WordType": {
+      "key": "adv",
       "name": "Adverb"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "tsy",
-    "partOfSpeech": "adv",
-    "language": "mlg",
-    "comment": null,
-    "english": "not",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "adv",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adv",
+    "english": "not",
+    "comment": null,
+    "WordType": {
+      "key": "adv",
       "name": "Adverb"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "vadiko",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": null,
-    "english": "my spouse",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": null,
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "my spouse",
+    "comment": null,
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "vady",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": "",
-    "english": "spouse",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "spouse",
+    "comment": "",
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "vaovao",
-    "partOfSpeech": "adj",
-    "language": "mlg",
-    "comment": null,
-    "english": "new",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "adj",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adj",
+    "english": "new",
+    "comment": null,
+    "WordType": {
+      "key": "adj",
       "name": "Adjective"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "vary",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": null,
-    "english": "rice",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "rice",
+    "comment": null,
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "vava",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": null,
-    "english": "mouth",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "mouth",
+    "comment": null,
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "vazaha",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": "like mzungu in Africa",
-    "english": "foreigner",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "foreigner",
+    "comment": "like mzungu in Africa",
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "velona",
-    "partOfSpeech": "adj",
-    "language": "mlg",
-    "comment": null,
-    "english": "living",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "adj",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adj",
+    "english": "living",
+    "comment": null,
+    "WordType": {
+      "key": "adj",
       "name": "Adjective"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "vita",
-    "partOfSpeech": "v",
-    "language": "mlg",
-    "comment": null,
-    "english": "finished",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "v",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "v",
+    "english": "finished",
+    "comment": null,
+    "WordType": {
+      "key": "v",
       "name": "Verb"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "voky",
-    "partOfSpeech": "adj",
-    "language": "mlg",
-    "comment": "no more hungry",
-    "english": "full",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "adj",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "adj",
+    "english": "full",
+    "comment": "no more hungry",
+    "WordType": {
+      "key": "adj",
       "name": "Adjective"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "vola",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": null,
-    "english": "money",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": "",
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "money",
+    "comment": null,
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   },
   {
     "term": "zaza",
-    "partOfSpeech": "n",
-    "language": "mlg",
-    "comment": null,
-    "english": "child",
     "rank": 0,
-    "root": null,
+    "language": "mlg",
     "standard": null,
+    "root": null,
+    "wordtype": "n",
     "topic": null,
-    "PartOfSpeech": {
-      "code": "n",
+    "english": "child",
+    "comment": null,
+    "WordType": {
+      "key": "n",
       "name": "Noun"
     },
     "Language": {
-      "code": "mlg",
-      "alpha2": "mg",
+      "key": "mlg",
       "name": "Malagasy",
-      "description": "inclusive"
+      "description": "inclusive",
+      "alpha2": "mg"
     }
   }
 ]

@@ -6,13 +6,13 @@
   const receiveData = (sortedRecords: Array<any>) => (records = sortedRecords)
 </script>
 
-<h3>{topic?.name}</h3>
+<h1>{topic?.name}</h1>
 <DataTable {entity} {records} dispatchData={receiveData}>
   {#each records as term}
     <tr>
       <td>{term.term}</td>
       <td>{term.Language?.name ?? ''}</td>
-      <td>{term.PartOfSpeech?.name ?? ''}</td>
+      <td>{term.WordType?.name ?? ''}</td>
     </tr>
   {/each}
 </DataTable>

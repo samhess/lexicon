@@ -2,12 +2,12 @@ import db from '$lib/database'
 import {error} from '@sveltejs/kit'
 
 export const load = async ({params}) => {
-  const wordtype = await db.partOfSpeech.findUnique({where: {code: params.wordtype}})
+  const wordtype = await db.wordType.findUnique({where: {key: params.wordtype}})
   if (wordtype) {
     const entity = {
       attributes: {
         term: {name: 'Term'},
-        Language: {name: 'Language', key: 'code'},
+        Language: {name: 'Language', key: 'key'},
         Topic: {name: 'Topic', key: 'key'}
       },
       key: 'word',
@@ -15,8 +15,8 @@ export const load = async ({params}) => {
       name: 'Words'
     }
     const records = await db.word.findMany({
-      where: {PartOfSpeech: {code: wordtype.code}},
-      include: {PartOfSpeech: true, Language: true, Topic: true},
+      where: {WordType: {key: wordtype.key}},
+      include: {WordType: true, Language: true, Topic: true},
       orderBy: {term: 'asc'}
     })
     return {entity, records, wordtype}

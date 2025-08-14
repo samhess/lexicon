@@ -7,7 +7,7 @@
   const receiveData = (sortedRecords: Array<any>) => (records = sortedRecords)
 </script>
 
-<h3>Word</h3>
+<h1>Word</h1>
 {#key page.params.lang}
   <DataTable {entity} {records} dispatchData={receiveData}>
     {#each records as term}
@@ -18,7 +18,7 @@
         </td>
         <td>{term.Language.name ?? ''}</td>
         <td>{term.root ?? ''}</td>
-        <td>{term.PartOfSpeech?.name ?? ''}</td>
+        <td>{term.WordType?.name ?? ''}</td>
         <td>{term.standard ?? ''}</td>
         <td>{term.english}</td>
         <td>{term.Topic?.name ?? ''}</td>
@@ -26,4 +26,3 @@
     {/each}
   </DataTable>
 {/key}
-

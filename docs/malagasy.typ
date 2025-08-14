@@ -35,5 +35,5 @@ For speakers of Indo-European languages it can be quite hard to start with Malag
   stroke: none,
   table.header([Malagasy],[Word Type],[English],[Comment]),
   table.hline(stroke: rgb("#444")),
-  ..words.map(((term,partOfSpeech,english,comment))=>(term,partOfSpeech,english,comment)).flatten()
+  ..words.map(((term,wordtype,english,comment))=>(term,wordtype,english,comment)).flatten()
 )

@@ -16,7 +16,7 @@
     children?: Snippet
   }
   let props: TableProps = $props()
-  let {isEditable = false} = $state(props.entity) 
+  let {isEditable = false} = $state(props.entity)
   let caption = $state(`${props.entity.name} (${props.records.length})`)
 
   let sorting = $state({field: 'name', direction: 'asc'})
@@ -62,7 +62,7 @@
     <tr class="bg-gray-200">
       {#each Object.entries(props.entity.attributes) as [key, attribute]}
         <th
-          class={`${sorting.field == key ? 'underline':''} ${attribute.align === 'right' ? 'text-end' : ''}`}
+          class={`${sorting.field == key ? 'underline' : ''} ${attribute.align === 'right' ? 'text-end' : ''}`}
           onclick={(e) => toggleSorting(key)}>
           {attribute.name}
           <ArrowUpDown size={12} class="inline-block ms-0.5" />

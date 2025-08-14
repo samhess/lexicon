@@ -1,62 +1,62 @@
 [
   {
-    "code": "n",
+    "key": "n",
     "name": "Noun"
   },
   {
-    "code": "adj",
+    "key": "adj",
     "name": "Adjective"
   },
   {
-    "code": "adv",
+    "key": "adv",
     "name": "Adverb"
   },
   {
-    "code": "v",
+    "key": "v",
     "name": "Verb"
   },
   {
-    "code": "conj",
+    "key": "conj",
     "name": "Conjunction"
   },
   {
-    "code": "num",
+    "key": "num",
     "name": "Numeral"
   },
   {
-    "code": "interj",
+    "key": "interj",
     "name": "Interjections and exclamations"
   },
   {
-    "code": "pron",
+    "key": "pron",
     "name": "Pronoun"
   },
   {
-    "code": "det",
+    "key": "det",
     "name": "Determiner"
   },
   {
-    "code": "prep",
+    "key": "prep",
     "name": "Preposition"
   },
   {
-    "code": "loc",
+    "key": "loc",
     "name": "Locution"
   },
   {
-    "code": "affix",
+    "key": "affix",
     "name": "Affix"
   },
   {
-    "code": "particle",
+    "key": "particle",
     "name": "Particle"
   },
   {
-    "code": "phr-v",
+    "key": "phr-v",
     "name": "Phrasal verb"
   },
   {
-    "code": "prep-phr",
+    "key": "prep-phr",
     "name": "Prepositional Phrase"
   }
 ]

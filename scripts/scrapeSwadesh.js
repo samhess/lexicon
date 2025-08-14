@@ -1,17 +1,10 @@
 import * as cheerio from 'cheerio'
 import {writeFile} from 'fs/promises'
 
-const languages = [
-  'English',
-  'French',
-  'German',
-  'Malagasy',
-  'Spanish',
-  'Swahili'
-]
+const languages = ['English', 'French', 'German', 'Malagasy', 'Spanish', 'Swahili']
 
 async function getTableData(url, options) {
-  const {headers=[],index=0} = options
+  const {headers = [], index = 0} = options
   const $ = await cheerio.fromURL(url)
   const rows = $('table.wikitable.sortable').eq(index).find('tbody > tr').get()
   if (rows.length) {
@@ -29,7 +22,7 @@ async function getTableData(url, options) {
         const record = {}
         for (const [index, field] of fields.entries()) {
           const value = $(field).text().trim()
-            record[headers[index]] = isNaN(parseInt(value)) ? value : parseInt(value)
+          record[headers[index]] = isNaN(parseInt(value)) ? value : parseInt(value)
         }
         if (Object.values(record).length) {
           data.push(record)
@@ -41,17 +34,17 @@ async function getTableData(url, options) {
 }
 
 async function scrapeList(lang = 'English') {
-  const url = new URL(`/wiki/Appendix:${lang}_Swadesh_list`,'https://en.wiktionary.org')
+  const url = new URL(`/wiki/Appendix:${lang}_Swadesh_list`, 'https://en.wiktionary.org')
   const options = {
     index: 0,
-    headers: ['index','term','translation','pronounciation']
+    headers: ['index', 'term', 'translation', 'pronounciation']
   }
   return await getTableData(url, options)
-} 
+}
 
 for (const language of languages) {
   const swadesh207 = await scrapeList(language)
   const fileName = `data/swadesh-${language.toLowerCase()}.json`
-  await writeFile(fileName,JSON.stringify(swadesh207,null,2))
-  console.log(`writing ${fileName} with ${swadesh207.length} words`);  
+  await writeFile(fileName, JSON.stringify(swadesh207, null, 2))
+  console.log(`writing ${fileName} with ${swadesh207.length} words`)
 }

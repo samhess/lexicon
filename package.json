@@ -3,14 +3,14 @@
   "version": "0.0.5",
   "private": true,
   "scripts": {
+    "doc": "node docs/query.js && typst watch --root . docs/malagasy.typ",
     "dev": "vite dev",
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
     "format": "prettier --write .",
-    "lint": "prettier --check .",
-    "readme": "node scripts/markdown.js"
+    "lint": "prettier --check ."
   },
   "type": "module",
   "dependencies": {

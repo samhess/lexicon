@@ -11,13 +11,13 @@
 <DataTable {entity} {records} dispatchData={receiveData}>
   {#each records as wordtype}
     <tr>
-      <td>{wordtype.code}</td>
+      <td>{wordtype.key}</td>
       <td>
-        <a href={`/taxonomy/word-types/${wordtype.code}`}>{wordtype.name}</a>
+        <a href={`/taxonomy/word-types/${wordtype.key}`}>{wordtype.name}</a>
       </td>
       <td>{wordtype._count.Word}</td>
       {#if entity.isEditable}
-        <Edit entityKey={entity.key} recordKey={wordtype.code} />
+        <Edit entityKey={entity.key} recordKey={wordtype.key} />
       {/if}
     </tr>
   {/each}

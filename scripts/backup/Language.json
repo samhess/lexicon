@@ -1,98 +1,98 @@
 [
   {
-    "code": "mlg",
-    "alpha2": "mg",
+    "key": "mlg",
     "name": "Malagasy",
-    "description": "inclusive"
+    "description": "inclusive",
+    "alpha2": "mg"
   },
   {
-    "code": "bhr",
-    "alpha2": "mg",
+    "key": "bhr",
     "name": "Bara Malagasy",
-    "description": null
+    "description": null,
+    "alpha2": "mg"
   },
   {
-    "code": "bmm",
-    "alpha2": "mg",
+    "key": "bmm",
     "name": "Northern Betsimisaraka Malagasy",
-    "description": null
+    "description": null,
+    "alpha2": "mg"
   },
   {
-    "code": "bzc",
-    "alpha2": "mg",
+    "key": "bzc",
     "name": "Southern Betsimisaraka Malagasy",
-    "description": null
+    "description": null,
+    "alpha2": "mg"
   },
   {
-    "code": "msh",
-    "alpha2": "mg",
+    "key": "msh",
     "name": "Masikoro Malagasy",
-    "description": null
+    "description": null,
+    "alpha2": "mg"
   },
   {
-    "code": "plt",
-    "alpha2": "mg",
+    "key": "plt",
     "name": "Plateau Malagasy",
-    "description": "includes Betsileo, Bezanozano, Merina, Sihanaka, Taifasy, Taimoro, Tanala and Vakinankaratra"
+    "description": "includes Betsileo, Bezanozano, Merina, Sihanaka, Taifasy, Taimoro, Tanala and Vakinankaratra",
+    "alpha2": "mg"
   },
   {
-    "code": "skg",
-    "alpha2": "mg",
+    "key": "skg",
     "name": "Sakalava Malagasy",
-    "description": null
+    "description": null,
+    "alpha2": "mg"
   },
   {
-    "code": "tdx",
-    "alpha2": "mg",
+    "key": "tdx",
     "name": "Tandroy-Mahafaly Malagasy",
-    "description": null
+    "description": null,
+    "alpha2": "mg"
   },
   {
-    "code": "tkg",
-    "alpha2": "mg",
+    "key": "tkg",
     "name": "Tesaka Malagasy",
-    "description": null
+    "description": null,
+    "alpha2": "mg"
   },
   {
-    "code": "txy",
-    "alpha2": "mg",
+    "key": "txy",
     "name": "Tanosy Malagasy",
-    "description": null
+    "description": null,
+    "alpha2": "mg"
   },
   {
-    "code": "xmv",
-    "alpha2": "mg",
+    "key": "xmv",
     "name": "Antankarana Malagasy",
-    "description": null
+    "description": null,
+    "alpha2": "mg"
   },
   {
-    "code": "xmw",
-    "alpha2": "mg",
+    "key": "xmw",
     "name": "Tsimihety Malagasy",
-    "description": null
+    "description": null,
+    "alpha2": "mg"
   },
   {
-    "code": "eng",
-    "alpha2": "en",
+    "key": "eng",
     "name": "English",
-    "description": "inclusive"
+    "description": "inclusive",
+    "alpha2": "en"
   },
   {
-    "code": "ena",
-    "alpha2": "en",
+    "key": "ena",
     "name": "American English",
-    "description": "American"
+    "description": "American",
+    "alpha2": "en"
   },
   {
-    "code": "enb",
-    "alpha2": "en",
+    "key": "enb",
     "name": "Britisch English",
-    "description": "Britisch"
+    "description": "Britisch",
+    "alpha2": "en"
   },
   {
-    "code": "swa",
-    "alpha2": "sw",
+    "key": "swa",
     "name": "Swahili",
-    "description": "inclusive"
+    "description": "inclusive",
+    "alpha2": "sw"
   }
 ]

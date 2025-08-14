@@ -8,17 +8,11 @@ datasource db {
 }
 
 model Language {
-  code        String  @id
-  alpha2      String?
+  key         String  @id
   name        String?
   description String?
+  alpha2      String?
   Word        Word[]
-}
-
-model PartOfSpeech {
-  code String @id
-  name String
-  Word Word[]
 }
 
 model Session {
@@ -37,26 +31,32 @@ model Topic {
 model User {
   firstname String?
   lastname  String?
-  email     String      @id
+  email     String    @id
   password  String?
-  role      String      @default("user")
-  status    String      @default("enabled")
+  role      String    @default("user")
+  status    String    @default("enabled")
   Session   Session[]
 }
 
 model Word {
-  term         String
-  partOfSpeech String
-  language     String
-  comment      String?
-  english      String?
-  rank         Int?
-  root         String?
-  standard     String?
-  topic        String?
-  PartOfSpeech PartOfSpeech  @relation(fields: [partOfSpeech], references: [code], onDelete: Cascade)
-  Language     Language      @relation(fields: [language], references: [code], onDelete: Cascade)
-  Topic        Topic?        @relation(fields: [topic], references: [key])
+  term     String
+  rank     Int?
+  language String
+  standard String?
+  root     String?
+  wordtype String
+  topic    String?
+  english  String?
+  comment  String?
+  WordType WordType @relation(fields: [wordtype], references: [key], onDelete: Cascade)
+  Language Language @relation(fields: [language], references: [key], onDelete: Cascade)
+  Topic    Topic?   @relation(fields: [topic], references: [key], onDelete: Cascade)
 
-  @@unique([term,partOfSpeech,language])
+  @@unique([language, term, wordtype])
+}
+
+model WordType {
+  key  String @id
+  name String
+  Word Word[]
 }

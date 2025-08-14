@@ -6,13 +6,12 @@
   const receiveData = (sortedRecords: Array<any>) => (records = sortedRecords)
 </script>
 
-<h3>{wordtype.name + 's'}</h3>
+<h1>{wordtype.name + 's'}</h1>
 <DataTable {entity} {records} dispatchData={receiveData}>
   {#each records as term}
     <tr>
       <td>
-        <a href={`https://malagasyword.org/bins/teny2/${term.term}`} target="_blank"
-          >{term.term}</a>
+        <a href={`https://malagasyword.org/bins/teny2/${term.term}`} target="_blank">{term.term}</a>
       </td>
       <td>{term.Language?.name ?? ''}</td>
       <td>{term.Topic?.name ?? ''}</td>

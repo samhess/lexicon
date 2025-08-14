@@ -5,8 +5,8 @@ export const load = async ({params}) => {
   const entity = {
     attributes: {
       term: {name: 'Term'},
-      Language: {name: 'Language', key: 'code'},
-      PartOfSpeech: {name: 'Word Type', key: 'code'}
+      Language: {name: 'Language', key: 'key'},
+      WordType: {name: 'Word Type', key: 'key'}
     },
     key: 'word',
     isEditable: true,
@@ -17,7 +17,7 @@ export const load = async ({params}) => {
       language: {in: ['eng', 'ena', 'enb']},
       topic: topic?.key
     },
-    include: {PartOfSpeech: true, Language: true, Topic: true},
+    include: {WordType: true, Language: true, Topic: true},
     orderBy: {term: 'asc'}
   })
   return {entity, records, topic}
