@@ -1,4 +1,4 @@
-import db from '$lib/server/database'
+import db from '$lib/database'
 import {encodeBase32LowerCaseNoPadding, encodeHexLowerCase} from '@oslojs/encoding'
 import {sha256} from '@oslojs/crypto/sha2'
 // @ts-ignore

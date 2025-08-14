@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import {invalidateAll} from '$app/navigation'
   import DataTable from '$lib/components/DataTable.svelte'
   let {data} = $props()

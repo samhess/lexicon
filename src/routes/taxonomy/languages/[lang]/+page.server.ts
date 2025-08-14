@@ -1,4 +1,4 @@
-import db from '$lib/server/database'
+import db from '$lib/database'
 
 export const load = async ({params}) => {
   const langauge = await db.language.findUnique({where: {code: params.lang}})
@@ -8,7 +8,7 @@ export const load = async ({params}) => {
       PartOfSpeech: {name: 'Word Type', key: 'code'},
       standard: {name: 'Standard Term'}
     },
-    endpoint: 'word',
+    key: 'word',
     isEditable: true,
     name: 'Words'
   }

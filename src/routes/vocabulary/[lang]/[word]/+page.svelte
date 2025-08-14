@@ -1,15 +1,17 @@
-<script>
-  import {invalidateAll} from '$app/navigation'
+<script lang="ts">
   import DataTable from '$lib/components/DataTable.svelte'
+  import {page} from '$app/state'
   let {data} = $props()
-  let {entity, records} = $derived(data)
+  let {entity} = $derived(data)
+  let records = $state(data.records)
+  const receiveData = (sortedRecords: Array<any>) => (records = sortedRecords)
 </script>
 
 <h3>Word</h3>
-<DataTable {entity} {records} update={() => invalidateAll()}>
-  {#snippet children({records, rowDblClick})}
+{#key page.params.lang}
+  <DataTable {entity} {records} dispatchData={receiveData}>
     {#each records as term}
-      <tr ondblclick={() => rowDblClick(term)}>
+      <tr>
         <td>
           <a href={`https://malagasyword.org/bins/teny2/${term.term}`} target="_blank"
             >{term.term}</a>
@@ -22,5 +24,6 @@
         <td>{term.Topic?.name ?? ''}</td>
       </tr>
     {/each}
-  {/snippet}
-</DataTable>
+  </DataTable>
+{/key}
+

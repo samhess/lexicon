@@ -1,4 +1,4 @@
-import db from '../src/lib/server/database.ts'
+import db from '../src/lib/database.ts'
 import {writeFile} from 'fs/promises'
 import {resolve} from 'path'
 

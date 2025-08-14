@@ -1,48 +1,41 @@
-<script>
-  import EditDialog from '$lib/components/EditDialog.svelte'
-  import {ArrowUpDown} from '@lucide/svelte'
+<script lang="ts">
+  import type {Snippet} from 'svelte'
+  import type {GenericObject} from '$lib/types'
+  import {ArrowUpDown, Plus} from '@lucide/svelte'
 
-  /**
-   * @typedef {Object} Props
-   * @property {Object<string,any>} entity
-   * @property {Object<any,any>[]} records
-   * @property {Function} update
-   * @property {import('svelte').Snippet<[any]>} [toolbar]
-   * @property {import('svelte').Snippet} [header]
-   * @property {import('svelte').Snippet<[any]>} [children]
-   * @property {import('svelte').Snippet} [footer]
-   */
-
-  /** @type {Props} */
-  const props = $props()
-  let {entity, records, update, toolbar, header, children, footer} = props
-  let caption = $derived(`${entity.name} (${records.length})`)
-  let {name = '', attributes = {}, isEditable = false, endpoint = ''} = $derived(props.entity)
-  let {sorting = {field: 'name', direction: 'asc'}} = $state(props.entity)
-  let sortedRecords = $derived(sortRecords(sorting))
-  let editDialog = $state()
-
-  function rowDblClick(record = {}) {
-    if (isEditable) {
-      editDialog.editItem(record)
+  export type TableProps = {
+    entity: {
+      attributes: GenericObject
+      isEditable?: boolean
+      key: string
+      name?: string
+      sorting?: {field: string; direction: string}
     }
+    records: Array<GenericObject>
+    dispatchData?: Function
+    children?: Snippet
   }
+  let props: TableProps = $props()
+  let {isEditable = false} = $state(props.entity) 
+  let caption = $state(`${props.entity.name} (${props.records.length})`)
 
-  function addItem() {
-    editDialog.addItem()
-  }
+  let sorting = $state({field: 'name', direction: 'asc'})
+  let sortedRecords = $state(props.records)
 
   function toggleSorting(field = 'name') {
-    sorting.field = field
-    sorting.direction = sorting.direction === 'asc' ? 'desc' : 'asc'
+    const direction = sorting.direction === 'asc' ? 'desc' : 'asc'
+    sortedRecords = sortRecords({field, direction})
+    if (props.dispatchData) {
+      props.dispatchData(sortedRecords)
+    }
+    sorting = {field, direction}
   }
 
   function sortRecords({field = 'name', direction = 'asc'}) {
-    //$inspect(records)
     //console.log(`sorting ${field} ${direction}`)
     const sortCode = direction === 'asc' ? 1 : -1
-    if (Array.isArray(records)) {
-      return records.toSorted((A, B) => {
+    if (Array.isArray(props.records)) {
+      return props.records.toSorted((A, B) => {
         let a = A[field] ?? ''
         let b = B[field] ?? ''
         if (typeof a === 'object' && typeof b === 'object') {
@@ -63,45 +56,41 @@
   }
 </script>
 
-{#if isEditable === true}
-  <EditDialog entity={{name, endpoint, attributes}} bind:this={editDialog} edit={update}
-  ></EditDialog>
-{/if}
-{#if toolbar}{@render toolbar({addItem})}{:else if isEditable === true}
-  <div class="text-end pb-3">
-    <button class="" onclick={() => addItem()}>Add</button>
-  </div>
-{/if}
-<table class="table">
+<table>
   <caption class="text-center capitalize">{caption}</caption>
   <thead>
-    {#if header}{@render header()}{:else}
-      <tr class="bg-gray-200">
-        {#each Object.entries(attributes) as [key, props]}
-          {#if props.show !== false}
-            <th
-              class:text-end={props.align === 'right'}
-              class:underline={sorting.field == key}
-              onclick={() => toggleSorting(key)}>
-              {props.name}<ArrowUpDown size="12" class="inline-block ms-0.5" />
-            </th>
-          {/if}
-        {/each}
-      </tr>
-    {/if}
+    <tr class="bg-gray-200">
+      {#each Object.entries(props.entity.attributes) as [key, attribute]}
+        <th
+          class={`${sorting.field == key ? 'underline':''} ${attribute.align === 'right' ? 'text-end' : ''}`}
+          onclick={(e) => toggleSorting(key)}>
+          {attribute.name}
+          <ArrowUpDown size={12} class="inline-block ms-0.5" />
+        </th>
+      {/each}
+      {#if isEditable}
+        <th class="w-1/16 text-end">
+          <a href={`/crud/${props.entity.key}/new`} class="text-end">
+            <Plus class="inline" />
+          </a>
+        </th>
+      {/if}
+    </tr>
   </thead>
   <tbody>
-    {#if children}{@render children({records: sortedRecords, rowDblClick})}{:else}
-      {#each sortedRecords as record}
-        <tr ondblclick={() => rowDblClick(record)}>
-          {#each Object.values(record) as value}
-            <td>{value}</td>
+    {#if props.children}
+      {@render props.children()}
+    {:else}
+      {#each sortedRecords as record, index}
+        <tr>
+          {#each Object.entries(record).filter(([key, value]) => typeof value !== 'object') as [key, value]}
+            <td>{typeof value !== 'object' ? value : 'obj'}</td>
+            {#if isEditable}
+              <!-- <Edit entityKey={entity.key ?? ''} recordKey={record.code}></Edit> -->
+            {/if}
           {/each}
         </tr>
       {/each}
     {/if}
   </tbody>
-  <tfoot>
-    {@render footer?.()}
-  </tfoot>
 </table>

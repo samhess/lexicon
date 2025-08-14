@@ -1,4 +1,4 @@
-import db from '../src/lib/server/database.ts'
+import db from '../src/lib/database.ts'
 
 // https://iso639-3.sil.org/code/mlg
 

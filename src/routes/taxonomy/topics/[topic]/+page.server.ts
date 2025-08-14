@@ -1,4 +1,4 @@
-import db from '$lib/server/database'
+import db from '$lib/database'
 
 export const load = async ({params}) => {
   const topic = await db.topic.findUnique({where: {key: params.topic}})
@@ -8,7 +8,7 @@ export const load = async ({params}) => {
       Language: {name: 'Language', key: 'code'},
       PartOfSpeech: {name: 'Word Type', key: 'code'}
     },
-    endpoint: 'word',
+    key: 'word',
     isEditable: true,
     name: 'Topic List'
   }

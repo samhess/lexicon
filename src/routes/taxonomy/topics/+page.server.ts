@@ -1,4 +1,4 @@
-import db from '$lib/server/database'
+import db from '$lib/database'
 
 export const load = async () => {
   const entity = {
@@ -6,7 +6,7 @@ export const load = async () => {
       name: {name: 'Topic'},
       count: {name: 'Words', edit: false}
     },
-    endpoint: 'topic',
+    key: 'topic',
     isEditable: true,
     name: 'Topics'
   }

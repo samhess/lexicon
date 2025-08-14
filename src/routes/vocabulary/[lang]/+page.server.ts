@@ -1,4 +1,4 @@
-import db from '$lib/server/database'
+import db from '$lib/database'
 
 const lang = new Map()
 lang.set('english',['ena','enb','eng'])
@@ -9,6 +9,7 @@ lang.set('spanish',['spa'])
 lang.set('swahili',['swa'])
 
 export const load = async ({params}) => {
+  console.log(params.lang)
   const entity = {
     attributes: {
       term: {name: 'Term'},
@@ -20,7 +21,7 @@ export const load = async ({params}) => {
       english: {name: 'English'},
       comment: {name: 'Comment'}
     },
-    endpoint: 'word',
+    key: 'word',
     isEditable: true,
     name: 'Words'
   }

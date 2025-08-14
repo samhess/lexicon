@@ -1,4 +1,4 @@
-import db from '../src/lib/server/database.ts'
+import db from '../src/lib/database.ts'
 import {readFile} from 'fs/promises'
 
 const contents = await readFile('./data/topicLists.json')

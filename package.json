@@ -24,6 +24,7 @@
     "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/typography": "^0.5.16",
     "@tailwindcss/vite": "^4.1.11",
+    "@types/node": "^24.2.1",
     "cheerio": "^1.1.2",
     "pdfjs-dist": "^5.4.54",
     "prettier": "^3.6.2",

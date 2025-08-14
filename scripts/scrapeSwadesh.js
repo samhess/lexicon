@@ -11,7 +11,7 @@ const languages = [
 ]
 
 async function getTableData(url, options) {
-  const {headers,index} = options
+  const {headers=[],index=0} = options
   const $ = await cheerio.fromURL(url)
   const rows = $('table.wikitable.sortable').eq(index).find('tbody > tr').get()
   if (rows.length) {

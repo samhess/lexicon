@@ -1,4 +1,4 @@
-import db from '$lib/server/database'
+import db from '$lib/database'
 import {error} from '@sveltejs/kit'
 
 export const load = async ({params}) => {
@@ -10,7 +10,7 @@ export const load = async ({params}) => {
         Language: {name: 'Language', key: 'code'},
         Topic: {name: 'Topic', key: 'key'}
       },
-      endpoint: 'word',
+      key: 'word',
       isEditable: true,
       name: 'Words'
     }
