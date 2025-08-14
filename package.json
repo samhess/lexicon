@@ -1,6 +1,6 @@
 {
   "name": "language101",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "doc": "node docs/query.js && typst watch --root . docs/malagasy.typ",
@@ -20,10 +20,10 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^6.1.0",
-    "@sveltejs/kit": "^2.29.1",
+    "@sveltejs/kit": "^2.30.0",
     "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/typography": "^0.5.16",
-    "@tailwindcss/vite": "^4.1.11",
+    "@tailwindcss/vite": "^4.1.12",
     "@types/node": "^24.2.1",
     "cheerio": "^1.1.2",
     "pdfjs-dist": "^5.4.54",
@@ -32,7 +32,7 @@
     "prisma": "^6.14.0",
     "svelte": "^5.38.1",
     "svelte-check": "^4.3.1",
-    "tailwindcss": "^4.1.11",
+    "tailwindcss": "^4.1.12",
     "vite": "^7.1.2"
   }
 }
