@@ -1,6 +1,6 @@
 <script>
   import EditDialog from '$lib/components/EditDialog.svelte'
-  import {ArrowUpDown} from 'lucide-svelte'
+  import {ArrowUpDown} from '@lucide/svelte'
 
   /**
    * @typedef {Object} Props
