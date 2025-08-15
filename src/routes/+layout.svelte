@@ -58,7 +58,10 @@
             <a
               href={`/${segment1}/${segment2}`}
               class="text-gray-300 hover:bg-sky-400 hover:text-white rounded-md px-3 text-base font-medium"
-              class:text-white={currentRoute.split('/')[1] === segment2}>{route}</a>
+              class:text-white={(segment1 === 'vocabulary' && page.data.language === segment2) ||
+                currentRoute.split('/')[1] === segment2}
+              >{route}
+            </a>
           {/each}
         </div>
       {/if}

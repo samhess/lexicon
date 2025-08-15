@@ -54,6 +54,13 @@
       return []
     }
   }
+
+  $effect(() => {
+    caption = `${props.entity.name} (${props.records.length})`
+    if (props.dispatchData) {
+      props.dispatchData(props.records)
+    }
+  })
 </script>
 
 <table>

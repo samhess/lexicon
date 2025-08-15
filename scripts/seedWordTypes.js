@@ -1,63 +1,63 @@
 import db from '../src/lib/database.ts'
 
-const parts = [
+const wordTypes = [
   {
-    code: 'n',
+    key: 'n',
     name: 'noun'
   },
   {
-    code: 'adj',
+    key: 'adj',
     name: 'adjective'
   },
   {
-    code: 'adv',
+    key: 'adv',
     name: 'adverb'
   },
   {
-    code: 'v',
+    key: 'v',
     name: 'verb'
   },
   {
-    code: 'conj',
+    key: 'conj',
     name: 'conjunction'
   },
   {
-    code: 'num',
+    key: 'num',
     name: 'numeral'
   },
   {
-    code: 'interjection',
+    key: 'interjection',
     name: 'interjection'
   },
   {
-    code: 'prn',
+    key: 'prn',
     name: 'pronoun'
   },
   {
-    code: 'art',
+    key: 'art',
     name: 'article'
   },
   {
-    code: 'prep',
+    key: 'prep',
     name: 'preposition'
   },
   {
-    code: 'loc',
+    key: 'loc',
     name: 'locution'
   },
   {
-    code: 'affix',
+    key: 'affix',
     name: 'affix'
   },
   {
-    code: 'participle',
+    key: 'participle',
     name: 'participle'
   }
 ]
-for (const part of parts) {
-  const {code, name} = part
-  await db.partOfSpeech.upsert({
-    where: {code},
+for (const wordType of wordTypes) {
+  const {key, name} = wordType
+  await db.wordType.upsert({
+    where: {key},
     create: part,
     update: {name}
   })

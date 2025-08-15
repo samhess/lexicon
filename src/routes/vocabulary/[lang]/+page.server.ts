@@ -22,7 +22,6 @@ lang.set('spanish', ['spa'])
 lang.set('swahili', ['swa'])
 
 export const load = async ({params}) => {
-  console.log(params.lang)
   const entity = {
     attributes: {
       term: {name: 'Term'},
@@ -43,5 +42,5 @@ export const load = async ({params}) => {
     orderBy: {term: 'asc'},
     where: {language: {in: lang.get(params.lang)}}
   })
-  return {entity, records}
+  return {entity, records, language: params.lang}
 }
