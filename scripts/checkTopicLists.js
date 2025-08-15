@@ -30,9 +30,9 @@ for (const entry of entries) {
       where: {term, language: {in: ['eng', 'ena', 'enb']}}
     })
     if (word) {
-      const {language, partOfSpeech} = word
+      const {language, wordtype} = word
       await db.word.update({
-        where: {term_partOfSpeech_language: {term, partOfSpeech, language}},
+        where: {language_term_wordtype: {term, wordtype, language}},
         data: {Topic: {connect: {key: topic.key}}}
       })
     } else {

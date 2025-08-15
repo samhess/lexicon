@@ -18,14 +18,14 @@ function getWordType(type) {
 for (const word of words) {
   if (!word.term.includes('(') && !word.term.includes('/')) {
     const {term, language} = word
-    const partOfSpeech = getWordType(word.type)
+    const wordtype = getWordType(word.type)
     const exists = await db.word.findUnique({
-      where: {term_partOfSpeech_language: {term, partOfSpeech, language}}
+      where: {language_term_wordtype: {term, wordtype, language}}
     })
     if (exists) {
       await db.word.update({
-        where: {term_partOfSpeech_language: {term, partOfSpeech, language}},
-        data: {term, language, partOfSpeech}
+        where: {language_term_wordtype: {term, wordtype, language}},
+        data: {term, language, wordtype}
       })
     } else {
       //await db.word.create({data:{term,language,partOfSpeech}})
