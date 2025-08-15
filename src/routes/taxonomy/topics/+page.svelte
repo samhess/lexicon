@@ -11,9 +11,8 @@
 <DataTable {entity} {records} dispatchData={receiveData}>
   {#each records as topic}
     <tr>
-      <td>
-        <a href={`/taxonomy/topics/${topic.key}`}>{topic.name}</a>
-      </td>
+      <td>{topic.key}</td>
+      <td>{topic.name}</td>
       <td>{topic._count.Word}</td>
       {#if entity.isEditable}
         <Edit entityKey={entity.key} recordKey={topic.key} />

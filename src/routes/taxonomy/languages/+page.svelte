@@ -11,9 +11,7 @@
     <tr>
       <td>{language.key}</td>
       <td>{language.alpha2}</td>
-      <td>
-        <a href={`/taxonomy/languages/${language.key}`}>{language.name}</a>
-      </td>
+      <td>{language.name}</td>
       <td>{language.description ?? ''}</td>
       <td>{language._count.Word}</td>
       {#if entity.isEditable}

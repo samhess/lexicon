@@ -3,7 +3,11 @@ import type {GenericObject} from '$lib/types'
 export const routes: GenericObject = {
   dashboard: {
     name: 'Dashboard',
-    children: ['Summary', 'Matrix']
+    children: []
+  },
+  topiclists: {
+    name: 'Topic Lists',
+    children: ['English', 'French', 'German', 'Malagasy', 'Spanish', 'Swahili']
   },
   vocabulary: {
     name: 'Vocabulary',

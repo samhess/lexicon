@@ -55,10 +55,11 @@
         <div class="bg-sky-500 flex items-center space-x-2 justify-center py-1">
           {#each childRoutes as route}
             {@const segment2 = route.toLowerCase().replace(/\s/g, '-')}
+            {@const language = page.data.language?.name.toLowerCase()}
             <a
               href={`/${segment1}/${segment2}`}
               class="text-gray-300 hover:bg-sky-400 hover:text-white rounded-md px-3 text-base font-medium"
-              class:text-white={(segment1 === 'vocabulary' && page.data.language === segment2) ||
+              class:text-white={(['topiclists','vocabulary'].includes(segment1) && language === segment2) ||
                 currentRoute.split('/')[1] === segment2}
               >{route}
             </a>

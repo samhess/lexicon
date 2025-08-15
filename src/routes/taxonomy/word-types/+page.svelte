@@ -12,9 +12,7 @@
   {#each records as wordtype}
     <tr>
       <td>{wordtype.key}</td>
-      <td>
-        <a href={`/taxonomy/word-types/${wordtype.key}`}>{wordtype.name}</a>
-      </td>
+      <td>{wordtype.name}</td>
       <td>{wordtype._count.Word}</td>
       {#if entity.isEditable}
         <Edit entityKey={entity.key} recordKey={wordtype.key} />

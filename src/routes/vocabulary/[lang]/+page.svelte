@@ -4,11 +4,10 @@
   let props = $props()
   let entity = $derived(props.data.entity)
   let records = $state(props.data.records)
-  let language = $derived(props.data.language.replace(/^\w/, (c: string) => c.toUpperCase()))
   const receiveData = (sortedRecords: Array<any>) => (records = sortedRecords)
 </script>
 
-<h1>{language} Vocabulary</h1>
+<h1>{props.data.language.name} Vocabulary</h1>
 <DataTable {entity} records={props.data.records} dispatchData={receiveData}>
   {#each records as term}
     <tr>

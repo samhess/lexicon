@@ -3,6 +3,7 @@ import db from '$lib/database'
 export const load = async () => {
   const entity = {
     attributes: {
+      key: {name: 'Key'},
       name: {name: 'Topic'},
       count: {name: 'Words', edit: false}
     },

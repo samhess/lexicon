@@ -2,7 +2,6 @@
   import type {Snippet} from 'svelte'
   import type {GenericObject} from '$lib/types'
   import {ArrowUpDown, Plus} from '@lucide/svelte'
-
   export type TableProps = {
     entity: {
       attributes: GenericObject
@@ -15,6 +14,7 @@
     dispatchData?: Function
     children?: Snippet
   }
+  
   let props: TableProps = $props()
   let {isEditable = false} = $state(props.entity)
   let caption = $state(`${props.entity.name} (${props.records.length})`)
