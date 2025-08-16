@@ -14,13 +14,11 @@
       <td>
         <a href={`/words/${term.term}`}>{term.term}</a>
       </td>
-      <td>{term.Language?.name ?? ''}</td>
-      <td>{term.WordType?.name ?? ''}</td>
-      <td>{term.Topic?.name ?? ''}</td>
-      <td>{term.root ?? ''}</td>
-      <td>{term.standard ?? ''}</td>
-      <td>{term.english ?? ''}</td>
       <td>{term.comment ?? ''}</td>
+      <td>{term.WordType?.name ?? ''}</td>
+      <td>{term.Language?.name ?? ''}</td>
+      <td>{term.level ?? ''}</td>
+      <td>{term.english ?? ''}</td>
       {#if entity.isEditable}
         <Edit entityKey={entity.key} recordKey={term.term} />
       {/if}

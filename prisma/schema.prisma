@@ -40,19 +40,18 @@ model User {
 
 model Word {
   term     String
-  rank     Int?
+  index    Int        @default(0)
   language String
-  standard String?
-  root     String?
   wordtype String
   topic    String?
   english  String?
   comment  String?
+  level    String?
   WordType WordType @relation(fields: [wordtype], references: [key], onDelete: Cascade)
   Language Language @relation(fields: [language], references: [key], onDelete: Cascade)
   Topic    Topic?   @relation(fields: [topic], references: [key], onDelete: Cascade)
 
-  @@unique([language, term, wordtype])
+  @@unique([language, term, index])
 }
 
 model WordType {

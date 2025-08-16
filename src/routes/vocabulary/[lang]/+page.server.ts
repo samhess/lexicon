@@ -28,13 +28,11 @@ export const load = async ({params}) => {
     const entity = {
       attributes: {
         term: {name: 'Term'},
+        comment: {name: 'Comment'},
+        WordType: {name: 'Word Type', key: 'key'},
         Language: {name: 'Language', key: 'key'},
-        PartOfSpeech: {name: 'Word Type', key: 'key'},
-        Topic: {name: 'Topic', key: 'key'},
-        root: {name: 'Root Form'},
-        standard: {name: 'Standard Term'},
+        level: {name: 'Level'},
         english: {name: 'English'},
-        comment: {name: 'Comment'}
       },
       key: 'word',
       isEditable: true,
