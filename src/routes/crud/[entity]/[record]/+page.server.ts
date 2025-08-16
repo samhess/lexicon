@@ -8,7 +8,7 @@ type EntityKey = Uncapitalize<Prisma.ModelName>
 
 function decodeRecordKey(recordKeyEnc: string) {
   const recordKey = decodeURIComponent(recordKeyEnc)
-  return recordKey.startsWith('{') ? JSON.parse(recordKey) : recordKey
+  return recordKey.startsWith('{') ? JSON.parse(recordKey) : isNaN(parseInt(recordKey)) ? recordKey : parseInt(recordKey)
 }
 
 export const actions = {

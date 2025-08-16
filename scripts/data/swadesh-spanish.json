@@ -1,0 +1,1037 @@
+[
+  {
+    "index": 1,
+    "term": "I (1sg)",
+    "translation": "yo"
+  },
+  {
+    "index": 2,
+    "term": "you (2sg)",
+    "translation": "tú, vos, usted (formal)"
+  },
+  {
+    "index": 3,
+    "term": "he, she, it (3sg)",
+    "translation": "él, ella"
+  },
+  {
+    "index": 4,
+    "term": "we (1pl)",
+    "translation": "nosotros, nosotras"
+  },
+  {
+    "index": 5,
+    "term": "you (2pl)",
+    "translation": "vosotros, vosotras, ustedes"
+  },
+  {
+    "index": 6,
+    "term": "they (3pl)",
+    "translation": "ellos, ellas"
+  },
+  {
+    "index": 7,
+    "term": "this",
+    "translation": "este"
+  },
+  {
+    "index": 8,
+    "term": "that",
+    "translation": "ese, aquel"
+  },
+  {
+    "index": 9,
+    "term": "here",
+    "translation": "aquí, acá"
+  },
+  {
+    "index": 10,
+    "term": "there",
+    "translation": "ahí"
+  },
+  {
+    "index": 11,
+    "term": "who",
+    "translation": "quién"
+  },
+  {
+    "index": 12,
+    "term": "what",
+    "translation": "qué"
+  },
+  {
+    "index": 13,
+    "term": "where",
+    "translation": "dónde"
+  },
+  {
+    "index": 14,
+    "term": "when",
+    "translation": "cuándo"
+  },
+  {
+    "index": 15,
+    "term": "how",
+    "translation": "cómo"
+  },
+  {
+    "index": 16,
+    "term": "not",
+    "translation": "no"
+  },
+  {
+    "index": 17,
+    "term": "all",
+    "translation": "todo"
+  },
+  {
+    "index": 18,
+    "term": "many",
+    "translation": "mucho"
+  },
+  {
+    "index": 19,
+    "term": "some",
+    "translation": "alguno"
+  },
+  {
+    "index": 20,
+    "term": "few",
+    "translation": "poco"
+  },
+  {
+    "index": 21,
+    "term": "other",
+    "translation": "otro"
+  },
+  {
+    "index": 22,
+    "term": "one",
+    "translation": "uno"
+  },
+  {
+    "index": 23,
+    "term": "two",
+    "translation": "dos"
+  },
+  {
+    "index": 24,
+    "term": "three",
+    "translation": "tres"
+  },
+  {
+    "index": 25,
+    "term": "four",
+    "translation": "cuatro"
+  },
+  {
+    "index": 26,
+    "term": "five",
+    "translation": "cinco"
+  },
+  {
+    "index": 27,
+    "term": "big",
+    "translation": "grande"
+  },
+  {
+    "index": 28,
+    "term": "long",
+    "translation": "largo"
+  },
+  {
+    "index": 29,
+    "term": "wide",
+    "translation": "ancho"
+  },
+  {
+    "index": 30,
+    "term": "thick",
+    "translation": "grueso"
+  },
+  {
+    "index": 31,
+    "term": "heavy",
+    "translation": "pesado"
+  },
+  {
+    "index": 32,
+    "term": "small",
+    "translation": "pequeño"
+  },
+  {
+    "index": 33,
+    "term": "short",
+    "translation": "corto"
+  },
+  {
+    "index": 34,
+    "term": "narrow",
+    "translation": "estrecho, angosto"
+  },
+  {
+    "index": 35,
+    "term": "thin",
+    "translation": "delgado, flaco"
+  },
+  {
+    "index": 36,
+    "term": "woman",
+    "translation": "mujer"
+  },
+  {
+    "index": 37,
+    "term": "man (adult male)",
+    "translation": "varón"
+  },
+  {
+    "index": 38,
+    "term": "man (human being)",
+    "translation": "hombre"
+  },
+  {
+    "index": 39,
+    "term": "child",
+    "translation": "niño"
+  },
+  {
+    "index": 40,
+    "term": "wife",
+    "translation": "esposa, mujer"
+  },
+  {
+    "index": 41,
+    "term": "husband",
+    "translation": "esposo, marido"
+  },
+  {
+    "index": 42,
+    "term": "mother",
+    "translation": "madre"
+  },
+  {
+    "index": 43,
+    "term": "father",
+    "translation": "padre"
+  },
+  {
+    "index": 44,
+    "term": "animal",
+    "translation": "animal"
+  },
+  {
+    "index": 45,
+    "term": "fish",
+    "translation": "pez, pescado"
+  },
+  {
+    "index": 46,
+    "term": "bird",
+    "translation": "pájaro"
+  },
+  {
+    "index": 47,
+    "term": "dog",
+    "translation": "perro"
+  },
+  {
+    "index": 48,
+    "term": "louse",
+    "translation": "piojo"
+  },
+  {
+    "index": 49,
+    "term": "snake",
+    "translation": "serpiente, víbora, culebra"
+  },
+  {
+    "index": 50,
+    "term": "worm",
+    "translation": "gusano"
+  },
+  {
+    "index": 51,
+    "term": "tree",
+    "translation": "árbol"
+  },
+  {
+    "index": 52,
+    "term": "forest",
+    "translation": "bosque"
+  },
+  {
+    "index": 53,
+    "term": "stick",
+    "translation": "palo"
+  },
+  {
+    "index": 54,
+    "term": "fruit",
+    "translation": "fruta"
+  },
+  {
+    "index": 55,
+    "term": "seed",
+    "translation": "semilla"
+  },
+  {
+    "index": 56,
+    "term": "leaf",
+    "translation": "hoja"
+  },
+  {
+    "index": 57,
+    "term": "root",
+    "translation": "raíz"
+  },
+  {
+    "index": 58,
+    "term": "bark (of a tree)",
+    "translation": "corteza"
+  },
+  {
+    "index": 59,
+    "term": "flower",
+    "translation": "flor"
+  },
+  {
+    "index": 60,
+    "term": "grass",
+    "translation": "hierba, grama"
+  },
+  {
+    "index": 61,
+    "term": "rope",
+    "translation": "cuerda"
+  },
+  {
+    "index": 62,
+    "term": "skin",
+    "translation": "piel"
+  },
+  {
+    "index": 63,
+    "term": "meat",
+    "translation": "carne"
+  },
+  {
+    "index": 64,
+    "term": "blood",
+    "translation": "sangre"
+  },
+  {
+    "index": 65,
+    "term": "bone",
+    "translation": "hueso"
+  },
+  {
+    "index": 66,
+    "term": "fat (noun)",
+    "translation": "grasa"
+  },
+  {
+    "index": 67,
+    "term": "egg",
+    "translation": "huevo"
+  },
+  {
+    "index": 68,
+    "term": "horn",
+    "translation": "cuerno"
+  },
+  {
+    "index": 69,
+    "term": "tail",
+    "translation": "cola"
+  },
+  {
+    "index": 70,
+    "term": "feather",
+    "translation": "pluma"
+  },
+  {
+    "index": 71,
+    "term": "hair",
+    "translation": "pelo, cabello"
+  },
+  {
+    "index": 72,
+    "term": "head",
+    "translation": "cabeza"
+  },
+  {
+    "index": 73,
+    "term": "ear",
+    "translation": "oreja"
+  },
+  {
+    "index": 74,
+    "term": "eye",
+    "translation": "ojo"
+  },
+  {
+    "index": 75,
+    "term": "nose",
+    "translation": "nariz"
+  },
+  {
+    "index": 76,
+    "term": "mouth",
+    "translation": "boca"
+  },
+  {
+    "index": 77,
+    "term": "tooth",
+    "translation": "diente"
+  },
+  {
+    "index": 78,
+    "term": "tongue (organ)",
+    "translation": "lengua"
+  },
+  {
+    "index": 79,
+    "term": "fingernail",
+    "translation": "uña"
+  },
+  {
+    "index": 80,
+    "term": "foot",
+    "translation": "pie"
+  },
+  {
+    "index": 81,
+    "term": "leg",
+    "translation": "pierna"
+  },
+  {
+    "index": 82,
+    "term": "knee",
+    "translation": "rodilla"
+  },
+  {
+    "index": 83,
+    "term": "hand",
+    "translation": "mano"
+  },
+  {
+    "index": 84,
+    "term": "wing",
+    "translation": "ala"
+  },
+  {
+    "index": 85,
+    "term": "belly",
+    "translation": "barriga, vientre"
+  },
+  {
+    "index": 86,
+    "term": "guts",
+    "translation": "tripas"
+  },
+  {
+    "index": 87,
+    "term": "neck",
+    "translation": "cuello"
+  },
+  {
+    "index": 88,
+    "term": "back",
+    "translation": "espalda"
+  },
+  {
+    "index": 89,
+    "term": "breast",
+    "translation": "pecho"
+  },
+  {
+    "index": 90,
+    "term": "heart",
+    "translation": "corazón"
+  },
+  {
+    "index": 91,
+    "term": "liver",
+    "translation": "hígado"
+  },
+  {
+    "index": 92,
+    "term": "to drink",
+    "translation": "beber"
+  },
+  {
+    "index": 93,
+    "term": "to eat",
+    "translation": "comer"
+  },
+  {
+    "index": 94,
+    "term": "to bite",
+    "translation": "morder"
+  },
+  {
+    "index": 95,
+    "term": "to suck",
+    "translation": "chupar"
+  },
+  {
+    "index": 96,
+    "term": "to spit",
+    "translation": "escupir"
+  },
+  {
+    "index": 97,
+    "term": "to vomit",
+    "translation": "vomitar"
+  },
+  {
+    "index": 98,
+    "term": "to blow",
+    "translation": "soplar"
+  },
+  {
+    "index": 99,
+    "term": "to breathe",
+    "translation": "respirar"
+  },
+  {
+    "index": 100,
+    "term": "to laugh",
+    "translation": "reír"
+  },
+  {
+    "index": 101,
+    "term": "to see",
+    "translation": "ver"
+  },
+  {
+    "index": 102,
+    "term": "to hear",
+    "translation": "oír"
+  },
+  {
+    "index": 103,
+    "term": "to know",
+    "translation": "saber"
+  },
+  {
+    "index": 104,
+    "term": "to think",
+    "translation": "pensar"
+  },
+  {
+    "index": 105,
+    "term": "to smell",
+    "translation": "oler"
+  },
+  {
+    "index": 106,
+    "term": "to fear",
+    "translation": "temer"
+  },
+  {
+    "index": 107,
+    "term": "to sleep",
+    "translation": "dormir"
+  },
+  {
+    "index": 108,
+    "term": "to live",
+    "translation": "vivir"
+  },
+  {
+    "index": 109,
+    "term": "to die",
+    "translation": "morir"
+  },
+  {
+    "index": 110,
+    "term": "to kill",
+    "translation": "matar"
+  },
+  {
+    "index": 111,
+    "term": "to fight",
+    "translation": "pelear"
+  },
+  {
+    "index": 112,
+    "term": "to hunt",
+    "translation": "cazar"
+  },
+  {
+    "index": 113,
+    "term": "to hit",
+    "translation": "golpear"
+  },
+  {
+    "index": 114,
+    "term": "to cut",
+    "translation": "cortar"
+  },
+  {
+    "index": 115,
+    "term": "to split",
+    "translation": "partir"
+  },
+  {
+    "index": 116,
+    "term": "to stab",
+    "translation": "apuñalar"
+  },
+  {
+    "index": 117,
+    "term": "to scratch",
+    "translation": "arañar, rascar"
+  },
+  {
+    "index": 118,
+    "term": "to dig",
+    "translation": "cavar, excavar"
+  },
+  {
+    "index": 119,
+    "term": "to swim",
+    "translation": "nadar"
+  },
+  {
+    "index": 120,
+    "term": "to fly",
+    "translation": "volar"
+  },
+  {
+    "index": 121,
+    "term": "to walk",
+    "translation": "caminar"
+  },
+  {
+    "index": 122,
+    "term": "to come",
+    "translation": "venir"
+  },
+  {
+    "index": 123,
+    "term": "to lie (as in a bed)",
+    "translation": "echarse (action), yacer, estar en el suelo (state)"
+  },
+  {
+    "index": 124,
+    "term": "to sit",
+    "translation": "sentarse, estar sentado (state)"
+  },
+  {
+    "index": 125,
+    "term": "to stand",
+    "translation": "levantarse, estar de pie"
+  },
+  {
+    "index": 126,
+    "term": "to turn (intransitive)",
+    "translation": "girar, dar una vuelta"
+  },
+  {
+    "index": 127,
+    "term": "to fall",
+    "translation": "caer"
+  },
+  {
+    "index": 128,
+    "term": "to give",
+    "translation": "dar"
+  },
+  {
+    "index": 129,
+    "term": "to hold",
+    "translation": "tener"
+  },
+  {
+    "index": 130,
+    "term": "to squeeze",
+    "translation": "apretar"
+  },
+  {
+    "index": 131,
+    "term": "to rub",
+    "translation": "frotar"
+  },
+  {
+    "index": 132,
+    "term": "to wash",
+    "translation": "lavar"
+  },
+  {
+    "index": 133,
+    "term": "to wipe",
+    "translation": "limpiar"
+  },
+  {
+    "index": 134,
+    "term": "to pull",
+    "translation": "tirar de, jalar, halar"
+  },
+  {
+    "index": 135,
+    "term": "to push",
+    "translation": "empujar"
+  },
+  {
+    "index": 136,
+    "term": "to throw",
+    "translation": "tirar, arrojar"
+  },
+  {
+    "index": 137,
+    "term": "to tie",
+    "translation": "atar"
+  },
+  {
+    "index": 138,
+    "term": "to sew",
+    "translation": "coser"
+  },
+  {
+    "index": 139,
+    "term": "to count",
+    "translation": "contar"
+  },
+  {
+    "index": 140,
+    "term": "to say",
+    "translation": "decir"
+  },
+  {
+    "index": 141,
+    "term": "to sing",
+    "translation": "cantar"
+  },
+  {
+    "index": 142,
+    "term": "to play",
+    "translation": "jugar"
+  },
+  {
+    "index": 143,
+    "term": "to float",
+    "translation": "flotar"
+  },
+  {
+    "index": 144,
+    "term": "to flow",
+    "translation": "fluir"
+  },
+  {
+    "index": 145,
+    "term": "to freeze",
+    "translation": "congelarse, helar"
+  },
+  {
+    "index": 146,
+    "term": "to swell",
+    "translation": "hincharse"
+  },
+  {
+    "index": 147,
+    "term": "sun",
+    "translation": "sol"
+  },
+  {
+    "index": 148,
+    "term": "moon",
+    "translation": "luna"
+  },
+  {
+    "index": 149,
+    "term": "star",
+    "translation": "estrella"
+  },
+  {
+    "index": 150,
+    "term": "water",
+    "translation": "agua"
+  },
+  {
+    "index": 151,
+    "term": "rain",
+    "translation": "lluvia"
+  },
+  {
+    "index": 152,
+    "term": "river",
+    "translation": "río"
+  },
+  {
+    "index": 153,
+    "term": "lake",
+    "translation": "lago"
+  },
+  {
+    "index": 154,
+    "term": "sea",
+    "translation": "mar"
+  },
+  {
+    "index": 155,
+    "term": "salt",
+    "translation": "sal"
+  },
+  {
+    "index": 156,
+    "term": "stone",
+    "translation": "piedra"
+  },
+  {
+    "index": 157,
+    "term": "sand",
+    "translation": "arena"
+  },
+  {
+    "index": 158,
+    "term": "dust",
+    "translation": "polvo"
+  },
+  {
+    "index": 159,
+    "term": "earth",
+    "translation": "tierra"
+  },
+  {
+    "index": 160,
+    "term": "cloud",
+    "translation": "nube"
+  },
+  {
+    "index": 161,
+    "term": "fog",
+    "translation": "niebla"
+  },
+  {
+    "index": 162,
+    "term": "sky",
+    "translation": "cielo"
+  },
+  {
+    "index": 163,
+    "term": "wind",
+    "translation": "viento"
+  },
+  {
+    "index": 164,
+    "term": "snow",
+    "translation": "nieve"
+  },
+  {
+    "index": 165,
+    "term": "ice",
+    "translation": "hielo"
+  },
+  {
+    "index": 166,
+    "term": "smoke",
+    "translation": "humo"
+  },
+  {
+    "index": 167,
+    "term": "fire",
+    "translation": "fuego"
+  },
+  {
+    "index": 168,
+    "term": "ash",
+    "translation": "ceniza"
+  },
+  {
+    "index": 169,
+    "term": "to burn",
+    "translation": "quemar"
+  },
+  {
+    "index": 170,
+    "term": "road",
+    "translation": "camino"
+  },
+  {
+    "index": 171,
+    "term": "mountain",
+    "translation": "montaña"
+  },
+  {
+    "index": 172,
+    "term": "red",
+    "translation": "rojo"
+  },
+  {
+    "index": 173,
+    "term": "green",
+    "translation": "verde"
+  },
+  {
+    "index": 174,
+    "term": "yellow",
+    "translation": "amarillo"
+  },
+  {
+    "index": 175,
+    "term": "white",
+    "translation": "blanco"
+  },
+  {
+    "index": 176,
+    "term": "black",
+    "translation": "negro"
+  },
+  {
+    "index": 177,
+    "term": "night",
+    "translation": "noche"
+  },
+  {
+    "index": 178,
+    "term": "day",
+    "translation": "día"
+  },
+  {
+    "index": 179,
+    "term": "year",
+    "translation": "año"
+  },
+  {
+    "index": 180,
+    "term": "warm",
+    "translation": "caliente, cálido"
+  },
+  {
+    "index": 181,
+    "term": "cold",
+    "translation": "frío"
+  },
+  {
+    "index": 182,
+    "term": "full",
+    "translation": "lleno"
+  },
+  {
+    "index": 183,
+    "term": "new",
+    "translation": "nuevo"
+  },
+  {
+    "index": 184,
+    "term": "old",
+    "translation": "viejo"
+  },
+  {
+    "index": 185,
+    "term": "good",
+    "translation": "bueno"
+  },
+  {
+    "index": 186,
+    "term": "bad",
+    "translation": "malo"
+  },
+  {
+    "index": 187,
+    "term": "rotten",
+    "translation": "podrido"
+  },
+  {
+    "index": 188,
+    "term": "dirty",
+    "translation": "sucio"
+  },
+  {
+    "index": 189,
+    "term": "straight",
+    "translation": "recto"
+  },
+  {
+    "index": 190,
+    "term": "round",
+    "translation": "redondo"
+  },
+  {
+    "index": 191,
+    "term": "sharp (as a knife)",
+    "translation": "agudo, afilado"
+  },
+  {
+    "index": 192,
+    "term": "dull (as a knife)",
+    "translation": "sin filo, desafilado, embotado, romo"
+  },
+  {
+    "index": 193,
+    "term": "smooth",
+    "translation": "liso"
+  },
+  {
+    "index": 194,
+    "term": "wet",
+    "translation": "mojado"
+  },
+  {
+    "index": 195,
+    "term": "dry",
+    "translation": "seco"
+  },
+  {
+    "index": 196,
+    "term": "correct",
+    "translation": "correcto"
+  },
+  {
+    "index": 197,
+    "term": "near",
+    "translation": "cerca"
+  },
+  {
+    "index": 198,
+    "term": "far",
+    "translation": "lejos"
+  },
+  {
+    "index": 199,
+    "term": "right",
+    "translation": "derecha"
+  },
+  {
+    "index": 200,
+    "term": "left",
+    "translation": "izquierda"
+  },
+  {
+    "index": 201,
+    "term": "at",
+    "translation": "en, a"
+  },
+  {
+    "index": 202,
+    "term": "in",
+    "translation": "en"
+  },
+  {
+    "index": 203,
+    "term": "with",
+    "translation": "con"
+  },
+  {
+    "index": 204,
+    "term": "and",
+    "translation": "y, e"
+  },
+  {
+    "index": 205,
+    "term": "if",
+    "translation": "si"
+  },
+  {
+    "index": 206,
+    "term": "because",
+    "translation": "porque"
+  },
+  {
+    "index": 207,
+    "term": "name",
+    "translation": "nombre"
+  }
+]

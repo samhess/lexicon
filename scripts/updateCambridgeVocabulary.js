@@ -9,7 +9,6 @@ function getWordType(type) {
     .split(', ')[0]
     .replace(/([am])v/, 'v')
     .replace(/n pl/, 'n')
-    .replace(/exclam/, 'interj')
     .replace(/phr v/, 'phr-v')
     .replace(/prep phr/, 'prep-phr')
     .replace(/^phr$/, 'prep-phr')

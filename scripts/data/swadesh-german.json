@@ -1,0 +1,1244 @@
+[
+  {
+    "index": 1,
+    "term": "I (1sg)",
+    "translation": "ich",
+    "pronounciation": "/ɪç/"
+  },
+  {
+    "index": 2,
+    "term": "you (2sg)",
+    "translation": "du, Sie",
+    "pronounciation": "/duː/, /ziː/"
+  },
+  {
+    "index": 3,
+    "term": "he, she, it (3sg)",
+    "translation": "er, sie, es",
+    "pronounciation": "/eːɐ̯/, /ziː/, /ɛs/"
+  },
+  {
+    "index": 4,
+    "term": "we (1pl)",
+    "translation": "wir",
+    "pronounciation": "/viːɐ̯/"
+  },
+  {
+    "index": 5,
+    "term": "you (2pl)",
+    "translation": "ihr, Sie",
+    "pronounciation": "/iːɐ̯/, /ziː/"
+  },
+  {
+    "index": 6,
+    "term": "they (3pl)",
+    "translation": "sie",
+    "pronounciation": "/ziː/"
+  },
+  {
+    "index": 7,
+    "term": "this",
+    "translation": "dieser, diese, dieses, dies",
+    "pronounciation": "/ˈdiːzɐ/, /ˈdiːzə/, /ˈdiːzəs/, /diːs/"
+  },
+  {
+    "index": 8,
+    "term": "that",
+    "translation": "der, die, das, jener, jene, jenes",
+    "pronounciation": "/deːɐ̯/, /diː/, /das/, /ˈjeːnɐ/, /ˈjeːnə/, /ˈjeːnəs/"
+  },
+  {
+    "index": 9,
+    "term": "here",
+    "translation": "hier",
+    "pronounciation": "/hiːɐ̯/"
+  },
+  {
+    "index": 10,
+    "term": "there",
+    "translation": "da, dort",
+    "pronounciation": "/daː/, /dɔʁt/"
+  },
+  {
+    "index": 11,
+    "term": "who",
+    "translation": "wer",
+    "pronounciation": "/veːɐ̯/"
+  },
+  {
+    "index": 12,
+    "term": "what",
+    "translation": "was",
+    "pronounciation": "/vas/"
+  },
+  {
+    "index": 13,
+    "term": "where",
+    "translation": "wo",
+    "pronounciation": "/voː/"
+  },
+  {
+    "index": 14,
+    "term": "when",
+    "translation": "wann",
+    "pronounciation": "/van/"
+  },
+  {
+    "index": 15,
+    "term": "how",
+    "translation": "wie",
+    "pronounciation": "/viː/"
+  },
+  {
+    "index": 16,
+    "term": "not",
+    "translation": "nicht",
+    "pronounciation": "/nɪçt/"
+  },
+  {
+    "index": 17,
+    "term": "all",
+    "translation": "alle",
+    "pronounciation": "/ˈalə/"
+  },
+  {
+    "index": 18,
+    "term": "many",
+    "translation": "viele",
+    "pronounciation": "/ˈfiːlə/"
+  },
+  {
+    "index": 19,
+    "term": "some",
+    "translation": "einige, manche",
+    "pronounciation": "/ˈaɪ̯nɪɡə/, /mançə/"
+  },
+  {
+    "index": 20,
+    "term": "few",
+    "translation": "wenig",
+    "pronounciation": "/ˈveːnɪç/"
+  },
+  {
+    "index": 21,
+    "term": "other",
+    "translation": "anderer",
+    "pronounciation": "/ˈand(ə)ʁɐ/"
+  },
+  {
+    "index": 22,
+    "term": "one",
+    "translation": "eins",
+    "pronounciation": "/aɪ̯ns/"
+  },
+  {
+    "index": 23,
+    "term": "two",
+    "translation": "zwei, zwo",
+    "pronounciation": "/tsvaɪ̯/, /t͡svoː/"
+  },
+  {
+    "index": 24,
+    "term": "three",
+    "translation": "drei",
+    "pronounciation": "/dʁaɪ̯/"
+  },
+  {
+    "index": 25,
+    "term": "four",
+    "translation": "vier",
+    "pronounciation": "/fiːɐ̯/"
+  },
+  {
+    "index": 26,
+    "term": "five",
+    "translation": "fünf",
+    "pronounciation": "/fʏnf/"
+  },
+  {
+    "index": 27,
+    "term": "big",
+    "translation": "groß",
+    "pronounciation": "/ɡʁoːs/"
+  },
+  {
+    "index": 28,
+    "term": "long",
+    "translation": "lang",
+    "pronounciation": "/laŋ/"
+  },
+  {
+    "index": 29,
+    "term": "wide",
+    "translation": "breit, weit",
+    "pronounciation": "/bʁaɪ̯t/, /vaɪ̯t/"
+  },
+  {
+    "index": 30,
+    "term": "thick",
+    "translation": "dick",
+    "pronounciation": "/dɪk/"
+  },
+  {
+    "index": 31,
+    "term": "heavy",
+    "translation": "schwer",
+    "pronounciation": "/ʃveːɐ̯/"
+  },
+  {
+    "index": 32,
+    "term": "small",
+    "translation": "klein",
+    "pronounciation": "/klaɪ̯n/"
+  },
+  {
+    "index": 33,
+    "term": "short",
+    "translation": "kurz",
+    "pronounciation": "/kʊʁts/"
+  },
+  {
+    "index": 34,
+    "term": "narrow",
+    "translation": "eng, schmal",
+    "pronounciation": "/ɛŋ/, /ʃmaːl/"
+  },
+  {
+    "index": 35,
+    "term": "thin",
+    "translation": "dünn",
+    "pronounciation": "/dʏn/"
+  },
+  {
+    "index": 36,
+    "term": "woman",
+    "translation": "Frau, Weib",
+    "pronounciation": "/fʁaʊ̯/, /vaɪ̯p/"
+  },
+  {
+    "index": 37,
+    "term": "man (adult male)",
+    "translation": "Mann",
+    "pronounciation": "/man/"
+  },
+  {
+    "index": 38,
+    "term": "man (human being)",
+    "translation": "Mensch",
+    "pronounciation": "/mɛnʃ/"
+  },
+  {
+    "index": 39,
+    "term": "child",
+    "translation": "Kind",
+    "pronounciation": "/kɪnt/"
+  },
+  {
+    "index": 40,
+    "term": "wife",
+    "translation": "Frau, Ehefrau",
+    "pronounciation": "/fʁaʊ̯/, /ˈeːəfʁaʊ̯/"
+  },
+  {
+    "index": 41,
+    "term": "husband",
+    "translation": "Mann, Ehemann",
+    "pronounciation": "/man/, /ˈeːəman/"
+  },
+  {
+    "index": 42,
+    "term": "mother",
+    "translation": "Mutter",
+    "pronounciation": "/ˈmʊtɐ/"
+  },
+  {
+    "index": 43,
+    "term": "father",
+    "translation": "Vater",
+    "pronounciation": "/ˈfaːtɐ/"
+  },
+  {
+    "index": 44,
+    "term": "animal",
+    "translation": "Tier",
+    "pronounciation": "/tiːɐ̯/"
+  },
+  {
+    "index": 45,
+    "term": "fish",
+    "translation": "Fisch",
+    "pronounciation": "/fɪʃ/"
+  },
+  {
+    "index": 46,
+    "term": "bird",
+    "translation": "Vogel",
+    "pronounciation": "/ˈfoːɡəl/"
+  },
+  {
+    "index": 47,
+    "term": "dog",
+    "translation": "Hund",
+    "pronounciation": "/hʊnt/"
+  },
+  {
+    "index": 48,
+    "term": "louse",
+    "translation": "Laus",
+    "pronounciation": "/laʊ̯s/"
+  },
+  {
+    "index": 49,
+    "term": "snake",
+    "translation": "Schlange",
+    "pronounciation": "/ˈʃlaŋə/"
+  },
+  {
+    "index": 50,
+    "term": "worm",
+    "translation": "Wurm",
+    "pronounciation": "/vʊʁm/"
+  },
+  {
+    "index": 51,
+    "term": "tree",
+    "translation": "Baum",
+    "pronounciation": "/baʊ̯m/"
+  },
+  {
+    "index": 52,
+    "term": "forest",
+    "translation": "Forst, Wald",
+    "pronounciation": "/fɔɐ̯st/, /valt/"
+  },
+  {
+    "index": 53,
+    "term": "stick",
+    "translation": "Stock",
+    "pronounciation": "/ʃtɔk/"
+  },
+  {
+    "index": 54,
+    "term": "fruit",
+    "translation": "Frucht, Obst",
+    "pronounciation": "/fʁʊxt/, /oːpst/"
+  },
+  {
+    "index": 55,
+    "term": "seed",
+    "translation": "Samen, Saat",
+    "pronounciation": "/ˈzaːmən/, /zaːt/"
+  },
+  {
+    "index": 56,
+    "term": "leaf",
+    "translation": "Blatt",
+    "pronounciation": "/blat/"
+  },
+  {
+    "index": 57,
+    "term": "root",
+    "translation": "Wurzel",
+    "pronounciation": "/ˈvʊʁtsəl/"
+  },
+  {
+    "index": 58,
+    "term": "bark (of a tree)",
+    "translation": "Borke, Rinde",
+    "pronounciation": "/ˈbɔʁ.kə/, /ˈʁɪndə/"
+  },
+  {
+    "index": 59,
+    "term": "flower",
+    "translation": "Blume",
+    "pronounciation": "/ˈbluːmə/"
+  },
+  {
+    "index": 60,
+    "term": "grass",
+    "translation": "Gras",
+    "pronounciation": "/ɡʁaːs/"
+  },
+  {
+    "index": 61,
+    "term": "rope",
+    "translation": "Leine, Seil, Strick",
+    "pronounciation": "/ˈlaɪ̯nə/, /zaɪ̯l/, /ʃtʁɪk/"
+  },
+  {
+    "index": 62,
+    "term": "skin",
+    "translation": "Haut",
+    "pronounciation": "/haʊ̯t/"
+  },
+  {
+    "index": 63,
+    "term": "meat",
+    "translation": "Fleisch",
+    "pronounciation": "/flaɪ̯ʃ/"
+  },
+  {
+    "index": 64,
+    "term": "blood",
+    "translation": "Blut",
+    "pronounciation": "/bluːt/"
+  },
+  {
+    "index": 65,
+    "term": "bone",
+    "translation": "Knochen",
+    "pronounciation": "/ˈknɔxən/"
+  },
+  {
+    "index": 66,
+    "term": "fat (noun)",
+    "translation": "Fett",
+    "pronounciation": "/fɛt/"
+  },
+  {
+    "index": 67,
+    "term": "egg",
+    "translation": "Ei",
+    "pronounciation": "/aɪ̯/"
+  },
+  {
+    "index": 68,
+    "term": "horn",
+    "translation": "Horn",
+    "pronounciation": "/hɔʁn/"
+  },
+  {
+    "index": 69,
+    "term": "tail",
+    "translation": "Schwanz, Schweif",
+    "pronounciation": "/ʃvants/, /ʃvaɪ̯f/"
+  },
+  {
+    "index": 70,
+    "term": "feather",
+    "translation": "Feder",
+    "pronounciation": "/ˈfeːdɐ/"
+  },
+  {
+    "index": 71,
+    "term": "hair",
+    "translation": "Haar",
+    "pronounciation": "/haːɐ̯/"
+  },
+  {
+    "index": 72,
+    "term": "head",
+    "translation": "Haupt, Kopf",
+    "pronounciation": "/haʊ̯pt/, /kɔpf/"
+  },
+  {
+    "index": 73,
+    "term": "ear",
+    "translation": "Ohr",
+    "pronounciation": "/oːɐ̯/"
+  },
+  {
+    "index": 74,
+    "term": "eye",
+    "translation": "Auge",
+    "pronounciation": "/ˈaʊ̯ɡə/"
+  },
+  {
+    "index": 75,
+    "term": "nose",
+    "translation": "Nase",
+    "pronounciation": "/ˈnaːzə/"
+  },
+  {
+    "index": 76,
+    "term": "mouth",
+    "translation": "Mund",
+    "pronounciation": "/mʊnt/"
+  },
+  {
+    "index": 77,
+    "term": "tooth",
+    "translation": "Zahn",
+    "pronounciation": "/tsaːn/"
+  },
+  {
+    "index": 78,
+    "term": "tongue (organ)",
+    "translation": "Zunge",
+    "pronounciation": "/ˈtsʊŋə/"
+  },
+  {
+    "index": 79,
+    "term": "fingernail",
+    "translation": "Fingernagel",
+    "pronounciation": "/ˈfɪŋɐnaːɡəl/"
+  },
+  {
+    "index": 80,
+    "term": "foot",
+    "translation": "Fuß",
+    "pronounciation": "/fuːs/"
+  },
+  {
+    "index": 81,
+    "term": "leg",
+    "translation": "Bein",
+    "pronounciation": "/baɪ̯n/"
+  },
+  {
+    "index": 82,
+    "term": "knee",
+    "translation": "Knie",
+    "pronounciation": "/kniː/"
+  },
+  {
+    "index": 83,
+    "term": "hand",
+    "translation": "Hand",
+    "pronounciation": "/hant/"
+  },
+  {
+    "index": 84,
+    "term": "wing",
+    "translation": "Fittich, Flügel, Schwinge",
+    "pronounciation": "/ˈfɪtɪç/, /ˈflyːɡəl/, /ˈʃvɪŋə/"
+  },
+  {
+    "index": 85,
+    "term": "belly",
+    "translation": "Bauch, Leib",
+    "pronounciation": "/baʊ̯x/, /laɪ̯p/"
+  },
+  {
+    "index": 86,
+    "term": "guts",
+    "translation": "Eingeweide, Gedärm, Innereien, Kaldaunen",
+    "pronounciation": "/ˈaɪ̯nɡəvaɪ̯də/, /ɡəˈdɛrm/, /ɪnəˈʁaɪ̯ən/, /kalˈdaʊ̯nən/"
+  },
+  {
+    "index": 87,
+    "term": "neck",
+    "translation": "Hals, Nacken",
+    "pronounciation": "/hals/, /ˈnakən/"
+  },
+  {
+    "index": 88,
+    "term": "back",
+    "translation": "Rücken",
+    "pronounciation": "/ˈʁʏkən/"
+  },
+  {
+    "index": 89,
+    "term": "breast",
+    "translation": "Brust, Busen",
+    "pronounciation": "/bʁʊst/, /ˈbuːzn̩/"
+  },
+  {
+    "index": 90,
+    "term": "heart",
+    "translation": "Herz",
+    "pronounciation": "/hɛʁts/"
+  },
+  {
+    "index": 91,
+    "term": "liver",
+    "translation": "Leber",
+    "pronounciation": "/ˈleːbɐ/"
+  },
+  {
+    "index": 92,
+    "term": "to drink",
+    "translation": "trinken",
+    "pronounciation": "/ˈtʁɪŋkən/"
+  },
+  {
+    "index": 93,
+    "term": "to eat",
+    "translation": "essen",
+    "pronounciation": "/ˈɛsən/"
+  },
+  {
+    "index": 94,
+    "term": "to bite",
+    "translation": "beißen",
+    "pronounciation": "/ˈbaɪ̯sən/"
+  },
+  {
+    "index": 95,
+    "term": "to suck",
+    "translation": "lutschen, saugen",
+    "pronounciation": "/ˈlʊ.t͡ʃn̩/, /ˈzaʊ̯ɡən/"
+  },
+  {
+    "index": 96,
+    "term": "to spit",
+    "translation": "speien, spucken",
+    "pronounciation": "/ˈʃpaɪ̯ən/, /ˈʃpʊkən/"
+  },
+  {
+    "index": 97,
+    "term": "to vomit",
+    "translation": "brechen, erbrechen",
+    "pronounciation": "/ˈbʁɛçən/, /ɛɐ̯ˈbʁɛçən/"
+  },
+  {
+    "index": 98,
+    "term": "to blow",
+    "translation": "blasen, pusten, wehen",
+    "pronounciation": "/ˈblaːzən/, /ˈpuːstən/, /ˈveː.ən/"
+  },
+  {
+    "index": 99,
+    "term": "to breathe",
+    "translation": "atmen",
+    "pronounciation": "/ˈaːtmən/"
+  },
+  {
+    "index": 100,
+    "term": "to laugh",
+    "translation": "lachen",
+    "pronounciation": "/ˈlaxən/"
+  },
+  {
+    "index": 101,
+    "term": "to see",
+    "translation": "sehen",
+    "pronounciation": "/ˈzeːən/"
+  },
+  {
+    "index": 102,
+    "term": "to hear",
+    "translation": "hören",
+    "pronounciation": "/ˈhøːʁən/"
+  },
+  {
+    "index": 103,
+    "term": "to know",
+    "translation": "kennen, wissen",
+    "pronounciation": "/ˈkɛnən/, /ˈvɪsən/"
+  },
+  {
+    "index": 104,
+    "term": "to think",
+    "translation": "denken",
+    "pronounciation": "/ˈdɛŋkən/"
+  },
+  {
+    "index": 105,
+    "term": "to smell",
+    "translation": "riechen",
+    "pronounciation": "/ˈʁiːçən/"
+  },
+  {
+    "index": 106,
+    "term": "to fear",
+    "translation": "fürchten",
+    "pronounciation": "/ˈfʏʁçtən/"
+  },
+  {
+    "index": 107,
+    "term": "to sleep",
+    "translation": "schlafen",
+    "pronounciation": "/ˈʃlaːfən/"
+  },
+  {
+    "index": 108,
+    "term": "to live",
+    "translation": "leben",
+    "pronounciation": "/ˈleːbən/"
+  },
+  {
+    "index": 109,
+    "term": "to die",
+    "translation": "sterben",
+    "pronounciation": "/ˈʃtɛʁbən/"
+  },
+  {
+    "index": 110,
+    "term": "to kill",
+    "translation": "töten, umbringen",
+    "pronounciation": "/ˈtøːtən/, /ˈʔʊmˌbʁɪŋən/"
+  },
+  {
+    "index": 111,
+    "term": "to fight",
+    "translation": "fechten, kämpfen",
+    "pronounciation": "/ˈfɛçtən/, /ˈkɛmpfən/"
+  },
+  {
+    "index": 112,
+    "term": "to hunt",
+    "translation": "jagen",
+    "pronounciation": "/ˈjaːɡən/"
+  },
+  {
+    "index": 113,
+    "term": "to hit",
+    "translation": "schlagen",
+    "pronounciation": "/ˈʃlaːɡən/"
+  },
+  {
+    "index": 114,
+    "term": "to cut",
+    "translation": "schneiden",
+    "pronounciation": "/ˈʃnaɪ̯dən/"
+  },
+  {
+    "index": 115,
+    "term": "to split",
+    "translation": "spalten, spleißen",
+    "pronounciation": "/ˈʃpaltən/, /ˈʃplaɪ̯sn̩/"
+  },
+  {
+    "index": 116,
+    "term": "to stab",
+    "translation": "stechen",
+    "pronounciation": "/ˈʃtɛçən/"
+  },
+  {
+    "index": 117,
+    "term": "to scratch",
+    "translation": "kratzen, ritzen, scharren",
+    "pronounciation": "/ˈkʁatsən/, /ˈʁɪt͡sən/, /ˈʃaʁn̩/"
+  },
+  {
+    "index": 118,
+    "term": "to dig",
+    "translation": "graben",
+    "pronounciation": "/ˈɡʁaːbən/"
+  },
+  {
+    "index": 119,
+    "term": "to swim",
+    "translation": "schwimmen",
+    "pronounciation": "/ˈʃvɪmən/"
+  },
+  {
+    "index": 120,
+    "term": "to fly",
+    "translation": "fliegen",
+    "pronounciation": "/ˈfliːɡən/"
+  },
+  {
+    "index": 121,
+    "term": "to walk",
+    "translation": "gehen",
+    "pronounciation": "/ˈɡeːən/"
+  },
+  {
+    "index": 122,
+    "term": "to come",
+    "translation": "kommen",
+    "pronounciation": "/ˈkɔmən/"
+  },
+  {
+    "index": 123,
+    "term": "to lie (as in a bed)",
+    "translation": "liegen",
+    "pronounciation": "/ˈliːɡən/"
+  },
+  {
+    "index": 124,
+    "term": "to sit",
+    "translation": "sitzen",
+    "pronounciation": "/ˈzɪtsən/"
+  },
+  {
+    "index": 125,
+    "term": "to stand",
+    "translation": "stehen",
+    "pronounciation": "/ˈʃteːən/"
+  },
+  {
+    "index": 126,
+    "term": "to turn (intransitive)",
+    "translation": "drehen",
+    "pronounciation": "/ˈdʁeːən/"
+  },
+  {
+    "index": 127,
+    "term": "to fall",
+    "translation": "fallen",
+    "pronounciation": "/ˈfalən/"
+  },
+  {
+    "index": 128,
+    "term": "to give",
+    "translation": "geben",
+    "pronounciation": "/ˈɡeːbən/"
+  },
+  {
+    "index": 129,
+    "term": "to hold",
+    "translation": "halten",
+    "pronounciation": "/ˈhaltən/"
+  },
+  {
+    "index": 130,
+    "term": "to squeeze",
+    "translation": "quetschen",
+    "pronounciation": "/ˈkvɛtʃən/"
+  },
+  {
+    "index": 131,
+    "term": "to rub",
+    "translation": "reiben",
+    "pronounciation": "/ˈʁaɪ̯bən/"
+  },
+  {
+    "index": 132,
+    "term": "to wash",
+    "translation": "waschen",
+    "pronounciation": "/ˈvaʃən/"
+  },
+  {
+    "index": 133,
+    "term": "to wipe",
+    "translation": "wischen",
+    "pronounciation": "/ˈvɪʃən/"
+  },
+  {
+    "index": 134,
+    "term": "to pull",
+    "translation": "ziehen",
+    "pronounciation": "/ˈtsiːən/"
+  },
+  {
+    "index": 135,
+    "term": "to push",
+    "translation": "drücken, schieben",
+    "pronounciation": "/ˈdʁʏkən/, /ˈʃiːbən/"
+  },
+  {
+    "index": 136,
+    "term": "to throw",
+    "translation": "werfen",
+    "pronounciation": "/ˈvɛʁfən/"
+  },
+  {
+    "index": 137,
+    "term": "to tie",
+    "translation": "binden, knüpfen",
+    "pronounciation": "/ˈbɪndən/, /ˈknʏpfən/"
+  },
+  {
+    "index": 138,
+    "term": "to sew",
+    "translation": "nähen",
+    "pronounciation": "/ˈnɛːən/"
+  },
+  {
+    "index": 139,
+    "term": "to count",
+    "translation": "rechnen, zählen",
+    "pronounciation": "/ˈʁɛçnən/, /ˈtsɛːlən/"
+  },
+  {
+    "index": 140,
+    "term": "to say",
+    "translation": "sagen",
+    "pronounciation": "/ˈzaːɡən/"
+  },
+  {
+    "index": 141,
+    "term": "to sing",
+    "translation": "singen",
+    "pronounciation": "/ˈzɪŋən/"
+  },
+  {
+    "index": 142,
+    "term": "to play",
+    "translation": "spielen",
+    "pronounciation": "/ˈʃpiːlən/"
+  },
+  {
+    "index": 143,
+    "term": "to float",
+    "translation": "schweben",
+    "pronounciation": "/ˈʃveːbən/"
+  },
+  {
+    "index": 144,
+    "term": "to flow",
+    "translation": "fließen, strömen",
+    "pronounciation": "/ˈfliːsən/, /ˈʃtʁøːmən/"
+  },
+  {
+    "index": 145,
+    "term": "to freeze",
+    "translation": "frieren",
+    "pronounciation": "/ˈfʁiːrən/"
+  },
+  {
+    "index": 146,
+    "term": "to swell",
+    "translation": "schwellen",
+    "pronounciation": "/ˈʃvɛlən/"
+  },
+  {
+    "index": 147,
+    "term": "sun",
+    "translation": "Sonne",
+    "pronounciation": "/ˈzɔnə/"
+  },
+  {
+    "index": 148,
+    "term": "moon",
+    "translation": "Mond",
+    "pronounciation": "/moːnt/"
+  },
+  {
+    "index": 149,
+    "term": "star",
+    "translation": "Stern",
+    "pronounciation": "/ʃtɛʁn/"
+  },
+  {
+    "index": 150,
+    "term": "water",
+    "translation": "Wasser",
+    "pronounciation": "/ˈvasɐ/"
+  },
+  {
+    "index": 151,
+    "term": "rain",
+    "translation": "Regen",
+    "pronounciation": "/ˈʁeːɡən/"
+  },
+  {
+    "index": 152,
+    "term": "river",
+    "translation": "Fluss",
+    "pronounciation": "/flʊs/"
+  },
+  {
+    "index": 153,
+    "term": "lake",
+    "translation": "See",
+    "pronounciation": "/zeː/"
+  },
+  {
+    "index": 154,
+    "term": "sea",
+    "translation": "Meer",
+    "pronounciation": "/meːɐ̯/"
+  },
+  {
+    "index": 155,
+    "term": "salt",
+    "translation": "Salz",
+    "pronounciation": "/zalts/"
+  },
+  {
+    "index": 156,
+    "term": "stone",
+    "translation": "Stein",
+    "pronounciation": "/ʃtaɪ̯n/"
+  },
+  {
+    "index": 157,
+    "term": "sand",
+    "translation": "Sand",
+    "pronounciation": "/zant/"
+  },
+  {
+    "index": 158,
+    "term": "dust",
+    "translation": "Staub",
+    "pronounciation": "/ʃtaʊ̯p/"
+  },
+  {
+    "index": 159,
+    "term": "earth",
+    "translation": "Erde",
+    "pronounciation": "/ˈeːɐ̯də/"
+  },
+  {
+    "index": 160,
+    "term": "cloud",
+    "translation": "Wolke",
+    "pronounciation": "/ˈvɔlkə/"
+  },
+  {
+    "index": 161,
+    "term": "fog",
+    "translation": "Nebel",
+    "pronounciation": "/ˈneːbəl/"
+  },
+  {
+    "index": 162,
+    "term": "sky",
+    "translation": "Himmel",
+    "pronounciation": "/ˈhɪməl/"
+  },
+  {
+    "index": 163,
+    "term": "wind",
+    "translation": "Wind",
+    "pronounciation": "/vɪnt/"
+  },
+  {
+    "index": 164,
+    "term": "snow",
+    "translation": "Schnee",
+    "pronounciation": "/ʃneː/"
+  },
+  {
+    "index": 165,
+    "term": "ice",
+    "translation": "Eis",
+    "pronounciation": "/aɪ̯s/"
+  },
+  {
+    "index": 166,
+    "term": "smoke",
+    "translation": "Rauch",
+    "pronounciation": "/ʁaʊ̯x/"
+  },
+  {
+    "index": 167,
+    "term": "fire",
+    "translation": "Feuer",
+    "pronounciation": "/ˈfɔʏɐ/"
+  },
+  {
+    "index": 168,
+    "term": "ash",
+    "translation": "Asche",
+    "pronounciation": "/ˈaʃə/"
+  },
+  {
+    "index": 169,
+    "term": "to burn",
+    "translation": "brennen",
+    "pronounciation": "/ˈbʁɛnən/"
+  },
+  {
+    "index": 170,
+    "term": "road",
+    "translation": "Straße",
+    "pronounciation": "/ˈʃtʁaːsə/"
+  },
+  {
+    "index": 171,
+    "term": "mountain",
+    "translation": "Berg",
+    "pronounciation": "/bɛʁk/"
+  },
+  {
+    "index": 172,
+    "term": "red",
+    "translation": "rot",
+    "pronounciation": "/ʁoːt/"
+  },
+  {
+    "index": 173,
+    "term": "green",
+    "translation": "grün",
+    "pronounciation": "/ɡʁyːn/"
+  },
+  {
+    "index": 174,
+    "term": "yellow",
+    "translation": "gelb",
+    "pronounciation": "/ɡɛlp/"
+  },
+  {
+    "index": 175,
+    "term": "white",
+    "translation": "weiß",
+    "pronounciation": "/vaɪ̯s/"
+  },
+  {
+    "index": 176,
+    "term": "black",
+    "translation": "schwarz",
+    "pronounciation": "/ʃvaʁts/"
+  },
+  {
+    "index": 177,
+    "term": "night",
+    "translation": "Nacht",
+    "pronounciation": "/naxt/"
+  },
+  {
+    "index": 178,
+    "term": "day",
+    "translation": "Tag",
+    "pronounciation": "/taːk/"
+  },
+  {
+    "index": 179,
+    "term": "year",
+    "translation": "Jahr",
+    "pronounciation": "/jaːɐ̯/"
+  },
+  {
+    "index": 180,
+    "term": "warm",
+    "translation": "warm",
+    "pronounciation": "/vaʁm/"
+  },
+  {
+    "index": 181,
+    "term": "cold",
+    "translation": "kalt",
+    "pronounciation": "/kalt/"
+  },
+  {
+    "index": 182,
+    "term": "full",
+    "translation": "voll",
+    "pronounciation": "/fɔl/"
+  },
+  {
+    "index": 183,
+    "term": "new",
+    "translation": "neu",
+    "pronounciation": "/nɔʏ̯/"
+  },
+  {
+    "index": 184,
+    "term": "old",
+    "translation": "alt",
+    "pronounciation": "/alt/"
+  },
+  {
+    "index": 185,
+    "term": "good",
+    "translation": "gut",
+    "pronounciation": "/ɡuːt/"
+  },
+  {
+    "index": 186,
+    "term": "bad",
+    "translation": "schlecht, übel",
+    "pronounciation": "/ʃlɛçt/, /ˈʔyː.bl̩/"
+  },
+  {
+    "index": 187,
+    "term": "rotten",
+    "translation": "faul, verrottet",
+    "pronounciation": "/faʊ̯l/, /fɛɐ̯ˈʁɔtət/"
+  },
+  {
+    "index": 188,
+    "term": "dirty",
+    "translation": "schmutzig, dreckig",
+    "pronounciation": "/ˈʃmʊtsɪç/, /ˈdʁɛkɪç/"
+  },
+  {
+    "index": 189,
+    "term": "straight",
+    "translation": "gerade",
+    "pronounciation": "/ɡ(ə)ˈʁaːdə/"
+  },
+  {
+    "index": 190,
+    "term": "round",
+    "translation": "rund",
+    "pronounciation": "/ʁʊnt/"
+  },
+  {
+    "index": 191,
+    "term": "sharp (as a knife)",
+    "translation": "scharf",
+    "pronounciation": "/ʃaʁf/"
+  },
+  {
+    "index": 192,
+    "term": "dull (as a knife)",
+    "translation": "stumpf",
+    "pronounciation": "/ʃtʊmpf/"
+  },
+  {
+    "index": 193,
+    "term": "smooth",
+    "translation": "glatt",
+    "pronounciation": "/ɡlat/"
+  },
+  {
+    "index": 194,
+    "term": "wet",
+    "translation": "nass, feucht",
+    "pronounciation": "/nas/, /fɔʏ̯çt/"
+  },
+  {
+    "index": 195,
+    "term": "dry",
+    "translation": "dürr, trocken",
+    "pronounciation": "/dʏʁ/, /ˈtʁɔkən/"
+  },
+  {
+    "index": 196,
+    "term": "correct",
+    "translation": "richtig",
+    "pronounciation": "/ˈʁɪçtɪç/"
+  },
+  {
+    "index": 197,
+    "term": "near",
+    "translation": "nah",
+    "pronounciation": "/ˈnaː/"
+  },
+  {
+    "index": 198,
+    "term": "far",
+    "translation": "fern, weit",
+    "pronounciation": "/fɛʁn/, /vaɪ̯t/"
+  },
+  {
+    "index": 199,
+    "term": "right",
+    "translation": "rechts",
+    "pronounciation": "/ʁɛçts/"
+  },
+  {
+    "index": 200,
+    "term": "left",
+    "translation": "links",
+    "pronounciation": "/lɪŋks/"
+  },
+  {
+    "index": 201,
+    "term": "at",
+    "translation": "an, bei",
+    "pronounciation": "/an/, /baɪ̯/"
+  },
+  {
+    "index": 202,
+    "term": "in",
+    "translation": "in",
+    "pronounciation": "/ɪn/"
+  },
+  {
+    "index": 203,
+    "term": "with",
+    "translation": "mit",
+    "pronounciation": "/mɪt/"
+  },
+  {
+    "index": 204,
+    "term": "and",
+    "translation": "und",
+    "pronounciation": "/ʊnt/"
+  },
+  {
+    "index": 205,
+    "term": "if",
+    "translation": "ob, wenn",
+    "pronounciation": "/ɔp/, /vɛn/"
+  },
+  {
+    "index": 206,
+    "term": "because",
+    "translation": "weil",
+    "pronounciation": "/vaɪ̯l/"
+  },
+  {
+    "index": 207,
+    "term": "name",
+    "translation": "Name",
+    "pronounciation": "/ˈnaːmə/"
+  }
+]

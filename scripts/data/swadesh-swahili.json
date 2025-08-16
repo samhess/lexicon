@@ -1,0 +1,1037 @@
+[
+  {
+    "index": 1,
+    "term": "I",
+    "translation": "mimi"
+  },
+  {
+    "index": 2,
+    "term": "you (singular)",
+    "translation": "wewe"
+  },
+  {
+    "index": 3,
+    "term": "he, she, it",
+    "translation": "yeye"
+  },
+  {
+    "index": 4,
+    "term": "we",
+    "translation": "sisi"
+  },
+  {
+    "index": 5,
+    "term": "you (plural)",
+    "translation": "ninyi"
+  },
+  {
+    "index": 6,
+    "term": "they",
+    "translation": "wao"
+  },
+  {
+    "index": 7,
+    "term": "this",
+    "translation": "huyu (person), hii, hiki, hili, huu"
+  },
+  {
+    "index": 8,
+    "term": "that",
+    "translation": "lile, ule, yule, ile, kile"
+  },
+  {
+    "index": 9,
+    "term": "here",
+    "translation": "hapa / huku / humu"
+  },
+  {
+    "index": 10,
+    "term": "there",
+    "translation": "pale / kule / mle"
+  },
+  {
+    "index": 11,
+    "term": "who",
+    "translation": "nani (interrogative)"
+  },
+  {
+    "index": 12,
+    "term": "what",
+    "translation": "nini (interrogative)"
+  },
+  {
+    "index": 13,
+    "term": "where",
+    "translation": "wapi (no movement, interrogative)"
+  },
+  {
+    "index": 14,
+    "term": "when",
+    "translation": "lini (interrogative)"
+  },
+  {
+    "index": 15,
+    "term": "how",
+    "translation": "vipi (interrogative)"
+  },
+  {
+    "index": 16,
+    "term": "not",
+    "translation": "si, -si-, ha-"
+  },
+  {
+    "index": 17,
+    "term": "all",
+    "translation": "-ote"
+  },
+  {
+    "index": 18,
+    "term": "many",
+    "translation": "-ingi"
+  },
+  {
+    "index": 19,
+    "term": "some",
+    "translation": "baadhi ya / chache"
+  },
+  {
+    "index": 20,
+    "term": "few",
+    "translation": "kidogo / chache"
+  },
+  {
+    "index": 21,
+    "term": "other",
+    "translation": "-ingine"
+  },
+  {
+    "index": 22,
+    "term": "one",
+    "translation": "moja / mosi"
+  },
+  {
+    "index": 23,
+    "term": "two",
+    "translation": "mbili / pili / wili"
+  },
+  {
+    "index": 24,
+    "term": "three",
+    "translation": "-tatu"
+  },
+  {
+    "index": 25,
+    "term": "four",
+    "translation": "-nne"
+  },
+  {
+    "index": 26,
+    "term": "five",
+    "translation": "-tano"
+  },
+  {
+    "index": 27,
+    "term": "big",
+    "translation": "-kubwa"
+  },
+  {
+    "index": 28,
+    "term": "long",
+    "translation": "-refu"
+  },
+  {
+    "index": 29,
+    "term": "wide",
+    "translation": "-pana"
+  },
+  {
+    "index": 30,
+    "term": "thick",
+    "translation": "-nene"
+  },
+  {
+    "index": 31,
+    "term": "heavy",
+    "translation": "-zito"
+  },
+  {
+    "index": 32,
+    "term": "small",
+    "translation": "-dogo"
+  },
+  {
+    "index": 33,
+    "term": "short",
+    "translation": "-fupi"
+  },
+  {
+    "index": 34,
+    "term": "narrow",
+    "translation": "-embamba"
+  },
+  {
+    "index": 35,
+    "term": "thin",
+    "translation": "-anana"
+  },
+  {
+    "index": 36,
+    "term": "woman",
+    "translation": "mwanamke"
+  },
+  {
+    "index": 37,
+    "term": "man (adult male)",
+    "translation": "mwanamume"
+  },
+  {
+    "index": 38,
+    "term": "man (human being)",
+    "translation": "mtu"
+  },
+  {
+    "index": 39,
+    "term": "child",
+    "translation": "mtoto"
+  },
+  {
+    "index": 40,
+    "term": "wife",
+    "translation": "mke"
+  },
+  {
+    "index": 41,
+    "term": "husband",
+    "translation": "mume"
+  },
+  {
+    "index": 42,
+    "term": "mother",
+    "translation": "mama"
+  },
+  {
+    "index": 43,
+    "term": "father",
+    "translation": "baba"
+  },
+  {
+    "index": 44,
+    "term": "animal",
+    "translation": "mnyama"
+  },
+  {
+    "index": 45,
+    "term": "fish",
+    "translation": "samaki"
+  },
+  {
+    "index": 46,
+    "term": "bird",
+    "translation": "ndege"
+  },
+  {
+    "index": 47,
+    "term": "dog",
+    "translation": "mbwa"
+  },
+  {
+    "index": 48,
+    "term": "louse",
+    "translation": "chawa"
+  },
+  {
+    "index": 49,
+    "term": "snake",
+    "translation": "nyoka"
+  },
+  {
+    "index": 50,
+    "term": "worm",
+    "translation": "funza"
+  },
+  {
+    "index": 51,
+    "term": "tree",
+    "translation": "mti"
+  },
+  {
+    "index": 52,
+    "term": "forest",
+    "translation": "msitu"
+  },
+  {
+    "index": 53,
+    "term": "stick",
+    "translation": "fimbo, mti"
+  },
+  {
+    "index": 54,
+    "term": "fruit",
+    "translation": "tunda"
+  },
+  {
+    "index": 55,
+    "term": "seed",
+    "translation": "mbegu"
+  },
+  {
+    "index": 56,
+    "term": "leaf",
+    "translation": "jani"
+  },
+  {
+    "index": 57,
+    "term": "root",
+    "translation": "mzizi"
+  },
+  {
+    "index": 58,
+    "term": "bark (of a tree)",
+    "translation": "gamba"
+  },
+  {
+    "index": 59,
+    "term": "flower",
+    "translation": "ua"
+  },
+  {
+    "index": 60,
+    "term": "grass",
+    "translation": "nyasi"
+  },
+  {
+    "index": 61,
+    "term": "rope",
+    "translation": "kamba"
+  },
+  {
+    "index": 62,
+    "term": "skin",
+    "translation": "ngozi"
+  },
+  {
+    "index": 63,
+    "term": "meat",
+    "translation": "nyama"
+  },
+  {
+    "index": 64,
+    "term": "blood",
+    "translation": "damu"
+  },
+  {
+    "index": 65,
+    "term": "bone",
+    "translation": "mfupa"
+  },
+  {
+    "index": 66,
+    "term": "fat (noun)",
+    "translation": "mori / mafuta"
+  },
+  {
+    "index": 67,
+    "term": "egg",
+    "translation": "yai"
+  },
+  {
+    "index": 68,
+    "term": "horn",
+    "translation": "pembe"
+  },
+  {
+    "index": 69,
+    "term": "tail",
+    "translation": "mkia"
+  },
+  {
+    "index": 70,
+    "term": "feather",
+    "translation": "unyoya"
+  },
+  {
+    "index": 71,
+    "term": "hair",
+    "translation": "nywele"
+  },
+  {
+    "index": 72,
+    "term": "head",
+    "translation": "kichwa"
+  },
+  {
+    "index": 73,
+    "term": "ear",
+    "translation": "sikio"
+  },
+  {
+    "index": 74,
+    "term": "eye",
+    "translation": "jicho"
+  },
+  {
+    "index": 75,
+    "term": "nose",
+    "translation": "pua"
+  },
+  {
+    "index": 76,
+    "term": "mouth",
+    "translation": "kinywa"
+  },
+  {
+    "index": 77,
+    "term": "tooth",
+    "translation": "jino"
+  },
+  {
+    "index": 78,
+    "term": "tongue (organ)",
+    "translation": "ulimi"
+  },
+  {
+    "index": 79,
+    "term": "fingernail",
+    "translation": "ukucha"
+  },
+  {
+    "index": 80,
+    "term": "foot",
+    "translation": "mguu"
+  },
+  {
+    "index": 81,
+    "term": "leg",
+    "translation": "mguu"
+  },
+  {
+    "index": 82,
+    "term": "knee",
+    "translation": "goti"
+  },
+  {
+    "index": 83,
+    "term": "hand",
+    "translation": "mkono"
+  },
+  {
+    "index": 84,
+    "term": "wing",
+    "translation": "ubawa"
+  },
+  {
+    "index": 85,
+    "term": "belly",
+    "translation": "tumbo"
+  },
+  {
+    "index": 86,
+    "term": "guts",
+    "translation": "utumbo"
+  },
+  {
+    "index": 87,
+    "term": "neck",
+    "translation": "shingo"
+  },
+  {
+    "index": 88,
+    "term": "back",
+    "translation": "mgongo"
+  },
+  {
+    "index": 89,
+    "term": "breast",
+    "translation": "ziwa, dodo"
+  },
+  {
+    "index": 90,
+    "term": "heart",
+    "translation": "moyo"
+  },
+  {
+    "index": 91,
+    "term": "liver",
+    "translation": "ini"
+  },
+  {
+    "index": 92,
+    "term": "to drink",
+    "translation": "-nywa"
+  },
+  {
+    "index": 93,
+    "term": "to eat",
+    "translation": "-la"
+  },
+  {
+    "index": 94,
+    "term": "to bite",
+    "translation": "-donoa"
+  },
+  {
+    "index": 95,
+    "term": "to suck",
+    "translation": "-amwa"
+  },
+  {
+    "index": 96,
+    "term": "to spit",
+    "translation": "-tema"
+  },
+  {
+    "index": 97,
+    "term": "to vomit",
+    "translation": "-tapika"
+  },
+  {
+    "index": 98,
+    "term": "to blow",
+    "translation": "-puliza"
+  },
+  {
+    "index": 99,
+    "term": "to breathe",
+    "translation": "-pumua"
+  },
+  {
+    "index": 100,
+    "term": "to laugh",
+    "translation": "-cheka"
+  },
+  {
+    "index": 101,
+    "term": "to see",
+    "translation": "-ona"
+  },
+  {
+    "index": 102,
+    "term": "to hear",
+    "translation": "-sikia"
+  },
+  {
+    "index": 103,
+    "term": "to know",
+    "translation": "-fahamu, -jua"
+  },
+  {
+    "index": 104,
+    "term": "to think",
+    "translation": "-fikiri, -dhani, -waza"
+  },
+  {
+    "index": 105,
+    "term": "to smell",
+    "translation": "-nukilia"
+  },
+  {
+    "index": 106,
+    "term": "to fear",
+    "translation": "-ogopa"
+  },
+  {
+    "index": 107,
+    "term": "to sleep",
+    "translation": "-lala"
+  },
+  {
+    "index": 108,
+    "term": "to live",
+    "translation": "-ishi (in a place)"
+  },
+  {
+    "index": 109,
+    "term": "to die",
+    "translation": "-fa"
+  },
+  {
+    "index": 110,
+    "term": "to kill",
+    "translation": "-ua"
+  },
+  {
+    "index": 111,
+    "term": "to fight",
+    "translation": "-pigana"
+  },
+  {
+    "index": 112,
+    "term": "to hunt",
+    "translation": "-winda"
+  },
+  {
+    "index": 113,
+    "term": "to hit",
+    "translation": "-gonga, -piga"
+  },
+  {
+    "index": 114,
+    "term": "to cut",
+    "translation": "-kata"
+  },
+  {
+    "index": 115,
+    "term": "to split",
+    "translation": "-pasua"
+  },
+  {
+    "index": 116,
+    "term": "to stab",
+    "translation": "-choma"
+  },
+  {
+    "index": 117,
+    "term": "to scratch",
+    "translation": "-kuna, -parua"
+  },
+  {
+    "index": 118,
+    "term": "to dig",
+    "translation": "-chimba"
+  },
+  {
+    "index": 119,
+    "term": "to swim",
+    "translation": "-ogelea"
+  },
+  {
+    "index": 120,
+    "term": "to fly",
+    "translation": "-paa"
+  },
+  {
+    "index": 121,
+    "term": "to walk",
+    "translation": "-tembea"
+  },
+  {
+    "index": 122,
+    "term": "to come",
+    "translation": "-ja"
+  },
+  {
+    "index": 123,
+    "term": "to lie (as in a bed)",
+    "translation": "-gona (action)"
+  },
+  {
+    "index": 124,
+    "term": "to sit",
+    "translation": "-kaa"
+  },
+  {
+    "index": 125,
+    "term": "to stand",
+    "translation": "-simama (action)"
+  },
+  {
+    "index": 126,
+    "term": "to turn (intransitive)",
+    "translation": "-pindua"
+  },
+  {
+    "index": 127,
+    "term": "to fall",
+    "translation": "-anguka"
+  },
+  {
+    "index": 128,
+    "term": "to give",
+    "translation": "-pa"
+  },
+  {
+    "index": 129,
+    "term": "to hold",
+    "translation": "-shika"
+  },
+  {
+    "index": 130,
+    "term": "to squeeze",
+    "translation": "-kaba, -minya, -kamua"
+  },
+  {
+    "index": 131,
+    "term": "to rub",
+    "translation": "-sugua"
+  },
+  {
+    "index": 132,
+    "term": "to wash",
+    "translation": "-safisha"
+  },
+  {
+    "index": 133,
+    "term": "to wipe",
+    "translation": "-futa"
+  },
+  {
+    "index": 134,
+    "term": "to pull",
+    "translation": "-vuta"
+  },
+  {
+    "index": 135,
+    "term": "to push",
+    "translation": "-guta / -sukuma"
+  },
+  {
+    "index": 136,
+    "term": "to throw",
+    "translation": "-tupa"
+  },
+  {
+    "index": 137,
+    "term": "to tie",
+    "translation": "-funga"
+  },
+  {
+    "index": 138,
+    "term": "to sew",
+    "translation": "-shona"
+  },
+  {
+    "index": 139,
+    "term": "to count",
+    "translation": "-hesabu"
+  },
+  {
+    "index": 140,
+    "term": "to say",
+    "translation": "-sema"
+  },
+  {
+    "index": 141,
+    "term": "to sing",
+    "translation": "-imba"
+  },
+  {
+    "index": 142,
+    "term": "to play",
+    "translation": "-cheza"
+  },
+  {
+    "index": 143,
+    "term": "to float",
+    "translation": "-elea"
+  },
+  {
+    "index": 144,
+    "term": "to flow",
+    "translation": "-tiririka"
+  },
+  {
+    "index": 145,
+    "term": "to freeze",
+    "translation": "-ganda"
+  },
+  {
+    "index": 146,
+    "term": "to swell",
+    "translation": "-fura"
+  },
+  {
+    "index": 147,
+    "term": "sun",
+    "translation": "jua"
+  },
+  {
+    "index": 148,
+    "term": "moon",
+    "translation": "mwezi"
+  },
+  {
+    "index": 149,
+    "term": "star",
+    "translation": "nyota"
+  },
+  {
+    "index": 150,
+    "term": "water",
+    "translation": "maji"
+  },
+  {
+    "index": 151,
+    "term": "rain",
+    "translation": "mvua"
+  },
+  {
+    "index": 152,
+    "term": "river",
+    "translation": "mto"
+  },
+  {
+    "index": 153,
+    "term": "lake",
+    "translation": "ziwa"
+  },
+  {
+    "index": 154,
+    "term": "sea",
+    "translation": "bahari"
+  },
+  {
+    "index": 155,
+    "term": "salt",
+    "translation": "chumvi"
+  },
+  {
+    "index": 156,
+    "term": "stone",
+    "translation": "jiwe"
+  },
+  {
+    "index": 157,
+    "term": "sand",
+    "translation": "mchanga"
+  },
+  {
+    "index": 158,
+    "term": "dust",
+    "translation": "vumbi"
+  },
+  {
+    "index": 159,
+    "term": "earth",
+    "translation": "ardhi"
+  },
+  {
+    "index": 160,
+    "term": "cloud",
+    "translation": "wingu"
+  },
+  {
+    "index": 161,
+    "term": "fog",
+    "translation": "ukungu"
+  },
+  {
+    "index": 162,
+    "term": "sky",
+    "translation": "uwingu, anga"
+  },
+  {
+    "index": 163,
+    "term": "wind",
+    "translation": "upepo"
+  },
+  {
+    "index": 164,
+    "term": "snow",
+    "translation": "theluji"
+  },
+  {
+    "index": 165,
+    "term": "ice",
+    "translation": "barafu"
+  },
+  {
+    "index": 166,
+    "term": "smoke",
+    "translation": "moshi"
+  },
+  {
+    "index": 167,
+    "term": "fire",
+    "translation": "moto"
+  },
+  {
+    "index": 168,
+    "term": "ash",
+    "translation": "majivu"
+  },
+  {
+    "index": 169,
+    "term": "to burn",
+    "translation": "-waka"
+  },
+  {
+    "index": 170,
+    "term": "road",
+    "translation": "njia, barabara"
+  },
+  {
+    "index": 171,
+    "term": "mountain",
+    "translation": "mlima"
+  },
+  {
+    "index": 172,
+    "term": "red",
+    "translation": "-ekundu"
+  },
+  {
+    "index": 173,
+    "term": "green",
+    "translation": "kijani"
+  },
+  {
+    "index": 174,
+    "term": "yellow",
+    "translation": "manjano"
+  },
+  {
+    "index": 175,
+    "term": "white",
+    "translation": "-eupe"
+  },
+  {
+    "index": 176,
+    "term": "black",
+    "translation": "-eusi"
+  },
+  {
+    "index": 177,
+    "term": "night",
+    "translation": "usiku"
+  },
+  {
+    "index": 178,
+    "term": "day",
+    "translation": "siku"
+  },
+  {
+    "index": 179,
+    "term": "year",
+    "translation": "mwaka"
+  },
+  {
+    "index": 180,
+    "term": "warm",
+    "translation": "moto"
+  },
+  {
+    "index": 181,
+    "term": "cold",
+    "translation": "baridi"
+  },
+  {
+    "index": 182,
+    "term": "full",
+    "translation": "-nene"
+  },
+  {
+    "index": 183,
+    "term": "new",
+    "translation": "-pya"
+  },
+  {
+    "index": 184,
+    "term": "old",
+    "translation": "-zee"
+  },
+  {
+    "index": 185,
+    "term": "good",
+    "translation": "-ema, -zuri"
+  },
+  {
+    "index": 186,
+    "term": "bad",
+    "translation": "-baya, -ovu"
+  },
+  {
+    "index": 187,
+    "term": "rotten",
+    "translation": "-bovu"
+  },
+  {
+    "index": 188,
+    "term": "dirty",
+    "translation": "-chafu"
+  },
+  {
+    "index": 189,
+    "term": "straight",
+    "translation": "nyofu"
+  },
+  {
+    "index": 190,
+    "term": "round",
+    "translation": "duara"
+  },
+  {
+    "index": 191,
+    "term": "sharp (as a knife)",
+    "translation": "chungu"
+  },
+  {
+    "index": 192,
+    "term": "dull (as a knife)",
+    "translation": "butu"
+  },
+  {
+    "index": 193,
+    "term": "smooth",
+    "translation": "-ororo"
+  },
+  {
+    "index": 194,
+    "term": "wet",
+    "translation": "kimaji"
+  },
+  {
+    "index": 195,
+    "term": "dry",
+    "translation": "-kavu"
+  },
+  {
+    "index": 196,
+    "term": "correct",
+    "translation": "sahihi"
+  },
+  {
+    "index": 197,
+    "term": "near",
+    "translation": "karibu"
+  },
+  {
+    "index": 198,
+    "term": "far",
+    "translation": "mbali"
+  },
+  {
+    "index": 199,
+    "term": "right",
+    "translation": "kuume, kulia"
+  },
+  {
+    "index": 200,
+    "term": "left",
+    "translation": "kushoto"
+  },
+  {
+    "index": 201,
+    "term": "at",
+    "translation": "pa, kwa, kwenye"
+  },
+  {
+    "index": 202,
+    "term": "in",
+    "translation": "ndani ya, katika"
+  },
+  {
+    "index": 203,
+    "term": "with",
+    "translation": "na"
+  },
+  {
+    "index": 204,
+    "term": "and",
+    "translation": "na"
+  },
+  {
+    "index": 205,
+    "term": "if",
+    "translation": "kama"
+  },
+  {
+    "index": 206,
+    "term": "because",
+    "translation": "kwa sababu, kwa kuwa"
+  },
+  {
+    "index": 207,
+    "term": "name",
+    "translation": "jina"
+  }
+]

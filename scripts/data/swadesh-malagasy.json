@@ -1,0 +1,1037 @@
+[
+  {
+    "index": 1,
+    "term": "I (1sg)",
+    "translation": "aho"
+  },
+  {
+    "index": 2,
+    "term": "you (2sg)",
+    "translation": "ianao"
+  },
+  {
+    "index": 3,
+    "term": "he, she, it (3sg)",
+    "translation": "izy"
+  },
+  {
+    "index": 4,
+    "term": "we (1pl)",
+    "translation": "isika (inclusive), izahay (exclusive)"
+  },
+  {
+    "index": 5,
+    "term": "you (2pl)",
+    "translation": "ianareo"
+  },
+  {
+    "index": 6,
+    "term": "they (3pl)",
+    "translation": "izy, izy ireo, ry ireo"
+  },
+  {
+    "index": 7,
+    "term": "this",
+    "translation": "ity"
+  },
+  {
+    "index": 8,
+    "term": "that",
+    "translation": "izany"
+  },
+  {
+    "index": 9,
+    "term": "here",
+    "translation": "eto"
+  },
+  {
+    "index": 10,
+    "term": "there",
+    "translation": "ao"
+  },
+  {
+    "index": 11,
+    "term": "who",
+    "translation": "iza"
+  },
+  {
+    "index": 12,
+    "term": "what",
+    "translation": "inona"
+  },
+  {
+    "index": 13,
+    "term": "where",
+    "translation": "aiza"
+  },
+  {
+    "index": 14,
+    "term": "when",
+    "translation": "oviana (past), rahoviana (future)"
+  },
+  {
+    "index": 15,
+    "term": "how",
+    "translation": "ahoana, manahoana"
+  },
+  {
+    "index": 16,
+    "term": "not",
+    "translation": "tsy"
+  },
+  {
+    "index": 17,
+    "term": "all",
+    "translation": "ny ... rehetra"
+  },
+  {
+    "index": 18,
+    "term": "many",
+    "translation": "betsaka"
+  },
+  {
+    "index": 19,
+    "term": "some",
+    "translation": "vitsivitsy"
+  },
+  {
+    "index": 20,
+    "term": "few",
+    "translation": "kely"
+  },
+  {
+    "index": 21,
+    "term": "other",
+    "translation": "hafa"
+  },
+  {
+    "index": 22,
+    "term": "one",
+    "translation": "iray"
+  },
+  {
+    "index": 23,
+    "term": "two",
+    "translation": "roa"
+  },
+  {
+    "index": 24,
+    "term": "three",
+    "translation": "telo"
+  },
+  {
+    "index": 25,
+    "term": "four",
+    "translation": "efatra"
+  },
+  {
+    "index": 26,
+    "term": "five",
+    "translation": "dimy"
+  },
+  {
+    "index": 27,
+    "term": "big",
+    "translation": "lehibe"
+  },
+  {
+    "index": 28,
+    "term": "long",
+    "translation": "lava"
+  },
+  {
+    "index": 29,
+    "term": "wide",
+    "translation": "malalaka"
+  },
+  {
+    "index": 30,
+    "term": "thick",
+    "translation": "matevina"
+  },
+  {
+    "index": 31,
+    "term": "heavy",
+    "translation": "mavesatra"
+  },
+  {
+    "index": 32,
+    "term": "small",
+    "translation": "kely"
+  },
+  {
+    "index": 33,
+    "term": "short",
+    "translation": "fohy"
+  },
+  {
+    "index": 34,
+    "term": "narrow",
+    "translation": "tery"
+  },
+  {
+    "index": 35,
+    "term": "thin",
+    "translation": "manify, mahia"
+  },
+  {
+    "index": 36,
+    "term": "woman",
+    "translation": "vehivavy"
+  },
+  {
+    "index": 37,
+    "term": "man (adult male)",
+    "translation": "lehilahy"
+  },
+  {
+    "index": 38,
+    "term": "man (human being)",
+    "translation": "olombelona"
+  },
+  {
+    "index": 39,
+    "term": "child",
+    "translation": "zaza"
+  },
+  {
+    "index": 40,
+    "term": "wife",
+    "translation": "vady"
+  },
+  {
+    "index": 41,
+    "term": "husband",
+    "translation": "vady"
+  },
+  {
+    "index": 42,
+    "term": "mother",
+    "translation": "reny"
+  },
+  {
+    "index": 43,
+    "term": "father",
+    "translation": "ray"
+  },
+  {
+    "index": 44,
+    "term": "animal",
+    "translation": "biby"
+  },
+  {
+    "index": 45,
+    "term": "fish",
+    "translation": "trondro, hazandrano"
+  },
+  {
+    "index": 46,
+    "term": "bird",
+    "translation": "vorona"
+  },
+  {
+    "index": 47,
+    "term": "dog",
+    "translation": "alika, amboa"
+  },
+  {
+    "index": 48,
+    "term": "louse",
+    "translation": "hao"
+  },
+  {
+    "index": 49,
+    "term": "snake",
+    "translation": "bibilava"
+  },
+  {
+    "index": 50,
+    "term": "worm",
+    "translation": "kankana"
+  },
+  {
+    "index": 51,
+    "term": "tree",
+    "translation": "hazo"
+  },
+  {
+    "index": 52,
+    "term": "forest",
+    "translation": "ala"
+  },
+  {
+    "index": 53,
+    "term": "stick",
+    "translation": "kibay, tehina"
+  },
+  {
+    "index": 54,
+    "term": "fruit",
+    "translation": "voankazo"
+  },
+  {
+    "index": 55,
+    "term": "seed",
+    "translation": "voa"
+  },
+  {
+    "index": 56,
+    "term": "leaf",
+    "translation": "ravina"
+  },
+  {
+    "index": 57,
+    "term": "root",
+    "translation": "faka, fototra"
+  },
+  {
+    "index": 58,
+    "term": "bark (of a tree)",
+    "translation": "hodi-kazo"
+  },
+  {
+    "index": 59,
+    "term": "flower",
+    "translation": "voninkazo"
+  },
+  {
+    "index": 60,
+    "term": "grass",
+    "translation": "ahitra, bozaka"
+  },
+  {
+    "index": 61,
+    "term": "rope",
+    "translation": "tady"
+  },
+  {
+    "index": 62,
+    "term": "skin",
+    "translation": "hoditra"
+  },
+  {
+    "index": 63,
+    "term": "meat",
+    "translation": "hena"
+  },
+  {
+    "index": 64,
+    "term": "blood",
+    "translation": "ra"
+  },
+  {
+    "index": 65,
+    "term": "bone",
+    "translation": "taolana"
+  },
+  {
+    "index": 66,
+    "term": "fat (noun)",
+    "translation": "taviny"
+  },
+  {
+    "index": 67,
+    "term": "egg",
+    "translation": "atody"
+  },
+  {
+    "index": 68,
+    "term": "horn",
+    "translation": "tandroka"
+  },
+  {
+    "index": 69,
+    "term": "tail",
+    "translation": "rambo"
+  },
+  {
+    "index": 70,
+    "term": "feather",
+    "translation": "penina, volom-borona"
+  },
+  {
+    "index": 71,
+    "term": "hair",
+    "translation": "bolo"
+  },
+  {
+    "index": 72,
+    "term": "head",
+    "translation": "loha"
+  },
+  {
+    "index": 73,
+    "term": "ear",
+    "translation": "sofina"
+  },
+  {
+    "index": 74,
+    "term": "eye",
+    "translation": "maso"
+  },
+  {
+    "index": 75,
+    "term": "nose",
+    "translation": "orona"
+  },
+  {
+    "index": 76,
+    "term": "mouth",
+    "translation": "vava"
+  },
+  {
+    "index": 77,
+    "term": "tooth",
+    "translation": "nify"
+  },
+  {
+    "index": 78,
+    "term": "tongue (organ)",
+    "translation": "lela"
+  },
+  {
+    "index": 79,
+    "term": "fingernail",
+    "translation": "hoho"
+  },
+  {
+    "index": 80,
+    "term": "foot",
+    "translation": "tongotra"
+  },
+  {
+    "index": 81,
+    "term": "leg",
+    "translation": "ranjo"
+  },
+  {
+    "index": 82,
+    "term": "knee",
+    "translation": "luhalika"
+  },
+  {
+    "index": 83,
+    "term": "hand",
+    "translation": "tanana"
+  },
+  {
+    "index": 84,
+    "term": "wing",
+    "translation": "elatra"
+  },
+  {
+    "index": 85,
+    "term": "belly",
+    "translation": "kibo"
+  },
+  {
+    "index": 86,
+    "term": "guts",
+    "translation": "tsinay"
+  },
+  {
+    "index": 87,
+    "term": "neck",
+    "translation": "vozona, tenda"
+  },
+  {
+    "index": 88,
+    "term": "back",
+    "translation": "lamosina"
+  },
+  {
+    "index": 89,
+    "term": "breast",
+    "translation": "tratra"
+  },
+  {
+    "index": 90,
+    "term": "heart",
+    "translation": "fo"
+  },
+  {
+    "index": 91,
+    "term": "liver",
+    "translation": "aty"
+  },
+  {
+    "index": 92,
+    "term": "to drink",
+    "translation": "misotro"
+  },
+  {
+    "index": 93,
+    "term": "to eat",
+    "translation": "mihinana"
+  },
+  {
+    "index": 94,
+    "term": "to bite",
+    "translation": "manaikitra"
+  },
+  {
+    "index": 95,
+    "term": "to suck",
+    "translation": "mifiaka"
+  },
+  {
+    "index": 96,
+    "term": "to spit",
+    "translation": "mandrehoka"
+  },
+  {
+    "index": 97,
+    "term": "to vomit",
+    "translation": "mandoa"
+  },
+  {
+    "index": 98,
+    "term": "to blow",
+    "translation": "mitsoka"
+  },
+  {
+    "index": 99,
+    "term": "to breathe",
+    "translation": "miaina, misefo"
+  },
+  {
+    "index": 100,
+    "term": "to laugh",
+    "translation": "hehy, tokelaka"
+  },
+  {
+    "index": 101,
+    "term": "to see",
+    "translation": "mahita"
+  },
+  {
+    "index": 102,
+    "term": "to hear",
+    "translation": "maheno"
+  },
+  {
+    "index": 103,
+    "term": "to know",
+    "translation": "mahafantatra"
+  },
+  {
+    "index": 104,
+    "term": "to think",
+    "translation": "mieritreritra"
+  },
+  {
+    "index": 105,
+    "term": "to smell",
+    "translation": "manambolo"
+  },
+  {
+    "index": 106,
+    "term": "to fear",
+    "translation": "matahotra, manahy"
+  },
+  {
+    "index": 107,
+    "term": "to sleep",
+    "translation": "matory"
+  },
+  {
+    "index": 108,
+    "term": "to live",
+    "translation": "velona"
+  },
+  {
+    "index": 109,
+    "term": "to die",
+    "translation": "nodimandry, maty"
+  },
+  {
+    "index": 110,
+    "term": "to kill",
+    "translation": "mamono, mahafaty"
+  },
+  {
+    "index": 111,
+    "term": "to fight",
+    "translation": "miady"
+  },
+  {
+    "index": 112,
+    "term": "to hunt",
+    "translation": "mihaza"
+  },
+  {
+    "index": 113,
+    "term": "to hit",
+    "translation": "mikapoka"
+  },
+  {
+    "index": 114,
+    "term": "to cut",
+    "translation": "mandidy"
+  },
+  {
+    "index": 115,
+    "term": "to split",
+    "translation": "mamaky"
+  },
+  {
+    "index": 116,
+    "term": "to stab",
+    "translation": "manatsatoka antsy"
+  },
+  {
+    "index": 117,
+    "term": "to scratch",
+    "translation": "mikiky, mikaoka"
+  },
+  {
+    "index": 118,
+    "term": "to dig",
+    "translation": "mihady, mandavaka"
+  },
+  {
+    "index": 119,
+    "term": "to swim",
+    "translation": "milomano"
+  },
+  {
+    "index": 120,
+    "term": "to fly",
+    "translation": "manidina"
+  },
+  {
+    "index": 121,
+    "term": "to walk",
+    "translation": "mandeha"
+  },
+  {
+    "index": 122,
+    "term": "to come",
+    "translation": "avy, tonga, tamy"
+  },
+  {
+    "index": 123,
+    "term": "to lie (as in a bed)",
+    "translation": "mivelatra"
+  },
+  {
+    "index": 124,
+    "term": "to sit",
+    "translation": "mipetraka"
+  },
+  {
+    "index": 125,
+    "term": "to stand",
+    "translation": "mifoha, mitsangana"
+  },
+  {
+    "index": 126,
+    "term": "to turn (intransitive)",
+    "translation": "mihodina"
+  },
+  {
+    "index": 127,
+    "term": "to fall",
+    "translation": "mihajera"
+  },
+  {
+    "index": 128,
+    "term": "to give",
+    "translation": "manome"
+  },
+  {
+    "index": 129,
+    "term": "to hold",
+    "translation": "mitantana"
+  },
+  {
+    "index": 130,
+    "term": "to squeeze",
+    "translation": "mandray"
+  },
+  {
+    "index": 131,
+    "term": "to rub",
+    "translation": "manakasoka"
+  },
+  {
+    "index": 132,
+    "term": "to wash",
+    "translation": "manasa"
+  },
+  {
+    "index": 133,
+    "term": "to wipe",
+    "translation": "mamafa"
+  },
+  {
+    "index": 134,
+    "term": "to pull",
+    "translation": "mitifitra"
+  },
+  {
+    "index": 135,
+    "term": "to push",
+    "translation": "manosika"
+  },
+  {
+    "index": 136,
+    "term": "to throw",
+    "translation": "manoraka"
+  },
+  {
+    "index": 137,
+    "term": "to tie",
+    "translation": "mamehy, manatotra"
+  },
+  {
+    "index": 138,
+    "term": "to sew",
+    "translation": "manjaitra"
+  },
+  {
+    "index": 139,
+    "term": "to count",
+    "translation": "manisa"
+  },
+  {
+    "index": 140,
+    "term": "to say",
+    "translation": "milaza, miteny"
+  },
+  {
+    "index": 141,
+    "term": "to sing",
+    "translation": "mihira, mikalo"
+  },
+  {
+    "index": 142,
+    "term": "to play",
+    "translation": "milalao"
+  },
+  {
+    "index": 143,
+    "term": "to float",
+    "translation": "mitsinkafona"
+  },
+  {
+    "index": 144,
+    "term": "to flow",
+    "translation": "mikoriana"
+  },
+  {
+    "index": 145,
+    "term": "to freeze",
+    "translation": "mandry"
+  },
+  {
+    "index": 146,
+    "term": "to swell",
+    "translation": "mibontsina"
+  },
+  {
+    "index": 147,
+    "term": "sun",
+    "translation": "masoandru"
+  },
+  {
+    "index": 148,
+    "term": "moon",
+    "translation": "volana"
+  },
+  {
+    "index": 149,
+    "term": "star",
+    "translation": "kintana"
+  },
+  {
+    "index": 150,
+    "term": "water",
+    "translation": "rano"
+  },
+  {
+    "index": 151,
+    "term": "rain",
+    "translation": "orana"
+  },
+  {
+    "index": 152,
+    "term": "river",
+    "translation": "renirano"
+  },
+  {
+    "index": 153,
+    "term": "lake",
+    "translation": "kamory, farihy"
+  },
+  {
+    "index": 154,
+    "term": "sea",
+    "translation": "ranomasina, riaka"
+  },
+  {
+    "index": 155,
+    "term": "salt",
+    "translation": "sira"
+  },
+  {
+    "index": 156,
+    "term": "stone",
+    "translation": "vato"
+  },
+  {
+    "index": 157,
+    "term": "sand",
+    "translation": "fasika"
+  },
+  {
+    "index": 158,
+    "term": "dust",
+    "translation": "vovoka"
+  },
+  {
+    "index": 159,
+    "term": "earth",
+    "translation": "tany"
+  },
+  {
+    "index": 160,
+    "term": "cloud",
+    "translation": "rahona"
+  },
+  {
+    "index": 161,
+    "term": "fog",
+    "translation": "zavona"
+  },
+  {
+    "index": 162,
+    "term": "sky",
+    "translation": "lanitra"
+  },
+  {
+    "index": 163,
+    "term": "wind",
+    "translation": "rivotra"
+  },
+  {
+    "index": 164,
+    "term": "snow",
+    "translation": "ranomandry, lanezy"
+  },
+  {
+    "index": 165,
+    "term": "ice",
+    "translation": "rano mandry"
+  },
+  {
+    "index": 166,
+    "term": "smoke",
+    "translation": "setroka"
+  },
+  {
+    "index": 167,
+    "term": "fire",
+    "translation": "avo"
+  },
+  {
+    "index": 168,
+    "term": "ash",
+    "translation": "lavenona"
+  },
+  {
+    "index": 169,
+    "term": "to burn",
+    "translation": "may"
+  },
+  {
+    "index": 170,
+    "term": "road",
+    "translation": "lanana"
+  },
+  {
+    "index": 171,
+    "term": "mountain",
+    "translation": "tondrombohitra"
+  },
+  {
+    "index": 172,
+    "term": "red",
+    "translation": "mena"
+  },
+  {
+    "index": 173,
+    "term": "green",
+    "translation": "maitso"
+  },
+  {
+    "index": 174,
+    "term": "yellow",
+    "translation": "mavo"
+  },
+  {
+    "index": 175,
+    "term": "white",
+    "translation": "fotsy"
+  },
+  {
+    "index": 176,
+    "term": "black",
+    "translation": "mainty"
+  },
+  {
+    "index": 177,
+    "term": "night",
+    "translation": "alina"
+  },
+  {
+    "index": 178,
+    "term": "day",
+    "translation": "andro"
+  },
+  {
+    "index": 179,
+    "term": "year",
+    "translation": "taona"
+  },
+  {
+    "index": 180,
+    "term": "warm",
+    "translation": "mafana"
+  },
+  {
+    "index": 181,
+    "term": "cold",
+    "translation": "mangatsiaka"
+  },
+  {
+    "index": 182,
+    "term": "full",
+    "translation": "feno"
+  },
+  {
+    "index": 183,
+    "term": "new",
+    "translation": "vaovao"
+  },
+  {
+    "index": 184,
+    "term": "old",
+    "translation": "antitra, tonta"
+  },
+  {
+    "index": 185,
+    "term": "good",
+    "translation": "tsara"
+  },
+  {
+    "index": 186,
+    "term": "bad",
+    "translation": "ratsy"
+  },
+  {
+    "index": 187,
+    "term": "rotten",
+    "translation": "bobongolo"
+  },
+  {
+    "index": 188,
+    "term": "dirty",
+    "translation": "maloto"
+  },
+  {
+    "index": 189,
+    "term": "straight",
+    "translation": "mahitsy"
+  },
+  {
+    "index": 190,
+    "term": "round",
+    "translation": "boribory"
+  },
+  {
+    "index": 191,
+    "term": "sharp (as a knife)",
+    "translation": "maranitra"
+  },
+  {
+    "index": 192,
+    "term": "dull (as a knife)",
+    "translation": "dombo"
+  },
+  {
+    "index": 193,
+    "term": "smooth",
+    "translation": "malama"
+  },
+  {
+    "index": 194,
+    "term": "wet",
+    "translation": "mando"
+  },
+  {
+    "index": 195,
+    "term": "dry",
+    "translation": "maina"
+  },
+  {
+    "index": 196,
+    "term": "correct",
+    "translation": "mendrika"
+  },
+  {
+    "index": 197,
+    "term": "near",
+    "translation": "akaiky"
+  },
+  {
+    "index": 198,
+    "term": "far",
+    "translation": "lavitra"
+  },
+  {
+    "index": 199,
+    "term": "right",
+    "translation": "havanana"
+  },
+  {
+    "index": 200,
+    "term": "left",
+    "translation": "havia"
+  },
+  {
+    "index": 201,
+    "term": "at",
+    "translation": "izy (postposition)"
+  },
+  {
+    "index": 202,
+    "term": "in",
+    "translation": "anaty"
+  },
+  {
+    "index": 203,
+    "term": "with",
+    "translation": "amin'ny"
+  },
+  {
+    "index": 204,
+    "term": "and",
+    "translation": "sy, ary"
+  },
+  {
+    "index": 205,
+    "term": "if",
+    "translation": "raha"
+  },
+  {
+    "index": 206,
+    "term": "because",
+    "translation": "satria"
+  },
+  {
+    "index": 207,
+    "term": "name",
+    "translation": "anarana"
+  }
+]

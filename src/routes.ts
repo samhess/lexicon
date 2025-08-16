@@ -5,6 +5,9 @@ export const routes: GenericObject = {
     name: 'Dashboard',
     children: []
   },
+  swadesh: {
+    name: 'Swadesh Matrix',
+  },
   topiclists: {
     name: 'Topic Lists',
     children: ['English', 'French', 'German', 'Malagasy', 'Spanish', 'Swahili']

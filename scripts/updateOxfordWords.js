@@ -8,7 +8,6 @@ for (const word of words) {
   const {term, type, explanation, level, index} = word
   let primWordType = type.split(',')[0].replace(/\.$/,'')
   primWordType = primWordType.split('/')[0].replace(/\.$/,'')
-    .replace('exclam','interj')
     .replace('modal v','v')
     .replace('auxiliary v','v')
     .replace(/(definite|indefinite) article/,'det')
