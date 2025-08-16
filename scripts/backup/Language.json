@@ -78,18 +78,6 @@
     "alpha2": "en"
   },
   {
-    "key": "ena",
-    "name": "American English",
-    "description": "American",
-    "alpha2": "en"
-  },
-  {
-    "key": "enb",
-    "name": "Britisch English",
-    "description": "Britisch",
-    "alpha2": "en"
-  },
-  {
     "key": "swa",
     "name": "Swahili",
     "description": "inclusive",

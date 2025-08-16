@@ -21,24 +21,24 @@ function fixTerm(term) {
     .replace(/\s\([\w\s&]*\)$/, '')
 }
 
+let notFound=0
 for (const entry of entries) {
   entry.topic = fixTopic(entry.topic)
   const topic = await db.topic.findFirst({where: {name: {startsWith: entry.topic}}})
   if (topic) {
     const term = fixTerm(entry.word)
-    const word = await db.word.findFirst({
-      where: {term, language: {in: ['eng', 'ena', 'enb']}}
-    })
+    const word = await db.word.findUnique({where: {language_term_index:{language:'eng',term,index:0}} })
     if (word) {
-      const {language, wordtype} = word
+      const {language} = word
       await db.word.update({
-        where: {language_term_wordtype: {term, wordtype, language}},
+        where: {language_term_index: {language,term,index:0}},
         data: {Topic: {connect: {key: topic.key}}}
       })
     } else {
-      console.log(`${entry.word}`)
+      notFound++
+      console.log(`${notFound}: ${entry.word}`)
     }
   } else {
-    console.log(`${entry.topic} not found`)
+    //console.log(`${entry.topic} not found`)
   }
 }
