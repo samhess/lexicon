@@ -23,7 +23,11 @@ export const actions = {
     }
     // @ts-ignore
     const record = await db[entityKey as EntityKey].create({data})
-    return redirect(303, `/${entityKey}`)
+    if (['language','topic','wordType'].includes(entityKey)) {
+      return redirect(303, `/taxonomy/${entityKey}`)
+    } else {
+      return redirect(303, `/${entityKey}`)
+    }
   },
   update: async ({params, request}) => {
     const {entity: entityKey, record: recordKeyEnc} = params
@@ -49,8 +53,8 @@ export const actions = {
     const recordKeyName = getRecordKeyName(entityKey)
     // @ts-ignore
     await db[entityKey as EntityKey].delete({where: {[recordKeyName]: recordKey}})
-    if (entityKey === 'instrumentToPortfolio') {
-      return redirect(303, `/portfolio/portfolio/${recordKey.user}:${recordKey.ticker}`)
+    if (['language','topic','wordType'].includes(entityKey)) {
+      return redirect(303, `/taxonomy/${entityKey}`)
     } else {
       return redirect(303, `/${entityKey}`)
     }

@@ -15,6 +15,6 @@ export const routes: GenericObject = {
   },
   taxonomy: {
     name: 'Taxonomy',
-    children: ['Languages', 'Topics', 'Word Types']
+    children: ['Language', 'Topic', 'Word Type']
   }
 }

@@ -50,7 +50,7 @@
   {
     "key": "tkg",
     "name": "Tesaka Malagasy",
-    "description": null,
+    "description": "Antesaka",
     "alpha2": "mg"
   },
   {
@@ -94,5 +94,23 @@
     "name": "Swahili",
     "description": "inclusive",
     "alpha2": "sw"
+  },
+  {
+    "key": "spa",
+    "name": "Spanish",
+    "description": "          ",
+    "alpha2": "es"
+  },
+  {
+    "key": "deu",
+    "name": "German",
+    "description": "          ",
+    "alpha2": "de"
+  },
+  {
+    "key": "fra",
+    "name": "French",
+    "description": "          ",
+    "alpha2": "fr"
   }
 ]
