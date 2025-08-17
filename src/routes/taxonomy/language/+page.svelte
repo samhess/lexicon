@@ -5,18 +5,21 @@
   let {entity, records} = $derived(data)
 </script>
 
-<h1>Languages</h1>
-<DataTable {entity} {records}>
-  {#each records as language}
-    <tr>
-      <td>{language.key}</td>
-      <td>{language.alpha2}</td>
-      <td>{language.name}</td>
-      <td>{language.description ?? ''}</td>
-      <td>{language._count.Word}</td>
-      {#if entity.isEditable}
-        <Edit entityKey={entity.key} recordKey={language.key} />
-      {/if}
-    </tr>
-  {/each}
-</DataTable>
+<article class="prose">
+  <h1>Languages</h1>
+  <DataTable {entity} {records}>
+    {#each records as language}
+      <tr>
+        <td>{language.key}</td>
+        <td>{language.alpha2}</td>
+        <td>{language.name}</td>
+        <td>{language.description ?? ''}</td>
+        <td>{language._count.Word}</td>
+        {#if entity.isEditable}
+          <Edit entityKey={entity.key} recordKey={language.key} />
+        {/if}
+      </tr>
+    {/each}
+  </DataTable>
+</article>
+

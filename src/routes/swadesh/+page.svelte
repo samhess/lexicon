@@ -7,22 +7,25 @@
   const receiveData = (sortedRecords: Array<any>) => (records = sortedRecords)
 </script>
 
-<h1>Swadesh 207 Matrix</h1>
-<DataTable {entity} records={props.data.records} dispatchData={receiveData}>
-  {#each records as record}
-    <tr>
-      <td>{record.key}</td>
-      <td>{record.term}</td>
-      <td>{record.WordType?.name ?? ''}</td>
-      <td>{record.eng ?? ''}</td>
-      <td>{record.deu ?? ''}</td>
-      <td>{record.fra ?? ''}</td>
-      <td>{record.spa ?? ''}</td>
-      <td>{record.swa ?? ''}</td>
-      <td>{record.mlg ?? ''}</td>
-      {#if entity.isEditable}
-        <Edit entityKey={entity.key} recordKey={record.key} />
-      {/if}
-    </tr>
-  {/each}
-</DataTable>
+<article class="prose">
+  <h1>Swadesh 207 Matrix</h1>
+  <DataTable {entity} records={props.data.records} dispatchData={receiveData}>
+    {#each records as record}
+      <tr>
+        <td>{record.key}</td>
+        <td>{record.term}</td>
+        <td>{record.WordType?.name ?? ''}</td>
+        <td>{record.eng ?? ''}</td>
+        <td>{record.deu ?? ''}</td>
+        <td>{record.fra ?? ''}</td>
+        <td>{record.spa ?? ''}</td>
+        <td>{record.swa ?? ''}</td>
+        <td>{record.mlg ?? ''}</td>
+        {#if entity.isEditable}
+          <Edit entityKey={entity.key} recordKey={record.key} />
+        {/if}
+      </tr>
+    {/each}
+  </DataTable>
+</article>
+

@@ -1,7 +1,7 @@
 [
   {
     "key": 1,
-    "wordtype": "n",
+    "wordtype": "pron",
     "term": "I (1sg)",
     "eng": "I",
     "deu": "ich",
@@ -12,7 +12,7 @@
   },
   {
     "key": 2,
-    "wordtype": "n",
+    "wordtype": "pron",
     "term": "you (2sg)",
     "eng": "you",
     "deu": "du, Sie",
@@ -23,7 +23,7 @@
   },
   {
     "key": 3,
-    "wordtype": "n",
+    "wordtype": "pron",
     "term": "he, she, it (3sg)",
     "eng": "he (masculine), she (feminine), they (general), it (inanimate)",
     "deu": "er, sie, es",
@@ -34,7 +34,7 @@
   },
   {
     "key": 4,
-    "wordtype": "n",
+    "wordtype": "pron",
     "term": "we (1pl)",
     "eng": "we",
     "deu": "wir",
@@ -45,7 +45,7 @@
   },
   {
     "key": 5,
-    "wordtype": "n",
+    "wordtype": "pron",
     "term": "you (2pl)",
     "eng": "you",
     "deu": "ihr, Sie",
@@ -56,7 +56,7 @@
   },
   {
     "key": 6,
-    "wordtype": "n",
+    "wordtype": "pron",
     "term": "they (3pl)",
     "eng": "they",
     "deu": "sie",
@@ -67,7 +67,7 @@
   },
   {
     "key": 7,
-    "wordtype": "n",
+    "wordtype": "adv",
     "term": "this",
     "eng": "this",
     "deu": "dieser, diese, dieses, dies",
@@ -78,7 +78,7 @@
   },
   {
     "key": 8,
-    "wordtype": "n",
+    "wordtype": "adv",
     "term": "that",
     "eng": "that",
     "deu": "der, die, das, jener, jene, jenes",
@@ -89,7 +89,7 @@
   },
   {
     "key": 9,
-    "wordtype": "n",
+    "wordtype": "adv",
     "term": "here",
     "eng": "here",
     "deu": "hier",
@@ -100,7 +100,7 @@
   },
   {
     "key": 10,
-    "wordtype": "n",
+    "wordtype": "adv",
     "term": "there",
     "eng": "there",
     "deu": "da, dort",
@@ -111,7 +111,7 @@
   },
   {
     "key": 11,
-    "wordtype": "n",
+    "wordtype": "pron",
     "term": "who",
     "eng": "who",
     "deu": "wer",
@@ -122,7 +122,7 @@
   },
   {
     "key": 12,
-    "wordtype": "n",
+    "wordtype": "pron",
     "term": "what",
     "eng": "what",
     "deu": "was",
@@ -133,7 +133,7 @@
   },
   {
     "key": 13,
-    "wordtype": "n",
+    "wordtype": "adv",
     "term": "where",
     "eng": "where",
     "deu": "wo",
@@ -144,7 +144,7 @@
   },
   {
     "key": 14,
-    "wordtype": "n",
+    "wordtype": "adv",
     "term": "when",
     "eng": "when",
     "deu": "wann",
@@ -155,7 +155,7 @@
   },
   {
     "key": 15,
-    "wordtype": "n",
+    "wordtype": "adv",
     "term": "how",
     "eng": "how",
     "deu": "wie",
@@ -166,7 +166,7 @@
   },
   {
     "key": 16,
-    "wordtype": "n",
+    "wordtype": "adv",
     "term": "not",
     "eng": "not",
     "deu": "nicht",
@@ -177,7 +177,7 @@
   },
   {
     "key": 17,
-    "wordtype": "n",
+    "wordtype": "adv",
     "term": "all",
     "eng": "all",
     "deu": "alle",
@@ -188,7 +188,7 @@
   },
   {
     "key": 18,
-    "wordtype": "n",
+    "wordtype": "det",
     "term": "many",
     "eng": "many",
     "deu": "viele",
@@ -199,7 +199,7 @@
   },
   {
     "key": 19,
-    "wordtype": "n",
+    "wordtype": "det",
     "term": "some",
     "eng": "some",
     "deu": "einige, manche",
@@ -210,7 +210,7 @@
   },
   {
     "key": 20,
-    "wordtype": "n",
+    "wordtype": "det",
     "term": "few",
     "eng": "few",
     "deu": "wenig",
@@ -221,7 +221,7 @@
   },
   {
     "key": 21,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "other",
     "eng": "other",
     "deu": "anderer",
@@ -232,7 +232,7 @@
   },
   {
     "key": 22,
-    "wordtype": "n",
+    "wordtype": "num",
     "term": "one",
     "eng": "one",
     "deu": "eins",
@@ -243,7 +243,7 @@
   },
   {
     "key": 23,
-    "wordtype": "n",
+    "wordtype": "num",
     "term": "two",
     "eng": "two",
     "deu": "zwei, zwo",
@@ -254,7 +254,7 @@
   },
   {
     "key": 24,
-    "wordtype": "n",
+    "wordtype": "num",
     "term": "three",
     "eng": "three",
     "deu": "drei",
@@ -265,7 +265,7 @@
   },
   {
     "key": 25,
-    "wordtype": "n",
+    "wordtype": "num",
     "term": "four",
     "eng": "four",
     "deu": "vier",
@@ -276,7 +276,7 @@
   },
   {
     "key": 26,
-    "wordtype": "n",
+    "wordtype": "num",
     "term": "five",
     "eng": "five",
     "deu": "fünf",
@@ -287,7 +287,7 @@
   },
   {
     "key": 27,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "big",
     "eng": "big",
     "deu": "groß",
@@ -309,7 +309,7 @@
   },
   {
     "key": 29,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "wide",
     "eng": "wide",
     "deu": "breit, weit",
@@ -320,7 +320,7 @@
   },
   {
     "key": 30,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "thick",
     "eng": "thick",
     "deu": "dick",
@@ -331,7 +331,7 @@
   },
   {
     "key": 31,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "heavy",
     "eng": "heavy",
     "deu": "schwer",
@@ -342,7 +342,7 @@
   },
   {
     "key": 32,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "small",
     "eng": "small",
     "deu": "klein",
@@ -353,7 +353,7 @@
   },
   {
     "key": 33,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "short",
     "eng": "short",
     "deu": "kurz",
@@ -364,7 +364,7 @@
   },
   {
     "key": 34,
-    "wordtype": "n",
+    "wordtype": "v",
     "term": "narrow",
     "eng": "narrow",
     "deu": "eng, schmal",
@@ -375,7 +375,7 @@
   },
   {
     "key": 35,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "thin",
     "eng": "thin",
     "deu": "dünn",
@@ -485,7 +485,7 @@
   },
   {
     "key": 45,
-    "wordtype": "n",
+    "wordtype": "v",
     "term": "fish",
     "eng": "fish",
     "deu": "Fisch",
@@ -782,7 +782,7 @@
   },
   {
     "key": 72,
-    "wordtype": "n",
+    "wordtype": "v",
     "term": "head",
     "eng": "head",
     "deu": "Haupt, Kopf",
@@ -903,7 +903,7 @@
   },
   {
     "key": 83,
-    "wordtype": "n",
+    "wordtype": "v",
     "term": "hand",
     "eng": "hand",
     "deu": "Hand",
@@ -958,7 +958,7 @@
   },
   {
     "key": 88,
-    "wordtype": "n",
+    "wordtype": "v",
     "term": "back",
     "eng": "back",
     "deu": "Rücken",
@@ -1167,7 +1167,7 @@
   },
   {
     "key": 107,
-    "wordtype": "v",
+    "wordtype": "n",
     "term": "to sleep",
     "eng": "sleep",
     "deu": "schlafen",
@@ -1222,7 +1222,7 @@
   },
   {
     "key": 112,
-    "wordtype": "v",
+    "wordtype": "n",
     "term": "to hunt",
     "eng": "hunt",
     "deu": "jagen",
@@ -1244,7 +1244,7 @@
   },
   {
     "key": 114,
-    "wordtype": "v",
+    "wordtype": "n",
     "term": "to cut",
     "eng": "cut",
     "deu": "schneiden",
@@ -1299,7 +1299,7 @@
   },
   {
     "key": 119,
-    "wordtype": "v",
+    "wordtype": "n",
     "term": "to swim",
     "eng": "swim",
     "deu": "schwimmen",
@@ -1310,7 +1310,7 @@
   },
   {
     "key": 120,
-    "wordtype": "v",
+    "wordtype": "n",
     "term": "to fly",
     "eng": "fly",
     "deu": "fliegen",
@@ -1365,7 +1365,7 @@
   },
   {
     "key": 125,
-    "wordtype": "v",
+    "wordtype": "n",
     "term": "to stand",
     "eng": "stand",
     "deu": "stehen",
@@ -1387,7 +1387,7 @@
   },
   {
     "key": 127,
-    "wordtype": "v",
+    "wordtype": "n",
     "term": "to fall",
     "eng": "fall",
     "deu": "fallen",
@@ -1409,7 +1409,7 @@
   },
   {
     "key": 129,
-    "wordtype": "v",
+    "wordtype": "n",
     "term": "to hold",
     "eng": "hold",
     "deu": "halten",
@@ -1442,7 +1442,7 @@
   },
   {
     "key": 132,
-    "wordtype": "v",
+    "wordtype": "n",
     "term": "to wash",
     "eng": "wash",
     "deu": "waschen",
@@ -1464,7 +1464,7 @@
   },
   {
     "key": 134,
-    "wordtype": "v",
+    "wordtype": "n",
     "term": "to pull",
     "eng": "pull",
     "deu": "ziehen",
@@ -1475,7 +1475,7 @@
   },
   {
     "key": 135,
-    "wordtype": "v",
+    "wordtype": "n",
     "term": "to push",
     "eng": "push",
     "deu": "drücken, schieben",
@@ -1519,7 +1519,7 @@
   },
   {
     "key": 139,
-    "wordtype": "v",
+    "wordtype": "n",
     "term": "to count",
     "eng": "count",
     "deu": "rechnen, zählen",
@@ -1629,7 +1629,7 @@
   },
   {
     "key": 149,
-    "wordtype": "n",
+    "wordtype": "v",
     "term": "star",
     "eng": "star",
     "deu": "Stern",
@@ -1640,7 +1640,7 @@
   },
   {
     "key": 150,
-    "wordtype": "n",
+    "wordtype": "v",
     "term": "water",
     "eng": "water",
     "deu": "Wasser",
@@ -1827,7 +1827,7 @@
   },
   {
     "key": 167,
-    "wordtype": "n",
+    "wordtype": "v",
     "term": "fire",
     "eng": "fire",
     "deu": "Feuer",
@@ -1882,7 +1882,7 @@
   },
   {
     "key": 172,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "red",
     "eng": "red",
     "deu": "rot",
@@ -1893,7 +1893,7 @@
   },
   {
     "key": 173,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "green",
     "eng": "green",
     "deu": "grün",
@@ -1904,7 +1904,7 @@
   },
   {
     "key": 174,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "yellow",
     "eng": "yellow",
     "deu": "gelb",
@@ -1915,7 +1915,7 @@
   },
   {
     "key": 175,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "white",
     "eng": "white",
     "deu": "weiß",
@@ -1926,7 +1926,7 @@
   },
   {
     "key": 176,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "black",
     "eng": "black",
     "deu": "schwarz",
@@ -1970,7 +1970,7 @@
   },
   {
     "key": 180,
-    "wordtype": "n",
+    "wordtype": "v",
     "term": "warm",
     "eng": "warm",
     "deu": "warm",
@@ -1981,7 +1981,7 @@
   },
   {
     "key": 181,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "cold",
     "eng": "cold",
     "deu": "kalt",
@@ -1992,7 +1992,7 @@
   },
   {
     "key": 182,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "full",
     "eng": "full",
     "deu": "voll",
@@ -2003,7 +2003,7 @@
   },
   {
     "key": 183,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "new",
     "eng": "new",
     "deu": "neu",
@@ -2014,7 +2014,7 @@
   },
   {
     "key": 184,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "old",
     "eng": "old",
     "deu": "alt",
@@ -2036,7 +2036,7 @@
   },
   {
     "key": 186,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "bad",
     "eng": "bad",
     "deu": "schlecht, übel",
@@ -2058,7 +2058,7 @@
   },
   {
     "key": 188,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "dirty",
     "eng": "dirty",
     "deu": "schmutzig, dreckig",
@@ -2069,7 +2069,7 @@
   },
   {
     "key": 189,
-    "wordtype": "n",
+    "wordtype": "adv",
     "term": "straight",
     "eng": "straight",
     "deu": "gerade",
@@ -2091,7 +2091,7 @@
   },
   {
     "key": 191,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "sharp (as a knife)",
     "eng": "sharp",
     "deu": "scharf",
@@ -2102,7 +2102,7 @@
   },
   {
     "key": 192,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "dull (as a knife)",
     "eng": "dull",
     "deu": "stumpf",
@@ -2113,7 +2113,7 @@
   },
   {
     "key": 193,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "smooth",
     "eng": "smooth",
     "deu": "glatt",
@@ -2124,7 +2124,7 @@
   },
   {
     "key": 194,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "wet",
     "eng": "wet",
     "deu": "nass, feucht",
@@ -2135,7 +2135,7 @@
   },
   {
     "key": 195,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "dry",
     "eng": "dry",
     "deu": "dürr, trocken",
@@ -2146,7 +2146,7 @@
   },
   {
     "key": 196,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "correct",
     "eng": "right, correct",
     "deu": "richtig",
@@ -2157,7 +2157,7 @@
   },
   {
     "key": 197,
-    "wordtype": "n",
+    "wordtype": "prep",
     "term": "near",
     "eng": "near",
     "deu": "nah",
@@ -2168,7 +2168,7 @@
   },
   {
     "key": 198,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "far",
     "eng": "far",
     "deu": "fern, weit",
@@ -2179,7 +2179,7 @@
   },
   {
     "key": 199,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "right",
     "eng": "right",
     "deu": "rechts",
@@ -2190,7 +2190,7 @@
   },
   {
     "key": 200,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "left",
     "eng": "left",
     "deu": "links",
@@ -2201,7 +2201,7 @@
   },
   {
     "key": 201,
-    "wordtype": "n",
+    "wordtype": "prep",
     "term": "at",
     "eng": "at",
     "deu": "an, bei",
@@ -2212,7 +2212,7 @@
   },
   {
     "key": 202,
-    "wordtype": "n",
+    "wordtype": "prep",
     "term": "in",
     "eng": "in",
     "deu": "in",
@@ -2223,7 +2223,7 @@
   },
   {
     "key": 203,
-    "wordtype": "n",
+    "wordtype": "prep",
     "term": "with",
     "eng": "with",
     "deu": "mit",
@@ -2234,7 +2234,7 @@
   },
   {
     "key": 204,
-    "wordtype": "n",
+    "wordtype": "conj",
     "term": "and",
     "eng": "and",
     "deu": "und",
@@ -2245,7 +2245,7 @@
   },
   {
     "key": 205,
-    "wordtype": "n",
+    "wordtype": "conj",
     "term": "if",
     "eng": "if",
     "deu": "ob, wenn",
@@ -2256,7 +2256,7 @@
   },
   {
     "key": 206,
-    "wordtype": "n",
+    "wordtype": "conj",
     "term": "because",
     "eng": "because, for (literary)",
     "deu": "weil",

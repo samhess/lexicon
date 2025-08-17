@@ -1,5 +1,6 @@
 <script lang="ts">
   import type {PageProps} from './$types'
+  import {page} from '$app/state'
   import EditForm from '$lib/components/EditForm.svelte'
   const {data, form}: PageProps = $props()
   const {fields, record, action} = data
@@ -11,7 +12,7 @@
   {/if}
 
   {#if action === 'update' && record}
-    <h1>{'Edit ' + record.name}</h1>
+    <h1>{'Edit ' + page.params.entity?.replace(/^\w/,c=>c.toUpperCase())}</h1>
     <EditForm {fields} {record} {action}></EditForm>
   {:else}
     <h1>{'Create record'}</h1>

@@ -13,7 +13,7 @@
   const capitalize = (str: string) => str.replace(/^\w/, (v) => v.toUpperCase())
 
   function getType(fieldName: string) {
-    if (['sharesOut', 'price'].includes(fieldName)) return 'number'
+    if (['index'].includes(fieldName)) return 'number'
     return 'text'
   }
 </script>
@@ -44,7 +44,7 @@
     {:else}
       <label class="font-semibold">
         {capitalize(field.name)}
-        <select name={fieldname} bind:value={record[fieldname]}>
+        <select name={fieldname} bind:value={record[fieldname.toLowerCase()]}>
           {#each field.options as { value, name }, index}
             <option {value}>
               {name}

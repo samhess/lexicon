@@ -35,6 +35,11 @@ export const actions = {
     const recordKeyName = getRecordKeyName(entityKey)
     const formData = await request.formData()
     const data: GenericObject = Object.fromEntries(formData)
+    if (entityKey==='swadesh') {
+      data.wordtype = data.wordType
+      data.key = parseInt(data.key)
+      delete data.wordType
+    }
     for (const prop of ['rank']) {
       if (data[prop] !== undefined) {
         data[prop] = parseFloat(data[prop])

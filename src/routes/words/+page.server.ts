@@ -5,10 +5,8 @@ export const load = async () => {
     attributes: {
       term: {name: 'Term'},
       Language: {name: 'Language', key: 'key'},
-      PartOfSpeech: {name: 'Word Type', key: 'key'},
+      WordType: {name: 'Word Type', key: 'key'},
       Topic: {name: 'Topic', key: 'key'},
-      root: {name: 'Root Form'},
-      standard: {name: 'Standard Term'},
       english: {name: 'English'},
       comment: {name: 'Comment'}
     },

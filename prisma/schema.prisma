@@ -51,7 +51,7 @@ model Word {
   Language Language @relation(fields: [language], references: [key], onDelete: Cascade)
   Topic    Topic?   @relation(fields: [topic], references: [key], onDelete: Cascade)
 
-  @@unique([language, term, index])
+  @@id([language, term, index])
 }
 
 model WordType {

@@ -7,16 +7,19 @@
   const receiveData = (sortedRecords: Array<any>) => (records = sortedRecords)
 </script>
 
-<h1>Word Types</h1>
-<DataTable {entity} {records} dispatchData={receiveData}>
-  {#each records as wordtype}
-    <tr>
-      <td>{wordtype.key}</td>
-      <td>{wordtype.name}</td>
-      <td>{wordtype._count.Word}</td>
-      {#if entity.isEditable}
-        <Edit entityKey={entity.key} recordKey={wordtype.key} />
-      {/if}
-    </tr>
-  {/each}
-</DataTable>
+<article class="prose">
+  <h1>Word Types</h1>
+  <DataTable {entity} {records} dispatchData={receiveData}>
+    {#each records as wordtype}
+      <tr>
+        <td>{wordtype.key}</td>
+        <td>{wordtype.name}</td>
+        <td>{wordtype._count.Word}</td>
+        {#if entity.isEditable}
+          <Edit entityKey={entity.key} recordKey={wordtype.key} />
+        {/if}
+      </tr>
+    {/each}
+  </DataTable>
+</article>
+

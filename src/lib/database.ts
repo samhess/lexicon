@@ -5,56 +5,37 @@ const db = new PrismaClient({log: ['warn', 'error']})
 export default db
 
 const models = Prisma.dmmf.datamodel.models
-const modelNames = models.map(({name}) => name.replace(/^Gics(?!$)/, ''))
-modelNames.push(...['Domicile', 'Headquarter'])
-const hardOptions: any = {
-  assetclass: [
-    {value: 'bond', name: 'Bond'},
-    {value: 'commodity', name: 'Commodity'},
-    {value: 'cryptocurrency', name: 'Cryptocurrency'},
-    {value: 'currency', name: 'Foreign currency'},
-    {value: 'equity', name: 'Equity'}
-  ],
-  objective: [
-    {value: 'index', name: 'Index'},
-    {value: 'investing', name: 'Investing'},
-    {value: 'pension', name: 'Pension'},
-    {value: 'reference', name: 'Popular'},
-    {value: 'trading', name: 'Trading'},
-    {value: 'watchlist', name: 'Watchlist'}
-  ],
-  Type: [
-    {value: 'cash', name: 'Cash financial instrument'},
-    {value: 'derivative', name: 'Financial derivative'},
-    {value: 'forex', name: 'Foreign exchange instrument'},
-    {value: 'fund', name: 'Investment fund'},
-    {value: 'money', name: 'Money market instrument'}
-  ],
-  visibility: [
-    {value: 'private', name: 'Private'},
-    {value: 'public', name: 'Public'}
-  ],
-  Weighting: [
-    {value: 'marketcap', name: 'marketcap-weighted'},
-    {value: 'price', name: 'price-weighted'}
-  ]
-}
+const modelNames = models.map(({name}) => name)
 
 export async function getSelectOptions(entity: string) {
-  if (entity in hardOptions) {
-    const options = new Array(...hardOptions[entity])
-    options.unshift({
-      value: undefined,
-      name: `\u2014\u2014\u2014 select ${entity.toLowerCase()} \u2014\u2014\u2014`
-    })
-    return options
-  } else if (modelNames.includes(entity)) {
+  if (modelNames.includes(entity)) {    
     let options = new Array()
-    if (entity === 'User') {
+    if (entity === 'Language') {
+      options = await db.language.findMany({orderBy: {key: 'asc'}})
+      options = options.map(({key, name}) => ({
+        value: key,
+        name: `${key} \u2013 ${name}`
+      }))
+    }
+    if (entity === 'Topic') {
+      options = await db.topic.findMany({orderBy: {key: 'asc'}})
+      options = options.map(({key, name}) => ({
+        value: key,
+        name: `${key} \u2013 ${name}`
+      }))
+    }
+    else if (entity === 'User') {
       options = await db.user.findMany({orderBy: {email: 'asc'}})
       options = options.map(({email, firstname, lastname}) => ({
         value: email,
         name: `${email} \u2013 ${firstname} ${lastname}`
+      }))
+    }
+    else if (entity === 'WordType') {
+      options = await db.wordType.findMany({orderBy: {key: 'asc'}})
+      options = options.map(({key, name}) => ({
+        value: key,
+        name: `${key} \u2013 ${name}`
       }))
     }
     options.unshift({
@@ -71,16 +52,15 @@ export async function getSelectOptions(entity: string) {
 }
 
 export async function getFields(entityKey: string) {
+  const fields: FormFields[] = new Array()
   const model = models.find(
     (model) => model.name === entityKey.replace(/^\w/, (c) => c.toUpperCase())
   )
-
-  const fields: FormFields[] = new Array()
   if (model) {
     const fieldnames = model.fields.map((field) => field.name)
     for (const field of model.fields) {
       if (field.relationName === undefined) {
-        if (!fieldnames.includes(field.name.replace(/^\w/, (c: string) => c.toUpperCase()))) {
+        if (!['wordtype','language','topic','user'].includes(field.name)) {
           fields.push({
             name: field.name,
             kind: field.kind,
@@ -99,11 +79,7 @@ export async function getFields(entityKey: string) {
         })
       }
     }
-    if (entityKey === 'instrumentToPortfolio') {
-      return fields.filter((field) => !['user', 'ticker'].includes(field.name))
-    } else {
-      return fields
-    }
+    return fields
   } else {
     return []
   }
@@ -131,5 +107,5 @@ export function getRecordKeyName(entityKey: string) {
       }
     }
   }
-  return 'id'
+  return 'key'
 }
