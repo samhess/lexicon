@@ -13,7 +13,7 @@
   const capitalize = (str: string) => str.replace(/^\w/, (v) => v.toUpperCase())
 
   function getType(fieldName: string) {
-    if (['index'].includes(fieldName)) return 'number'
+    if (['instance'].includes(fieldName)) return 'number'
     return 'text'
   }
 </script>

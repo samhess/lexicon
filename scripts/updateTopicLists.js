@@ -27,11 +27,11 @@ for (const entry of entries) {
   const topic = await db.topic.findFirst({where: {name: {startsWith: entry.topic}}})
   if (topic) {
     const term = fixTerm(entry.word)
-    const word = await db.word.findUnique({where: {language_term_index:{language:'eng',term,index:0}} })
+    const word = await db.word.findUnique({where: {language_term_instance:{language:'eng',term,instance:0}} })
     if (word) {
       const {language} = word
       await db.word.update({
-        where: {language_term_index: {language,term,index:0}},
+        where: {language_term_instance: {language,term,instance:0}},
         data: {Topic: {connect: {key: topic.key}}}
       })
     } else {

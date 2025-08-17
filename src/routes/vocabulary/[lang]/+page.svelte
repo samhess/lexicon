@@ -10,22 +10,18 @@
 <article class="prose">
   <h1>{props.data.language.name} Vocabulary</h1>
   <DataTable {entity} records={props.data.records} dispatchData={receiveData}>
-    {#each records as term}
+    {#each records as {term,language,instance,comment,level,english,WordType,Language}}
       <tr>
         <td>
-          <a href={`/words/${term.term}`}>{term.term}</a>
+          <a href={`/words/${term}`}>{term}</a>
         </td>
-        <td>{term.comment ?? ''}</td>
-        <td>{term.WordType?.name ?? ''}</td>
-        <td>{term.Language?.name ?? ''}</td>
-        <td>{term.level ?? ''}</td>
-        <td>{term.english ?? ''}</td>
+        <td>{comment ?? ''}</td>
+        <td>{WordType?.name ?? ''}</td>
+        <td>{Language?.name ?? ''}</td>
+        <td>{level ?? ''}</td>
+        <td>{english ?? ''}</td>
         {#if entity.isEditable}
-          <Edit entityKey={entity.key} recordKey={{
-            language:term.language,
-            term:term.term,
-            index:0
-          }} />
+          <Edit entityKey={entity.key} recordKey={{language,term,instance}} />
         {/if}
       </tr>
     {/each}

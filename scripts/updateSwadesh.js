@@ -5,31 +5,22 @@ const contents = await readFile('./data/swadesh-english.json')
 const entries = JSON.parse(contents)
 
 for (const entry of entries) {
-  const searchTerm = entry.term
+  const term = entry.term
     .replace(/\s\([\w\d\s]*\)$/,'')
     .replace(/^to\s/,'')
     .replace(/^he, she, it/,'he')
-    
-  const word = await db.word.findUnique({where: {
-    language_term_index: {
-      language:'eng', 
-      term: searchTerm , 
-      index:0
-    }
-  }})
+  let instance = 0
+  if (['long','lie','wind'].includes(term)) {
+    instance=1
+  }
+  const word = await db.word.findUnique({where: {language_term_instance: {language:'eng', term , instance}}})
   if (word) {
     const wordType = await db.wordType.findUnique({where: {key:word.wordtype}})
     if (wordType) {
       const {index, term, translation} = entry
-      await db.swadesh.upsert({
+      await db.swadesh.update({
         where: {key: index},
-        create: {
-          key: index,
-          term: term,
-          eng: translation,
-          WordType: {connect: {key: wordType.key}}
-        },
-        update: {
+        data: {
           term: term,
           eng: translation,
           WordType: {connect: {key: wordType.key}}
@@ -37,7 +28,7 @@ for (const entry of entries) {
       })
     }
   } else {
-    console.log(entry.index  + ': ' + searchTerm)
+    console.log(entry.index  + ': ' + term)
   }
 }
 

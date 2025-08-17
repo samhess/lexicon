@@ -96,14 +96,15 @@ for (const [index,word] of words.slice(2).entries()) {
   if (/^(per cent|all right|ice cream|a, an|have to|next to|no one|according to|any more|used to)/.test(word)) {
     const firstSpace = word.indexOf(' ')
     splitIndex = word.indexOf(' ',firstSpace+1)
-    console.log(word.slice(0,word.indexOf(' ', splitIndex)).replace(/\d$/,'')); 
   }
   if (!['A1','A2','B1','B2'].includes(word)) {
+    let term = word.slice(0,word.indexOf(' ', splitIndex))
+    let instance = term.match(/(?<instance>\d$)/)?.groups.instance
     terms.push({
-      term: word.slice(0,word.indexOf(' ', splitIndex)).replace(/\d$/,''),
-      index: word.slice(0,word.indexOf(' ', splitIndex)).match(/(?<index>\d$)/)?.groups.index,
+      term: term.replace(/\d$/,''),
+      instance: isNaN(parseInt(instance)) ? 0 : parseInt(instance),
       explanation: word.match(/\((?<explanation>[\w\s/]*)\).*$/)?.groups.explanation,
-      type: word.slice(word.indexOf(' ',splitIndex)+1).replace(/^(\([\w\s/]*\)\s)(.*)/,'$2'),
+      wordtype: word.slice(word.indexOf(' ',splitIndex)+1).replace(/^(\([\w\s/]*\)\s)(.*)/,'$2'),
       level 
     })
   }

@@ -40,29 +40,29 @@ model User {
 
 model Word {
   term     String
-  index    Int      @default(0)
+  instance Int      @default(0)
   language String
   wordtype String
   topic    String?
   english  String?
   comment  String?
   level    String?
-  WordType WordType @relation(fields: [wordtype], references: [key], onDelete: Cascade)
-  Language Language @relation(fields: [language], references: [key], onDelete: Cascade)
   Topic    Topic?   @relation(fields: [topic], references: [key], onDelete: Cascade)
+  Language Language @relation(fields: [language], references: [key], onDelete: Cascade)
+  WordType WordType @relation(fields: [wordtype], references: [key], onDelete: Cascade)
 
-  @@id([language, term, index])
+  @@id([language, term, instance])
 }
 
 model WordType {
   key     String    @id
   name    String
-  Word    Word[]
   Swadesh Swadesh[]
+  Word    Word[]
 }
 
 model Swadesh {
-  key      Int      @id
+  key      Int      @id @default(autoincrement())
   wordtype String
   term     String
   eng      String
