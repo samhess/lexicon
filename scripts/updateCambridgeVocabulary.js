@@ -18,9 +18,11 @@ for (const word of words) {
   if (!word.term.includes('(') && !word.term.includes('/')) {
     const {term, language} = word
     const wordtype = getWordType(word.type)
-    const exists = await db.word.findUnique({where: {language_term_instance: {language,term,instance:0}}})
+    const exists = await db.word.findUnique({
+      where: {language_term_instance: {language, term, instance: 0}}
+    })
     if (exists) {
-/*       await db.word.update({
+      /*       await db.word.update({
         where: {language_term_instance: {language,term,index:0}},
         data: {language, term, wordtype}
       }) */

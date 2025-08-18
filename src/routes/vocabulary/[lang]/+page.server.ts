@@ -1,8 +1,8 @@
-import { error } from '@sveltejs/kit'
+import {error} from '@sveltejs/kit'
 import db from '$lib/database'
 
 export const load = async ({params}) => {
-  const language = await db.language.findFirst({where: {name: {contains:params.lang}}})
+  const language = await db.language.findFirst({where: {name: {contains: params.lang}}})
   if (language) {
     const entity = {
       attributes: {
@@ -12,7 +12,7 @@ export const load = async ({params}) => {
         WordType: {name: 'Word Class', key: 'key'},
         Language: {name: 'Language', key: 'key'},
         level: {name: 'Level'},
-        english: {name: 'English'},
+        english: {name: 'English'}
       },
       key: 'word',
       isEditable: true,
@@ -25,6 +25,6 @@ export const load = async ({params}) => {
     })
     return {entity, records, language}
   } else {
-    throw error(500,'unknown language')
+    throw error(500, 'unknown language')
   }
 }

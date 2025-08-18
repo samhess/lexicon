@@ -5,6 +5,7 @@
 Introduction to [Malagasy](https://samhess.github.io/malagasy) language including most common phrases and words.
 
 ### Plateau Malagasy
+
 - [Antaifasy, Taifasy](https://en.wikipedia.org/wiki/Antaifasy_dialect)
 - [Antaimoro, Taimoro](https://en.wikipedia.org/wiki/Antaimoro_dialect)
 - [Betsileo, Bezanozano, Merina, Sihanaka](https://en.wikipedia.org/wiki/Merina_people#Language)
@@ -12,10 +13,9 @@ Introduction to [Malagasy](https://samhess.github.io/malagasy) language includin
 - [Vakinankaratra](https://en.wikipedia.org/wiki/Vakinankaratra_dialect)
 
 ## Links
+
 - [Dictionnaires et guides de conversation](http://dico.malgache.free.fr)
 - [Malagasy Encyclopedic Dictionary](http://malagasyword.org)
 - [Swadesh Lists](https://en.wiktionary.org/wiki/Appendix:Swadesh_lists)
 - [List of ISO 639 language codes](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes)
 - [ISO 639-3 Language Coding Agency](https://iso639-3.sil.org/code/mlg)
-
-

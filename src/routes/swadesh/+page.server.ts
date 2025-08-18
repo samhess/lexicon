@@ -6,14 +6,14 @@ export async function load(event: PageServerLoadEvent) {
   const entity = {
     attributes: {
       key: {name: 'Key'},
-      lemma: {name: 'Lemma'},
-      WordType: {name: 'WordType', key:'key'},
+      lemma: {name: 'Lexeme'},
+      WordType: {name: 'Word Class', key: 'key'},
       eng: {name: 'English'},
       deu: {name: 'German'},
       fra: {name: 'French'},
       spa: {name: 'Spanish'},
       swa: {name: 'Swahili'},
-      mlg: {name: 'Malagasy'},
+      mlg: {name: 'Malagasy'}
     },
     key: 'swadesh',
     isEditable: true,

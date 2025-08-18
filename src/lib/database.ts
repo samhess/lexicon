@@ -8,7 +8,7 @@ const models = Prisma.dmmf.datamodel.models
 const modelNames = models.map(({name}) => name)
 
 export async function getSelectOptions(entity: string) {
-  if (modelNames.includes(entity)) {    
+  if (modelNames.includes(entity)) {
     let options = new Array()
     if (entity === 'Language') {
       options = await db.language.findMany({orderBy: {key: 'asc'}})
@@ -23,15 +23,13 @@ export async function getSelectOptions(entity: string) {
         value: key,
         name: `${key} \u2013 ${name}`
       }))
-    }
-    else if (entity === 'User') {
+    } else if (entity === 'User') {
       options = await db.user.findMany({orderBy: {email: 'asc'}})
       options = options.map(({email, firstname, lastname}) => ({
         value: email,
         name: `${email} \u2013 ${firstname} ${lastname}`
       }))
-    }
-    else if (entity === 'WordType') {
+    } else if (entity === 'WordType') {
       options = await db.wordType.findMany({orderBy: {key: 'asc'}})
       options = options.map(({key, name}) => ({
         value: key,
@@ -60,7 +58,7 @@ export async function getFields(entityKey: string) {
     const fieldnames = model.fields.map((field) => field.name)
     for (const field of model.fields) {
       if (field.relationName === undefined) {
-        if (!['wordtype','language','topic','user'].includes(field.name)) {
+        if (!['wordtype', 'language', 'topic', 'user'].includes(field.name)) {
           fields.push({
             name: field.name,
             kind: field.kind,

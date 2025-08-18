@@ -21,17 +21,17 @@ function fixTerm(term) {
     .replace(/\s\([\w\s&]*\)$/, '')
 }
 
-let notFound=0
+let notFound = 0
 for (const entry of entries) {
   entry.topic = fixTopic(entry.topic)
   const topic = await db.topic.findFirst({where: {name: {startsWith: entry.topic}}})
   if (topic) {
     const term = fixTerm(entry.word)
-    const word = await db.word.findUnique({where: {language_term_instance:{language:'eng',term,instance:0}} })
+    const word = await db.word.findFirst({where: {lemma:term, language: 'eng'}})
     if (word) {
       const {language} = word
       await db.word.update({
-        where: {language_term_instance: {language,term,instance:0}},
+        where: {key: word.key},
         data: {Topic: {connect: {key: topic.key}}}
       })
     } else {

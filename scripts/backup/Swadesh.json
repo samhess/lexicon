@@ -364,7 +364,7 @@
   },
   {
     "key": 34,
-    "wordtype": "v",
+    "wordtype": "adj",
     "term": "narrow",
     "eng": "narrow",
     "deu": "eng, schmal",
@@ -485,7 +485,7 @@
   },
   {
     "key": 45,
-    "wordtype": "v",
+    "wordtype": "n",
     "term": "fish",
     "eng": "fish",
     "deu": "Fisch",
@@ -716,7 +716,7 @@
   },
   {
     "key": 66,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "fat (noun)",
     "eng": "fat",
     "deu": "Fett",
@@ -782,7 +782,7 @@
   },
   {
     "key": 72,
-    "wordtype": "v",
+    "wordtype": "n",
     "term": "head",
     "eng": "head",
     "deu": "Haupt, Kopf",
@@ -903,7 +903,7 @@
   },
   {
     "key": 83,
-    "wordtype": "v",
+    "wordtype": "n",
     "term": "hand",
     "eng": "hand",
     "deu": "Hand",
@@ -958,7 +958,7 @@
   },
   {
     "key": 88,
-    "wordtype": "v",
+    "wordtype": "adj",
     "term": "back",
     "eng": "back",
     "deu": "Rücken",
@@ -1156,7 +1156,7 @@
   },
   {
     "key": 106,
-    "wordtype": "v",
+    "wordtype": "n",
     "term": "to fear",
     "eng": "fear",
     "deu": "fürchten",
@@ -1178,7 +1178,7 @@
   },
   {
     "key": 108,
-    "wordtype": "v",
+    "wordtype": "adj",
     "term": "to live",
     "eng": "live",
     "deu": "leben",
@@ -1596,7 +1596,7 @@
   },
   {
     "key": 146,
-    "wordtype": "n",
+    "wordtype": "v",
     "term": "to swell",
     "eng": "swell",
     "deu": "schwellen",
@@ -1629,7 +1629,7 @@
   },
   {
     "key": 149,
-    "wordtype": "v",
+    "wordtype": "n",
     "term": "star",
     "eng": "star",
     "deu": "Stern",
@@ -1640,7 +1640,7 @@
   },
   {
     "key": 150,
-    "wordtype": "v",
+    "wordtype": "n",
     "term": "water",
     "eng": "water",
     "deu": "Wasser",
@@ -1827,7 +1827,7 @@
   },
   {
     "key": 167,
-    "wordtype": "v",
+    "wordtype": "n",
     "term": "fire",
     "eng": "fire",
     "deu": "Feuer",
@@ -1970,7 +1970,7 @@
   },
   {
     "key": 180,
-    "wordtype": "v",
+    "wordtype": "adj",
     "term": "warm",
     "eng": "warm",
     "deu": "warm",
@@ -2025,7 +2025,7 @@
   },
   {
     "key": 185,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "good",
     "eng": "good",
     "deu": "gut",
@@ -2047,7 +2047,7 @@
   },
   {
     "key": 187,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "rotten",
     "eng": "rotten",
     "deu": "faul, verrottet",
@@ -2080,7 +2080,7 @@
   },
   {
     "key": 190,
-    "wordtype": "n",
+    "wordtype": "adj",
     "term": "round",
     "eng": "round",
     "deu": "rund",

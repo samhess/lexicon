@@ -6,7 +6,7 @@ export const routes: GenericObject = {
     children: []
   },
   swadesh: {
-    name: 'Swadesh Matrix',
+    name: 'Swadesh Matrix'
   },
   topiclists: {
     name: 'Topic Lists',

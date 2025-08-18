@@ -10,7 +10,7 @@
 <article class="prose">
   <h1>{props.data.language.name} Words</h1>
   <DataTable {entity} records={props.data.records} dispatchData={receiveData}>
-    {#each records as {key,lemma,language,instance,meaning,level,english,WordType,Language}}
+    {#each records as { key, lemma, language, instance, meaning, level, english, WordType, Language }}
       <tr>
         <td>{key ?? ''}</td>
         <td>
@@ -22,10 +22,9 @@
         <td>{level ?? ''}</td>
         <td>{english ?? ''}</td>
         {#if entity.isEditable}
-          <Edit entityKey={entity.key} recordKey={{language,lemma,instance}} />
+          <Edit entityKey={entity.key} recordKey={key} />
         {/if}
       </tr>
     {/each}
   </DataTable>
 </article>
-

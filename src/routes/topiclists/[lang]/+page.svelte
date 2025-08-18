@@ -19,4 +19,3 @@
     {/each}
   </DataTable>
 </article>
-

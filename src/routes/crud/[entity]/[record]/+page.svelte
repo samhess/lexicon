@@ -12,7 +12,7 @@
   {/if}
 
   {#if action === 'update' && record}
-    <h1>{'Edit ' + page.params.entity?.replace(/^\w/,c=>c.toUpperCase())}</h1>
+    <h1>{'Edit ' + page.params.entity?.replace(/^\w/, (c) => c.toUpperCase())}</h1>
     <EditForm {fields} {record} {action}></EditForm>
   {:else}
     <h1>{'Create record'}</h1>

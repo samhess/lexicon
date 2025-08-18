@@ -8,7 +8,11 @@ type EntityKey = Uncapitalize<Prisma.ModelName>
 
 function decodeRecordKey(recordKeyEnc: string) {
   const recordKey = decodeURIComponent(recordKeyEnc)
-  return recordKey.startsWith('{') ? JSON.parse(recordKey) : isNaN(parseInt(recordKey)) ? recordKey : parseInt(recordKey)
+  return recordKey.startsWith('{')
+    ? JSON.parse(recordKey)
+    : isNaN(parseInt(recordKey))
+      ? recordKey
+      : parseInt(recordKey)
 }
 
 export const actions = {
@@ -23,7 +27,7 @@ export const actions = {
     }
     // @ts-ignore
     const record = await db[entityKey as EntityKey].create({data})
-    if (['language','topic','wordType'].includes(entityKey)) {
+    if (['language', 'topic', 'wordType'].includes(entityKey)) {
       return redirect(303, `/taxonomy/${entityKey}`)
     } else {
       return redirect(303, `/${entityKey}`)
@@ -35,15 +39,18 @@ export const actions = {
     const recordKeyName = getRecordKeyName(entityKey)
     const formData = await request.formData()
     const data: GenericObject = Object.fromEntries(formData)
-    if (entityKey==='swadesh') {
+    if (entityKey === 'swadesh') {
       data.wordtype = data.wordType
       data.key = parseInt(data.key)
       delete data.wordType
     }
-    for (const prop of ['rank']) {
-      if (data[prop] !== undefined) {
-        data[prop] = parseFloat(data[prop])
-      }
+    if (entityKey === 'word') {
+      data.Topic = data.topic? {connect:{key:data.topic}} : undefined
+      data.Language = data.language? {connect:{key:data.language}} : undefined
+      data.WordType =  data.wordType? {connect:{key:data.wordType}} : undefined
+      delete data.topic
+      delete data.language
+      delete data.wordType
     }
     // @ts-ignore
     const record = await db[entityKey as EntityKey].update({
@@ -58,7 +65,7 @@ export const actions = {
     const recordKeyName = getRecordKeyName(entityKey)
     // @ts-ignore
     await db[entityKey as EntityKey].delete({where: {[recordKeyName]: recordKey}})
-    if (['language','topic','wordType'].includes(entityKey)) {
+    if (['language', 'topic', 'wordType'].includes(entityKey)) {
       return redirect(303, `/taxonomy/${entityKey}`)
     } else {
       return redirect(303, `/${entityKey}`)

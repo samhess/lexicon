@@ -1,4 +1,4 @@
-import { resolve } from 'path'
+import {resolve} from 'path'
 import db from '../src/lib/database.ts'
 import {writeFile} from 'fs/promises'
 
@@ -12,6 +12,6 @@ const words = await db.word.findMany({
   orderBy: {term: 'asc'}
 })
 
-const path = resolve(import.meta.dirname,'assets')
-await writeFile(resolve(path,'phrases.json'), JSON.stringify(phrases, null, 2))
-await writeFile(resolve(path,'words.json'), JSON.stringify(words, null, 2))
+const path = resolve(import.meta.dirname, 'assets')
+await writeFile(resolve(path, 'phrases.json'), JSON.stringify(phrases, null, 2))
+await writeFile(resolve(path, 'words.json'), JSON.stringify(words, null, 2))
