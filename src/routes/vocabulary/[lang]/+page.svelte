@@ -10,12 +10,13 @@
 <article class="prose">
   <h1>{props.data.language.name} Words</h1>
   <DataTable {entity} records={props.data.records} dispatchData={receiveData}>
-    {#each records as {lemma,language,instance,comment,level,english,WordType,Language}}
+    {#each records as {key,lemma,language,instance,meaning,level,english,WordType,Language}}
       <tr>
+        <td>{key ?? ''}</td>
         <td>
           <a href={`/lexeme/${lemma}`}>{lemma}</a>
         </td>
-        <td>{comment ?? ''}</td>
+        <td>{meaning ?? ''}</td>
         <td>{WordType?.name ?? ''}</td>
         <td>{Language?.name ?? ''}</td>
         <td>{level ?? ''}</td>

@@ -6,8 +6,9 @@ export const load = async ({params}) => {
   if (language) {
     const entity = {
       attributes: {
+        key: {name: 'Key'},
         lemma: {name: 'Lexeme'},
-        comment: {name: 'Comment'},
+        meaning: {name: 'Meaning'},
         WordType: {name: 'Word Class', key: 'key'},
         Language: {name: 'Language', key: 'key'},
         level: {name: 'Level'},
