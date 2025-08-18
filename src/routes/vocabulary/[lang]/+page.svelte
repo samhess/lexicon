@@ -8,12 +8,12 @@
 </script>
 
 <article class="prose">
-  <h1>{props.data.language.name} Vocabulary</h1>
+  <h1>{props.data.language.name} Words</h1>
   <DataTable {entity} records={props.data.records} dispatchData={receiveData}>
-    {#each records as {term,language,instance,comment,level,english,WordType,Language}}
+    {#each records as {lemma,language,instance,comment,level,english,WordType,Language}}
       <tr>
         <td>
-          <a href={`/words/${term}`}>{term}</a>
+          <a href={`/lexeme/${lemma}`}>{lemma}</a>
         </td>
         <td>{comment ?? ''}</td>
         <td>{WordType?.name ?? ''}</td>
@@ -21,7 +21,7 @@
         <td>{level ?? ''}</td>
         <td>{english ?? ''}</td>
         {#if entity.isEditable}
-          <Edit entityKey={entity.key} recordKey={{language,term,instance}} />
+          <Edit entityKey={entity.key} recordKey={{language,lemma,instance}} />
         {/if}
       </tr>
     {/each}

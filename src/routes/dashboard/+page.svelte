@@ -20,19 +20,19 @@
 
   <h2>Phrases</h2>
   <DataTable {entity} records={props.data.phrases} dispatchData={(sortedRecords: Array<any>) => (phrases = sortedRecords)}>
-    {#each phrases as term}
+    {#each phrases as phrase}
       <tr>
-        <td>{term.term}</td>
-        <td>{term.english}</td>
+        <td>{phrase.lemma}</td>
+        <td>{phrase.english}</td>
       </tr>
     {/each}
   </DataTable>
   <h2>Words</h2>
   <DataTable {entity} records={props.data.words} dispatchData={(sortedRecords: Array<any>) => (words = sortedRecords)}>
-    {#each words as term}
+    {#each words as word}
       <tr>
-        <td>{term.term}</td>
-        <td>{term.english}</td>
+        <td>{word.lemma}</td>
+        <td>{word.english}</td>
       </tr>
     {/each}
   </DataTable>

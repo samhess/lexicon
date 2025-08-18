@@ -9,12 +9,12 @@
 <article class="prose">
   <h1>{props.data.language.name}</h1>
   <DataTable {entity} records={props.data.records} dispatchData={receiveData}>
-    {#each records as term}
+    {#each records as word}
       <tr>
-        <td>{term.Topic?.name}</td>
-        <td>{term.term}</td>
-        <td>{term.WordType?.name ?? ''}</td>
-        <td>{term.Language?.name ?? ''}</td>
+        <td>{word.Topic?.name}</td>
+        <td>{word.lemma}</td>
+        <td>{word.WordType?.name ?? ''}</td>
+        <td>{word.Language?.name ?? ''}</td>
       </tr>
     {/each}
   </DataTable>

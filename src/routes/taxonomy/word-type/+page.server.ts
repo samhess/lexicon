@@ -4,7 +4,7 @@ export const load = async () => {
   const entity = {
     attributes: {
       key: {name: 'Key'},
-      name: {name: 'Word Type'},
+      name: {name: 'Word Class'},
       words: {name: 'Words'}
     },
     key: 'wordtype',

@@ -7,8 +7,8 @@ export const load = async ({params}) => {
     const entity = {
       attributes: {
         topic: {name: 'Topic'},
-        term: {name: 'Term'},
-        WordType: {name: 'Word Type', key: 'key'},
+        lemma: {name: 'Lemma'},
+        WordType: {name: 'Word Class', key: 'key'},
         Language: {name: 'Language', key: 'key'}
       },
       key: 'word',

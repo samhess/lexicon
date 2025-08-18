@@ -6,7 +6,7 @@ export async function load(event: PageServerLoadEvent) {
   const entity = {
     attributes: {
       key: {name: 'Key'},
-      term: {name: 'Term'},
+      lemma: {name: 'Lemma'},
       WordType: {name: 'WordType', key:'key'},
       eng: {name: 'English'},
       deu: {name: 'German'},

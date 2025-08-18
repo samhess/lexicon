@@ -8,7 +8,7 @@
 </script>
 
 <article class="prose">
-  <h1>Word Types</h1>
+  <h1>Word Classes</h1>
   <DataTable {entity} {records} dispatchData={receiveData}>
     {#each records as wordtype}
       <tr>

@@ -39,7 +39,7 @@ model User {
 }
 
 model Word {
-  term     String
+  lemma    String
   instance Int      @default(0)
   language String
   wordtype String
@@ -51,7 +51,7 @@ model Word {
   Language Language @relation(fields: [language], references: [key], onDelete: Cascade)
   WordType WordType @relation(fields: [wordtype], references: [key], onDelete: Cascade)
 
-  @@id([language, term, instance])
+  @@id([language, lemma, instance])
 }
 
 model WordType {
