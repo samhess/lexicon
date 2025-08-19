@@ -2,14 +2,14 @@ import {error} from '@sveltejs/kit'
 import db from '$lib/database'
 
 export const load = async ({params}) => {
+  const topics = await db.topic.findMany()
   const language = await db.language.findFirst({where: {name: {contains: params.lang}}})
   if (language) {
     const entity = {
       attributes: {
-        topic: {name: 'Topic'},
         lemma: {name: 'Lexeme'},
         WordType: {name: 'Word Class', key: 'key'},
-        Language: {name: 'Language', key: 'key'}
+        level: {name: 'Level'}
       },
       key: 'word',
       isEditable: false,
@@ -23,7 +23,7 @@ export const load = async ({params}) => {
       include: {WordType: true, Language: true, Topic: true},
       orderBy: {Topic: {name: 'asc'}}
     })
-    return {entity, records, language}
+    return {entity, records, language, topics}
   } else {
     throw error(500, 'unknown language')
   }

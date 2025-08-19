@@ -5,11 +5,11 @@ export const load = async () => {
     attributes: {
       key: {name: 'Key'},
       name: {name: 'Word Class'},
-      words: {name: 'Words'}
+      count: {name: 'Lexeme Count'}
     },
     key: 'wordtype',
     isEditable: true,
-    name: 'Word Types'
+    name: 'Word Classes'
   }
   const records = await db.wordType.findMany({
     include: {_count: true},

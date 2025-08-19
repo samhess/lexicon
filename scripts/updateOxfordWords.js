@@ -3,9 +3,7 @@ import {readFile} from 'fs/promises'
 
 const content = await readFile('./data/oxford.json', {encoding: 'utf8'})
 const words = JSON.parse(content)
-console.log(
-  `currently ${await db.word.count({where: {language: 'eng'}})} English words in database`
-)
+console.log(`${await db.word.count({where: {language: 'eng'}})} English words in database`)
 console.log(`upserting ${words.length} English words`)
 
 for (const word of words) {
@@ -14,8 +12,8 @@ for (const word of words) {
   primaryWordClass = primaryWordClass
     .split('/')[0]
     .replace(/\.$/, '')
-    .replace('modal v', 'v')
-    .replace('auxiliary v', 'v')
+    .replace('modal v', 'mv')
+    .replace('auxiliary v', 'av')
     .replace(/(definite|indefinite) article/, 'det')
     .replace('number', 'num')
   const wordClass = await db.wordType.findUnique({where: {key: primaryWordClass}})

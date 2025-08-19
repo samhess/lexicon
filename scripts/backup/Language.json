@@ -2,7 +2,7 @@
   {
     "key": "mlg",
     "name": "Malagasy",
-    "description": "inclusive",
+    "description": "macrolanguage",
     "alpha2": "mg"
   },
   {
@@ -32,7 +32,7 @@
   {
     "key": "plt",
     "name": "Plateau Malagasy",
-    "description": "includes Betsileo, Bezanozano, Merina, Sihanaka, Taifasy, Taimoro, Tanala and Vakinankaratra",
+    "description": "Betsileo, Bezanozano, Merina, Sihanaka, Taifasy, Taimoro, Tanala and Vakinankaratra",
     "alpha2": "mg"
   },
   {
@@ -74,13 +74,13 @@
   {
     "key": "eng",
     "name": "English",
-    "description": "inclusive",
+    "description": "British, American",
     "alpha2": "en"
   },
   {
     "key": "swa",
     "name": "Swahili",
-    "description": "inclusive",
+    "description": "macrolanguage",
     "alpha2": "sw"
   },
   {

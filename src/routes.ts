@@ -1,23 +1,23 @@
 import type {GenericObject} from '$lib/types'
 
 export const routes: GenericObject = {
-  dashboard: {
-    name: 'Dashboard',
+  home: {
+    name: 'Home',
     children: []
-  },
-  swadesh: {
-    name: 'Swadesh Matrix'
-  },
-  topiclists: {
-    name: 'Topic Lists',
-    children: ['English', 'French', 'German', 'Malagasy', 'Spanish', 'Swahili']
   },
   vocabulary: {
     name: 'Vocabulary',
     children: ['English', 'French', 'German', 'Malagasy', 'Spanish', 'Swahili']
   },
+  topiclists: {
+    name: 'Topic Lists',
+    children: ['English', 'French', 'German', 'Malagasy', 'Spanish', 'Swahili']
+  },
+  swadesh: {
+    name: 'Swadesh'
+  },
   taxonomy: {
     name: 'Taxonomy',
-    children: ['Language', 'Topic', 'Word Type']
+    children: ['Language', 'Topic', 'WordType']
   }
 }

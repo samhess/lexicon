@@ -5,7 +5,7 @@ export const load = async () => {
     attributes: {
       key: {name: 'Key'},
       name: {name: 'Topic'},
-      count: {name: 'Words', edit: false}
+      count: {name: 'Lexeme Count'}
     },
     key: 'topic',
     isEditable: true,

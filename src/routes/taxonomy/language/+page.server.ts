@@ -7,7 +7,7 @@ export const load = async () => {
       alpha2: {name: 'Two Letter Code'},
       name: {name: 'Language'},
       description: {name: 'Description'},
-      words: {name: 'Words'}
+      count: {name: 'Lexeme Count'}
     },
     key: 'language',
     isEditable: true,

@@ -7,15 +7,18 @@
 </script>
 
 <article class="prose">
-  <h1>{props.data.language.name}</h1>
-  <DataTable {entity} records={props.data.records} dispatchData={receiveData}>
-    {#each records as word}
-      <tr>
-        <td>{word.Topic?.name}</td>
-        <td>{word.lemma}</td>
-        <td>{word.WordType?.name ?? ''}</td>
-        <td>{word.Language?.name ?? ''}</td>
-      </tr>
-    {/each}
-  </DataTable>
+  {#each props.data.topics as topic}
+    {@const records = props.data.records.filter((record: any) => record.topic === topic.key)}
+    <h1>{topic.name}</h1>
+    <DataTable {entity} {records} dispatchData={receiveData}>
+      {#each records as word}
+        <tr>
+          <td>{word.lemma}</td>
+          <td>{word.WordType?.name ?? ''}</td>
+          <td>{word.level}</td>
+        </tr>
+      {/each}
+    </DataTable>
+    <hr class="my-15" />
+  {/each}
 </article>

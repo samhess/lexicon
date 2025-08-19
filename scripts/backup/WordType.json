@@ -1,62 +1,62 @@
 [
   {
     "key": "n",
-    "name": "Noun"
+    "name": "noun"
   },
   {
     "key": "adj",
-    "name": "Adjective"
+    "name": "adjective"
   },
   {
     "key": "adv",
-    "name": "Adverb"
+    "name": "adverb"
   },
   {
     "key": "v",
-    "name": "Verb"
+    "name": "verb"
   },
   {
     "key": "conj",
-    "name": "Conjunction"
+    "name": "conjunction"
   },
   {
     "key": "num",
-    "name": "Number"
+    "name": "number"
   },
   {
     "key": "exclam",
-    "name": "Exclamation"
+    "name": "exclamation"
   },
   {
     "key": "pron",
-    "name": "Pronoun"
+    "name": "pronoun"
   },
   {
     "key": "det",
-    "name": "Determiner"
+    "name": "determiner"
   },
   {
     "key": "prep",
-    "name": "Preposition"
+    "name": "preposition"
   },
   {
     "key": "loc",
-    "name": "Locution"
-  },
-  {
-    "key": "affix",
-    "name": "Affix"
+    "name": "locution"
   },
   {
     "key": "particle",
-    "name": "Particle"
+    "name": "particle"
   },
   {
     "key": "phr-v",
-    "name": "Phrasal verb"
+    "name": "phrasal verb"
   },
   {
-    "key": "prep-phr",
-    "name": "Prepositional Phrase"
+    "key": "av",
+    "name": "auxiliary verb"
+  },
+  {
+    "key": "mv",
+    "name": "modal auxiliary verb"
   }
 ]

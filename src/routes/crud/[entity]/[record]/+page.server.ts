@@ -7,12 +7,8 @@ import {Prisma} from '@prisma/client'
 type EntityKey = Uncapitalize<Prisma.ModelName>
 
 function decodeRecordKey(recordKeyEnc: string) {
-  const recordKey = decodeURIComponent(recordKeyEnc)
-  return recordKey.startsWith('{')
-    ? JSON.parse(recordKey)
-    : isNaN(parseInt(recordKey))
-      ? recordKey
-      : parseInt(recordKey)
+  let recordKey = decodeURIComponent(recordKeyEnc)
+  return recordKey.startsWith('{') ? JSON.parse(recordKey) : recordKey
 }
 
 export const actions = {
@@ -45,15 +41,15 @@ export const actions = {
       delete data.wordType
     }
     if (entityKey === 'word') {
-      data.Topic = data.topic? {connect:{key:data.topic}} : undefined
-      data.Language = data.language? {connect:{key:data.language}} : undefined
-      data.WordType =  data.wordType? {connect:{key:data.wordType}} : undefined
+      data.Topic = data.topic ? {connect: {key: data.topic}} : undefined
+      data.Language = data.language ? {connect: {key: data.language}} : undefined
+      data.WordType = data.wordType ? {connect: {key: data.wordType}} : undefined
       delete data.topic
       delete data.language
       delete data.wordType
     }
     // @ts-ignore
-    const record = await db[entityKey as EntityKey].update({
+    const record = await db[entityKey.replace('wordtype', 'wordType') as EntityKey].update({
       where: {[recordKeyName]: recordKey},
       data
     })
@@ -64,8 +60,10 @@ export const actions = {
     const recordKey = decodeRecordKey(recordKeyEnc)
     const recordKeyName = getRecordKeyName(entityKey)
     // @ts-ignore
-    await db[entityKey as EntityKey].delete({where: {[recordKeyName]: recordKey}})
-    if (['language', 'topic', 'wordType'].includes(entityKey)) {
+    await db[entityKey.replace('wordtype', 'wordType') as EntityKey].delete({
+      where: {[recordKeyName]: recordKey}
+    })
+    if (['language', 'topic', 'wordtype'].includes(entityKey)) {
       return redirect(303, `/taxonomy/${entityKey}`)
     } else {
       return redirect(303, `/${entityKey}`)
