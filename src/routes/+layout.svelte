@@ -13,7 +13,7 @@
 </script>
 
 <svelte:head>
-  <title>Language 101 &ndash; {breadcrumb}</title>
+  <title>Multilingual Lexicon &ndash; {breadcrumb}</title>
 </svelte:head>
 
 <div class="container">
@@ -24,8 +24,8 @@
         <a href="/"><Languages class="text-yellow-500" size={24} /></a>
       </div>
       <div class="grow text-center">
-        <span class="text-white text-xl font-semibold tracking-widest font-stretch-ultra-expanded">
-          Languages 101
+        <span class="text-white text-2xl font-bold tracking-widest">
+          Multilingual Lexicon
         </span>
       </div>
       <div class="flex space-x-4">
@@ -76,7 +76,7 @@
   <!-- Footer -->
   <footer class="bg-gray-400 text-white flex justify-between p-4">
     <div>2025</div>
-    <div>Language 101</div>
+    <div>Multilingual Lexicon</div>
     <div>
       <a class="text-white" href="https://www.linkedin.com/in/samhess/" target="_blank">
         Contact <Mail size="20" class="inline pb-1" />
