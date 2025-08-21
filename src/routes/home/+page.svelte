@@ -25,7 +25,7 @@
     {#each words as word}
       <tr>
         <td>{word.lemma}</td>
-        <td>{word.WordType.name}</td>
+        <td>{word.WordClass.name}</td>
         <td>{word.Language.name}</td>
         <td>{word.english}</td>
       </tr>

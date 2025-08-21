@@ -9,7 +9,7 @@ export const load = async ({params}) => {
         key: {name: 'Key'},
         lemma: {name: 'Lexeme'},
         meaning: {name: 'Meaning'},
-        WordType: {name: 'Word Class', key: 'key'},
+        WordClass: {name: 'Word Class', key: 'key'},
         Language: {name: 'Language', key: 'key'},
         level: {name: 'Level'},
         english: {name: 'English'}
@@ -19,7 +19,7 @@ export const load = async ({params}) => {
       name: 'Words'
     }
     const records = await db.word.findMany({
-      include: {WordType: true, Language: true, Topic: true},
+      include: {WordClass: true, Language: true, Topic: true},
       where: {Language: {alpha2: language.alpha2}},
       orderBy: {lemma: 'asc'}
     })

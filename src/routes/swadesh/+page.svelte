@@ -14,7 +14,7 @@
       <tr>
         <td>{record.key}</td>
         <td>{record.term}</td>
-        <td>{record.WordType?.name ?? ''}</td>
+        <td>{record.WordClass?.name ?? ''}</td>
         <td>{record.eng ?? ''}</td>
         <td>{record.deu ?? ''}</td>
         <td>{record.fra ?? ''}</td>

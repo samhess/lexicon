@@ -6,9 +6,13 @@ import {Prisma} from '@prisma/client'
 
 type EntityKey = Uncapitalize<Prisma.ModelName>
 
-function decodeRecordKey(recordKeyEnc: string) {
+function decodeRecordKey(recordKeyEnc: string, entityKey:String) {
   let recordKey = decodeURIComponent(recordKeyEnc)
-  return recordKey.startsWith('{') ? JSON.parse(recordKey) : recordKey
+  recordKey = recordKey.startsWith('{') ? JSON.parse(recordKey) : recordKey
+  if (entityKey==='swadesh') {
+      return parseInt(recordKey)
+  }
+  return recordKey
 }
 
 export const actions = {
@@ -23,33 +27,33 @@ export const actions = {
     }
     // @ts-ignore
     const record = await db[entityKey as EntityKey].create({data})
-    if (['language', 'topic', 'wordType'].includes(entityKey)) {
-      return redirect(303, `/taxonomy/${entityKey}`)
+    if (['language', 'topic', 'wordClass'].includes(entityKey)) {
+      return redirect(303, `/taxonomy/${entityKey.replace('wordClass', 'word-class')}`)
     } else {
       return redirect(303, `/${entityKey}`)
     }
   },
   update: async ({params, request}) => {
     const {entity: entityKey, record: recordKeyEnc} = params
-    const recordKey = decodeRecordKey(recordKeyEnc)
+    const recordKey = decodeRecordKey(recordKeyEnc,entityKey)
     const recordKeyName = getRecordKeyName(entityKey)
     const formData = await request.formData()
     const data: GenericObject = Object.fromEntries(formData)
     if (entityKey === 'swadesh') {
-      data.wordtype = data.wordType
+      data.wordtype = data.wordClass
       data.key = parseInt(data.key)
-      delete data.wordType
+      delete data.wordClass
     }
     if (entityKey === 'word') {
       data.Topic = data.topic ? {connect: {key: data.topic}} : undefined
       data.Language = data.language ? {connect: {key: data.language}} : undefined
-      data.WordType = data.wordType ? {connect: {key: data.wordType}} : undefined
+      data.WordClass = data.wordClass ? {connect: {key: data.wordClass}} : undefined
       delete data.topic
       delete data.language
-      delete data.wordType
+      delete data.wordClass
     }
     // @ts-ignore
-    const record = await db[entityKey.replace('wordtype', 'wordType') as EntityKey].update({
+    const record = await db[entityKey as EntityKey].update({
       where: {[recordKeyName]: recordKey},
       data
     })
@@ -57,14 +61,14 @@ export const actions = {
   },
   delete: async ({params}) => {
     const {entity: entityKey, record: recordKeyEnc} = params
-    const recordKey = decodeRecordKey(recordKeyEnc)
+    const recordKey = decodeRecordKey(recordKeyEnc,entityKey)
     const recordKeyName = getRecordKeyName(entityKey)
     // @ts-ignore
-    await db[entityKey.replace('wordtype', 'wordType') as EntityKey].delete({
+    await db[entityKey as EntityKey].delete({
       where: {[recordKeyName]: recordKey}
     })
-    if (['language', 'topic', 'wordtype'].includes(entityKey)) {
-      return redirect(303, `/taxonomy/${entityKey}`)
+    if (['language', 'topic', 'wordClass'].includes(entityKey)) {
+      return redirect(303, `/taxonomy/${entityKey.replace('wordClass', 'word-class')}`)
     } else {
       return redirect(303, `/${entityKey}`)
     }
@@ -73,8 +77,8 @@ export const actions = {
 
 export async function load({params}: PageServerLoadEvent) {
   const {entity, record: recordKeyEnc} = params
-  const entityKey = entity.replace('wordtype', 'wordType')
-  const recordKey = decodeRecordKey(recordKeyEnc)
+  const entityKey = entity
+  const recordKey = decodeRecordKey(recordKeyEnc,entityKey)
   const recordKeyName = getRecordKeyName(entityKey)
   const fields = await getFields(entityKey)
   if (recordKey === 'new') {

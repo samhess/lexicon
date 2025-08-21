@@ -7,7 +7,7 @@ export async function load(event: PageServerLoadEvent) {
     attributes: {
       key: {name: 'Key'},
       lemma: {name: 'Lexeme'},
-      WordType: {name: 'Word Class', key: 'key'},
+      WordClass: {name: 'Word Class', key: 'key'},
       eng: {name: 'English'},
       deu: {name: 'German'},
       fra: {name: 'French'},
@@ -20,7 +20,7 @@ export async function load(event: PageServerLoadEvent) {
     name: 'Swadesh List'
   }
   const records = await db.swadesh.findMany({
-    include: {WordType: true},
+    include: {WordClass: true},
     orderBy: {key: 'asc'}
   })
   return {entity, records}

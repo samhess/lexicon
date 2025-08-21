@@ -39,38 +39,38 @@ model User {
 }
 
 model Word {
-  key      String  @id
-  lemma    String
-  meaning  String?
-  language String
-  wordtype String
-  topic    String?
-  english  String?
-  comment  String?
-  level    String?
-  Topic    Topic?   @relation(fields: [topic], references: [key], onDelete: Cascade)
-  Language Language @relation(fields: [language], references: [key], onDelete: Cascade)
-  WordType WordType @relation(fields: [wordtype], references: [key], onDelete: Cascade)
+  key       String    @id
+  lemma     String
+  meaning   String?
+  language  String
+  wordClass String
+  topic     String?
+  english   String?
+  comment   String?
+  level     String?
+  WordClass WordClass @relation(fields: [wordClass], references: [key], onDelete: Cascade)
+  Language  Language  @relation(fields: [language], references: [key], onDelete: Cascade)
+  Topic     Topic?    @relation(fields: [topic], references: [key], onDelete: Cascade)
 
-  @@unique([lemma,meaning,wordtype])
+  @@unique([lemma, meaning, wordClass])
 }
 
-model WordType {
+model Swadesh {
+  key       Int       @id @default(autoincrement())
+  wordClass String
+  term      String
+  eng       String
+  deu       String?
+  fra       String?
+  spa       String?
+  swa       String?
+  mlg       String?
+  WordClass WordClass @relation(fields: [wordClass], references: [key], onDelete: Cascade)
+}
+
+model WordClass {
   key     String    @id
   name    String
   Swadesh Swadesh[]
   Word    Word[]
-}
-
-model Swadesh {
-  key      Int      @id @default(autoincrement())
-  wordtype String
-  term     String
-  eng      String
-  deu      String?
-  fra      String?
-  spa      String?
-  swa      String?
-  mlg      String?
-  WordType WordType @relation(fields: [wordtype], references: [key], onDelete: Cascade)
 }

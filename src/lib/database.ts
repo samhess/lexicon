@@ -29,8 +29,8 @@ export async function getSelectOptions(entity: string) {
         value: email,
         name: `${email} \u2013 ${firstname} ${lastname}`
       }))
-    } else if (entity === 'WordType') {
-      options = await db.wordType.findMany({orderBy: {key: 'asc'}})
+    } else if (entity === 'WordClass') {
+      options = await db.wordClass.findMany({orderBy: {key: 'asc'}})
       options = options.map(({key, name}) => ({
         value: key,
         name: `${key} \u2013 ${name}`
@@ -58,7 +58,7 @@ export async function getFields(entityKey: string) {
     const fieldnames = model.fields.map((field) => field.name)
     for (const field of model.fields) {
       if (field.relationName === undefined) {
-        if (!['wordtype', 'language', 'topic', 'user'].includes(field.name)) {
+        if (!['wordClass', 'language', 'topic', 'user'].includes(field.name)) {
           fields.push({
             name: field.name,
             kind: field.kind,

@@ -14,7 +14,7 @@
       {#each records as word}
         <tr>
           <td>{word.lemma}</td>
-          <td>{word.WordType?.name ?? ''}</td>
+          <td>{word.WordClass?.name ?? ''}</td>
           <td>{word.level}</td>
         </tr>
       {/each}

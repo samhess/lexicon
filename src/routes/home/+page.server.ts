@@ -14,7 +14,7 @@ export const load = async () => {
   }
   const words = await db.word.findMany({
     where: {Language: {alpha2: 'mg'}},
-    include: {WordType: true, Language: true},
+    include: {WordClass: true, Language: true},
     orderBy: {lemma: 'asc'}
   })
   return {entity, words}

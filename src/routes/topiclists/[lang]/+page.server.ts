@@ -8,7 +8,7 @@ export const load = async ({params}) => {
     const entity = {
       attributes: {
         lemma: {name: 'Lexeme'},
-        WordType: {name: 'Word Class', key: 'key'},
+        WordClass: {name: 'Word Class', key: 'key'},
         level: {name: 'Level'}
       },
       key: 'word',
@@ -20,7 +20,7 @@ export const load = async ({params}) => {
         Language: {alpha2: language.alpha2},
         Topic: {isNot: null}
       },
-      include: {WordType: true, Language: true, Topic: true},
+      include: {WordClass: true, Language: true, Topic: true},
       orderBy: {Topic: {name: 'asc'}}
     })
     return {entity, records, language, topics}

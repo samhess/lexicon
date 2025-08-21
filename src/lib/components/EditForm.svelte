@@ -44,7 +44,7 @@
     {:else}
       <label class="font-semibold">
         {capitalize(field.name)}
-        <select name={fieldname} bind:value={record[fieldname.toLowerCase()]}>
+        <select name={fieldname} bind:value={record[fieldname]}>
           {#each field.options as { value, name }, index}
             <option {value}>
               {name}
