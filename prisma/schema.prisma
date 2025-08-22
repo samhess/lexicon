@@ -8,11 +8,12 @@ datasource db {
 }
 
 model Language {
-  key         String  @id
+  key         String     @id
   name        String?
   description String?
   alpha2      String?
-  Word        Word[]
+  Lexeme      Lexeme[]
+  WordForm    WordForm[]
 }
 
 model Session {
@@ -23,9 +24,9 @@ model Session {
 }
 
 model Topic {
-  key  String @id
-  name String
-  Word Word[]
+  key    String   @id
+  name   String
+  Lexeme Lexeme[]
 }
 
 model User {
@@ -36,23 +37,6 @@ model User {
   role      String    @default("user")
   status    String    @default("enabled")
   Session   Session[]
-}
-
-model Word {
-  key       String    @id
-  lemma     String
-  meaning   String?
-  language  String
-  wordClass String
-  topic     String?
-  english   String?
-  comment   String?
-  level     String?
-  WordClass WordClass @relation(fields: [wordClass], references: [key], onDelete: Cascade)
-  Language  Language  @relation(fields: [language], references: [key], onDelete: Cascade)
-  Topic     Topic?    @relation(fields: [topic], references: [key], onDelete: Cascade)
-
-  @@unique([lemma, meaning, wordClass])
 }
 
 model Swadesh {
@@ -71,6 +55,40 @@ model Swadesh {
 model WordClass {
   key     String    @id
   name    String
+  Lexeme  Lexeme[]
   Swadesh Swadesh[]
-  Word    Word[]
+}
+
+model Lexeme {
+  key       String     @id
+  lemma     String
+  meaning   String?
+  language  String
+  wordClass String
+  topic     String?
+  english   String?
+  comment   String?
+  level     String?
+  WordClass WordClass  @relation(fields: [wordClass], references: [key], onDelete: Cascade)
+  Language  Language   @relation(fields: [language], references: [key], onDelete: Cascade)
+  Topic     Topic?     @relation(fields: [topic], references: [key], onDelete: Cascade)
+  WordForm  WordForm[]
+
+  @@unique([lemma, meaning, wordClass])
+}
+
+model WordForm {
+  language String
+  lexeme   String?
+  token    String
+  case     String?
+  gender   String?
+  mood     String?
+  number   String?
+  person   String?
+  tense    String?
+  Language Language @relation(fields: [language], references: [key], onDelete: Cascade)
+  Lexeme   Lexeme?  @relation(fields: [lexeme], references: [key], onDelete: Cascade)
+
+  @@id([language, token])
 }

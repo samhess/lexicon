@@ -10,19 +10,21 @@
 <article class="prose">
   <h1>{props.data.language.name} Words</h1>
   <DataTable {entity} records={props.data.records} dispatchData={receiveData}>
-    {#each records as { key, lemma, language, instance, meaning, level, english, WordClass, Language }}
+    {#each records as { language, lexeme, token, Case, Gender, Mood, Numerus, Person, Tense }}
       <tr>
-        <td>{key ?? ''}</td>
+        <td>{language}</td>
         <td>
-          <a href={`/query/${props.data.language.alpha2}/${lemma}`}>{lemma}</a>
+          <a href={`/vocabulary/lexeme/${lexeme}`}>{lexeme}</a>
         </td>
-        <td>{meaning ?? ''}</td>
-        <td>{WordClass?.name ?? ''}</td>
-        <td>{Language?.name ?? ''}</td>
-        <td>{level ?? ''}</td>
-        <td>{english ?? ''}</td>
+        <td>{token}</td>
+        <td>{Case?.name}</td>
+        <td>{Gender?.name}</td>
+        <td>{Mood?.name}</td>
+        <td>{Numerus?.name}</td>
+        <td>{Person?.name}</td>
+        <td>{Tense?.name}</td>
         {#if entity.isEditable}
-          <Edit entityKey={entity.key} recordKey={key} />
+          <Edit entityKey={entity.key} recordKey={{language,token}} />
         {/if}
       </tr>
     {/each}

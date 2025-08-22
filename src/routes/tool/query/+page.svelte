@@ -2,11 +2,11 @@
   import {goto} from "$app/navigation"
 
   let props = $props()
-  let selectedLanguage = $state('en')
+  let selectedLanguage = $state('eng')
   let searchValue = $state('house')
 
   async function query() {
-    await goto(`/query/${selectedLanguage}/${searchValue}`)
+    await goto(`/tool/query/${selectedLanguage}/${searchValue}`)
   }
 </script>
 

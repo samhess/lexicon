@@ -27,10 +27,10 @@ for (const entry of entries) {
   const topic = await db.topic.findFirst({where: {name: {startsWith: entry.topic}}})
   if (topic) {
     const term = fixTerm(entry.word)
-    const word = await db.word.findFirst({where: {lemma: term, language: 'eng'}})
+    const word = await db.lexeme.findFirst({where: {lemma: term, language: 'eng'}})
     if (word) {
       const {language} = word
-      await db.word.update({
+      await db.lexeme.update({
         where: {key: word.key},
         data: {Topic: {connect: {key: topic.key}}}
       })

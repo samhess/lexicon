@@ -17,6 +17,17 @@ export async function getSelectOptions(entity: string) {
         name: `${key} \u2013 ${name}`
       }))
     }
+    if (entity === 'Lexeme') {
+      options = await db.lexeme.findMany({
+        where: {language: 'eng'},
+        orderBy: {key: 'asc'}
+      })
+      options = options.map(({key, lemma, wordClass}) => ({
+        value: key,
+        name: `${lemma} (${wordClass})`
+      }))
+      console.log(options)
+    }
     if (entity === 'Topic') {
       options = await db.topic.findMany({orderBy: {key: 'asc'}})
       options = options.map(({key, name}) => ({
@@ -58,7 +69,7 @@ export async function getFields(entityKey: string) {
     const fieldnames = model.fields.map((field) => field.name)
     for (const field of model.fields) {
       if (field.relationName === undefined) {
-        if (!['wordClass', 'language', 'topic', 'user'].includes(field.name)) {
+        if (!['wordClass', 'language', 'lexeme', 'topic', 'user'].includes(field.name)) {
           fields.push({
             name: field.name,
             kind: field.kind,

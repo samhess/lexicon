@@ -1,8 +1,9 @@
 import {error} from '@sveltejs/kit'
 import db from '$lib/database'
+import {languageState} from '$lib/states/shared.svelte'
 
 export const load = async ({params}) => {
-  const language = await db.language.findFirst({where: {name: {contains: params.lang}}})
+  const language = await db.language.findUnique({where: {key: params.lang}})
   if (language) {
     const entity = {
       attributes: {
@@ -14,11 +15,11 @@ export const load = async ({params}) => {
         level: {name: 'Level'},
         english: {name: 'English'}
       },
-      key: 'word',
+      key: 'lexeme',
       isEditable: true,
-      name: 'Words'
+      name: 'Lexemes'
     }
-    const records = await db.word.findMany({
+    const records = await db.lexeme.findMany({
       include: {WordClass: true, Language: true, Topic: true},
       where: {Language: {alpha2: language.alpha2}},
       orderBy: {lemma: 'asc'}

@@ -56,7 +56,7 @@ const wordTypes = [
 ]
 for (const wordType of wordTypes) {
   const {key, name} = wordType
-  await db.wordType.upsert({
+  await db.lexemeType.upsert({
     where: {key},
     create: part,
     update: {name}

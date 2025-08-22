@@ -3,6 +3,7 @@
   import '../app.css'
   import {page} from '$app/state'
   import {CircleUser, LogIn, LogOut, Mail, Languages} from '@lucide/svelte'
+  import {languageState, set} from '$lib/states/shared.svelte'
 
   const {data, children}: LayoutProps = $props()
   const routes = Object.entries(data.routes).map(([key, value]) => ({key, name: value.name}))
@@ -10,25 +11,43 @@
   let currentRoute = $derived(page.route.id?.slice(1) ?? '')
   let segment1 = $derived(page.route.id?.match(/^\/(?<segment1>[^/]*)\//)?.groups?.segment1 ?? '')
   let childRoutes = $derived(data.routes[segment1]?.children ?? [])
+  const languages = [
+    { value: 'de', name: 'de - German' },
+    { value: 'en', name: 'en - English' },
+    { value: 'fr', name: 'fr - French' },
+    { value: 'mg', name: 'mg - Malagasy' },
+    { value: 'sp', name: 'sp - Spanish' },
+    { value: 'sw', name: 'sw - Swahili' },
+  ]
+  function setLanguage(event:Event) {
+    console.log(event.target)
+    set('sp')
+    console.log(languageState.alpha2)
+  }
 </script>
 
 <svelte:head>
-  <title>Multilingual Lexicon &ndash; {breadcrumb}</title>
+  <title>Multilingual Dictionary &ndash; {breadcrumb}</title>
 </svelte:head>
 
 <div class="container">
   <!-- Header -->
   <header class="bg-sky-700">
-    <section class="p-4 flex justify-between grid-cols-[auto_1fr_auto] gap-4">
-      <div class="flex space-x-4">
+    <div class="flex justify-between p-4">
+      <div class="flex justify-start">
         <a href="/"><Languages class="text-yellow-500" size={24} /></a>
       </div>
-      <div class="grow text-center">
-        <span class="text-white text-2xl font-bold tracking-widest">
-          Multilingual Lexicon
+      <div class="flex justify-baseline">
+        <span class="text-white text-2xl font-bold tracking-widest pe-4">
+          Multilingual Dictionary
         </span>
+        <select class="w-50 m-0 p-1" name="selectedLanguage" onchange={(e)=>setLanguage(e)}>
+          {#each languages as {value,name}}
+            <option value={value}>{name}</option>
+          {/each}
+        </select>
       </div>
-      <div class="flex space-x-4">
+      <div class="flex justify-end">
         {#if data.session}
           <a href="/auth/profile" title="profile"><CircleUser color="white" size={20} /></a>
           <a href="/auth/logout" title="logout"><LogOut color="white" size={20} /></a>
@@ -36,7 +55,7 @@
           <a href="/auth/login" title="login"><LogIn color="white" size={20} /></a>
         {/if}
       </div>
-    </section>
+    </div>
     <!-- menu -->
     <div class="block">
       <!-- main menu -->
@@ -59,7 +78,7 @@
             <a
               href={`/${segment1}/${segment2}`}
               class="text-gray-300 hover:bg-sky-400 hover:text-white rounded-md px-3 text-base font-medium"
-              class:text-white={(['topiclists', 'vocabulary'].includes(segment1) &&
+              class:text-white={(['vocabulary'].includes(segment1) &&
                 language === segment2) ||
                 currentRoute.split('/')[1] === segment2}
               >{route}
@@ -76,7 +95,7 @@
   <!-- Footer -->
   <footer class="bg-gray-400 text-white flex justify-between p-4">
     <div>2025</div>
-    <div>Multilingual Lexicon</div>
+    <div>Multilingual Dictionary</div>
     <div>
       <a class="text-white" href="https://www.linkedin.com/in/samhess/" target="_blank">
         Contact <Mail size="20" class="inline pb-1" />

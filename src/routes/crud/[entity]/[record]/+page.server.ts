@@ -29,7 +29,11 @@ export const actions = {
     const record = await db[entityKey as EntityKey].create({data})
     if (['language', 'topic', 'wordClass'].includes(entityKey)) {
       return redirect(303, `/taxonomy/${entityKey.replace('wordClass', 'word-class')}`)
-    } else {
+    } 
+    else if (['lexeme', 'wordForm'].includes(entityKey)) {
+      return redirect(303, `/vocabulary/${entityKey.replace('wordForm', 'wordform')}/eng`)
+    }
+    else {
       return redirect(303, `/${entityKey}`)
     }
   },
@@ -44,7 +48,7 @@ export const actions = {
       data.key = parseInt(data.key)
       delete data.wordClass
     }
-    if (entityKey === 'word') {
+    if (entityKey === 'lexeme') {
       data.Topic = data.topic ? {connect: {key: data.topic}} : undefined
       data.Language = data.language ? {connect: {key: data.language}} : undefined
       data.WordClass = data.wordClass ? {connect: {key: data.wordClass}} : undefined

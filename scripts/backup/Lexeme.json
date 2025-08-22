@@ -1,13 +1,13 @@
 [
   {
-    "key": "1",
-    "lemma": "a, an",
-    "meaning": null,
+    "key": "a",
+    "lemma": "a",
+    "meaning": "",
     "language": "eng",
     "wordClass": "det",
     "topic": null,
-    "english": null,
-    "comment": null,
+    "english": "",
+    "comment": "",
     "level": "A1"
   },
   {

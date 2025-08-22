@@ -12,7 +12,7 @@ export const load = async () => {
     isEditable: false,
     name: 'Words'
   }
-  const words = await db.word.findMany({
+  const words = await db.lexeme.findMany({
     where: {Language: {alpha2: 'mg'}},
     include: {WordClass: true, Language: true},
     orderBy: {lemma: 'asc'}

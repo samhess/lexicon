@@ -1,5 +1,5 @@
 import {redirect} from '@sveltejs/kit'
 
 export const load = async () => {
-  return redirect(302, '/topiclists/english')
+  return redirect(302, '/vocabulary/topic-list/eng')
 }

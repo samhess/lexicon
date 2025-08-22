@@ -1,0 +1,24 @@
+[
+  {
+    "language": "eng",
+    "lexeme": "a",
+    "token": "a",
+    "case": "",
+    "gender": "",
+    "mood": "",
+    "number": "",
+    "person": "",
+    "tense": ""
+  },
+  {
+    "language": "eng",
+    "lexeme": "a",
+    "token": "an",
+    "case": "",
+    "gender": "",
+    "mood": "",
+    "number": "",
+    "person": "",
+    "tense": ""
+  }
+]

@@ -2,7 +2,7 @@ import {error} from '@sveltejs/kit'
 import db from '$lib/database'
 
 export const load = async ({params}) => {
-  const language = await db.language.findFirst({where: {alpha2: params.lang}})
+  const language = await db.language.findUnique({where: {key: params.lang}})
   const lemma = params.lemma
   if (language) {
     const entity = {
@@ -19,8 +19,8 @@ export const load = async ({params}) => {
       isEditable: false,
       name: 'Words'
     }
-    const records = await db.word.findMany({
-      where: {Language: {alpha2: params.lang}, lemma},
+    const records = await db.lexeme.findMany({
+      where: {Language: {alpha2: language.alpha2}, lemma},
       include: {WordClass: true, Language: true, Topic: true},
       orderBy: {lemma: 'asc'}
     })

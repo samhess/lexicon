@@ -2,8 +2,7 @@ import {error} from '@sveltejs/kit'
 import db from '$lib/database'
 
 export const load = async ({params}) => {
-  const topics = await db.topic.findMany()
-  const language = await db.language.findFirst({where: {name: {contains: params.lang}}})
+  const language = await db.language.findUnique({where: {key: params.lang}})
   if (language) {
     const entity = {
       attributes: {
@@ -15,7 +14,7 @@ export const load = async ({params}) => {
       isEditable: false,
       name: 'Topic List'
     }
-    const records = await db.word.findMany({
+    const records = await db.lexeme.findMany({
       where: {
         Language: {alpha2: language.alpha2},
         Topic: {isNot: null}
@@ -23,6 +22,7 @@ export const load = async ({params}) => {
       include: {WordClass: true, Language: true, Topic: true},
       orderBy: {Topic: {name: 'asc'}}
     })
+    const topics = await db.topic.findMany()
     return {entity, records, language, topics}
   } else {
     throw error(500, 'unknown language')

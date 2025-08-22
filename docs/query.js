@@ -2,11 +2,11 @@ import {resolve} from 'path'
 import db from '../src/lib/database.ts'
 import {writeFile} from 'fs/promises'
 
-const phrases = await db.word.findMany({
+const phrases = await db.lexeme.findMany({
   where: {Language: {alpha2: 'mg'}, wordtype: 'loc'},
   orderBy: {term: 'asc'}
 })
-const words = await db.word.findMany({
+const words = await db.lexeme.findMany({
   where: {Language: {alpha2: 'mg'}, NOT: {wordtype: 'loc'}},
   include: {WordType: true, Language: true},
   orderBy: {term: 'asc'}

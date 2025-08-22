@@ -8,9 +8,9 @@ console.log(words.length)
 
 for (const word of words) {
   const {lemma, language, wordtype, english, comment} = word
-  const wordClass = await db.wordType.findUnique({where: {key: wordtype}})
+  const wordClass = await db.lexemeType.findUnique({where: {key: wordtype}})
   if (wordClass) {
-    await db.word.upsert({
+    await db.lexeme.upsert({
       where: {key: lemma},
       create: {
         key: lemma,

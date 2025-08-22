@@ -18,16 +18,16 @@ for (const word of words) {
   if (!word.term.includes('(') && !word.term.includes('/')) {
     const {term, language} = word
     const wordtype = getWordType(word.type)
-    const exists = await db.word.findUnique({
+    const exists = await db.lexeme.findUnique({
       where: {language_term_instance: {language, term, instance: 0}}
     })
     if (exists) {
-      /*       await db.word.update({
+      /*       await db.lexeme.update({
         where: {language_term_instance: {language,term,index:0}},
         data: {language, term, wordtype}
       }) */
     } else {
-      //await db.word.create({data:{term,language,partOfSpeech}})
+      //await db.lexeme.create({data:{term,language,partOfSpeech}})
       console.log(word.term)
     }
   } else {

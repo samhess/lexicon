@@ -5,20 +5,13 @@ export const routes: GenericObject = {
     name: 'Home',
     children: []
   },
-  query: {
-    name: 'Query',
-    children: []
-  },
   vocabulary: {
     name: 'Vocabulary',
-    children: ['English', 'French', 'German', 'Malagasy', 'Spanish', 'Swahili']
+    children: ['Lexeme', 'WordForm', 'Topic List']
   },
-  topiclists: {
-    name: 'Topic Lists',
-    children: ['English', 'French', 'German', 'Malagasy', 'Spanish', 'Swahili']
-  },
-  swadesh: {
-    name: 'Swadesh'
+  tool: {
+    name: 'Tools',
+    children: ['Swadesh','Query']
   },
   taxonomy: {
     name: 'Taxonomy',

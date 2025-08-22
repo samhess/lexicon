@@ -28,9 +28,9 @@ for (const entry of entries) {
       .replace(/\s\([\w\d\s]*\)$/, '')
       .replace(/^he, she, it/, 'he')
       .replace(/^to\s/, '')
-    const word = await db.word.findFirst({where: {lemma: searchTerm}})
+    const word = await db.lexeme.findFirst({where: {lemma: searchTerm}})
     if (word) {
-      const wordType = await db.wordType.findUnique({where: {key: word.wordtype}})
+      const wordType = await db.lexemeType.findUnique({where: {key: word.wordtype}})
       if (wordType) {
         await db.swadesh.update({
           where: {key: index},
