@@ -14,7 +14,7 @@
       <tr>
         <td>{language}</td>
         <td>
-          <a href={`/vocabulary/lexeme/${lexeme}`}>{lexeme}</a>
+          <a href={`/dictionary/lexeme/${lexeme}`}>{lexeme}</a>
         </td>
         <td>{token}</td>
         <td>{Case?.name}</td>

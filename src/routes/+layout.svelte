@@ -78,7 +78,7 @@
             <a
               href={`/${segment1}/${segment2}`}
               class="text-gray-300 hover:bg-sky-400 hover:text-white rounded-md px-3 text-base font-medium"
-              class:text-white={(['vocabulary'].includes(segment1) &&
+              class:text-white={(['/dictionary'].includes(segment1) &&
                 language === segment2) ||
                 currentRoute.split('/')[1] === segment2}
               >{route}

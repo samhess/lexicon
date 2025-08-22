@@ -7,6 +7,7 @@
 
 ### English
 - [Oxford Learner's Word Lists](https://www.oxfordlearnersdictionaries.com/wordlists/)
+- [Definitions](https://www.oxfordlearnersdictionaries.com/definition/english/)
 
 ### Malagasy
 - [Malagasy Encyclopedic Dictionary](http://malagasyword.org)

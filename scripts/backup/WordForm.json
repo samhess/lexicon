@@ -1,7 +1,7 @@
 [
   {
     "language": "eng",
-    "lexeme": "a",
+    "lexeme": "a_det",
     "token": "a",
     "case": "",
     "gender": "",
@@ -12,7 +12,7 @@
   },
   {
     "language": "eng",
-    "lexeme": "a",
+    "lexeme": "a_det",
     "token": "an",
     "case": "",
     "gender": "",

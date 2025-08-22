@@ -2,6 +2,16 @@ import {error} from '@sveltejs/kit'
 import db from '$lib/database'
 import {languageState} from '$lib/states/shared.svelte'
 
+const homonyms = [
+  'rest',
+  'rock',
+  'bank',
+  'to lie',
+  'race',
+  'ring',
+  'used',
+]
+
 export const load = async ({params}) => {
   const language = await db.language.findUnique({where: {key: params.lang}})
   if (language) {

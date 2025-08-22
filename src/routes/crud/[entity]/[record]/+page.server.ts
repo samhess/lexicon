@@ -31,7 +31,7 @@ export const actions = {
       return redirect(303, `/taxonomy/${entityKey.replace('wordClass', 'word-class')}`)
     } 
     else if (['lexeme', 'wordForm'].includes(entityKey)) {
-      return redirect(303, `/vocabulary/${entityKey.replace('wordForm', 'wordform')}/eng`)
+      return redirect(303, `/dictionary/${entityKey.replace('wordForm', 'wordform')}/eng`)
     }
     else {
       return redirect(303, `/${entityKey}`)
