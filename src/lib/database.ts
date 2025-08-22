@@ -8,7 +8,7 @@ const models = Prisma.dmmf.datamodel.models
 const modelNames = models.map(({name}) => name)
 
 export async function getSelectOptions(entity: string) {
-  if (modelNames.includes(entity)) {
+  if (modelNames.includes(entity) || ['Source', 'Target'].includes(entity)) {
     let options = new Array()
     if (entity === 'Language') {
       options = await db.language.findMany({orderBy: {key: 'asc'}})
@@ -17,16 +17,15 @@ export async function getSelectOptions(entity: string) {
         name: `${key} \u2013 ${name}`
       }))
     }
-    if (entity === 'Lexeme') {
+    if (['Lexeme', 'Source', 'Target'].includes(entity)) {
       options = await db.lexeme.findMany({
-        where: {language: 'eng'},
+        //where: {language: 'eng'},
         orderBy: {key: 'asc'}
       })
       options = options.map(({key, lemma, wordClass}) => ({
         value: key,
         name: `${lemma} (${wordClass})`
       }))
-      console.log(options)
     }
     if (entity === 'Topic') {
       options = await db.topic.findMany({orderBy: {key: 'asc'}})

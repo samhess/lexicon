@@ -60,7 +60,7 @@ model WordClass {
 }
 
 model Lexeme {
-  key       String     @id
+  key       String        @id
   lemma     String
   meaning   String?
   language  String
@@ -69,10 +69,12 @@ model Lexeme {
   english   String?
   comment   String?
   level     String?
-  WordClass WordClass  @relation(fields: [wordClass], references: [key], onDelete: Cascade)
-  Language  Language   @relation(fields: [language], references: [key], onDelete: Cascade)
-  Topic     Topic?     @relation(fields: [topic], references: [key], onDelete: Cascade)
+  WordClass WordClass     @relation(fields: [wordClass], references: [key], onDelete: Cascade)
+  Language  Language      @relation(fields: [language], references: [key], onDelete: Cascade)
+  Topic     Topic?        @relation(fields: [topic], references: [key], onDelete: Cascade)
   WordForm  WordForm[]
+  Source    Translation[] @relation("source")
+  Target    Translation[] @relation("target")
 
   @@unique([lemma, meaning, wordClass])
 }
@@ -91,4 +93,13 @@ model WordForm {
   Lexeme   Lexeme?  @relation(fields: [lexeme], references: [key], onDelete: Cascade)
 
   @@id([language, token])
+}
+
+model Translation {
+  source String
+  target String
+  Source Lexeme? @relation("source", fields: [source], references: [key], onDelete: Cascade)
+  Target Lexeme? @relation("target", fields: [target], references: [key], onDelete: Cascade)
+
+  @@id([source, target])
 }
