@@ -6,18 +6,16 @@ export const load = async ({params}) => {
   if (language) {
     const entity = {
       attributes: {
-        source: {name: 'Source Lemma'},
-        Source: {name: 'Source Lexeme'},
-        target: {name: 'Target Lemma'},
-        Target: {name: 'Target Lexeme'},
+        english: {name: 'English'},
+        german: {name: 'German'}
       },
       key: 'translation',
       isEditable: true,
       name: 'Translation'
     }
     const records = await db.translation.findMany({
-      include: {Source: true, Target: true},
-      orderBy: {source: 'asc'}
+      include: {English: true, German: true},
+      orderBy: {English: {lemma:'asc'} }
     })
     return {entity, records, language}
   } else {

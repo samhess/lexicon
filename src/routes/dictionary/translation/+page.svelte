@@ -10,16 +10,16 @@
 <article class="prose">
   <h1>Translations</h1>
   <DataTable {entity} records={props.data.records} dispatchData={receiveData}>
-    {#each records as { source, target, Source, Target }}
+    {#each records as { english, English, german, German }}
       <tr>
-        <td>{source}</td>
         <td>
-          <a href={`/tool/query/eng/${Source.lemma}`}>{Source.lemma}</a>
+          <a href={`/dictionary/lexeme/eng/${English.lemma}`}>{English.lemma}</a> ({english})
         </td>
-        <td>{target}</td>
-        <td>{Target.lemma}</td>
+        <td>
+          <a href={`/dictionary/lexeme/deu/${German.lemma}`}>{German.lemma}</a> ({german})
+        </td>
         {#if entity.isEditable}
-          <Edit entityKey={entity.key} recordKey={{source, target}} />
+          <Edit entityKey={entity.key} recordKey={english} />
         {/if}
       </tr>
     {/each}

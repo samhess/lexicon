@@ -10,34 +10,17 @@ const homonyms = [
   'used',
 ]
 
-
 const lexemes = await db.lexeme.findMany({
-  where:{language:'eng', lemma:{in:homonyms}}
+  where: {Language: {alpha2:'mg'}},
+  include: {Language:true}
 })
 
 for (const lexeme of lexemes) {
-  const {key, lemma, wordClass} = lexeme
-  if (homonyms.includes(lemma)) {
-    console.log(lemma);
-    try {
-      //await db.lexeme.update({where: {key},data: {key: `${lemma.toLowerCase()}_${wordClass}1`}})
-      //console.log(lexemeUpdated.key);
-    } catch (err) {
-      if (err.code === 'P2002') {
-        //await db.lexeme.update({where: {key},data: {key: `${lemma.toLowerCase()}_${wordClass}2`}})
-        //console.log(`${lemma} (${wordClass}) seems to be a homonym` )
-      }
-    }
+  const {key, Language, lemma, meaning, wordClass} = lexeme
+  const newKey = `${Language.alpha2}_${lemma.toLowerCase()}`
+  if (wordClass==='n') {
+    await db.lexeme.update({where: {key}, data: {key: newKey}})
+  } else {
+    await db.lexeme.update({where: {key}, data: {key: `${newKey}_${wordClass}`}})
   }
 }
-
-/* for (const lexeme of lexemes) {
-  const {key, lemma, wordClass} = lexeme
-  if (wordClass==='v' && !lemma.startsWith('to ')) {
-    console.log(lemma)
-    await db.lexeme.update({
-      where: {key},
-      data: {lemma: `to ${lemma}`}
-    })
-  }
-} */

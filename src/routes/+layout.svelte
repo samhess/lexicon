@@ -19,11 +19,6 @@
     { value: 'sp', name: 'sp - Spanish' },
     { value: 'sw', name: 'sw - Swahili' },
   ]
-  function setLanguage(event:Event) {
-    console.log(event.target)
-    set('sp')
-    console.log(languageState.alpha2)
-  }
 </script>
 
 <svelte:head>
@@ -41,7 +36,7 @@
         <span class="text-white text-2xl font-bold tracking-widest pe-4">
           Multilingual Dictionary
         </span>
-        <select class="w-50 m-0 p-1" name="selectedLanguage" onchange={(e)=>setLanguage(e)}>
+        <select class="w-50 m-0 p-1" name="selectedLanguage" bind:value={languageState.alpha2}>
           {#each languages as {value,name}}
             <option value={value}>{name}</option>
           {/each}
