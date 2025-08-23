@@ -12,12 +12,12 @@
   let segment1 = $derived(page.route.id?.match(/^\/(?<segment1>[^/]*)\//)?.groups?.segment1 ?? '')
   let childRoutes = $derived(data.routes[segment1]?.children ?? [])
   const languages = [
-    { value: 'de', name: 'de - German' },
-    { value: 'en', name: 'en - English' },
-    { value: 'fr', name: 'fr - French' },
-    { value: 'mg', name: 'mg - Malagasy' },
-    { value: 'sp', name: 'sp - Spanish' },
-    { value: 'sw', name: 'sw - Swahili' },
+    {value: 'de', name: 'de - German'},
+    {value: 'en', name: 'en - English'},
+    {value: 'fr', name: 'fr - French'},
+    {value: 'mg', name: 'mg - Malagasy'},
+    {value: 'sp', name: 'sp - Spanish'},
+    {value: 'sw', name: 'sw - Swahili'}
   ]
 </script>
 
@@ -37,8 +37,8 @@
           Multilingual Dictionary
         </span>
         <select class="w-50 m-0 p-1" name="selectedLanguage" bind:value={languageState.alpha2}>
-          {#each languages as {value,name}}
-            <option value={value}>{name}</option>
+          {#each languages as { value, name }}
+            <option {value}>{name}</option>
           {/each}
         </select>
       </div>
@@ -73,8 +73,7 @@
             <a
               href={`/${segment1}/${segment2}`}
               class="text-gray-300 hover:bg-sky-400 hover:text-white rounded-md px-3 text-base font-medium"
-              class:text-white={(['/dictionary'].includes(segment1) &&
-                language === segment2) ||
+              class:text-white={(['/dictionary'].includes(segment1) && language === segment2) ||
                 currentRoute.split('/')[1] === segment2}
               >{route}
             </a>

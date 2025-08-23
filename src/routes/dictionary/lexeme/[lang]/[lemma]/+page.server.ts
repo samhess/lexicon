@@ -15,9 +15,9 @@ export const load = async ({params}) => {
         level: {name: 'Level'},
         english: {name: 'English'}
       },
-      key: 'word',
-      isEditable: false,
-      name: 'Words'
+      key: 'lexeme',
+      isEditable: true,
+      name: 'Lexeme'
     }
     const records = await db.lexeme.findMany({
       where: {Language: {alpha2: language.alpha2}, lemma},

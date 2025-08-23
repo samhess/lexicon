@@ -13,10 +13,16 @@
     {#each records as { english, English, german, German }}
       <tr>
         <td>
-          <a href={`/dictionary/lexeme/eng/${English.lemma}`}>{English.lemma}</a> ({english})
+          <a href={`/dictionary/lexeme/eng/${English.lemma}`}>{English.lemma}</a>
+          {#if English.meaning}
+            ({English.meaning})
+          {/if} 
         </td>
         <td>
-          <a href={`/dictionary/lexeme/deu/${German.lemma}`}>{German.lemma}</a> ({german})
+          <a href={`/dictionary/lexeme/deu/${German.lemma}`}>{German.lemma}</a>
+          {#if German.meaning}
+            ({German.meaning})
+          {/if} 
         </td>
         {#if entity.isEditable}
           <Edit entityKey={entity.key} recordKey={english} />

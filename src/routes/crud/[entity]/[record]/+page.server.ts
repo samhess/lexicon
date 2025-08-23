@@ -6,11 +6,11 @@ import {Prisma} from '@prisma/client'
 
 type EntityKey = Uncapitalize<Prisma.ModelName>
 
-function decodeRecordKey(recordKeyEnc: string, entityKey:String) {
+function decodeRecordKey(recordKeyEnc: string, entityKey: String) {
   let recordKey = decodeURIComponent(recordKeyEnc)
   recordKey = recordKey.startsWith('{') ? JSON.parse(recordKey) : recordKey
-  if (entityKey==='swadesh') {
-      return parseInt(recordKey)
+  if (entityKey === 'swadesh') {
+    return parseInt(recordKey)
   }
   return recordKey
 }
@@ -29,17 +29,15 @@ export const actions = {
     const record = await db[entityKey as EntityKey].create({data})
     if (['language', 'topic', 'wordClass'].includes(entityKey)) {
       return redirect(303, `/taxonomy/${entityKey.replace('wordClass', 'word-class')}`)
-    } 
-    else if (['lexeme', 'wordForm', 'translation'].includes(entityKey)) {
-      return redirect(303, `/dictionary/${entityKey.replace('wordForm', 'wordform')}/eng`)
-    }
-    else {
+    } else if (['lexeme', 'wordForm', 'translation'].includes(entityKey)) {
+      return redirect(303, `/dictionary/${entityKey.replace('wordForm', 'wordform')}`)
+    } else {
       return redirect(303, `/${entityKey}`)
     }
   },
   update: async ({params, request}) => {
     const {entity: entityKey, record: recordKeyEnc} = params
-    const recordKey = decodeRecordKey(recordKeyEnc,entityKey)
+    const recordKey = decodeRecordKey(recordKeyEnc, entityKey)
     const recordKeyName = getRecordKeyName(entityKey)
     const formData = await request.formData()
     const data: GenericObject = Object.fromEntries(formData)
@@ -65,7 +63,7 @@ export const actions = {
   },
   delete: async ({params}) => {
     const {entity: entityKey, record: recordKeyEnc} = params
-    const recordKey = decodeRecordKey(recordKeyEnc,entityKey)
+    const recordKey = decodeRecordKey(recordKeyEnc, entityKey)
     const recordKeyName = getRecordKeyName(entityKey)
     // @ts-ignore
     await db[entityKey as EntityKey].delete({
@@ -73,7 +71,11 @@ export const actions = {
     })
     if (['language', 'topic', 'wordClass'].includes(entityKey)) {
       return redirect(303, `/taxonomy/${entityKey.replace('wordClass', 'word-class')}`)
-    } else {
+    } 
+    else if (['lexeme', 'wordForm', 'translation'].includes(entityKey)) {
+      return redirect(303, `/dictionary/${entityKey.replace('wordForm', 'wordform')}`)
+    }
+    else {
       return redirect(303, `/${entityKey}`)
     }
   }
@@ -82,7 +84,7 @@ export const actions = {
 export async function load({params}: PageServerLoadEvent) {
   const {entity, record: recordKeyEnc} = params
   const entityKey = entity
-  const recordKey = decodeRecordKey(recordKeyEnc,entityKey)
+  const recordKey = decodeRecordKey(recordKeyEnc, entityKey)
   const recordKeyName = getRecordKeyName(entityKey)
   const fields = await getFields(entityKey)
   if (recordKey === 'new') {

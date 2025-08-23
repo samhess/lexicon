@@ -15,7 +15,7 @@ export const load = async ({params}) => {
     }
     const records = await db.translation.findMany({
       include: {English: true, German: true},
-      orderBy: {English: {lemma:'asc'} }
+      orderBy: {English: {lemma: 'asc'}}
     })
     return {entity, records, language}
   } else {

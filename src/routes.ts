@@ -11,7 +11,7 @@ export const routes: GenericObject = {
   },
   tool: {
     name: 'Tools',
-    children: ['Swadesh','Query']
+    children: ['Swadesh', 'Query']
   },
   taxonomy: {
     name: 'Taxonomy',

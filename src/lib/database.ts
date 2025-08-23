@@ -50,12 +50,11 @@ export async function getSelectOptions(entity: string) {
       name: `\u2014\u2014\u2014 select ${entity.toLowerCase()} \u2014\u2014\u2014`
     })
     return options as Array<{value: any; name: string}>
-  } 
-  else if (['English', 'German'].includes(entity)) {
+  } else if (['English', 'German'].includes(entity)) {
     let options = new Array()
-    const lang = entity.replace('English','en').replace('German','de')
+    const lang = entity.replace('English', 'en').replace('German', 'de')
     options = await db.lexeme.findMany({
-      where: {Language: {alpha2:lang}},
+      where: {Language: {alpha2: lang}},
       orderBy: {key: 'asc'}
     })
     options = options.map(({key, lemma, wordClass}) => ({
@@ -63,8 +62,7 @@ export async function getSelectOptions(entity: string) {
       name: `${lemma} (${wordClass})`
     }))
     return options as Array<{value: any; name: string}>
-  }
-  else {
+  } else {
     return [{value: '', name: `\u2014 ${entity} cannot be looked up \u2014`}] as Array<{
       value: any
       name: string
@@ -81,7 +79,11 @@ export async function getFields(entityKey: string) {
     const fieldnames = model.fields.map((field) => field.name)
     for (const field of model.fields) {
       if (field.relationName === undefined) {
-        if (!['wordClass', 'language', 'lexeme', 'topic', 'user', 'english', 'german'].includes(field.name)) {
+        if (
+          !['wordClass', 'language', 'lexeme', 'topic', 'user', 'english', 'german'].includes(
+            field.name
+          )
+        ) {
           fields.push({
             name: field.name,
             kind: field.kind,
@@ -100,7 +102,7 @@ export async function getFields(entityKey: string) {
         })
       }
     }
-    return fields.sort((f1,f2)=>f1.name.localeCompare(f2.name))
+    return fields.sort((f1, f2) => f1.name.localeCompare(f2.name))
   } else {
     return []
   }

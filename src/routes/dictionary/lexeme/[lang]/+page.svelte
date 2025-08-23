@@ -14,7 +14,7 @@
       <tr>
         <td>{key}</td>
         <td>
-          <a href={`/tool/query/${props.data.language.key}/${lemma}`}>{lemma}</a>
+          <a href={`/dictionary/lexeme/${props.data.language.key}/${lemma}`}>{lemma}</a>
         </td>
         <td>{meaning}</td>
         <td>{WordClass?.name}</td>

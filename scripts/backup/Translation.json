@@ -1,6 +1,6562 @@
 [
   {
     "english": "house",
-    "german": "deu_Haus"
+    "german": "de_Haus"
+  },
+  {
+    "english": "ability",
+    "german": "de_fähigkeit"
+  },
+  {
+    "english": "academic",
+    "german": "de_wissenschaftler"
+  },
+  {
+    "english": "access",
+    "german": "de_zugriff"
+  },
+  {
+    "english": "accident",
+    "german": "de_unfall"
+  },
+  {
+    "english": "accommodation",
+    "german": "de_unterkunft"
+  },
+  {
+    "english": "action",
+    "german": "de_handeln"
+  },
+  {
+    "english": "activity",
+    "german": "de_aktivität"
+  },
+  {
+    "english": "actor",
+    "german": "de_schauspieler"
+  },
+  {
+    "english": "actress",
+    "german": "de_schauspieler"
+  },
+  {
+    "english": "address",
+    "german": "de_adresse"
+  },
+  {
+    "english": "adult",
+    "german": "de_erwachsene"
+  },
+  {
+    "english": "advice",
+    "german": "de_rat"
+  },
+  {
+    "english": "afternoon",
+    "german": "de_nachmittag"
+  },
+  {
+    "english": "age",
+    "german": "de_alter"
+  },
+  {
+    "english": "air",
+    "german": "de_luft"
+  },
+  {
+    "english": "airport",
+    "german": "de_flughafen"
+  },
+  {
+    "english": "animal",
+    "german": "de_tier"
+  },
+  {
+    "english": "answer",
+    "german": "de_antwort"
+  },
+  {
+    "english": "apartment",
+    "german": "de_wohnung"
+  },
+  {
+    "english": "apple",
+    "german": "de_apfel"
+  },
+  {
+    "english": "april",
+    "german": "de_april"
+  },
+  {
+    "english": "area",
+    "german": "de_bereich"
+  },
+  {
+    "english": "arm",
+    "german": "de_arm"
+  },
+  {
+    "english": "article",
+    "german": "de_gegenstand"
+  },
+  {
+    "english": "artist",
+    "german": "de_künstler"
+  },
+  {
+    "english": "august",
+    "german": "de_august"
+  },
+  {
+    "english": "aunt",
+    "german": "de_tante"
+  },
+  {
+    "english": "autumn",
+    "german": "de_herbst"
+  },
+  {
+    "english": "baby",
+    "german": "de_baby"
+  },
+  {
+    "english": "bag",
+    "german": "de_beutel"
+  },
+  {
+    "english": "banana",
+    "german": "de_banane"
+  },
+  {
+    "english": "bank1",
+    "german": "de_bank"
+  },
+  {
+    "english": "bath",
+    "german": "de_bad"
+  },
+  {
+    "english": "bathroom",
+    "german": "de_bad"
+  },
+  {
+    "english": "beach",
+    "german": "de_strand"
+  },
+  {
+    "english": "bed",
+    "german": "de_bett"
+  },
+  {
+    "english": "bedroom",
+    "german": "de_schlafzimmer"
+  },
+  {
+    "english": "beer",
+    "german": "de_bier"
+  },
+  {
+    "english": "bicycle",
+    "german": "de_fahrrad"
+  },
+  {
+    "english": "bike",
+    "german": "de_rad"
+  },
+  {
+    "english": "bird",
+    "german": "de_vogel"
+  },
+  {
+    "english": "birthday",
+    "german": "de_geburtstag"
+  },
+  {
+    "english": "blog",
+    "german": "de_blog"
+  },
+  {
+    "english": "boat",
+    "german": "de_boot"
+  },
+  {
+    "english": "body",
+    "german": "de_körper"
+  },
+  {
+    "english": "book",
+    "german": "de_buch"
+  },
+  {
+    "english": "bottle",
+    "german": "de_flasche"
+  },
+  {
+    "english": "boy",
+    "german": "de_junge"
+  },
+  {
+    "english": "boyfriend",
+    "german": "de_freund"
+  },
+  {
+    "english": "bread",
+    "german": "de_brot"
+  },
+  {
+    "english": "breakfast",
+    "german": "de_frühstück"
+  },
+  {
+    "english": "brother",
+    "german": "de_bruder"
+  },
+  {
+    "english": "bus",
+    "german": "de_bus"
+  },
+  {
+    "english": "business",
+    "german": "de_angelegenheit"
+  },
+  {
+    "english": "cafe",
+    "german": "de_café"
+  },
+  {
+    "english": "cake",
+    "german": "de_kuchen"
+  },
+  {
+    "english": "camera",
+    "german": "de_fotoapparat"
+  },
+  {
+    "english": "capital",
+    "german": "de_hauptstadt"
+  },
+  {
+    "english": "car",
+    "german": "de_auto"
+  },
+  {
+    "english": "card",
+    "german": "de_karte"
+  },
+  {
+    "english": "career",
+    "german": "de_karriere"
+  },
+  {
+    "english": "carrot",
+    "german": "de_mohrrübe"
+  },
+  {
+    "english": "cat",
+    "german": "de_katze"
+  },
+  {
+    "english": "cd",
+    "german": "de_cd"
+  },
+  {
+    "english": "cent",
+    "german": "de_cent"
+  },
+  {
+    "english": "centre",
+    "german": "de_zentrum"
+  },
+  {
+    "english": "century",
+    "german": "de_jahrhundert"
+  },
+  {
+    "english": "chair",
+    "german": "de_stuhl"
+  },
+  {
+    "english": "chart",
+    "german": "de_diagramm"
+  },
+  {
+    "english": "cheese",
+    "german": "de_käse"
+  },
+  {
+    "english": "chicken",
+    "german": "de_huhn"
+  },
+  {
+    "english": "child",
+    "german": "de_kind"
+  },
+  {
+    "english": "chocolate",
+    "german": "de_schokolade"
+  },
+  {
+    "english": "cinema",
+    "german": "de_kino"
+  },
+  {
+    "english": "city",
+    "german": "de_stadt"
+  },
+  {
+    "english": "class",
+    "german": "de_klasse"
+  },
+  {
+    "english": "classroom",
+    "german": "de_klassenzimmer"
+  },
+  {
+    "english": "clock",
+    "german": "de_uhr"
+  },
+  {
+    "english": "club",
+    "german": "de_klub"
+  },
+  {
+    "english": "coat",
+    "german": "de_mantel"
+  },
+  {
+    "english": "coffee",
+    "german": "de_kaffee"
+  },
+  {
+    "english": "college",
+    "german": "de_hochschule"
+  },
+  {
+    "english": "colour",
+    "german": "de_farbe"
+  },
+  {
+    "english": "company",
+    "german": "de_gesellschaft"
+  },
+  {
+    "english": "computer",
+    "german": "de_computer"
+  },
+  {
+    "english": "concert",
+    "german": "de_konzert"
+  },
+  {
+    "english": "conversation",
+    "german": "de_gespräch"
+  },
+  {
+    "english": "cost",
+    "german": "de_kosten"
+  },
+  {
+    "english": "country",
+    "german": "de_land"
+  },
+  {
+    "english": "course",
+    "german": "de_kurs"
+  },
+  {
+    "english": "cousin",
+    "german": "de_cousin"
+  },
+  {
+    "english": "cow",
+    "german": "de_kuh"
+  },
+  {
+    "english": "cream",
+    "german": "de_creme"
+  },
+  {
+    "english": "culture",
+    "german": "de_kultur"
+  },
+  {
+    "english": "cup",
+    "german": "de_tasse"
+  },
+  {
+    "english": "customer",
+    "german": "de_kunde"
+  },
+  {
+    "english": "dad",
+    "german": "de_papa"
+  },
+  {
+    "english": "dance",
+    "german": "de_tanz"
+  },
+  {
+    "english": "dancer",
+    "german": "de_tänzer"
+  },
+  {
+    "english": "date",
+    "german": "de_datum"
+  },
+  {
+    "english": "daughter",
+    "german": "de_tochter"
+  },
+  {
+    "english": "day",
+    "german": "de_tag"
+  },
+  {
+    "english": "december",
+    "german": "de_dezember"
+  },
+  {
+    "english": "description",
+    "german": "de_beschreibung"
+  },
+  {
+    "english": "design",
+    "german": "de_design"
+  },
+  {
+    "english": "desk",
+    "german": "de_schreibtisch"
+  },
+  {
+    "english": "detail",
+    "german": "de_detail"
+  },
+  {
+    "english": "dialogue",
+    "german": "de_dialog"
+  },
+  {
+    "english": "dictionary",
+    "german": "de_wörterbuch"
+  },
+  {
+    "english": "diet",
+    "german": "de_diät"
+  },
+  {
+    "english": "difference",
+    "german": "de_unterschied"
+  },
+  {
+    "english": "dinner",
+    "german": "de_essen"
+  },
+  {
+    "english": "dish",
+    "german": "de_gericht"
+  },
+  {
+    "english": "doctor",
+    "german": "de_arzt"
+  },
+  {
+    "english": "dog",
+    "german": "de_hund"
+  },
+  {
+    "english": "dollar",
+    "german": "de_dollar"
+  },
+  {
+    "english": "door",
+    "german": "de_tür"
+  },
+  {
+    "english": "dress",
+    "german": "de_kleid"
+  },
+  {
+    "english": "drink",
+    "german": "de_getränk"
+  },
+  {
+    "english": "driver",
+    "german": "de_fahrer"
+  },
+  {
+    "english": "dvd",
+    "german": "de_dvd"
+  },
+  {
+    "english": "ear",
+    "german": "de_ohr"
+  },
+  {
+    "english": "east",
+    "german": "de_osten"
+  },
+  {
+    "english": "elephant",
+    "german": "de_elefant"
+  },
+  {
+    "english": "euro",
+    "german": "de_euro"
+  },
+  {
+    "english": "event",
+    "german": "de_ereignis"
+  },
+  {
+    "english": "exam",
+    "german": "de_prüfung"
+  },
+  {
+    "english": "example",
+    "german": "de_beispiel"
+  },
+  {
+    "english": "exercise",
+    "german": "de_übung"
+  },
+  {
+    "english": "eye",
+    "german": "de_auge"
+  },
+  {
+    "english": "face",
+    "german": "de_gesicht"
+  },
+  {
+    "english": "fact",
+    "german": "de_tatsache"
+  },
+  {
+    "english": "family",
+    "german": "de_familie"
+  },
+  {
+    "english": "farm",
+    "german": "de_bauernhof"
+  },
+  {
+    "english": "farmer",
+    "german": "de_bauer"
+  },
+  {
+    "english": "father",
+    "german": "de_vater"
+  },
+  {
+    "english": "february",
+    "german": "de_februar"
+  },
+  {
+    "english": "festival",
+    "german": "de_festival"
+  },
+  {
+    "english": "fire",
+    "german": "de_brand"
+  },
+  {
+    "english": "fish",
+    "german": "de_fisch"
+  },
+  {
+    "english": "flat",
+    "german": "de_wohnung"
+  },
+  {
+    "english": "flight",
+    "german": "de_flug"
+  },
+  {
+    "english": "floor",
+    "german": "de_etage"
+  },
+  {
+    "english": "flower",
+    "german": "de_blume"
+  },
+  {
+    "english": "food",
+    "german": "de_essen"
+  },
+  {
+    "english": "foot",
+    "german": "de_fuß"
+  },
+  {
+    "english": "football",
+    "german": "de_fußball"
+  },
+  {
+    "english": "friday",
+    "german": "de_freitag"
+  },
+  {
+    "english": "friend",
+    "german": "de_freund"
+  },
+  {
+    "english": "fruit",
+    "german": "de_obst"
+  },
+  {
+    "english": "fun",
+    "german": "de_spaß"
+  },
+  {
+    "english": "geography",
+    "german": "de_erdkunde"
+  },
+  {
+    "english": "girl",
+    "german": "de_mädchen"
+  },
+  {
+    "english": "girlfriend",
+    "german": "de_freundin"
+  },
+  {
+    "english": "glass",
+    "german": "de_glas"
+  },
+  {
+    "english": "grandfather",
+    "german": "de_großvater"
+  },
+  {
+    "english": "grandmother",
+    "german": "de_großmutter"
+  },
+  {
+    "english": "grandparent",
+    "german": "de_großelternteil"
+  },
+  {
+    "english": "group",
+    "german": "de_gruppe"
+  },
+  {
+    "english": "guitar",
+    "german": "de_gitarre"
+  },
+  {
+    "english": "gym",
+    "german": "de_turnhalle"
+  },
+  {
+    "english": "hair",
+    "german": "de_haar"
+  },
+  {
+    "english": "hand",
+    "german": "de_hand"
+  },
+  {
+    "english": "head",
+    "german": "de_kopf"
+  },
+  {
+    "english": "health",
+    "german": "de_gesundheit"
+  },
+  {
+    "english": "history",
+    "german": "de_geschichte"
+  },
+  {
+    "english": "hobby",
+    "german": "de_hobby"
+  },
+  {
+    "english": "holiday",
+    "german": "de_ferien"
+  },
+  {
+    "english": "home",
+    "german": "de_haus"
+  },
+  {
+    "english": "homework",
+    "german": "de_hausaufgabe"
+  },
+  {
+    "english": "horse",
+    "german": "de_pferd"
+  },
+  {
+    "english": "hospital",
+    "german": "de_krankenhaus"
+  },
+  {
+    "english": "hotel",
+    "german": "de_hotel"
+  },
+  {
+    "english": "hour",
+    "german": "de_stunde"
+  },
+  {
+    "english": "husband",
+    "german": "de_ehemann"
+  },
+  {
+    "english": "ice",
+    "german": "de_eis"
+  },
+  {
+    "english": "ice cream",
+    "german": "de_eiscreme"
+  },
+  {
+    "english": "idea",
+    "german": "de_einfall"
+  },
+  {
+    "english": "information",
+    "german": "de_information"
+  },
+  {
+    "english": "interest",
+    "german": "de_interesse"
+  },
+  {
+    "english": "internet",
+    "german": "de_internet"
+  },
+  {
+    "english": "island",
+    "german": "de_insel"
+  },
+  {
+    "english": "jacket",
+    "german": "de_jackett"
+  },
+  {
+    "english": "january",
+    "german": "de_januar"
+  },
+  {
+    "english": "jeans",
+    "german": "de_jeans"
+  },
+  {
+    "english": "job",
+    "german": "de_arbeit"
+  },
+  {
+    "english": "journey",
+    "german": "de_reise"
+  },
+  {
+    "english": "juice",
+    "german": "de_saft"
+  },
+  {
+    "english": "july",
+    "german": "de_juli"
+  },
+  {
+    "english": "june",
+    "german": "de_juni"
+  },
+  {
+    "english": "key",
+    "german": "de_schlüssel"
+  },
+  {
+    "english": "kilometre",
+    "german": "de_kilometer"
+  },
+  {
+    "english": "kitchen",
+    "german": "de_küche"
+  },
+  {
+    "english": "language",
+    "german": "de_sprache"
+  },
+  {
+    "english": "lesson",
+    "german": "de_lektion"
+  },
+  {
+    "english": "letter",
+    "german": "de_brief"
+  },
+  {
+    "english": "library",
+    "german": "de_bibliothek"
+  },
+  {
+    "english": "life",
+    "german": "de_leben"
+  },
+  {
+    "english": "light",
+    "german": "de_licht"
+  },
+  {
+    "english": "line",
+    "german": "de_linie"
+  },
+  {
+    "english": "lion",
+    "german": "de_löwe"
+  },
+  {
+    "english": "love",
+    "german": "de_liebe"
+  },
+  {
+    "english": "machine",
+    "german": "de_maschine"
+  },
+  {
+    "english": "man",
+    "german": "de_mann"
+  },
+  {
+    "english": "map",
+    "german": "de_landkarte"
+  },
+  {
+    "english": "march",
+    "german": "de_marsch"
+  },
+  {
+    "english": "market",
+    "german": "de_markt"
+  },
+  {
+    "english": "match",
+    "german": "de_streichholz"
+  },
+  {
+    "english": "may",
+    "german": "de_mai"
+  },
+  {
+    "english": "meal",
+    "german": "de_essen"
+  },
+  {
+    "english": "meat",
+    "german": "de_fleisch"
+  },
+  {
+    "english": "member",
+    "german": "de_mitglied"
+  },
+  {
+    "english": "menu",
+    "german": "de_speisekarte"
+  },
+  {
+    "english": "message",
+    "german": "de_botschaft"
+  },
+  {
+    "english": "metre",
+    "german": "de_meter"
+  },
+  {
+    "english": "midnight",
+    "german": "de_mitternacht"
+  },
+  {
+    "english": "mile",
+    "german": "de_meile"
+  },
+  {
+    "english": "milk",
+    "german": "de_milch"
+  },
+  {
+    "english": "minute",
+    "german": "de_minute"
+  },
+  {
+    "english": "mistake",
+    "german": "de_fehler"
+  },
+  {
+    "english": "model",
+    "german": "de_modell"
+  },
+  {
+    "english": "moment",
+    "german": "de_augenblick"
+  },
+  {
+    "english": "monday",
+    "german": "de_montag"
+  },
+  {
+    "english": "money",
+    "german": "de_geld"
+  },
+  {
+    "english": "month",
+    "german": "de_monat"
+  },
+  {
+    "english": "morning",
+    "german": "de_morgen"
+  },
+  {
+    "english": "mother",
+    "german": "de_mutter"
+  },
+  {
+    "english": "mountain",
+    "german": "de_berg"
+  },
+  {
+    "english": "mouse",
+    "german": "de_maus"
+  },
+  {
+    "english": "mouth",
+    "german": "de_mund"
+  },
+  {
+    "english": "movie",
+    "german": "de_film"
+  },
+  {
+    "english": "mum",
+    "german": "de_mama"
+  },
+  {
+    "english": "museum",
+    "german": "de_museum"
+  },
+  {
+    "english": "music",
+    "german": "de_musik"
+  },
+  {
+    "english": "name",
+    "german": "de_name"
+  },
+  {
+    "english": "neighbour",
+    "german": "de_nachbar"
+  },
+  {
+    "english": "news",
+    "german": "de_nachricht"
+  },
+  {
+    "english": "newspaper",
+    "german": "de_zeitung"
+  },
+  {
+    "english": "night",
+    "german": "de_abend"
+  },
+  {
+    "english": "north",
+    "german": "de_norden"
+  },
+  {
+    "english": "nose",
+    "german": "de_nase"
+  },
+  {
+    "english": "note",
+    "german": "de_note"
+  },
+  {
+    "english": "november",
+    "german": "de_november"
+  },
+  {
+    "english": "number",
+    "german": "de_zahl"
+  },
+  {
+    "english": "nurse",
+    "german": "de_krankenpfleger"
+  },
+  {
+    "english": "object",
+    "german": "de_gegenstand"
+  },
+  {
+    "english": "october",
+    "german": "de_oktober"
+  },
+  {
+    "english": "office",
+    "german": "de_büro"
+  },
+  {
+    "english": "onion",
+    "german": "de_zwiebel"
+  },
+  {
+    "english": "opinion",
+    "german": "de_ansicht"
+  },
+  {
+    "english": "orange",
+    "german": "de_apfelsine"
+  },
+  {
+    "english": "page",
+    "german": "de_seite"
+  },
+  {
+    "english": "pair",
+    "german": "de_paar"
+  },
+  {
+    "english": "paper",
+    "german": "de_papier"
+  },
+  {
+    "english": "paragraph",
+    "german": "de_absatz"
+  },
+  {
+    "english": "parent",
+    "german": "de_elternteil"
+  },
+  {
+    "english": "part",
+    "german": "de_meter"
+  },
+  {
+    "english": "partner",
+    "german": "de_partner"
+  },
+  {
+    "english": "party",
+    "german": "de_feier"
+  },
+  {
+    "english": "passport",
+    "german": "de_reisepass"
+  },
+  {
+    "english": "pen",
+    "german": "de_stift"
+  },
+  {
+    "english": "pencil",
+    "german": "de_bleistift"
+  },
+  {
+    "english": "people",
+    "german": "de_leute"
+  },
+  {
+    "english": "pepper",
+    "german": "de_pfeffer"
+  },
+  {
+    "english": "period",
+    "german": "de_frist"
+  },
+  {
+    "english": "person",
+    "german": "de_person"
+  },
+  {
+    "english": "phone",
+    "german": "de_telefon"
+  },
+  {
+    "english": "photo",
+    "german": "de_bild"
+  },
+  {
+    "english": "photograph",
+    "german": "de_fotografie"
+  },
+  {
+    "english": "phrase",
+    "german": "de_satz"
+  },
+  {
+    "english": "piano",
+    "german": "de_klavier"
+  },
+  {
+    "english": "picture",
+    "german": "de_bild"
+  },
+  {
+    "english": "piece",
+    "german": "de_stück"
+  },
+  {
+    "english": "pig",
+    "german": "de_schwein"
+  },
+  {
+    "english": "place",
+    "german": "de_ort"
+  },
+  {
+    "english": "player",
+    "german": "de_spieler"
+  },
+  {
+    "english": "point",
+    "german": "de_spitze"
+  },
+  {
+    "english": "police",
+    "german": "de_polizei"
+  },
+  {
+    "english": "policeman",
+    "german": "de_polizist"
+  },
+  {
+    "english": "pool",
+    "german": "de_pool"
+  },
+  {
+    "english": "potato",
+    "german": "de_kartoffel"
+  },
+  {
+    "english": "pound",
+    "german": "de_pfund"
+  },
+  {
+    "english": "practice",
+    "german": "de_übung"
+  },
+  {
+    "english": "price",
+    "german": "de_preis"
+  },
+  {
+    "english": "problem",
+    "german": "de_problem"
+  },
+  {
+    "english": "product",
+    "german": "de_erzeugnis"
+  },
+  {
+    "english": "project",
+    "german": "de_projekt"
+  },
+  {
+    "english": "quarter",
+    "german": "de_viertel"
+  },
+  {
+    "english": "question",
+    "german": "de_frage"
+  },
+  {
+    "english": "radio",
+    "german": "de_radio"
+  },
+  {
+    "english": "rain",
+    "german": "de_regen"
+  },
+  {
+    "english": "reader",
+    "german": "de_leser"
+  },
+  {
+    "english": "reason",
+    "german": "de_grund"
+  },
+  {
+    "english": "report",
+    "german": "de_report"
+  },
+  {
+    "english": "restaurant",
+    "german": "de_restaurant"
+  },
+  {
+    "english": "result",
+    "german": "de_ergebnis"
+  },
+  {
+    "english": "rice",
+    "german": "de_reis"
+  },
+  {
+    "english": "river",
+    "german": "de_fluss"
+  },
+  {
+    "english": "road",
+    "german": "de_straße"
+  },
+  {
+    "english": "room",
+    "german": "de_platz"
+  },
+  {
+    "english": "routine",
+    "german": "de_routine"
+  },
+  {
+    "english": "rule",
+    "german": "de_herrschaft"
+  },
+  {
+    "english": "salad",
+    "german": "de_salat"
+  },
+  {
+    "english": "salt",
+    "german": "de_salz"
+  },
+  {
+    "english": "saturday",
+    "german": "de_samstag"
+  },
+  {
+    "english": "school",
+    "german": "de_schule"
+  },
+  {
+    "english": "science",
+    "german": "de_naturwissenschaft"
+  },
+  {
+    "english": "scientist",
+    "german": "de_wissenschaftler"
+  },
+  {
+    "english": "sea",
+    "german": "de_meer"
+  },
+  {
+    "english": "second",
+    "german": "de_sekunde"
+  },
+  {
+    "english": "section",
+    "german": "de_teil"
+  },
+  {
+    "english": "sentence",
+    "german": "de_strafe"
+  },
+  {
+    "english": "september",
+    "german": "de_september"
+  },
+  {
+    "english": "sheep",
+    "german": "de_schaf"
+  },
+  {
+    "english": "shirt",
+    "german": "de_hemd"
+  },
+  {
+    "english": "shoe",
+    "german": "de_schuh"
+  },
+  {
+    "english": "shop",
+    "german": "de_geschäft"
+  },
+  {
+    "english": "shower",
+    "german": "de_dusche"
+  },
+  {
+    "english": "singer",
+    "german": "de_sänger"
+  },
+  {
+    "english": "sister",
+    "german": "de_schwester"
+  },
+  {
+    "english": "situation",
+    "german": "de_lage"
+  },
+  {
+    "english": "skill",
+    "german": "de_fähigkeit"
+  },
+  {
+    "english": "skirt",
+    "german": "de_rock1"
+  },
+  {
+    "english": "snake",
+    "german": "de_schlange"
+  },
+  {
+    "english": "snow",
+    "german": "de_schnee"
+  },
+  {
+    "english": "son",
+    "german": "de_sohn"
+  },
+  {
+    "english": "song",
+    "german": "de_lied"
+  },
+  {
+    "english": "sound",
+    "german": "de_geräusch"
+  },
+  {
+    "english": "soup",
+    "german": "de_suppe"
+  },
+  {
+    "english": "south",
+    "german": "de_süden"
+  },
+  {
+    "english": "space",
+    "german": "de_platz"
+  },
+  {
+    "english": "sport",
+    "german": "de_sport"
+  },
+  {
+    "english": "star",
+    "german": "de_stern"
+  },
+  {
+    "english": "statement",
+    "german": "de_aussage"
+  },
+  {
+    "english": "station",
+    "german": "de_bahnhof"
+  },
+  {
+    "english": "story",
+    "german": "de_geschichte"
+  },
+  {
+    "english": "street",
+    "german": "de_straße"
+  },
+  {
+    "english": "student",
+    "german": "de_schüler"
+  },
+  {
+    "english": "study",
+    "german": "de_studie"
+  },
+  {
+    "english": "subject",
+    "german": "de_fach"
+  },
+  {
+    "english": "success",
+    "german": "de_erfolg"
+  },
+  {
+    "english": "sugar",
+    "german": "de_zucker"
+  },
+  {
+    "english": "summer",
+    "german": "de_sommer"
+  },
+  {
+    "english": "sun",
+    "german": "de_sonne"
+  },
+  {
+    "english": "sunday",
+    "german": "de_sonntag"
+  },
+  {
+    "english": "supermarket",
+    "german": "de_supermarkt"
+  },
+  {
+    "english": "sweater",
+    "german": "de_pulli"
+  },
+  {
+    "english": "table",
+    "german": "de_tisch"
+  },
+  {
+    "english": "taxi",
+    "german": "de_taxi"
+  },
+  {
+    "english": "tea",
+    "german": "de_tee"
+  },
+  {
+    "english": "teacher",
+    "german": "de_lehrer"
+  },
+  {
+    "english": "team",
+    "german": "de_mannschaft"
+  },
+  {
+    "english": "teenager",
+    "german": "de_jugendliche"
+  },
+  {
+    "english": "telephone",
+    "german": "de_telefon"
+  },
+  {
+    "english": "television",
+    "german": "de_fernsehen"
+  },
+  {
+    "english": "tennis",
+    "german": "de_tennis"
+  },
+  {
+    "english": "text",
+    "german": "de_text"
+  },
+  {
+    "english": "theatre",
+    "german": "de_theater"
+  },
+  {
+    "english": "thing",
+    "german": "de_ding"
+  },
+  {
+    "english": "thursday",
+    "german": "de_donnerstag"
+  },
+  {
+    "english": "time",
+    "german": "de_mal"
+  },
+  {
+    "english": "title",
+    "german": "de_titel"
+  },
+  {
+    "english": "toilet",
+    "german": "de_toilette"
+  },
+  {
+    "english": "tomato",
+    "german": "de_tomate"
+  },
+  {
+    "english": "tooth",
+    "german": "de_zahn"
+  },
+  {
+    "english": "topic",
+    "german": "de_thema"
+  },
+  {
+    "english": "tourist",
+    "german": "de_tourist"
+  },
+  {
+    "english": "town",
+    "german": "de_stadt"
+  },
+  {
+    "english": "traffic",
+    "german": "de_verkehr"
+  },
+  {
+    "english": "train",
+    "german": "de_zug"
+  },
+  {
+    "english": "tree",
+    "german": "de_baum"
+  },
+  {
+    "english": "trip",
+    "german": "de_ausflug"
+  },
+  {
+    "english": "t-shirt",
+    "german": "de_t-shirt"
+  },
+  {
+    "english": "tuesday",
+    "german": "de_dienstag"
+  },
+  {
+    "english": "tv",
+    "german": "de_fernseher"
+  },
+  {
+    "english": "type",
+    "german": "de_art"
+  },
+  {
+    "english": "umbrella",
+    "german": "de_regenschirm"
+  },
+  {
+    "english": "uncle",
+    "german": "de_onkel"
+  },
+  {
+    "english": "university",
+    "german": "de_universität"
+  },
+  {
+    "english": "vacation",
+    "german": "de_ferien"
+  },
+  {
+    "english": "vegetable",
+    "german": "de_gemüse"
+  },
+  {
+    "english": "video",
+    "german": "de_video"
+  },
+  {
+    "english": "village",
+    "german": "de_dorf"
+  },
+  {
+    "english": "visitor",
+    "german": "de_besucher"
+  },
+  {
+    "english": "waiter",
+    "german": "de_bedienung"
+  },
+  {
+    "english": "water",
+    "german": "de_wasser"
+  },
+  {
+    "english": "way",
+    "german": "de_richtung"
+  },
+  {
+    "english": "weather",
+    "german": "de_wetter"
+  },
+  {
+    "english": "website",
+    "german": "de_website"
+  },
+  {
+    "english": "wednesday",
+    "german": "de_mittwoch"
+  },
+  {
+    "english": "week",
+    "german": "de_woche"
+  },
+  {
+    "english": "weekend",
+    "german": "de_wochenende"
+  },
+  {
+    "english": "west",
+    "german": "de_westen"
+  },
+  {
+    "english": "wife",
+    "german": "de_ehefrau"
+  },
+  {
+    "english": "window",
+    "german": "de_fenster"
+  },
+  {
+    "english": "wine",
+    "german": "de_wein"
+  },
+  {
+    "english": "woman",
+    "german": "de_frau"
+  },
+  {
+    "english": "word",
+    "german": "de_wort"
+  },
+  {
+    "english": "worker",
+    "german": "de_arbeiter"
+  },
+  {
+    "english": "world",
+    "german": "de_welt"
+  },
+  {
+    "english": "writer",
+    "german": "de_schriftsteller"
+  },
+  {
+    "english": "year",
+    "german": "de_jahr"
+  },
+  {
+    "english": "advantage",
+    "german": "de_vorteil"
+  },
+  {
+    "english": "adventure",
+    "german": "de_abenteuer"
+  },
+  {
+    "english": "advertisement",
+    "german": "de_anzeige"
+  },
+  {
+    "english": "airline",
+    "german": "de_fluggesellschaft"
+  },
+  {
+    "english": "amount",
+    "german": "de_menge"
+  },
+  {
+    "english": "ankle",
+    "german": "de_knöchel"
+  },
+  {
+    "english": "app",
+    "german": "de_anwendung"
+  },
+  {
+    "english": "appearance",
+    "german": "de_aussehen"
+  },
+  {
+    "english": "architect",
+    "german": "de_architekt"
+  },
+  {
+    "english": "architecture",
+    "german": "de_architektur"
+  },
+  {
+    "english": "argument",
+    "german": "de_auseinandersetzung"
+  },
+  {
+    "english": "army",
+    "german": "de_militär"
+  },
+  {
+    "english": "arrangement",
+    "german": "de_regelung"
+  },
+  {
+    "english": "assistant",
+    "german": "de_helfer"
+  },
+  {
+    "english": "athlete",
+    "german": "de_athlet"
+  },
+  {
+    "english": "attack",
+    "german": "de_anschlag"
+  },
+  {
+    "english": "attention",
+    "german": "de_aufmerksamkeit"
+  },
+  {
+    "english": "audience",
+    "german": "de_publikum"
+  },
+  {
+    "english": "author",
+    "german": "de_verfasser"
+  },
+  {
+    "english": "award",
+    "german": "de_auszeichnung"
+  },
+  {
+    "english": "background",
+    "german": "de_hintergrund"
+  },
+  {
+    "english": "bar",
+    "german": "de_bar"
+  },
+  {
+    "english": "baseball",
+    "german": "de_baseball"
+  },
+  {
+    "english": "basketball",
+    "german": "de_basketball"
+  },
+  {
+    "english": "bean",
+    "german": "de_bohne"
+  },
+  {
+    "english": "bear",
+    "german": "de_bär"
+  },
+  {
+    "english": "beef",
+    "german": "de_rindfleisch"
+  },
+  {
+    "english": "behaviour",
+    "german": "de_benehmen"
+  },
+  {
+    "english": "belt",
+    "german": "de_band"
+  },
+  {
+    "english": "benefit",
+    "german": "de_nutzen"
+  },
+  {
+    "english": "biology",
+    "german": "de_biologie"
+  },
+  {
+    "english": "birth",
+    "german": "de_geburt"
+  },
+  {
+    "english": "biscuit",
+    "german": "de_keks"
+  },
+  {
+    "english": "blood",
+    "german": "de_blut"
+  },
+  {
+    "english": "bone",
+    "german": "de_knochen"
+  },
+  {
+    "english": "boss",
+    "german": "de_chef"
+  },
+  {
+    "english": "bottom",
+    "german": "de_boden"
+  },
+  {
+    "english": "brain",
+    "german": "de_gehirn"
+  },
+  {
+    "english": "bridge",
+    "german": "de_brücke"
+  },
+  {
+    "english": "businessman",
+    "german": "de_unternehmer"
+  },
+  {
+    "english": "button",
+    "german": "de_knopf"
+  },
+  {
+    "english": "can",
+    "german": "de_dose"
+  },
+  {
+    "english": "care",
+    "german": "de_sorgfalt"
+  },
+  {
+    "english": "carpet",
+    "german": "de_teppich"
+  },
+  {
+    "english": "cartoon",
+    "german": "de_zeichentrickfilm"
+  },
+  {
+    "english": "case",
+    "german": "de_fall"
+  },
+  {
+    "english": "cash",
+    "german": "de_bargeld"
+  },
+  {
+    "english": "castle",
+    "german": "de_burg"
+  },
+  {
+    "english": "cause",
+    "german": "de_anlass"
+  },
+  {
+    "english": "celebrity",
+    "german": "de_berühmtheit"
+  },
+  {
+    "english": "chance",
+    "german": "de_chance"
+  },
+  {
+    "english": "character",
+    "german": "de_charakter"
+  },
+  {
+    "english": "charity",
+    "german": "de_wohltätigkeit"
+  },
+  {
+    "english": "chef",
+    "german": "de_koch"
+  },
+  {
+    "english": "chemistry",
+    "german": "de_chemie"
+  },
+  {
+    "english": "chip",
+    "german": "de_splitter"
+  },
+  {
+    "english": "choice",
+    "german": "de_auswahl"
+  },
+  {
+    "english": "church",
+    "german": "de_kirche"
+  },
+  {
+    "english": "cigarette",
+    "german": "de_zigarette"
+  },
+  {
+    "english": "circle",
+    "german": "de_kreis"
+  },
+  {
+    "english": "climate",
+    "german": "de_klima"
+  },
+  {
+    "english": "cloud",
+    "german": "de_wolke"
+  },
+  {
+    "english": "coast",
+    "german": "de_küste"
+  },
+  {
+    "english": "code",
+    "german": "de_kode"
+  },
+  {
+    "english": "colleague",
+    "german": "de_kollege"
+  },
+  {
+    "english": "column",
+    "german": "de_kolonne"
+  },
+  {
+    "english": "comedy",
+    "german": "de_komödie"
+  },
+  {
+    "english": "comment",
+    "german": "de_kommentar"
+  },
+  {
+    "english": "community",
+    "german": "de_gemeinde"
+  },
+  {
+    "english": "competition",
+    "german": "de_konkurrenz"
+  },
+  {
+    "english": "condition",
+    "german": "de_bedingung"
+  },
+  {
+    "english": "conference",
+    "german": "de_konferenz"
+  },
+  {
+    "english": "context",
+    "german": "de_zusammenhang"
+  },
+  {
+    "english": "continent",
+    "german": "de_erdteil"
+  },
+  {
+    "english": "control",
+    "german": "de_herrschaft"
+  },
+  {
+    "english": "cook",
+    "german": "de_koch"
+  },
+  {
+    "english": "cooker",
+    "german": "de_herd"
+  },
+  {
+    "english": "copy",
+    "german": "de_abschrift"
+  },
+  {
+    "english": "corner",
+    "german": "de_ecke"
+  },
+  {
+    "english": "couple",
+    "german": "de_paar"
+  },
+  {
+    "english": "credit",
+    "german": "de_kredit"
+  },
+  {
+    "english": "crime",
+    "german": "de_verbrechen"
+  },
+  {
+    "english": "criminal",
+    "german": "de_verbrecher"
+  },
+  {
+    "english": "crowd",
+    "german": "de_menge"
+  },
+  {
+    "english": "cupboard",
+    "german": "de_schrank"
+  },
+  {
+    "english": "cycle",
+    "german": "de_ablauf"
+  },
+  {
+    "english": "danger",
+    "german": "de_gefahr"
+  },
+  {
+    "english": "dark",
+    "german": "de_dunkelheit"
+  },
+  {
+    "english": "data",
+    "german": "de_daten"
+  },
+  {
+    "english": "death",
+    "german": "de_tod"
+  },
+  {
+    "english": "decision",
+    "german": "de_beschluss"
+  },
+  {
+    "english": "degree",
+    "german": "de_stufe"
+  },
+  {
+    "english": "dentist",
+    "german": "de_zahnarzt"
+  },
+  {
+    "english": "department",
+    "german": "de_amt"
+  },
+  {
+    "english": "desert",
+    "german": "de_wüste"
+  },
+  {
+    "english": "designer",
+    "german": "de_designer"
+  },
+  {
+    "english": "detective",
+    "german": "de_detektiv"
+  },
+  {
+    "english": "device",
+    "german": "de_gerät"
+  },
+  {
+    "english": "diary",
+    "german": "de_agenda"
+  },
+  {
+    "english": "direction",
+    "german": "de_richtung"
+  },
+  {
+    "english": "director",
+    "german": "de_direktor"
+  },
+  {
+    "english": "disaster",
+    "german": "de_katastrophe"
+  },
+  {
+    "english": "discovery",
+    "german": "de_entdeckung"
+  },
+  {
+    "english": "discussion",
+    "german": "de_diskussion"
+  },
+  {
+    "english": "disease",
+    "german": "de_krankheit"
+  },
+  {
+    "english": "distance",
+    "german": "de_distanz"
+  },
+  {
+    "english": "document",
+    "german": "de_dokument"
+  },
+  {
+    "english": "drama",
+    "german": "de_drama"
+  },
+  {
+    "english": "dream",
+    "german": "de_traum"
+  },
+  {
+    "english": "drive",
+    "german": "de_fahrt"
+  },
+  {
+    "english": "drug",
+    "german": "de_droge"
+  },
+  {
+    "english": "earth",
+    "german": "de_erde"
+  },
+  {
+    "english": "education",
+    "german": "de_ausbildung"
+  },
+  {
+    "english": "effect",
+    "german": "de_auswirkung"
+  },
+  {
+    "english": "electricity",
+    "german": "de_elektrizität"
+  },
+  {
+    "english": "employee",
+    "german": "de_angestellte"
+  },
+  {
+    "english": "employer",
+    "german": "de_arbeitgeber"
+  },
+  {
+    "english": "energy",
+    "german": "de_energie"
+  },
+  {
+    "english": "engine",
+    "german": "de_maschine"
+  },
+  {
+    "english": "engineer",
+    "german": "de_ingenieur"
+  },
+  {
+    "english": "environment",
+    "german": "de_umwelt"
+  },
+  {
+    "english": "equipment",
+    "german": "de_gerät"
+  },
+  {
+    "english": "error",
+    "german": "de_fehler"
+  },
+  {
+    "english": "essay",
+    "german": "de_aufsatz"
+  },
+  {
+    "english": "evidence",
+    "german": "de_anzeichen"
+  },
+  {
+    "english": "experience",
+    "german": "de_erfahrung"
+  },
+  {
+    "english": "experiment",
+    "german": "de_experiment"
+  },
+  {
+    "english": "expert",
+    "german": "de_experte"
+  },
+  {
+    "english": "explanation",
+    "german": "de_erklärung"
+  },
+  {
+    "english": "expression",
+    "german": "de_ausdruck"
+  },
+  {
+    "english": "factor",
+    "german": "de_faktor"
+  },
+  {
+    "english": "factory",
+    "german": "de_fabrik"
+  },
+  {
+    "english": "fan",
+    "german": "de_fan"
+  },
+  {
+    "english": "fashion",
+    "german": "de_mode"
+  },
+  {
+    "english": "fat",
+    "german": "de_fett"
+  },
+  {
+    "english": "fear",
+    "german": "de_angst"
+  },
+  {
+    "english": "feature",
+    "german": "de_eigenschaft"
+  },
+  {
+    "english": "fiction",
+    "german": "de_fiktion"
+  },
+  {
+    "english": "field",
+    "german": "de_feld"
+  },
+  {
+    "english": "figure",
+    "german": "de_figur"
+  },
+  {
+    "english": "final",
+    "german": "de_finale"
+  },
+  {
+    "english": "finger",
+    "german": "de_finger"
+  },
+  {
+    "english": "finish",
+    "german": "de_schluss"
+  },
+  {
+    "english": "first",
+    "german": "de_erste"
+  },
+  {
+    "english": "flu",
+    "german": "de_grippe"
+  },
+  {
+    "english": "fly",
+    "german": "de_fahrt"
+  },
+  {
+    "english": "forest",
+    "german": "de_wald"
+  },
+  {
+    "english": "fork",
+    "german": "de_gabel"
+  },
+  {
+    "english": "fridge",
+    "german": "de_kühlschrank"
+  },
+  {
+    "english": "frog",
+    "german": "de_frosch"
+  },
+  {
+    "english": "furniture",
+    "german": "de_möbe"
+  },
+  {
+    "english": "gallery",
+    "german": "de_galerie"
+  },
+  {
+    "english": "gap",
+    "german": "de_abstand"
+  },
+  {
+    "english": "gas",
+    "german": "de_benzin"
+  },
+  {
+    "english": "gate",
+    "german": "de_tor"
+  },
+  {
+    "english": "gift",
+    "german": "de_geschenk"
+  },
+  {
+    "english": "goal",
+    "german": "de_ziel"
+  },
+  {
+    "english": "god",
+    "german": "de_gott"
+  },
+  {
+    "english": "gold",
+    "german": "de_gold"
+  },
+  {
+    "english": "good",
+    "german": "de_gute"
+  },
+  {
+    "english": "government",
+    "german": "de_regierung"
+  },
+  {
+    "english": "grass",
+    "german": "de_gras"
+  },
+  {
+    "english": "guest",
+    "german": "de_gast"
+  },
+  {
+    "english": "guide",
+    "german": "de_führer"
+  },
+  {
+    "english": "gun",
+    "german": "de_gewehr"
+  },
+  {
+    "english": "guy",
+    "german": "de_typ"
+  },
+  {
+    "english": "habit",
+    "german": "de_angewohnheit"
+  },
+  {
+    "english": "headache",
+    "german": "de_kopfschmerz"
+  },
+  {
+    "english": "heart",
+    "german": "de_herz"
+  },
+  {
+    "english": "heat",
+    "german": "de_hitze"
+  },
+  {
+    "english": "height",
+    "german": "de_höhe"
+  },
+  {
+    "english": "hero",
+    "german": "de_held"
+  },
+  {
+    "english": "hill",
+    "german": "de_hügel"
+  },
+  {
+    "english": "hockey",
+    "german": "de_eishockey"
+  },
+  {
+    "english": "hope",
+    "german": "de_hoffnung"
+  },
+  {
+    "english": "illness",
+    "german": "de_krankheit"
+  },
+  {
+    "english": "image",
+    "german": "de_image"
+  },
+  {
+    "english": "individual",
+    "german": "de_individuum"
+  },
+  {
+    "english": "industry",
+    "german": "de_gewerbe"
+  },
+  {
+    "english": "injury",
+    "german": "de_verletzung"
+  },
+  {
+    "english": "insect",
+    "german": "de_insekt"
+  },
+  {
+    "english": "instruction",
+    "german": "de_unterricht"
+  },
+  {
+    "english": "instructor",
+    "german": "de_lehrer"
+  },
+  {
+    "english": "instrument",
+    "german": "de_instrument"
+  },
+  {
+    "english": "introduction",
+    "german": "de_einführung"
+  },
+  {
+    "english": "invention",
+    "german": "de_erfindung"
+  },
+  {
+    "english": "art",
+    "german": "de_kunst"
+  },
+  {
+    "english": "back",
+    "german": "de_hinterseite"
+  },
+  {
+    "english": "ball",
+    "german": "de_ball"
+  },
+  {
+    "english": "band",
+    "german": "de_band"
+  },
+  {
+    "english": "beginning",
+    "german": "de_anfang"
+  },
+  {
+    "english": "bill",
+    "german": "de_rechnung"
+  },
+  {
+    "english": "boot",
+    "german": "de_stiefel"
+  },
+  {
+    "english": "box",
+    "german": "de_kasten"
+  },
+  {
+    "english": "building",
+    "german": "de_gebäude"
+  },
+  {
+    "english": "butter",
+    "german": "de_butter"
+  },
+  {
+    "english": "clothes",
+    "german": "de_kleidung"
+  },
+  {
+    "english": "cooking",
+    "german": "de_kochen"
+  },
+  {
+    "english": "dancing",
+    "german": "de_tanzen"
+  },
+  {
+    "english": "egg",
+    "german": "de_ei"
+  },
+  {
+    "english": "email",
+    "german": "de_email"
+  },
+  {
+    "english": "end",
+    "german": "de_ende"
+  },
+  {
+    "english": "evening",
+    "german": "de_abend"
+  },
+  {
+    "english": "feeling",
+    "german": "de_gefühl"
+  },
+  {
+    "english": "film",
+    "german": "de_film"
+  },
+  {
+    "english": "form",
+    "german": "de_form"
+  },
+  {
+    "english": "front",
+    "german": "de_vorderseite"
+  },
+  {
+    "english": "future",
+    "german": "de_zukunft"
+  },
+  {
+    "english": "game",
+    "german": "de_spiel"
+  },
+  {
+    "english": "garden",
+    "german": "de_garten"
+  },
+  {
+    "english": "half",
+    "german": "de_hälfte"
+  },
+  {
+    "english": "hat",
+    "german": "de_hut"
+  },
+  {
+    "english": "interview",
+    "german": "de_interview"
+  },
+  {
+    "english": "kind",
+    "german": "de_art"
+  },
+  {
+    "english": "land",
+    "german": "de_land"
+  },
+  {
+    "english": "leg",
+    "german": "de_bein"
+  },
+  {
+    "english": "list",
+    "german": "de_liste"
+  },
+  {
+    "english": "lunch",
+    "german": "de_mittagessen"
+  },
+  {
+    "english": "magazine",
+    "german": "de_zeitschrift"
+  },
+  {
+    "english": "meaning",
+    "german": "de_bedeutung"
+  },
+  {
+    "english": "meeting",
+    "german": "de_sitzung"
+  },
+  {
+    "english": "order",
+    "german": "de_befehl"
+  },
+  {
+    "english": "painting",
+    "german": "de_gemälde"
+  },
+  {
+    "english": "park",
+    "german": "de_park"
+  },
+  {
+    "english": "plan",
+    "german": "de_plan"
+  },
+  {
+    "english": "plane",
+    "german": "de_flugzeug"
+  },
+  {
+    "english": "plant",
+    "german": "de_pflanze"
+  },
+  {
+    "english": "post",
+    "german": "de_post"
+  },
+  {
+    "english": "programme",
+    "german": "de_sendung"
+  },
+  {
+    "english": "reading",
+    "german": "de_lesen"
+  },
+  {
+    "english": "shopping",
+    "german": "de_einkaufen"
+  },
+  {
+    "english": "spelling",
+    "german": "de_rechtschreibung"
+  },
+  {
+    "english": "spring",
+    "german": "de_frühjahr"
+  },
+  {
+    "english": "style",
+    "german": "de_stil"
+  },
+  {
+    "english": "swimming",
+    "german": "de_schwimmsport"
+  },
+  {
+    "english": "test",
+    "german": "de_prüfung"
+  },
+  {
+    "english": "ticket",
+    "german": "de_fahrkarte"
+  },
+  {
+    "english": "trousers",
+    "german": "de_hose"
+  },
+  {
+    "english": "wall",
+    "german": "de_mauer"
+  },
+  {
+    "english": "winter",
+    "german": "de_winter"
+  },
+  {
+    "english": "writing",
+    "german": "de_schrift"
+  },
+  {
+    "english": "advertising",
+    "german": "de_reklame"
+  },
+  {
+    "english": "alternative",
+    "german": "de_alternative"
+  },
+  {
+    "english": "bin",
+    "german": "de_bunker"
+  },
+  {
+    "english": "bit",
+    "german": "de_stückchen"
+  },
+  {
+    "english": "board",
+    "german": "de_gremium"
+  },
+  {
+    "english": "bowl",
+    "german": "de_schale"
+  },
+  {
+    "english": "camp",
+    "german": "de_lager"
+  },
+  {
+    "english": "camping",
+    "german": "de_camping"
+  },
+  {
+    "english": "check",
+    "german": "de_test"
+  },
+  {
+    "english": "clothing",
+    "german": "de_kleidung"
+  },
+  {
+    "english": "coach",
+    "german": "de_bus"
+  },
+  {
+    "english": "drawing",
+    "german": "de_zeichnung"
+  },
+  {
+    "english": "driving",
+    "german": "de_fahren"
+  },
+  {
+    "english": "ending",
+    "german": "de_ende"
+  },
+  {
+    "english": "fall",
+    "german": "de_sturz"
+  },
+  {
+    "english": "farming",
+    "german": "de_landwirtschaft"
+  },
+  {
+    "english": "fishing",
+    "german": "de_fischerei"
+  },
+  {
+    "english": "flying",
+    "german": "de_fliegen"
+  },
+  {
+    "english": "golf",
+    "german": "de_golf"
+  },
+  {
+    "english": "ground",
+    "german": "de_boden"
+  },
+  {
+    "english": "hall",
+    "german": "de_halle"
+  },
+  {
+    "english": "hole",
+    "german": "de_loch"
+  },
+  {
+    "english": "invitation",
+    "german": "de_einladung"
+  },
+  {
+    "english": "item",
+    "german": "de_gegenstand"
+  },
+  {
+    "english": "jam",
+    "german": "de_konfitüre"
+  },
+  {
+    "english": "jazz",
+    "german": "de_jazz"
+  },
+  {
+    "english": "jewellery",
+    "german": "de_schmuck"
+  },
+  {
+    "english": "joke",
+    "german": "de_witz"
+  },
+  {
+    "english": "journalist",
+    "german": "de_journalist"
+  },
+  {
+    "english": "kid",
+    "german": "de_kind"
+  },
+  {
+    "english": "king",
+    "german": "de_könig"
+  },
+  {
+    "english": "knee",
+    "german": "de_knie"
+  },
+  {
+    "english": "knife",
+    "german": "de_messer"
+  },
+  {
+    "english": "knowledge",
+    "german": "de_kenntnis"
+  },
+  {
+    "english": "lab",
+    "german": "de_labor"
+  },
+  {
+    "english": "lady",
+    "german": "de_dame"
+  },
+  {
+    "english": "lake",
+    "german": "de_see"
+  },
+  {
+    "english": "lamp",
+    "german": "de_lampe"
+  },
+  {
+    "english": "laughter",
+    "german": "de_gelächter"
+  },
+  {
+    "english": "law",
+    "german": "de_gesetz"
+  },
+  {
+    "english": "lawyer",
+    "german": "de_anwalt"
+  },
+  {
+    "english": "leader",
+    "german": "de_anführer"
+  },
+  {
+    "english": "learning",
+    "german": "de_bildung"
+  },
+  {
+    "english": "lecture",
+    "german": "de_vortrag"
+  },
+  {
+    "english": "lemon",
+    "german": "de_zitrone"
+  },
+  {
+    "english": "level",
+    "german": "de_niveau"
+  },
+  {
+    "english": "lifestyle",
+    "german": "de_lebensführung"
+  },
+  {
+    "english": "link",
+    "german": "de_verbindung"
+  },
+  {
+    "english": "listener",
+    "german": "de_zuhörer"
+  },
+  {
+    "english": "look",
+    "german": "de_blick"
+  },
+  {
+    "english": "lorry",
+    "german": "de_lastkraftwagen"
+  },
+  {
+    "english": "luck",
+    "german": "de_glück"
+  },
+  {
+    "english": "mail",
+    "german": "de_post"
+  },
+  {
+    "english": "manager",
+    "german": "de_leiter"
+  },
+  {
+    "english": "manner",
+    "german": "de_art"
+  },
+  {
+    "english": "material",
+    "german": "de_material"
+  },
+  {
+    "english": "mathematics",
+    "german": "de_mathematik"
+  },
+  {
+    "english": "maths",
+    "german": "de_mathe"
+  },
+  {
+    "english": "matter",
+    "german": "de_angelegenheit"
+  },
+  {
+    "english": "media",
+    "german": "de_medien"
+  },
+  {
+    "english": "medicine",
+    "german": "de_arzneimittel"
+  },
+  {
+    "english": "memory",
+    "german": "de_erinnerung"
+  },
+  {
+    "english": "metal",
+    "german": "de_metall"
+  },
+  {
+    "english": "method",
+    "german": "de_methode"
+  },
+  {
+    "english": "middle",
+    "german": "de_mitte"
+  },
+  {
+    "english": "mind",
+    "german": "de_geist"
+  },
+  {
+    "english": "mirror",
+    "german": "de_spiegel"
+  },
+  {
+    "english": "monkey",
+    "german": "de_affe"
+  },
+  {
+    "english": "moon",
+    "german": "de_mond"
+  },
+  {
+    "english": "motorcycle",
+    "german": "de_motorrad"
+  },
+  {
+    "english": "movement",
+    "german": "de_bewegung"
+  },
+  {
+    "english": "musician",
+    "german": "de_musiker"
+  },
+  {
+    "english": "nature",
+    "german": "de_natur"
+  },
+  {
+    "english": "neck",
+    "german": "de_nacken"
+  },
+  {
+    "english": "need",
+    "german": "de_bedarf"
+  },
+  {
+    "english": "network",
+    "german": "de_netz"
+  },
+  {
+    "english": "noise",
+    "german": "de_lärm"
+  },
+  {
+    "english": "novel",
+    "german": "de_roman"
+  },
+  {
+    "english": "nut",
+    "german": "de_nuss"
+  },
+  {
+    "english": "ocean",
+    "german": "de_meer"
+  },
+  {
+    "english": "officer",
+    "german": "de_beamte"
+  },
+  {
+    "english": "opportunity",
+    "german": "de_chance"
+  },
+  {
+    "english": "option",
+    "german": "de_option"
+  },
+  {
+    "english": "organization",
+    "german": "de_organisation"
+  },
+  {
+    "english": "oven",
+    "german": "de_backofen"
+  },
+  {
+    "english": "owner",
+    "german": "de_besitzer"
+  },
+  {
+    "english": "pain",
+    "german": "de_schmerz"
+  },
+  {
+    "english": "painter",
+    "german": "de_maler"
+  },
+  {
+    "english": "palace",
+    "german": "de_schloss"
+  },
+  {
+    "english": "pants",
+    "german": "de_hose"
+  },
+  {
+    "english": "parking",
+    "german": "de_parkplatz"
+  },
+  {
+    "english": "passenger",
+    "german": "de_reisende"
+  },
+  {
+    "english": "patient",
+    "german": "de_patient"
+  },
+  {
+    "english": "pattern",
+    "german": "de_bild"
+  },
+  {
+    "english": "pay",
+    "german": "de_gehalt"
+  },
+  {
+    "english": "peace",
+    "german": "de_frieden"
+  },
+  {
+    "english": "penny",
+    "german": "de_penny"
+  },
+  {
+    "english": "per cent",
+    "german": "de_prozent"
+  },
+  {
+    "english": "permission",
+    "german": "de_erlaubnis"
+  },
+  {
+    "english": "personality",
+    "german": "de_persönlichkeit"
+  },
+  {
+    "english": "pet",
+    "german": "de_haustier"
+  },
+  {
+    "english": "petrol",
+    "german": "de_benzin"
+  },
+  {
+    "english": "physics",
+    "german": "de_physik"
+  },
+  {
+    "english": "pilot",
+    "german": "de_pilot"
+  },
+  {
+    "english": "planet",
+    "german": "de_planet"
+  },
+  {
+    "english": "plastic",
+    "german": "de_kunststoff"
+  },
+  {
+    "english": "plate",
+    "german": "de_teller"
+  },
+  {
+    "english": "platform",
+    "german": "de_bühne"
+  },
+  {
+    "english": "pocket",
+    "german": "de_tasche"
+  },
+  {
+    "english": "pollution",
+    "german": "de_umweltverschmutzung"
+  },
+  {
+    "english": "pop",
+    "german": "de_schuss"
+  },
+  {
+    "english": "population",
+    "german": "de_bevölkerung"
+  },
+  {
+    "english": "position",
+    "german": "de_lage"
+  },
+  {
+    "english": "possession",
+    "german": "de_besitz"
+  },
+  {
+    "english": "possibility",
+    "german": "de_möglichkeit"
+  },
+  {
+    "english": "poster",
+    "german": "de_plakat"
+  },
+  {
+    "english": "power",
+    "german": "de_kraft"
+  },
+  {
+    "english": "president",
+    "german": "de_präsident"
+  },
+  {
+    "english": "printer",
+    "german": "de_drucker"
+  },
+  {
+    "english": "prison",
+    "german": "de_gefängnis"
+  },
+  {
+    "english": "prize",
+    "german": "de_gewinn"
+  },
+  {
+    "english": "process",
+    "german": "de_ablauf"
+  },
+  {
+    "english": "professor",
+    "german": "de_professor"
+  },
+  {
+    "english": "profile",
+    "german": "de_schnitt"
+  },
+  {
+    "english": "program",
+    "german": "de_programm"
+  },
+  {
+    "english": "progress",
+    "german": "de_fortschritt"
+  },
+  {
+    "english": "pub",
+    "german": "de_kneipe"
+  },
+  {
+    "english": "purpose",
+    "german": "de_zweck"
+  },
+  {
+    "english": "quality",
+    "german": "de_qualität"
+  },
+  {
+    "english": "quantity",
+    "german": "de_menge"
+  },
+  {
+    "english": "queen",
+    "german": "de_königin"
+  },
+  {
+    "english": "race1",
+    "german": "de_rennen"
+  },
+  {
+    "english": "railway",
+    "german": "de_eisenbahn"
+  },
+  {
+    "english": "rate",
+    "german": "de_quote"
+  },
+  {
+    "english": "reception",
+    "german": "de_empfang"
+  },
+  {
+    "english": "recipe",
+    "german": "de_rezept"
+  },
+  {
+    "english": "record",
+    "german": "de_rekord"
+  },
+  {
+    "english": "recording",
+    "german": "de_aufnahme"
+  },
+  {
+    "english": "region",
+    "german": "de_gegend"
+  },
+  {
+    "english": "relationship",
+    "german": "de_beziehung"
+  },
+  {
+    "english": "reporter",
+    "german": "de_reporter"
+  },
+  {
+    "english": "request",
+    "german": "de_anfrage"
+  },
+  {
+    "english": "research",
+    "german": "de_forschung"
+  },
+  {
+    "english": "researcher",
+    "german": "de_forscher"
+  },
+  {
+    "english": "response",
+    "german": "de_antwort"
+  },
+  {
+    "english": "rest1",
+    "german": "de_rest"
+  },
+  {
+    "english": "rest2",
+    "german": "de_rest"
+  },
+  {
+    "english": "review",
+    "german": "de_kritik"
+  },
+  {
+    "english": "ride",
+    "german": "de_fahrt"
+  },
+  {
+    "english": "ring1",
+    "german": "de_ring"
+  },
+  {
+    "english": "rock1",
+    "german": "de_felsen"
+  },
+  {
+    "english": "rock2",
+    "german": "de_rock2"
+  },
+  {
+    "english": "role",
+    "german": "de_rolle"
+  },
+  {
+    "english": "roof",
+    "german": "de_dach"
+  },
+  {
+    "english": "route",
+    "german": "de_route"
+  },
+  {
+    "english": "rubbish",
+    "german": "de_abfall"
+  },
+  {
+    "english": "run",
+    "german": "de_fahrt"
+  },
+  {
+    "english": "runner",
+    "german": "de_läufer"
+  },
+  {
+    "english": "running",
+    "german": "de_lauf"
+  },
+  {
+    "english": "sailing",
+    "german": "de_segeln"
+  },
+  {
+    "english": "salary",
+    "german": "de_lohn"
+  },
+  {
+    "english": "sale",
+    "german": "de_verkauf"
+  },
+  {
+    "english": "sauce",
+    "german": "de_frechheit"
+  },
+  {
+    "english": "scene",
+    "german": "de_szene"
+  },
+  {
+    "english": "schedule",
+    "german": "de_plan"
+  },
+  {
+    "english": "screen",
+    "german": "de_leinwand"
+  },
+  {
+    "english": "search",
+    "german": "de_suche"
+  },
+  {
+    "english": "season",
+    "german": "de_jahreszeit"
+  },
+  {
+    "english": "seat",
+    "german": "de_platz"
+  },
+  {
+    "english": "secretary",
+    "german": "de_sekretär"
+  },
+  {
+    "english": "sense",
+    "german": "de_sinn"
+  },
+  {
+    "english": "series",
+    "german": "de_folge"
+  },
+  {
+    "english": "service",
+    "german": "de_dienst"
+  },
+  {
+    "english": "shape",
+    "german": "de_form"
+  },
+  {
+    "english": "sheet",
+    "german": "de_blatt"
+  },
+  {
+    "english": "ship",
+    "german": "de_schiff"
+  },
+  {
+    "english": "shoulder",
+    "german": "de_schulter"
+  },
+  {
+    "english": "side",
+    "german": "de_seite"
+  },
+  {
+    "english": "sign",
+    "german": "de_zeichen"
+  },
+  {
+    "english": "silver",
+    "german": "de_silber"
+  },
+  {
+    "english": "singing",
+    "german": "de_gesang"
+  },
+  {
+    "english": "sir",
+    "german": "de_herr"
+  },
+  {
+    "english": "site",
+    "german": "de_grundstück"
+  },
+  {
+    "english": "size",
+    "german": "de_größe"
+  },
+  {
+    "english": "skiing",
+    "german": "de_skifahren"
+  },
+  {
+    "english": "skin",
+    "german": "de_haut"
+  },
+  {
+    "english": "sky",
+    "german": "de_himmel"
+  },
+  {
+    "english": "sleep",
+    "german": "de_schlaf"
+  },
+  {
+    "english": "smartphone",
+    "german": "de_smartphone"
+  },
+  {
+    "english": "smoke",
+    "german": "de_rauch"
+  },
+  {
+    "english": "smoking",
+    "german": "de_rauchen"
+  },
+  {
+    "english": "soap",
+    "german": "de_seife"
+  },
+  {
+    "english": "soccer",
+    "german": "de_fußball"
+  },
+  {
+    "english": "society",
+    "german": "de_gesellschaft"
+  },
+  {
+    "english": "sock",
+    "german": "de_socke"
+  },
+  {
+    "english": "soldier",
+    "german": "de_soldat"
+  },
+  {
+    "english": "solution",
+    "german": "de_auflösung"
+  },
+  {
+    "english": "sort",
+    "german": "de_art"
+  },
+  {
+    "english": "source",
+    "german": "de_quelle"
+  },
+  {
+    "english": "speaker",
+    "german": "de_redner"
+  },
+  {
+    "english": "speech",
+    "german": "de_rede"
+  },
+  {
+    "english": "speed",
+    "german": "de_tempo"
+  },
+  {
+    "english": "spider",
+    "german": "de_spinne"
+  },
+  {
+    "english": "spoon",
+    "german": "de_löffel"
+  },
+  {
+    "english": "stage",
+    "german": "de_bühne"
+  },
+  {
+    "english": "stair",
+    "german": "de_stufe"
+  },
+  {
+    "english": "stamp",
+    "german": "de_briefmarke"
+  },
+  {
+    "english": "start",
+    "german": "de_anfang"
+  },
+  {
+    "english": "state",
+    "german": "de_zustand"
+  },
+  {
+    "english": "stay",
+    "german": "de_aufenthalt"
+  },
+  {
+    "english": "step",
+    "german": "de_schritt"
+  },
+  {
+    "english": "stomach",
+    "german": "de_bauch"
+  },
+  {
+    "english": "stone",
+    "german": "de_stein"
+  },
+  {
+    "english": "store",
+    "german": "de_geschäft"
+  },
+  {
+    "english": "storm",
+    "german": "de_gewitter"
+  },
+  {
+    "english": "strategy",
+    "german": "de_strategie"
+  },
+  {
+    "english": "stress",
+    "german": "de_druck"
+  },
+  {
+    "english": "structure",
+    "german": "de_aufbau"
+  },
+  {
+    "english": "suggestion",
+    "german": "de_vorschlag"
+  },
+  {
+    "english": "suit",
+    "german": "de_anzug"
+  },
+  {
+    "english": "symbol",
+    "german": "de_symbol"
+  },
+  {
+    "english": "system",
+    "german": "de_system"
+  },
+  {
+    "english": "tablet",
+    "german": "de_tafel"
+  },
+  {
+    "english": "talk",
+    "german": "de_gespräch"
+  },
+  {
+    "english": "target",
+    "german": "de_ziel"
+  },
+  {
+    "english": "task",
+    "german": "de_aufgabe"
+  },
+  {
+    "english": "taste",
+    "german": "de_geschmack"
+  },
+  {
+    "english": "teaching",
+    "german": "de_lehre"
+  },
+  {
+    "english": "technology",
+    "german": "de_technik"
+  },
+  {
+    "english": "temperature",
+    "german": "de_fieber"
+  },
+  {
+    "english": "term",
+    "german": "de_begriff"
+  },
+  {
+    "english": "thief",
+    "german": "de_dieb"
+  },
+  {
+    "english": "thinking",
+    "german": "de_denken"
+  },
+  {
+    "english": "third",
+    "german": "de_dritte"
+  },
+  {
+    "english": "thought",
+    "german": "de_gedanke"
+  },
+  {
+    "english": "tip",
+    "german": "de_hinweis"
+  },
+  {
+    "english": "tool",
+    "german": "de_werkzeug"
+  },
+  {
+    "english": "top",
+    "german": "de_gipfel"
+  },
+  {
+    "english": "tour",
+    "german": "de_tour"
+  },
+  {
+    "english": "tourism",
+    "german": "de_tourismus"
+  },
+  {
+    "english": "towel",
+    "german": "de_handtuch"
+  },
+  {
+    "english": "tower",
+    "german": "de_turm"
+  },
+  {
+    "english": "toy",
+    "german": "de_spielzeug"
+  },
+  {
+    "english": "track",
+    "german": "de_fährte"
+  },
+  {
+    "english": "tradition",
+    "german": "de_tradition"
+  },
+  {
+    "english": "trainer",
+    "german": "de_trainer"
+  },
+  {
+    "english": "training",
+    "german": "de_ausbildung"
+  },
+  {
+    "english": "transport",
+    "german": "de_transport"
+  },
+  {
+    "english": "traveller",
+    "german": "de_reisende"
+  },
+  {
+    "english": "truck",
+    "german": "de_lastkraftwagen"
+  },
+  {
+    "english": "twin",
+    "german": "de_zwilling"
+  },
+  {
+    "english": "understanding",
+    "german": "de_verständnis"
+  },
+  {
+    "english": "uniform",
+    "german": "de_uniform"
+  },
+  {
+    "english": "unit",
+    "german": "de_element"
+  },
+  {
+    "english": "use",
+    "german": "de_nutzen"
+  },
+  {
+    "english": "user",
+    "german": "de_nutzer"
+  },
+  {
+    "english": "valley",
+    "german": "de_tal"
+  },
+  {
+    "english": "van",
+    "german": "de_lastwagen"
+  },
+  {
+    "english": "variety",
+    "german": "de_auswahl"
+  },
+  {
+    "english": "vehicle",
+    "german": "de_auto"
+  },
+  {
+    "english": "view",
+    "german": "de_blick"
+  },
+  {
+    "english": "virus",
+    "german": "de_virus"
+  },
+  {
+    "english": "voice",
+    "german": "de_stimme"
+  },
+  {
+    "english": "wait",
+    "german": "de_warten"
+  },
+  {
+    "english": "war",
+    "german": "de_krieg"
+  },
+  {
+    "english": "wash",
+    "german": "de_tünche"
+  },
+  {
+    "english": "washing",
+    "german": "de_spülung"
+  },
+  {
+    "english": "wave",
+    "german": "de_welle"
+  },
+  {
+    "english": "web",
+    "german": "de_netz"
+  },
+  {
+    "english": "wedding",
+    "german": "de_hochzeit"
+  },
+  {
+    "english": "weight",
+    "german": "de_gewicht"
+  },
+  {
+    "english": "welcome",
+    "german": "de_empfang"
+  },
+  {
+    "english": "wheel",
+    "german": "de_rad"
+  },
+  {
+    "english": "wind",
+    "german": "de_wind"
+  },
+  {
+    "english": "winner",
+    "german": "de_gewinner"
+  },
+  {
+    "english": "wood",
+    "german": "de_holz"
+  },
+  {
+    "english": "account",
+    "german": "de_bericht"
+  },
+  {
+    "english": "achievement",
+    "german": "de_leistung"
+  },
+  {
+    "english": "act",
+    "german": "de_akt"
+  },
+  {
+    "english": "ad",
+    "german": "de_anzeige"
+  },
+  {
+    "english": "addition",
+    "german": "de_zuschlag"
+  },
+  {
+    "english": "agent",
+    "german": "de_vertreter"
+  },
+  {
+    "english": "agreement",
+    "german": "de_einigung"
+  },
+  {
+    "english": "alarm",
+    "german": "de_alarm"
+  },
+  {
+    "english": "album",
+    "german": "de_album"
+  },
+  {
+    "english": "alcohol",
+    "german": "de_alkohol"
+  },
+  {
+    "english": "ambition",
+    "german": "de_ziel"
+  },
+  {
+    "english": "analysis",
+    "german": "de_untersuchung"
+  },
+  {
+    "english": "announcement",
+    "german": "de_ankündigung"
+  },
+  {
+    "english": "application",
+    "german": "de_anwendung"
+  },
+  {
+    "english": "appointment",
+    "german": "de_berufung"
+  },
+  {
+    "english": "arrival",
+    "german": "de_ankunft"
+  },
+  {
+    "english": "assignment",
+    "german": "de_aufgabe"
+  },
+  {
+    "english": "atmosphere",
+    "german": "de_stimmung"
+  },
+  {
+    "english": "attitude",
+    "german": "de_einstellung"
+  },
+  {
+    "english": "attraction",
+    "german": "de_attraktion"
+  },
+  {
+    "english": "authority",
+    "german": "de_kompetenz"
+  },
+  {
+    "english": "balance",
+    "german": "de_ausgleich"
+  },
+  {
+    "english": "bank2",
+    "german": "de_ufer"
+  },
+  {
+    "english": "base",
+    "german": "de_grundlage"
+  },
+  {
+    "english": "basis",
+    "german": "de_grundlage"
+  },
+  {
+    "english": "battery",
+    "german": "de_akku"
+  },
+  {
+    "english": "battle",
+    "german": "de_kampf"
+  },
+  {
+    "english": "beauty",
+    "german": "de_schönheit"
+  },
+  {
+    "english": "bee",
+    "german": "de_biene"
+  },
+  {
+    "english": "belief",
+    "german": "de_glaube"
+  },
+  {
+    "english": "bell",
+    "german": "de_klingel"
+  },
+  {
+    "english": "better",
+    "german": "de_wetter"
+  },
+  {
+    "english": "block",
+    "german": "de_block"
+  },
+  {
+    "english": "bomb",
+    "german": "de_bombe"
+  },
+  {
+    "english": "border",
+    "german": "de_grenze"
+  },
+  {
+    "english": "branch",
+    "german": "de_zweig"
+  },
+  {
+    "english": "brand",
+    "german": "de_brand"
+  },
+  {
+    "english": "breath",
+    "german": "de_atem"
+  },
+  {
+    "english": "breathing",
+    "german": "de_atmung"
+  },
+  {
+    "english": "bride",
+    "german": "de_braut"
+  },
+  {
+    "english": "bubble",
+    "german": "de_blase"
+  },
+  {
+    "english": "campaign",
+    "german": "de_kampagne"
+  },
+  {
+    "english": "campus",
+    "german": "de_universitätsgelände"
+  },
+  {
+    "english": "candidate",
+    "german": "de_kandidat"
+  },
+  {
+    "english": "cap",
+    "german": "de_mütze"
+  },
+  {
+    "english": "captain",
+    "german": "de_kapitän"
+  },
+  {
+    "english": "category",
+    "german": "de_kategorie"
+  },
+  {
+    "english": "ceiling",
+    "german": "de_decke"
+  },
+  {
+    "english": "celebration",
+    "german": "de_feier"
+  },
+  {
+    "english": "ceremony",
+    "german": "de_feier"
+  },
+  {
+    "english": "chain",
+    "german": "de_kette"
+  },
+  {
+    "english": "challenge",
+    "german": "de_herausforderung"
+  },
+  {
+    "english": "champion",
+    "german": "de_meister"
+  },
+  {
+    "english": "channel",
+    "german": "de_kanal"
+  },
+  {
+    "english": "chapter",
+    "german": "de_kapitel"
+  },
+  {
+    "english": "charge",
+    "german": "de_gebühr"
+  },
+  {
+    "english": "chest",
+    "german": "de_brust"
+  },
+  {
+    "english": "childhood",
+    "german": "de_kindheit"
+  },
+  {
+    "english": "clause",
+    "german": "de_satz"
+  },
+  {
+    "english": "client",
+    "german": "de_kunde"
+  },
+  {
+    "english": "climb",
+    "german": "de_steigflug"
+  },
+  {
+    "english": "cloth",
+    "german": "de_tuch"
+  },
+  {
+    "english": "clue",
+    "german": "de_hinweis"
+  },
+  {
+    "english": "coal",
+    "german": "de_kohle"
+  },
+  {
+    "english": "coin",
+    "german": "de_münze"
+  },
+  {
+    "english": "collection",
+    "german": "de_sammlung"
+  },
+  {
+    "english": "communication",
+    "german": "de_kommunikation"
+  },
+  {
+    "english": "comparison",
+    "german": "de_vergleich"
+  },
+  {
+    "english": "competitor",
+    "german": "de_konkurrent"
+  },
+  {
+    "english": "complaint",
+    "german": "de_beschwerde"
+  },
+  {
+    "english": "conclusion",
+    "german": "de_schluss"
+  },
+  {
+    "english": "connection",
+    "german": "de_anschluss"
+  },
+  {
+    "english": "consequence",
+    "german": "de_auswirkung"
+  },
+  {
+    "english": "consumer",
+    "german": "de_verbraucher"
+  },
+  {
+    "english": "contact",
+    "german": "de_berührung"
+  },
+  {
+    "english": "container",
+    "german": "de_behälter"
+  },
+  {
+    "english": "content",
+    "german": "de_gehalt"
+  },
+  {
+    "english": "contrast",
+    "german": "de_gegensatz"
+  },
+  {
+    "english": "costume",
+    "german": "de_kostüm"
+  },
+  {
+    "english": "cottage",
+    "german": "de_landhaus"
+  },
+  {
+    "english": "cotton",
+    "german": "de_baumwolle"
+  },
+  {
+    "english": "count",
+    "german": "de_graf"
+  },
+  {
+    "english": "countryside",
+    "german": "de_land"
+  },
+  {
+    "english": "court",
+    "german": "de_hof"
+  },
+  {
+    "english": "cover",
+    "german": "de_decke"
+  },
+  {
+    "english": "currency",
+    "german": "de_währung"
+  },
+  {
+    "english": "curtain",
+    "german": "de_gardine"
+  },
+  {
+    "english": "custom",
+    "german": "de_brauch"
+  },
+  {
+    "english": "cut",
+    "german": "de_kürzung"
+  },
+  {
+    "english": "damage",
+    "german": "de_schaden"
+  },
+  {
+    "english": "deal",
+    "german": "de_geschäft"
+  },
+  {
+    "english": "decade",
+    "german": "de_jahrzehnt"
+  },
+  {
+    "english": "definition",
+    "german": "de_begriff"
+  },
+  {
+    "english": "departure",
+    "german": "de_abfahrt"
+  },
+  {
+    "english": "destination",
+    "german": "de_ziel"
+  },
+  {
+    "english": "development",
+    "german": "de_entwicklung"
+  },
+  {
+    "english": "diamond",
+    "german": "de_diamant"
+  },
+  {
+    "english": "difficulty",
+    "german": "de_schwierigkeit"
+  },
+  {
+    "english": "dirt",
+    "german": "de_schmutz"
+  },
+  {
+    "english": "disadvantage",
+    "german": "de_nachteil"
+  },
+  {
+    "english": "discount",
+    "german": "de_abzug"
+  },
+  {
+    "english": "documentary",
+    "german": "de_dokumentarfilm"
+  },
+  {
+    "english": "doubt",
+    "german": "de_bedenken"
+  },
+  {
+    "english": "drop",
+    "german": "de_tropfen"
+  },
+  {
+    "english": "drum",
+    "german": "de_fass"
+  },
+  {
+    "english": "dust",
+    "german": "de_staub"
+  },
+  {
+    "english": "duty",
+    "german": "de_aufgabe"
+  },
+  {
+    "english": "earthquake",
+    "german": "de_erdbeben"
+  },
+  {
+    "english": "economy",
+    "german": "de_wirtschaft"
+  },
+  {
+    "english": "edge",
+    "german": "de_rand"
+  },
+  {
+    "english": "editor",
+    "german": "de_cutter"
+  },
+  {
+    "english": "effort",
+    "german": "de_anstrengung"
+  },
+  {
+    "english": "election",
+    "german": "de_wahl"
+  },
+  {
+    "english": "element",
+    "german": "de_element"
+  },
+  {
+    "english": "emergency",
+    "german": "de_notfall"
+  },
+  {
+    "english": "emotion",
+    "german": "de_gefühl"
+  },
+  {
+    "english": "employment",
+    "german": "de_beschäftigung"
+  },
+  {
+    "english": "enemy",
+    "german": "de_feind"
+  },
+  {
+    "english": "engineering",
+    "german": "de_technik"
+  },
+  {
+    "english": "entertainment",
+    "german": "de_unterhaltung"
+  },
+  {
+    "english": "entrance",
+    "german": "de_eingang"
+  },
+  {
+    "english": "entry",
+    "german": "de_eintritt"
+  },
+  {
+    "english": "episode",
+    "german": "de_folge"
+  },
+  {
+    "english": "exchange",
+    "german": "de_austausch"
+  },
+  {
+    "english": "excitement",
+    "german": "de_aufregung"
+  },
+  {
+    "english": "exhibition",
+    "german": "de_ausstellung"
+  },
+  {
+    "english": "expedition",
+    "german": "de_entdeckungsreise"
+  },
+  {
+    "english": "explosion",
+    "german": "de_explosion"
+  },
+  {
+    "english": "export",
+    "german": "de_export"
+  },
+  {
+    "english": "extra",
+    "german": "de_zugabe"
+  },
+  {
+    "english": "favour",
+    "german": "de_gefallen"
+  },
+  {
+    "english": "fence",
+    "german": "de_zaun"
+  },
+  {
+    "english": "fighting",
+    "german": "de_kampf"
+  },
+  {
+    "english": "file",
+    "german": "de_akte"
+  },
+  {
+    "english": "fitness",
+    "german": "de_fitness"
+  },
+  {
+    "english": "flag",
+    "german": "de_fahne"
+  },
+  {
+    "english": "flood",
+    "german": "de_flut"
+  },
+  {
+    "english": "flour",
+    "german": "de_mehl"
+  },
+  {
+    "english": "folk",
+    "german": "de_leute"
+  },
+  {
+    "english": "following",
+    "german": "de_gefolgschaft"
+  },
+  {
+    "english": "force",
+    "german": "de_gewalt"
+  },
+  {
+    "english": "frame",
+    "german": "de_rahmen"
+  },
+  {
+    "english": "friendship",
+    "german": "de_freundschaft"
+  },
+  {
+    "english": "fuel",
+    "german": "de_brennstoff"
+  },
+  {
+    "english": "function",
+    "german": "de_funktion"
+  },
+  {
+    "english": "fur",
+    "german": "de_pelz"
+  },
+  {
+    "english": "garage",
+    "german": "de_garage"
+  },
+  {
+    "english": "generation",
+    "german": "de_generation"
+  },
+  {
+    "english": "gentleman",
+    "german": "de_herr"
+  },
+  {
+    "english": "ghost",
+    "german": "de_geist"
+  },
+  {
+    "english": "glove",
+    "german": "de_handschuh"
+  },
+  {
+    "english": "go",
+    "german": "de_go"
+  },
+  {
+    "english": "goods",
+    "german": "de_ware"
+  },
+  {
+    "english": "grade",
+    "german": "de_grad"
+  },
+  {
+    "english": "graduate",
+    "german": "de_berufsanfänger"
+  },
+  {
+    "english": "grain",
+    "german": "de_getreide"
+  },
+  {
+    "english": "growth",
+    "german": "de_wachstum"
+  },
+  {
+    "english": "guard",
+    "german": "de_schutz"
+  },
+  {
+    "english": "happiness",
+    "german": "de_glück"
+  },
+  {
+    "english": "hate",
+    "german": "de_hass"
+  },
+  {
+    "english": "headline",
+    "german": "de_schlagzeile"
+  },
+  {
+    "english": "heating",
+    "german": "de_heizung"
+  },
+  {
+    "english": "helicopter",
+    "german": "de_hubschrauber"
+  },
+  {
+    "english": "horror",
+    "german": "de_schrecken"
+  },
+  {
+    "english": "host",
+    "german": "de_gastgeber"
+  },
+  {
+    "english": "hurricane",
+    "german": "de_hurrikan"
+  },
+  {
+    "english": "hurry",
+    "german": "de_eile"
+  },
+  {
+    "english": "identity",
+    "german": "de_identität"
+  },
+  {
+    "english": "immigrant",
+    "german": "de_einwanderer"
+  },
+  {
+    "english": "impact",
+    "german": "de_auswirkung"
+  },
+  {
+    "english": "import",
+    "german": "de_bedeutung"
+  },
+  {
+    "english": "importance",
+    "german": "de_bedeutung"
+  },
+  {
+    "english": "impression",
+    "german": "de_eindruck"
+  },
+  {
+    "english": "improvement",
+    "german": "de_verbesserung"
+  },
+  {
+    "english": "influence",
+    "german": "de_einfluss"
+  },
+  {
+    "english": "ingredient",
+    "german": "de_bestandteil"
+  },
+  {
+    "english": "intelligence",
+    "german": "de_intelligenz"
+  },
+  {
+    "english": "intention",
+    "german": "de_absicht"
+  },
+  {
+    "english": "iron",
+    "german": "de_eisen"
+  },
+  {
+    "english": "issue",
+    "german": "de_angelegenheit"
+  },
+  {
+    "english": "it",
+    "german": "de_it-consulting"
+  },
+  {
+    "english": "journal",
+    "german": "de_zeitschrift"
+  },
+  {
+    "english": "judge",
+    "german": "de_richter"
+  },
+  {
+    "english": "keyboard",
+    "german": "de_tastatur"
+  },
+  {
+    "english": "killing",
+    "german": "de_tötung"
+  },
+  {
+    "english": "knock",
+    "german": "de_schlag"
+  },
+  {
+    "english": "label",
+    "german": "de_aufkleber"
+  },
+  {
+    "english": "laboratory",
+    "german": "de_labor"
+  },
+  {
+    "english": "lack",
+    "german": "de_mangel"
+  },
+  {
+    "english": "layer",
+    "german": "de_lage"
+  },
+  {
+    "english": "lead",
+    "german": "de_spur"
+  },
+  {
+    "english": "leaf",
+    "german": "de_blatt"
+  },
+  {
+    "english": "leather",
+    "german": "de_leder"
+  },
+  {
+    "english": "leisure",
+    "german": "de_freizeit"
+  },
+  {
+    "english": "length",
+    "german": "de_dauer"
+  },
+  {
+    "english": "like",
+    "german": "de_vorliebe"
+  },
+  {
+    "english": "limit",
+    "german": "de_begrenzung"
+  },
+  {
+    "english": "lip",
+    "german": "de_lippe"
+  },
+  {
+    "english": "liquid",
+    "german": "de_flüssigkeit"
+  },
+  {
+    "english": "literature",
+    "german": "de_literatur"
+  },
+  {
+    "english": "local",
+    "german": "de_einheimische"
+  },
+  {
+    "english": "location",
+    "german": "de_ort"
+  },
+  {
+    "english": "loss",
+    "german": "de_verlust"
+  },
+  {
+    "english": "luxury",
+    "german": "de_luxus"
+  },
+  {
+    "english": "magic",
+    "german": "de_magie"
+  },
+  {
+    "english": "mall",
+    "german": "de_einkaufszentrum"
+  },
+  {
+    "english": "management",
+    "german": "de_führung"
+  },
+  {
+    "english": "marketing",
+    "german": "de_marketing"
+  },
+  {
+    "english": "marriage",
+    "german": "de_ehe"
+  },
+  {
+    "english": "mention",
+    "german": "de_auszeichnung"
+  },
+  {
+    "english": "mess",
+    "german": "de_durcheinander"
+  },
+  {
+    "english": "mine",
+    "german": "de_zeche"
+  },
+  {
+    "english": "mixture",
+    "german": "de_mischung"
+  },
+  {
+    "english": "mood",
+    "german": "de_laune"
+  },
+  {
+    "english": "move",
+    "german": "de_bewegung"
+  },
+  {
+    "english": "mud",
+    "german": "de_schlamm"
+  },
+  {
+    "english": "murder",
+    "german": "de_mord"
+  },
+  {
+    "english": "muscle",
+    "german": "de_muskel"
+  },
+  {
+    "english": "musical",
+    "german": "de_musical"
+  },
+  {
+    "english": "mystery",
+    "german": "de_geheimnis"
+  },
+  {
+    "english": "nail",
+    "german": "de_nagel"
+  },
+  {
+    "english": "narrative",
+    "german": "de_geschichte"
+  },
+  {
+    "english": "nation",
+    "german": "de_land"
+  },
+  {
+    "english": "needle",
+    "german": "de_nadel"
+  },
+  {
+    "english": "neighbourhood",
+    "german": "de_nachbarschaft"
+  },
+  {
+    "english": "net",
+    "german": "de_netz"
+  },
+  {
+    "english": "next",
+    "german": "de_nächste"
+  },
+  {
+    "english": "normal",
+    "german": "de_normale"
+  },
+  {
+    "english": "occasion",
+    "german": "de_anlass"
+  },
+  {
+    "english": "operation",
+    "german": "de_operation"
+  },
+  {
+    "english": "organizer",
+    "german": "de_veranstalter"
+  },
+  {
+    "english": "original",
+    "german": "de_vorlage"
+  },
+  {
+    "english": "pack",
+    "german": "de_packung"
+  },
+  {
+    "english": "package",
+    "german": "de_einheit"
+  },
+  {
+    "english": "pan",
+    "german": "de_pfanne"
+  },
+  {
+    "english": "pass",
+    "german": "de_tor"
+  },
+  {
+    "english": "passion",
+    "german": "de_leidenschaft"
+  },
+  {
+    "english": "path",
+    "german": "de_weg"
+  },
+  {
+    "english": "payment",
+    "german": "de_zahlung"
+  },
+  {
+    "english": "percentage",
+    "german": "de_prozent"
+  },
+  {
+    "english": "performance",
+    "german": "de_leistung"
+  },
+  {
+    "english": "photographer",
+    "german": "de_fotograf"
+  },
+  {
+    "english": "photography",
+    "german": "de_fotografie"
+  },
+  {
+    "english": "pin",
+    "german": "de_nadel"
+  },
+  {
+    "english": "pipe",
+    "german": "de_pfeife"
+  },
+  {
+    "english": "planning",
+    "german": "de_planung"
+  },
+  {
+    "english": "pleasure",
+    "german": "de_freude"
+  },
+  {
+    "english": "plot",
+    "german": "de_grundstück"
+  },
+  {
+    "english": "poem",
+    "german": "de_gedicht"
+  },
+  {
+    "english": "poet",
+    "german": "de_dichter"
+  },
+  {
+    "english": "poetry",
+    "german": "de_dichtung"
+  },
+  {
+    "english": "poison",
+    "german": "de_gift"
+  },
+  {
+    "english": "policy",
+    "german": "de_strategie"
+  },
+  {
+    "english": "politician",
+    "german": "de_politiker"
+  },
+  {
+    "english": "politics",
+    "german": "de_politik"
+  },
+  {
+    "english": "port",
+    "german": "de_hafenstadt"
+  },
+  {
+    "english": "portrait",
+    "german": "de_bildnis"
+  },
+  {
+    "english": "pot",
+    "german": "de_kanne"
+  },
+  {
+    "english": "poverty",
+    "german": "de_armut"
+  },
+  {
+    "english": "prayer",
+    "german": "de_gebet"
+  },
+  {
+    "english": "prediction",
+    "german": "de_prognose"
+  },
+  {
+    "english": "presentation",
+    "german": "de_darstellung"
+  },
+  {
+    "english": "press",
+    "german": "de_presse"
+  },
+  {
+    "english": "pressure",
+    "german": "de_druck"
+  },
+  {
+    "english": "priest",
+    "german": "de_priester"
+  },
+  {
+    "english": "prince",
+    "german": "de_fürst"
+  },
+  {
+    "english": "princess",
+    "german": "de_fürst"
+  },
+  {
+    "english": "printing",
+    "german": "de_druck"
+  },
+  {
+    "english": "prisoner",
+    "german": "de_häftling"
+  },
+  {
+    "english": "producer",
+    "german": "de_hersteller"
+  },
+  {
+    "english": "production",
+    "german": "de_erzeugung"
+  },
+  {
+    "english": "profession",
+    "german": "de_beruf"
+  },
+  {
+    "english": "profit",
+    "german": "de_nutzen"
+  },
+  {
+    "english": "property",
+    "german": "de_besitz"
+  },
+  {
+    "english": "protest",
+    "german": "de_widerspruch"
+  },
+  {
+    "english": "pull",
+    "german": "de_zug"
+  },
+  {
+    "english": "punishment",
+    "german": "de_strafe"
+  },
+  {
+    "english": "push",
+    "german": "de_sto"
+  },
+  {
+    "english": "qualification",
+    "german": "de_qualifikation"
+  },
+  {
+    "english": "queue",
+    "german": "de_schlange"
+  },
+  {
+    "english": "quotation",
+    "german": "de_zitat"
+  },
+  {
+    "english": "race2",
+    "german": "de_rennen"
+  },
+  {
+    "english": "racing",
+    "german": "de_rennen"
+  },
+  {
+    "english": "range",
+    "german": "de_umfang"
+  },
+  {
+    "english": "reaction",
+    "german": "de_reaktion"
+  },
+  {
+    "english": "reality",
+    "german": "de_realität"
+  },
+  {
+    "english": "receipt",
+    "german": "de_quittung"
+  },
+  {
+    "english": "recommendation",
+    "german": "de_empfehlung"
+  },
+  {
+    "english": "reference",
+    "german": "de_bezug"
+  },
+  {
+    "english": "relation",
+    "german": "de_beziehung"
+  },
+  {
+    "english": "religion",
+    "german": "de_religion"
+  },
+  {
+    "english": "rent",
+    "german": "de_miete"
+  },
+  {
+    "english": "repair",
+    "german": "de_reparatur"
+  },
+  {
+    "english": "repeat",
+    "german": "de_wiederholung"
+  },
+  {
+    "english": "reservation",
+    "german": "de_zurückhaltung"
+  },
+  {
+    "english": "resource",
+    "german": "de_quelle"
+  },
+  {
+    "english": "respect",
+    "german": "de_respekt"
+  },
+  {
+    "english": "responsibility",
+    "german": "de_verantwortung"
+  },
+  {
+    "english": "ring2",
+    "german": "de_ring"
+  },
+  {
+    "english": "rise",
+    "german": "de_anstieg"
+  },
+  {
+    "english": "risk",
+    "german": "de_risiko"
+  },
+  {
+    "english": "robot",
+    "german": "de_roboter"
+  },
+  {
+    "english": "rope",
+    "german": "de_seil"
+  },
+  {
+    "english": "row",
+    "german": "de_reihe"
+  },
+  {
+    "english": "rugby",
+    "german": "de_rugby"
+  },
+  {
+    "english": "safety",
+    "german": "de_sicherheit"
+  },
+  {
+    "english": "sail",
+    "german": "de_segel"
+  },
+  {
+    "english": "sailor",
+    "german": "de_matrose"
+  },
+  {
+    "english": "sample",
+    "german": "de_beispiel"
+  },
+  {
+    "english": "sand",
+    "german": "de_sand"
+  },
+  {
+    "english": "script",
+    "german": "de_drehbuch"
+  },
+  {
+    "english": "sculpture",
+    "german": "de_skulptur"
+  },
+  {
+    "english": "security",
+    "german": "de_sicherung"
+  },
+  {
+    "english": "seed",
+    "german": "de_samen"
+  },
+  {
+    "english": "servant",
+    "german": "de_diener"
+  },
+  {
+    "english": "set",
+    "german": "de_satz"
+  },
+  {
+    "english": "setting",
+    "german": "de_situation"
+  },
+  {
+    "english": "sex",
+    "german": "de_geschlecht"
+  },
+  {
+    "english": "shake",
+    "german": "de_riss"
+  },
+  {
+    "english": "share",
+    "german": "de_anteil"
+  },
+  {
+    "english": "shelf",
+    "german": "de_bord"
+  },
+  {
+    "english": "shell",
+    "german": "de_hülse"
+  },
+  {
+    "english": "shift",
+    "german": "de_veränderung"
+  },
+  {
+    "english": "sight",
+    "german": "de_blick"
+  },
+  {
+    "english": "signal",
+    "german": "de_meldung"
+  },
+  {
+    "english": "slice",
+    "german": "de_scheibe"
+  },
+  {
+    "english": "software",
+    "german": "de_software"
+  },
+  {
+    "english": "soil",
+    "german": "de_boden"
+  },
+  {
+    "english": "spending",
+    "german": "de_ausgaben"
+  },
+  {
+    "english": "spirit",
+    "german": "de_geist"
+  },
+  {
+    "english": "spot",
+    "german": "de_fleck"
+  },
+  {
+    "english": "stadium",
+    "german": "de_stadion"
+  },
+  {
+    "english": "staff",
+    "german": "de_belegschaft"
+  },
+  {
+    "english": "standard",
+    "german": "de_standard"
+  },
+  {
+    "english": "statistic",
+    "german": "de_statistik"
+  },
+  {
+    "english": "statue",
+    "german": "de_statue"
+  },
+  {
+    "english": "stick",
+    "german": "de_stock"
+  },
+  {
+    "english": "stranger",
+    "german": "de_fremde"
+  },
+  {
+    "english": "strength",
+    "german": "de_kraft"
+  },
+  {
+    "english": "string",
+    "german": "de_schnur"
+  },
+  {
+    "english": "studio",
+    "german": "de_studio"
+  },
+  {
+    "english": "stuff",
+    "german": "de_stoff"
+  },
+  {
+    "english": "substance",
+    "german": "de_substanz"
+  },
+  {
+    "english": "supply",
+    "german": "de_angebot"
+  },
+  {
+    "english": "supporter",
+    "german": "de_anhänger"
+  },
+  {
+    "english": "surface",
+    "german": "de_oberfläche"
+  },
+  {
+    "english": "oil",
+    "german": "de_öl"
+  },
+  {
+    "english": "surprise",
+    "german": "de_überraschung"
+  },
+  {
+    "english": "survey",
+    "german": "de_überblick"
+  },
+  {
+    "english": "trouble",
+    "german": "de_ärger"
+  },
+  {
+    "english": "similarity",
+    "german": "de_ähnlichkeit"
+  },
+  {
+    "english": "summary",
+    "german": "de_überblick"
+  },
+  {
+    "english": "swim",
+    "german": "de_bad"
+  },
+  {
+    "english": "symptom",
+    "german": "de_merkmal"
+  },
+  {
+    "english": "tail",
+    "german": "de_schwanz"
+  },
+  {
+    "english": "talent",
+    "german": "de_talent"
+  },
+  {
+    "english": "tape",
+    "german": "de_band"
+  },
+  {
+    "english": "tax",
+    "german": "de_steuer"
+  },
+  {
+    "english": "technique",
+    "german": "de_methode"
+  },
+  {
+    "english": "tent",
+    "german": "de_zelt"
+  },
+  {
+    "english": "theme",
+    "german": "de_thema"
+  },
+  {
+    "english": "theory",
+    "german": "de_theorie"
+  },
+  {
+    "english": "throat",
+    "german": "de_hals"
+  },
+  {
+    "english": "tin",
+    "german": "de_dose"
+  },
+  {
+    "english": "toe",
+    "german": "de_zeh"
+  },
+  {
+    "english": "tongue",
+    "german": "de_zunge"
+  },
+  {
+    "english": "touch",
+    "german": "de_berührung"
+  },
+  {
+    "english": "trade",
+    "german": "de_gewerbe"
+  },
+  {
+    "english": "translation",
+    "german": "de_übersetzung"
+  },
+  {
+    "english": "treatment",
+    "german": "de_behandlung"
+  },
+  {
+    "english": "trend",
+    "german": "de_tendenz"
+  },
+  {
+    "english": "trick",
+    "german": "de_streich"
+  },
+  {
+    "english": "truth",
+    "german": "de_wahrheit"
+  },
+  {
+    "english": "tube",
+    "german": "de_röhre"
+  },
+  {
+    "english": "tyre",
+    "german": "de_reifen"
+  },
+  {
+    "english": "underwear",
+    "german": "de_unterkleidung"
+  },
+  {
+    "english": "unemployment",
+    "german": "de_arbeitslosigkeit"
+  },
+  {
+    "english": "union",
+    "german": "de_union"
+  },
+  {
+    "english": "value",
+    "german": "de_wert"
+  },
+  {
+    "english": "version",
+    "german": "de_version"
+  },
+  {
+    "english": "victim",
+    "german": "de_opfer"
+  },
+  {
+    "english": "viewer",
+    "german": "de_zuschauer"
+  },
+  {
+    "english": "volunteer",
+    "german": "de_ehrenamtliche"
+  },
+  {
+    "english": "vote",
+    "german": "de_abstimmung"
+  },
+  {
+    "english": "warning",
+    "german": "de_warnung"
+  },
+  {
+    "english": "waste",
+    "german": "de_abfall"
+  },
+  {
+    "english": "weapon",
+    "german": "de_waffe"
+  },
+  {
+    "english": "while",
+    "german": "de_weile"
+  },
+  {
+    "english": "whole",
+    "german": "de_gesamtheit"
+  },
+  {
+    "english": "will",
+    "german": "de_wille"
+  },
+  {
+    "english": "win",
+    "german": "de_sieg"
+  },
+  {
+    "english": "wing",
+    "german": "de_flügel"
+  },
+  {
+    "english": "wool",
+    "german": "de_wolle"
+  },
+  {
+    "english": "worry",
+    "german": "de_sorge"
+  },
+  {
+    "english": "yard",
+    "german": "de_yard"
+  },
+  {
+    "english": "young",
+    "german": "de_jugend"
+  },
+  {
+    "english": "youth",
+    "german": "de_jugend"
+  },
+  {
+    "english": "administration",
+    "german": "de_verwaltung"
+  },
+  {
+    "english": "advance",
+    "german": "de_erhöhung"
+  },
+  {
+    "english": "affair",
+    "german": "de_affäre"
+  },
+  {
+    "english": "agency",
+    "german": "de_agentur"
+  },
+  {
+    "english": "agenda",
+    "german": "de_agenda"
+  },
+  {
+    "english": "aid",
+    "german": "de_hilfe"
+  },
+  {
+    "english": "aircraft",
+    "german": "de_flugzeug"
+  },
+  {
+    "english": "anger",
+    "german": "de_wut"
+  },
+  {
+    "english": "angle",
+    "german": "de_blickwinkel"
+  },
+  {
+    "english": "anniversary",
+    "german": "de_jahrestag"
+  },
+  {
+    "english": "appeal",
+    "german": "de_beschwerde"
+  },
+  {
+    "english": "approach",
+    "german": "de_vorgehen"
+  },
+  {
+    "english": "approval",
+    "german": "de_genehmigung"
+  },
+  {
+    "english": "arms",
+    "german": "de_waffe"
+  },
+  {
+    "english": "aspect",
+    "german": "de_aspekt"
+  },
+  {
+    "english": "assessment",
+    "german": "de_bewertung"
+  },
+  {
+    "english": "association",
+    "german": "de_gesellschaft"
+  },
+  {
+    "english": "attempt",
+    "german": "de_versuch"
+  },
+  {
+    "english": "bacterium",
+    "german": "de_bacterium"
+  },
+  {
+    "english": "barrier",
+    "german": "de_barriere"
+  },
+  {
+    "english": "beat",
+    "german": "de_schlag"
+  },
+  {
+    "english": "being",
+    "german": "de_wesen"
+  },
+  {
+    "english": "bond",
+    "german": "de_verbindung"
+  },
+  {
+    "english": "breast",
+    "german": "de_brust"
+  },
+  {
+    "english": "budget",
+    "german": "de_etat"
+  },
+  {
+    "english": "bullet",
+    "german": "de_kugel"
+  },
+  {
+    "english": "bunch",
+    "german": "de_bund"
+  },
+  {
+    "english": "burn",
+    "german": "de_verbrennung"
+  },
+  {
+    "english": "bush",
+    "german": "de_busch"
+  },
+  {
+    "english": "cable",
+    "german": "de_kabel"
+  },
+  {
+    "english": "cancer",
+    "german": "de_krebs"
+  },
+  {
+    "english": "capacity",
+    "german": "de_aufnahmefähigkeit"
+  },
+  {
+    "english": "cast",
+    "german": "de_besetzung"
+  },
+  {
+    "english": "catch",
+    "german": "de_fang"
+  },
+  {
+    "english": "cell",
+    "german": "de_handy"
+  },
+  {
+    "english": "chairman",
+    "german": "de_vorsitzende"
+  },
+  {
+    "english": "characteristic",
+    "german": "de_eigenschaft"
+  },
+  {
+    "english": "circumstance",
+    "german": "de_umstand"
+  },
+  {
+    "english": "citizen",
+    "german": "de_bürger"
+  },
+  {
+    "english": "close",
+    "german": "de_abschluss"
+  },
+  {
+    "english": "combination",
+    "german": "de_kombination"
+  },
+  {
+    "english": "comfort",
+    "german": "de_trost"
+  },
+  {
+    "english": "command",
+    "german": "de_kommando"
+  },
+  {
+    "english": "commission",
+    "german": "de_kommission"
+  },
+  {
+    "english": "commitment",
+    "german": "de_engagement"
+  },
+  {
+    "english": "committee",
+    "german": "de_gremium"
+  },
+  {
+    "english": "complex",
+    "german": "de_anlage"
+  },
+  {
+    "english": "component",
+    "german": "de_bestandteil"
+  },
+  {
+    "english": "concentration",
+    "german": "de_konzentration"
+  },
+  {
+    "english": "concept",
+    "german": "de_konzept"
+  },
+  {
+    "english": "concern",
+    "german": "de_sorge"
+  },
+  {
+    "english": "confidence",
+    "german": "de_vertrauen"
+  },
+  {
+    "english": "conflict",
+    "german": "de_konflikt"
+  },
+  {
+    "english": "consideration",
+    "german": "de_rücksicht"
+  },
+  {
+    "english": "construction",
+    "german": "de_anlage"
+  },
+  {
+    "english": "contest",
+    "german": "de_wettbewerb"
+  },
+  {
+    "english": "contract",
+    "german": "de_vertrag"
+  },
+  {
+    "english": "contribution",
+    "german": "de_beitrag"
+  },
+  {
+    "english": "core",
+    "german": "de_kern"
+  },
+  {
+    "english": "council",
+    "german": "de_rat"
+  },
+  {
+    "english": "county",
+    "german": "de_landkreis"
+  },
+  {
+    "english": "courage",
+    "german": "de_mut"
+  },
+  {
+    "english": "crash",
+    "german": "de_absturz"
+  },
+  {
+    "english": "creation",
+    "german": "de_schaffung"
+  },
+  {
+    "english": "creature",
+    "german": "de_geschöpf"
+  },
+  {
+    "english": "crew",
+    "german": "de_besatzung"
+  },
+  {
+    "english": "crisis",
+    "german": "de_krise"
+  },
+  {
+    "english": "criterion",
+    "german": "de_kriterium"
+  },
+  {
+    "english": "critic",
+    "german": "de_kritiker"
+  },
+  {
+    "english": "criticism",
+    "german": "de_kritik"
+  },
+  {
+    "english": "crop",
+    "german": "de_ertrag"
+  },
+  {
+    "english": "cry",
+    "german": "de_schrei"
+  },
+  {
+    "english": "current",
+    "german": "de_lauf"
+  },
+  {
+    "english": "curve",
+    "german": "de_kurve"
+  },
+  {
+    "english": "debate",
+    "german": "de_debatte"
+  },
+  {
+    "english": "debt",
+    "german": "de_schuld"
+  },
+  {
+    "english": "decoration",
+    "german": "de_dekoration"
+  },
+  {
+    "english": "defence",
+    "german": "de_verteidigung"
+  },
+  {
+    "english": "delivery",
+    "german": "de_ablieferung"
+  },
+  {
+    "english": "demand",
+    "german": "de_bedarf"
+  },
+  {
+    "english": "depth",
+    "german": "de_tiefe"
+  },
+  {
+    "english": "desire",
+    "german": "de_wunsch"
+  },
+  {
+    "english": "disc",
+    "german": "de_scheibe"
+  },
+  {
+    "english": "discipline",
+    "german": "de_disziplin"
+  },
+  {
+    "english": "distribution",
+    "german": "de_verteilung"
+  },
+  {
+    "english": "district",
+    "german": "de_bezirk"
+  },
+  {
+    "english": "divide",
+    "german": "de_kluft"
+  },
+  {
+    "english": "division",
+    "german": "de_abteilung"
+  },
+  {
+    "english": "dozen",
+    "german": "de_dutzend"
+  },
+  {
+    "english": "draft",
+    "german": "de_entwurf"
+  },
+  {
+    "english": "edition",
+    "german": "de_auflage"
+  },
+  {
+    "english": "emphasis",
+    "german": "de_schwerpunkt"
+  },
+  {
+    "english": "enquiry",
+    "german": "de_anfrage"
+  },
+  {
+    "english": "enthusiasm",
+    "german": "de_begeisterung"
+  },
+  {
+    "english": "equal",
+    "german": "de_gleichgestellte"
+  },
+  {
+    "english": "estate",
+    "german": "de_grundstück"
+  },
+  {
+    "english": "examination",
+    "german": "de_prüfung"
+  },
+  {
+    "english": "excuse",
+    "german": "de_entschuldigung"
+  },
+  {
+    "english": "executive",
+    "german": "de_beamte"
+  },
+  {
+    "english": "existence",
+    "german": "de_existenz"
+  },
+  {
+    "english": "expectation",
+    "german": "de_aussicht"
+  },
+  {
+    "english": "expense",
+    "german": "de_kosten"
+  },
+  {
+    "english": "exploration",
+    "german": "de_erforschung"
+  },
+  {
+    "english": "extent",
+    "german": "de_ausmaß"
+  },
+  {
+    "english": "extreme",
+    "german": "de_gegensatz"
+  },
+  {
+    "english": "facility",
+    "german": "de_einrichtung"
+  },
+  {
+    "english": "failure",
+    "german": "de_misserfolg"
+  },
+  {
+    "english": "faith",
+    "german": "de_glaube"
+  },
+  {
+    "english": "fault",
+    "german": "de_fehler"
+  },
+  {
+    "english": "feather",
+    "german": "de_feder"
+  },
+  {
+    "english": "fee",
+    "german": "de_gebühr"
+  },
+  {
+    "english": "feed",
+    "german": "de_beschickung"
+  },
+  {
+    "english": "feedback",
+    "german": "de_feedback"
+  },
+  {
+    "english": "feel",
+    "german": "de_griffigkeit"
+  },
+  {
+    "english": "finance",
+    "german": "de_finanzen"
+  },
+  {
+    "english": "finding",
+    "german": "de_ergebnis"
+  },
+  {
+    "english": "firm",
+    "german": "de_betrieb"
+  },
+  {
+    "english": "fix",
+    "german": "de_standortbestimmung"
+  },
+  {
+    "english": "flame",
+    "german": "de_flamme"
+  },
+  {
+    "english": "flash",
+    "german": "de_blitz"
+  },
+  {
+    "english": "fold",
+    "german": "de_falz"
+  },
+  {
+    "english": "fortune",
+    "german": "de_vermögen"
+  },
+  {
+    "english": "freedom",
+    "german": "de_freiheit"
+  },
+  {
+    "english": "frequency",
+    "german": "de_häufigkeit"
+  },
+  {
+    "english": "fund",
+    "german": "de_fonds"
+  },
+  {
+    "english": "funding",
+    "german": "de_finanzierung"
+  },
+  {
+    "english": "gang",
+    "german": "de_gruppe"
+  },
+  {
+    "english": "genre",
+    "german": "de_genre"
+  },
+  {
+    "english": "harm",
+    "german": "de_schaden"
+  },
+  {
+    "english": "hearing",
+    "german": "de_anhörung"
+  },
+  {
+    "english": "heaven",
+    "german": "de_himmel"
+  },
+  {
+    "english": "heel",
+    "german": "de_absatz"
+  },
+  {
+    "english": "hell",
+    "german": "de_hölle"
+  },
+  {
+    "english": "high",
+    "german": "de_erhebung"
+  },
+  {
+    "english": "hire",
+    "german": "de_miete"
+  },
+  {
+    "english": "hold",
+    "german": "de_griff"
+  },
+  {
+    "english": "honour",
+    "german": "de_ehre"
+  },
+  {
+    "english": "household",
+    "german": "de_haushalt"
+  },
+  {
+    "english": "housing",
+    "german": "de_unterkunft"
+  },
+  {
+    "english": "humour",
+    "german": "de_humor"
+  },
+  {
+    "english": "hunt",
+    "german": "de_jagd"
+  },
+  {
+    "english": "hunting",
+    "german": "de_jagen"
+  },
+  {
+    "english": "hurt",
+    "german": "de_schmerz"
+  },
+  {
+    "english": "ideal",
+    "german": "de_vorbild"
+  },
+  {
+    "english": "illustration",
+    "german": "de_bild"
+  },
+  {
+    "english": "imagination",
+    "german": "de_fantasie"
+  },
+  {
+    "english": "inch",
+    "german": "de_zoll"
+  },
+  {
+    "english": "incident",
+    "german": "de_vorfall"
+  },
+  {
+    "english": "income",
+    "german": "de_einkommen"
+  },
+  {
+    "english": "infection",
+    "german": "de_ansteckung"
+  },
+  {
+    "english": "initiative",
+    "german": "de_initiative"
+  },
+  {
+    "english": "insight",
+    "german": "de_erkenntnis"
+  },
+  {
+    "english": "instance",
+    "german": "de_beispiel"
+  },
+  {
+    "english": "institute",
+    "german": "de_institut"
+  },
+  {
+    "english": "institution",
+    "german": "de_institution"
+  },
+  {
+    "english": "insurance",
+    "german": "de_versicherung"
+  },
+  {
+    "english": "investigation",
+    "german": "de_untersuchung"
+  },
+  {
+    "english": "investment",
+    "german": "de_investition"
+  },
+  {
+    "english": "joy",
+    "german": "de_freude"
+  },
+  {
+    "english": "judgement",
+    "german": "de_beurteilung"
+  },
+  {
+    "english": "justice",
+    "german": "de_gerechtigkeit"
+  },
+  {
+    "english": "labour",
+    "german": "de_arbeit"
+  },
+  {
+    "english": "landscape",
+    "german": "de_landschaft"
+  },
+  {
+    "english": "leadership",
+    "german": "de_führung"
+  },
+  {
+    "english": "league",
+    "german": "de_liga"
+  },
+  {
+    "english": "leave",
+    "german": "de_urlaub"
+  },
+  {
+    "english": "licence",
+    "german": "de_genehmigung"
+  },
+  {
+    "english": "load",
+    "german": "de_ladung"
+  },
+  {
+    "english": "loan",
+    "german": "de_darlehen"
+  },
+  {
+    "english": "lord",
+    "german": "de_herr"
+  },
+  {
+    "english": "low",
+    "german": "de_tiefstand"
+  },
+  {
+    "english": "lung",
+    "german": "de_lunge"
+  },
+  {
+    "english": "majority",
+    "german": "de_mehrheit"
+  },
+  {
+    "english": "make",
+    "german": "de_fabrikat"
+  },
+  {
+    "english": "mass",
+    "german": "de_masse"
+  },
+  {
+    "english": "master",
+    "german": "de_herr"
+  },
+  {
+    "english": "means",
+    "german": "de_mittel"
+  },
+  {
+    "english": "measurement",
+    "german": "de_maß"
+  },
+  {
+    "english": "medium",
+    "german": "de_mittel"
+  },
+  {
+    "english": "mineral",
+    "german": "de_mineral"
+  },
+  {
+    "english": "minister",
+    "german": "de_minister"
+  },
+  {
+    "english": "minority",
+    "german": "de_minderheit"
+  },
+  {
+    "english": "mission",
+    "german": "de_auftrag"
+  },
+  {
+    "english": "monitor",
+    "german": "de_bildschirm"
+  },
+  {
+    "english": "motor",
+    "german": "de_motor"
+  },
+  {
+    "english": "national",
+    "german": "de_bürger"
+  },
+  {
+    "english": "negative",
+    "german": "de_minus"
+  },
+  {
+    "english": "nerve",
+    "german": "de_nerv"
+  },
+  {
+    "english": "nightmare",
+    "german": "de_albtraum"
+  },
+  {
+    "english": "notion",
+    "german": "de_idee"
+  },
+  {
+    "english": "objective",
+    "german": "de_ziel"
+  },
+  {
+    "english": "obligation",
+    "german": "de_pflicht"
+  },
+  {
+    "english": "observation",
+    "german": "de_beobachtung"
+  },
+  {
+    "english": "offence",
+    "german": "de_angriff"
+  },
+  {
+    "english": "official",
+    "german": "de_offizielle"
+  },
+  {
+    "english": "opening",
+    "german": "de_eröffnung"
+  },
+  {
+    "english": "opponent",
+    "german": "de_gegner"
+  },
+  {
+    "english": "opposition",
+    "german": "de_widerspruch"
+  },
+  {
+    "english": "organ",
+    "german": "de_organ"
+  },
+  {
+    "english": "origin",
+    "german": "de_herkunft"
+  },
+  {
+    "english": "outcome",
+    "german": "de_ergebnis"
+  },
+  {
+    "english": "outline",
+    "german": "de_abriss"
+  },
+  {
+    "english": "pace",
+    "german": "de_geschwindigkeit"
+  },
+  {
+    "english": "panel",
+    "german": "de_gremium"
+  },
+  {
+    "english": "parliament",
+    "german": "de_parlament"
+  },
+  {
+    "english": "participant",
+    "german": "de_teilnehmer"
+  },
+  {
+    "english": "passage",
+    "german": "de_durchgang"
+  },
+  {
+    "english": "pension",
+    "german": "de_rente"
+  },
+  {
+    "english": "perspective",
+    "german": "de_aussicht"
+  },
+  {
+    "english": "phase",
+    "german": "de_phase"
+  },
+  {
+    "english": "phenomenon",
+    "german": "de_phänomen"
+  },
+  {
+    "english": "philosophy",
+    "german": "de_philosophie"
+  },
+  {
+    "english": "pick",
+    "german": "de_spitzhacke"
+  },
+  {
+    "english": "pile",
+    "german": "de_haufen"
+  },
+  {
+    "english": "pitch",
+    "german": "de_pech"
+  },
+  {
+    "english": "popularity",
+    "german": "de_beliebtheit"
+  },
+  {
+    "english": "positive",
+    "german": "de_positiv"
+  },
+  {
+    "english": "praise",
+    "german": "de_lob"
+  },
+  {
+    "english": "preparation",
+    "german": "de_vorbereitung"
+  },
+  {
+    "english": "presence",
+    "german": "de_anwesenheit"
+  },
+  {
+    "english": "principle",
+    "german": "de_grundsatz"
+  },
+  {
+    "english": "print",
+    "german": "de_eindruck"
+  },
+  {
+    "english": "priority",
+    "german": "de_priorität"
+  },
+  {
+    "english": "privacy",
+    "german": "de_ruhe"
+  },
+  {
+    "english": "procedure",
+    "german": "de_vorgang"
+  },
+  {
+    "english": "produce",
+    "german": "de_erzeugnis"
+  },
+  {
+    "english": "professional",
+    "german": "de_profi"
+  },
+  {
+    "english": "proof",
+    "german": "de_beweis"
+  },
+  {
+    "english": "proposal",
+    "german": "de_angebot"
+  },
+  {
+    "english": "prospect",
+    "german": "de_aussicht"
+  },
+  {
+    "english": "protection",
+    "german": "de_schutz"
+  },
+  {
+    "english": "psychologist",
+    "german": "de_psychologe"
+  },
+  {
+    "english": "psychology",
+    "german": "de_psychologie"
+  },
+  {
+    "english": "publication",
+    "german": "de_veröffentlichung"
+  },
+  {
+    "english": "pupil",
+    "german": "de_schüler"
+  },
+  {
+    "english": "purchase",
+    "german": "de_kauf"
+  },
+  {
+    "english": "rank",
+    "german": "de_stand"
+  },
+  {
+    "english": "reach",
+    "german": "de_strecke"
+  },
+  {
+    "english": "reduction",
+    "german": "de_abbau"
+  },
+  {
+    "english": "regulation",
+    "german": "de_regelung"
+  },
+  {
+    "english": "relief",
+    "german": "de_hilfe"
+  },
+  {
+    "english": "remark",
+    "german": "de_bemerkung"
+  },
+  {
+    "english": "representative",
+    "german": "de_vertreter"
+  },
+  {
+    "english": "reputation",
+    "german": "de_ruf"
+  },
+  {
+    "english": "requirement",
+    "german": "de_anforderung"
+  },
+  {
+    "english": "reserve",
+    "german": "de_zurückhaltung"
+  },
+  {
+    "english": "resident",
+    "german": "de_bewohner"
+  },
+  {
+    "english": "resort",
+    "german": "de_ausweg"
+  },
+  {
+    "english": "revolution",
+    "german": "de_revolution"
+  },
+  {
+    "english": "reward",
+    "german": "de_belohnung"
+  },
+  {
+    "english": "rhythm",
+    "german": "de_rhythmus"
+  },
+  {
+    "english": "root",
+    "german": "de_wurzel"
+  },
+  {
+    "english": "round",
+    "german": "de_runde"
+  },
+  {
+    "english": "satellite",
+    "german": "de_satellit"
+  },
+  {
+    "english": "saving",
+    "german": "de_ersparnis"
+  },
+  {
+    "english": "scale",
+    "german": "de_ausmaß"
+  },
+  {
+    "english": "scheme",
+    "german": "de_plan"
+  },
+  {
+    "english": "sector",
+    "german": "de_bereich"
+  },
+  {
+    "english": "selection",
+    "german": "de_auswahl"
+  },
+  {
+    "english": "self",
+    "german": "de_ich"
+  },
+  {
+    "english": "sequence",
+    "german": "de_ablauf"
+  },
+  {
+    "english": "session",
+    "german": "de_sitzung"
+  },
+  {
+    "english": "shade",
+    "german": "de_schatten"
+  },
+  {
+    "english": "shadow",
+    "german": "de_schatten"
+  },
+  {
+    "english": "shame",
+    "german": "de_scham"
+  },
+  {
+    "english": "shelter",
+    "german": "de_schutz"
+  },
+  {
+    "english": "shock",
+    "german": "de_erschütterung"
+  },
+  {
+    "english": "shooting",
+    "german": "de_erschießung"
+  },
+  {
+    "english": "shot",
+    "german": "de_schuss"
+  },
+  {
+    "english": "silence",
+    "german": "de_schweigen"
+  },
+  {
+    "english": "silk",
+    "german": "de_seide"
+  },
+  {
+    "english": "slave",
+    "german": "de_sklave"
+  },
+  {
+    "english": "slope",
+    "german": "de_abhang"
+  },
+  {
+    "english": "soul",
+    "german": "de_seele"
+  },
+  {
+    "english": "specialist",
+    "german": "de_spezialist"
+  },
+  {
+    "english": "species",
+    "german": "de_art"
+  },
+  {
+    "english": "spread",
+    "german": "de_ausbreitung"
+  },
+  {
+    "english": "stand",
+    "german": "de_stand"
+  },
+  {
+    "english": "status",
+    "german": "de_stand"
+  },
+  {
+    "english": "steel",
+    "german": "de_stahl"
+  },
+  {
+    "english": "stock",
+    "german": "de_lagerbestand"
+  },
+  {
+    "english": "stream",
+    "german": "de_bach"
+  },
+  {
+    "english": "sum",
+    "german": "de_betrag"
+  },
+  {
+    "english": "surgery",
+    "german": "de_operation"
+  },
+  {
+    "english": "switch",
+    "german": "de_schalter"
+  },
+  {
+    "english": "sympathy",
+    "german": "de_beileid"
+  },
+  {
+    "english": "tale",
+    "german": "de_geschichte"
+  },
+  {
+    "english": "tank",
+    "german": "de_becken"
+  },
+  {
+    "english": "tear",
+    "german": "de_träne"
+  },
+  {
+    "english": "therapy",
+    "german": "de_behandlung"
+  },
+  {
+    "english": "threat",
+    "german": "de_bedrohung"
+  },
+  {
+    "english": "tone",
+    "german": "de_ton"
+  },
+  {
+    "english": "transition",
+    "german": "de_übergang"
+  },
+  {
+    "english": "trial",
+    "german": "de_prozess"
+  },
+  {
+    "english": "trust",
+    "german": "de_vertrauen"
+  },
+  {
+    "english": "try",
+    "german": "de_versuch"
+  },
+  {
+    "english": "tune",
+    "german": "de_melodie"
+  },
+  {
+    "english": "tunnel",
+    "german": "de_tunnel"
+  },
+  {
+    "english": "universe",
+    "german": "de_all"
+  },
+  {
+    "english": "venue",
+    "german": "de_tagungsort"
+  },
+  {
+    "english": "victory",
+    "german": "de_sieg"
+  },
+  {
+    "english": "violence",
+    "german": "de_gewalt"
+  },
+  {
+    "english": "vision",
+    "german": "de_sicht"
+  },
+  {
+    "english": "vitamin",
+    "german": "de_vitamin"
+  },
+  {
+    "english": "volume",
+    "german": "de_inhalt"
+  },
+  {
+    "english": "wage",
+    "german": "de_lohn"
+  },
+  {
+    "english": "weakness",
+    "german": "de_schwäche"
+  },
+  {
+    "english": "wealth",
+    "german": "de_fülle"
+  },
+  {
+    "english": "wildlife",
+    "german": "de_tierwelt"
+  },
+  {
+    "english": "wire",
+    "german": "de_kabel"
+  },
+  {
+    "english": "witness",
+    "german": "de_zeuge"
+  },
+  {
+    "english": "worst",
+    "german": "de_schlimmste"
+  },
+  {
+    "english": "worth",
+    "german": "de_wert"
+  },
+  {
+    "english": "wound",
+    "german": "de_wunde"
+  },
+  {
+    "english": "wrong",
+    "german": "de_unrecht"
+  },
+  {
+    "english": "zone",
+    "german": "de_zone"
+  },
+  {
+    "english": "sandwich",
+    "german": "de_sandwich"
+  },
+  {
+    "english": "laptop",
+    "german": "de_laptop"
+  },
+  {
+    "english": "powder",
+    "german": "de_puder"
+  },
+  {
+    "english": "rubber",
+    "german": "de_gummi"
+  },
+  {
+    "english": "diagram",
+    "german": "de_diagramm"
+  },
+  {
+    "english": "latest",
+    "german": "de_neueste"
+  },
+  {
+    "english": "worse",
+    "german": "de_schlimmeres"
   }
 ]

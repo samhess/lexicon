@@ -14,7 +14,7 @@ export const load = async ({params}) => {
         Mood: {name: 'Mood'},
         Numerus: {name: 'Number'},
         Person: {name: 'Person'},
-        Tense: {name: 'Tense'},
+        Tense: {name: 'Tense'}
       },
       key: 'wordForm',
       isEditable: true,

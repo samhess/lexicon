@@ -10,10 +10,12 @@
 <article class="prose">
   <h1>{props.data.lemma}</h1>
   {#each props.data.wordClasses as wordClass}
-    {@const records = props.data.records.filter((record: any) => record.wordClass === wordClass.key)}
+    {@const records = props.data.records.filter(
+      (record: any) => record.wordClass === wordClass.key
+    )}
     {#if records.length}
       <h2>{wordClass.name}</h2>
-      <DataTable {entity} records={records} dispatchData={receiveData}>
+      <DataTable {entity} {records} dispatchData={receiveData}>
         {#each records as { key, lemma, meaning, level, english, WordClass, Language }}
           <tr>
             <td>{key ?? ''}</td>

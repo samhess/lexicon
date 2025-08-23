@@ -24,7 +24,7 @@
         <td>{Person?.name}</td>
         <td>{Tense?.name}</td>
         {#if entity.isEditable}
-          <Edit entityKey={entity.key} recordKey={{language,token}} />
+          <Edit entityKey={entity.key} recordKey={{language, token}} />
         {/if}
       </tr>
     {/each}

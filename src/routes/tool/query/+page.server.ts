@@ -15,15 +15,13 @@ export const actions = {
 export const load = async ({params}) => {
   //  const languages = await getSelectOptions('Language')
   const languages = [
-    { value: null, name: '——— select language ———' },
-    { value: 'deu', name: 'de - German' },
-    { value: 'eng', name: 'en - English' },
-    { value: 'fra', name: 'fr - French' },
-    { value: 'mlg', name: 'mg - Malagasy' },
-    { value: 'spa', name: 'sp - Spanish' },
-    { value: 'swa', name: 'sw - Swahili' },
+    {value: null, name: '——— select language ———'},
+    {value: 'deu', name: 'de - German'},
+    {value: 'eng', name: 'en - English'},
+    {value: 'fra', name: 'fr - French'},
+    {value: 'mlg', name: 'mg - Malagasy'},
+    {value: 'spa', name: 'sp - Spanish'},
+    {value: 'swa', name: 'sw - Swahili'}
   ]
   return {languages}
-
-  
 }
