@@ -20,5 +20,27 @@
     "number": "",
     "person": "",
     "tense": ""
+  },
+  {
+    "language": "eng",
+    "lexeme": "actor",
+    "token": "actress",
+    "case": "",
+    "gender": "",
+    "mood": "",
+    "number": "",
+    "person": "",
+    "tense": ""
+  },
+  {
+    "language": "deu",
+    "lexeme": "de_schauspieler",
+    "token": "Schauspielerin",
+    "case": "",
+    "gender": "die",
+    "mood": "",
+    "number": "",
+    "person": "",
+    "tense": ""
   }
 ]

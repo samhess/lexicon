@@ -5,23 +5,6 @@
   let entity = $derived(props.data.entity)
 </script>
 
-<article class="prose">
-  {#if props.data.languages}
-    <h1>Word Forms</h1>
-    {#each props.data.languages as language}
-      {@const records = props.data.records.filter(
-        (record: any) => record.language === language.key
-      )}
-      <h2><a href="/dictionary/wordform/{language.key}">{language.name}</a></h2>
-      <DataTable {entity} {records} {tbody}></DataTable>
-    {/each}
-  {:else}
-    <h1>Word Forms</h1>
-    <h2>{props.data.language.name}</h2>
-    <DataTable {entity} records={props.data.records} {tbody}></DataTable>
-  {/if}
-</article>
-
 {#snippet tbody(records: Array<any>)}
   {#each records as { language, Lexeme, token, casus, gender, mood, numerus, person, tense }}
     <tr>
@@ -41,3 +24,20 @@
     </tr>
   {/each}
 {/snippet}
+
+<article class="prose">
+  {#if props.data.languages}
+    <h1>Word Forms</h1>
+    {#each props.data.languages as language}
+      {@const records = props.data.records.filter(
+        (record: any) => record.language === language.key
+      )}
+      <h2><a href="/dictionary/wordform/{language.key}">{language.name}</a></h2>
+      <DataTable {entity} {records} {tbody}></DataTable>
+    {/each}
+  {:else}
+    <h1>Word Forms</h1>
+    <h2>{props.data.language.name}</h2>
+    <DataTable {entity} records={props.data.records} {tbody}></DataTable>
+  {/if}
+</article>

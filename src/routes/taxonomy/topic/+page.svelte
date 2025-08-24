@@ -14,7 +14,7 @@
       <tr>
         <td>{topic.key}</td>
         <td>{topic.name}</td>
-        <td>{topic._count.Word}</td>
+        <td>{topic._count.Lexeme}</td>
         {#if entity.isEditable}
           <Edit entityKey={entity.key} recordKey={topic.key} />
         {/if}

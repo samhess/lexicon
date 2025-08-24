@@ -35,5 +35,6 @@
     {/each}
   {:else}
     <h2>{props.data.language.name}</h2>
+    <DataTable {entity} records={props.data.records} {tbody}></DataTable>
   {/if}
 </article>

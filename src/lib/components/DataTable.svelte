@@ -2,7 +2,7 @@
   import type {Snippet} from 'svelte'
   import type {GenericObject} from '$lib/types'
   import {ArrowUpDown, Plus} from '@lucide/svelte'
-  export type TableProps = {
+  export interface TableProps {
     entity: {
       attributes: GenericObject
       isEditable?: boolean
@@ -13,7 +13,7 @@
     records: Array<GenericObject>
     dispatchData?: Function
     tbody?: Snippet<[any]>
-    children?: Snippet
+    children?: Snippet<[any]>
   }
 
   let props: TableProps = $props()
@@ -88,6 +88,8 @@
   <tbody>
     {#if props.tbody}
       {@render props.tbody(sortedRecords)}
+    {:else if props.children}
+      {@render props.children(sortedRecords)}
     {:else}
       {#each sortedRecords as record, index}
         <tr>

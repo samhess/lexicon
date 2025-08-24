@@ -14,7 +14,7 @@
       <tr>
         <td>{wordtype.key}</td>
         <td>{wordtype.name}</td>
-        <td>{wordtype._count.Word}</td>
+        <td>{wordtype._count.Lexeme}</td>
         {#if entity.isEditable}
           <Edit entityKey={entity.key} recordKey={wordtype.key} />
         {/if}

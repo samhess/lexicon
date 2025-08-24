@@ -9,7 +9,7 @@
   },
   {
     "english": "academic",
-    "german": "de_wissenschaftler"
+    "german": "de_dozent"
   },
   {
     "english": "access",
@@ -25,7 +25,7 @@
   },
   {
     "english": "action",
-    "german": "de_handeln"
+    "german": "de_handlung"
   },
   {
     "english": "activity",
@@ -33,10 +33,6 @@
   },
   {
     "english": "actor",
-    "german": "de_schauspieler"
-  },
-  {
-    "english": "actress",
     "german": "de_schauspieler"
   },
   {
@@ -217,7 +213,7 @@
   },
   {
     "english": "business",
-    "german": "de_angelegenheit"
+    "german": "de_geschäft"
   },
   {
     "english": "cafe",
@@ -733,7 +729,7 @@
   },
   {
     "english": "jacket",
-    "german": "de_jackett"
+    "german": "de_jacke"
   },
   {
     "english": "january",
@@ -825,7 +821,7 @@
   },
   {
     "english": "march",
-    "german": "de_marsch"
+    "german": "de_märz"
   },
   {
     "english": "market",
@@ -957,7 +953,7 @@
   },
   {
     "english": "night",
-    "german": "de_abend"
+    "german": "de_nacht"
   },
   {
     "english": "north",
@@ -1637,7 +1633,7 @@
   },
   {
     "english": "app",
-    "german": "de_anwendung"
+    "german": "de_app"
   },
   {
     "english": "appearance",
@@ -1685,7 +1681,7 @@
   },
   {
     "english": "author",
-    "german": "de_verfasser"
+    "german": "de_autor"
   },
   {
     "english": "award",
@@ -1725,7 +1721,7 @@
   },
   {
     "english": "belt",
-    "german": "de_band"
+    "german": "de_gürtel"
   },
   {
     "english": "benefit",
@@ -1953,7 +1949,7 @@
   },
   {
     "english": "cycle",
-    "german": "de_ablauf"
+    "german": "de_zyklus"
   },
   {
     "english": "danger",
@@ -2005,7 +2001,7 @@
   },
   {
     "english": "diary",
-    "german": "de_agenda"
+    "german": "de_tagebuch"
   },
   {
     "english": "direction",
@@ -2193,7 +2189,7 @@
   },
   {
     "english": "fly",
-    "german": "de_fahrt"
+    "german": "de_fliege"
   },
   {
     "english": "forest",
@@ -2949,7 +2945,7 @@
   },
   {
     "english": "pattern",
-    "german": "de_bild"
+    "german": "de_muster"
   },
   {
     "english": "pay",
@@ -3365,7 +3361,7 @@
   },
   {
     "english": "sort",
-    "german": "de_art"
+    "german": "de_sorte"
   },
   {
     "english": "source",
@@ -3429,7 +3425,7 @@
   },
   {
     "english": "store",
-    "german": "de_geschäft"
+    "german": "de_warenhaus"
   },
   {
     "english": "storm",
@@ -3705,7 +3701,7 @@
   },
   {
     "english": "agreement",
-    "german": "de_einigung"
+    "german": "de_vereinbarung"
   },
   {
     "english": "alarm",
@@ -3721,7 +3717,7 @@
   },
   {
     "english": "ambition",
-    "german": "de_ziel"
+    "german": "de_ehrgeiz"
   },
   {
     "english": "analysis",
@@ -3761,11 +3757,11 @@
   },
   {
     "english": "authority",
-    "german": "de_kompetenz"
+    "german": "de_behörde"
   },
   {
     "english": "balance",
-    "german": "de_ausgleich"
+    "german": "de_gleichgewicht"
   },
   {
     "english": "bank2",
@@ -4009,7 +4005,7 @@
   },
   {
     "english": "countryside",
-    "german": "de_land"
+    "german": "de_landschaft"
   },
   {
     "english": "court",
@@ -4057,7 +4053,7 @@
   },
   {
     "english": "destination",
-    "german": "de_ziel"
+    "german": "de_bestimmungsort"
   },
   {
     "english": "development",
@@ -4105,7 +4101,7 @@
   },
   {
     "english": "duty",
-    "german": "de_aufgabe"
+    "german": "de_pflicht"
   },
   {
     "english": "earthquake",
@@ -4121,7 +4117,7 @@
   },
   {
     "english": "editor",
-    "german": "de_cutter"
+    "german": "de_verfasser"
   },
   {
     "english": "effort",
@@ -4165,7 +4161,7 @@
   },
   {
     "english": "entry",
-    "german": "de_eintritt"
+    "german": "de_eingang"
   },
   {
     "english": "episode",
@@ -4405,7 +4401,7 @@
   },
   {
     "english": "journal",
-    "german": "de_zeitschrift"
+    "german": "de_fachzeitschrift"
   },
   {
     "english": "judge",
@@ -4565,7 +4561,7 @@
   },
   {
     "english": "narrative",
-    "german": "de_geschichte"
+    "german": "de_erzählung"
   },
   {
     "english": "nation",
@@ -4805,11 +4801,11 @@
   },
   {
     "english": "race2",
-    "german": "de_rennen"
+    "german": "de_rasse"
   },
   {
     "english": "racing",
-    "german": "de_rennen"
+    "german": "de_rennsport"
   },
   {
     "english": "range",
@@ -4857,7 +4853,7 @@
   },
   {
     "english": "reservation",
-    "german": "de_zurückhaltung"
+    "german": "de_reservation"
   },
   {
     "english": "resource",
@@ -5301,7 +5297,7 @@
   },
   {
     "english": "angle",
-    "german": "de_blickwinkel"
+    "german": "de_winkel"
   },
   {
     "english": "anniversary",
@@ -5333,7 +5329,7 @@
   },
   {
     "english": "association",
-    "german": "de_gesellschaft"
+    "german": "de_verband"
   },
   {
     "english": "attempt",
@@ -5845,7 +5841,7 @@
   },
   {
     "english": "illustration",
-    "german": "de_bild"
+    "german": "de_illustration"
   },
   {
     "english": "imagination",
@@ -5969,7 +5965,7 @@
   },
   {
     "english": "master",
-    "german": "de_herr"
+    "german": "de_meister"
   },
   {
     "english": "means",
@@ -6213,7 +6209,7 @@
   },
   {
     "english": "rank",
-    "german": "de_stand"
+    "german": "de_rang"
   },
   {
     "english": "reach",
@@ -6249,7 +6245,7 @@
   },
   {
     "english": "reserve",
-    "german": "de_zurückhaltung"
+    "german": "de_reserve"
   },
   {
     "english": "resident",
@@ -6369,7 +6365,7 @@
   },
   {
     "english": "species",
-    "german": "de_art"
+    "german": "de_gattung"
   },
   {
     "english": "spread",
@@ -6393,7 +6389,7 @@
   },
   {
     "english": "stream",
-    "german": "de_bach"
+    "german": "de_strom"
   },
   {
     "english": "sum",
@@ -6413,7 +6409,7 @@
   },
   {
     "english": "tale",
-    "german": "de_geschichte"
+    "german": "de_erzählung"
   },
   {
     "english": "tank",
