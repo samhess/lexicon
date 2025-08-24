@@ -1,10 +1,6 @@
 import * as cheerio from 'cheerio'
 import db from '../src/lib/database.ts'
 
-const lexemes = await db.lexeme.findMany({
-  where: {Language: {alpha2: 'en'}, wordClass: 'n'}
-})
-
 async function getTableData(url, options) {
   const {headers = [], index = 0} = options
   const $ = await cheerio.fromURL(url)
@@ -48,37 +44,19 @@ async function translateLexeme(lexeme = 'house') {
   return await getTableData(url, options)
 }
 
-for (const lexeme of lexemes) {
-  let translation = await db.translation.findUnique({where: {english: lexeme.key}})
-  if (!translation) {
-    const result = await translateLexeme(lexeme.lemma)
-    if (result && result.german) {
-      let german = result.german.replace(/or:\sd../, '').replace('() ', '')
-      german = german.split(/pl\.:?/)[0]
-      console.log(german)
-      const det = german.replace(/(der|die|das) (.*)/, '$1')
-      let word = german.replace(/(der|die|das) (.*)/, '$2')
-      word = word.slice(0, word.indexOf(' '))
-      if (/^[A-ZÄÖÜ]/.test(word)) {
-        console.log(`${lexeme.lemma} => ${word}`)
-        let deLexeme = await db.lexeme.findUnique({where: {key: `de_${word.toLowerCase()}`}})
-        if (!deLexeme) {
-          deLexeme = await db.lexeme.create({
-            data: {
-              key: `de_${word.toLowerCase()}`,
-              lemma: word,
-              language: 'deu',
-              wordClass: 'n',
-              level: lexeme.level
-            }
-          })
-        }
-        await db.translation.create({data: {english: lexeme.key, german: deLexeme.key}})
-      } else {
-        console.log(`error: ${lexeme.lemma} => ${word}`)
-      }
-    } else {
-      console.log(`error: ${lexeme.lemma} (${result?.german})`)
+const translations = await db.translation.findMany({
+  include: {English: true, German: true},
+  take: 100,
+  skip: 100
+})
+for (const translation of translations) {
+  const result = await translateLexeme(translation.German.lemma)
+  if (result && result.english) {
+    const english = result.english.split(' ')[0]
+    if (translation.English.lemma !== english) {
+      console.log(`${translation.English.lemma}: ${english} (${translation.German.lemma})`)
     }
+  } else {
+    console.log(`error: ${translation.German.lemma} (${result?.english})`)
   }
 }

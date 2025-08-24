@@ -16,13 +16,13 @@
           <a href={`/dictionary/lexeme/eng/${English.lemma}`}>{English.lemma}</a>
           {#if English.meaning}
             ({English.meaning})
-          {/if} 
+          {/if}
         </td>
         <td>
           <a href={`/dictionary/lexeme/deu/${German.lemma}`}>{German.lemma}</a>
           {#if German.meaning}
             ({German.meaning})
-          {/if} 
+          {/if}
         </td>
         {#if entity.isEditable}
           <Edit entityKey={entity.key} recordKey={english} />

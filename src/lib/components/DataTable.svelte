@@ -12,6 +12,7 @@
     }
     records: Array<GenericObject>
     dispatchData?: Function
+    tbody?: Snippet<[any]>
     children?: Snippet
   }
 
@@ -85,8 +86,8 @@
     </tr>
   </thead>
   <tbody>
-    {#if props.children}
-      {@render props.children()}
+    {#if props.tbody}
+      {@render props.tbody(sortedRecords)}
     {:else}
       {#each sortedRecords as record, index}
         <tr>

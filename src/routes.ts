@@ -7,11 +7,11 @@ export const routes: GenericObject = {
   },
   dictionary: {
     name: 'Dictionary',
-    children: ['Lexeme', 'WordForm', 'Topic List', 'Translation']
+    children: ['Lexeme', 'WordForm', 'Translation']
   },
   tool: {
     name: 'Tools',
-    children: ['Swadesh', 'Query']
+    children: ['Query', 'Swadesh', 'Topic List', 'Vocabulary']
   },
   taxonomy: {
     name: 'Taxonomy',
