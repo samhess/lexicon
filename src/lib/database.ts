@@ -47,7 +47,7 @@ export async function getSelectOptions(entity: string) {
     }
     options.unshift({
       value: null,
-      name: `\u2014\u2014\u2014 select ${entity.toLowerCase()} \u2014\u2014\u2014`
+      name: `\u2014\u2014\u2014 select ${entity} \u2014\u2014\u2014`
     })
     return options as Array<{value: any; name: string}>
   } else if (['English', 'German'].includes(entity)) {
@@ -61,6 +61,10 @@ export async function getSelectOptions(entity: string) {
       value: key,
       name: `${lemma} (${wordClass})`
     }))
+    options.unshift({
+      value: null,
+      name: `\u2014\u2014\u2014 select ${entity} \u2014\u2014\u2014`
+    })
     return options as Array<{value: any; name: string}>
   } else {
     return [{value: '', name: `\u2014 ${entity} cannot be looked up \u2014`}] as Array<{

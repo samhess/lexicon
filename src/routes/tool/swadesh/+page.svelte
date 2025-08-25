@@ -1,30 +1,30 @@
 <script lang="ts">
   import DataTable from '$lib/components/DataTable.svelte'
   import Edit from '$lib/components/DataTableEdit.svelte'
-  let props = $props()
-  let entity = $derived(props.data.entity)
-  let records = $state(props.data.records)
-  const receiveData = (sortedRecords: Array<any>) => (records = sortedRecords)
+  let {data} = $props()
+  let {entity, records} = $derived(data)
 </script>
 
 <article class="prose">
-  <h1>Swadesh 207 Matrix</h1>
-  <DataTable {entity} records={props.data.records} dispatchData={receiveData}>
-    {#each records as record}
-      <tr>
-        <td>{record.key}</td>
-        <td>{record.term}</td>
-        <td>{record.WordClass?.name ?? ''}</td>
-        <td>{record.eng ?? ''}</td>
-        <td>{record.deu ?? ''}</td>
-        <td>{record.fra ?? ''}</td>
-        <td>{record.spa ?? ''}</td>
-        <td>{record.swa ?? ''}</td>
-        <td>{record.mlg ?? ''}</td>
-        {#if entity.isEditable}
-          <Edit entityKey={entity.key} recordKey={record.key} />
-        {/if}
-      </tr>
-    {/each}
+  <h1>Swadesh</h1>
+  <DataTable {entity} {records}>
+    {#snippet tbody(lexemes:[any])}
+      {#each lexemes as lexeme}
+        <tr>
+          <td>{lexeme.key}</td>
+          <td>{lexeme.term}</td>
+          <td>{lexeme.WordClass?.name}</td>
+          <td>{lexeme.eng}</td>
+          <td>{lexeme.deu}</td>
+          <td>{lexeme.fra}</td>
+          <td>{lexeme.spa}</td>
+          <td>{lexeme.swa}</td>
+          <td>{lexeme.mlg}</td>
+          {#if entity.isEditable}
+            <Edit entityKey={entity.key} recordKey={lexeme.key} />
+          {/if}
+        </tr>
+      {/each}
+    {/snippet}
   </DataTable>
 </article>

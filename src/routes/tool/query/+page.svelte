@@ -1,13 +1,8 @@
 <script lang="ts">
   import {goto} from '$app/navigation'
-
   let props = $props()
   let selectedLanguage = $state('eng')
   let searchValue = $state('house')
-
-  async function query() {
-    await goto(`/tool/query/${selectedLanguage}/${searchValue}`)
-  }
 </script>
 
 <article class="prose">
@@ -21,9 +16,9 @@
     <input type="text" name="search" bind:value={searchValue} />
     <button
       type="submit"
-      onclick={(event) => {
+      onclick={async (event) => {
         event.preventDefault()
-        query()
+        await goto(`/tool/query/${searchValue}/${selectedLanguage}`)
       }}>Query</button>
   </form>
 </article>

@@ -1,11 +1,13 @@
 <script lang="ts">
+  import type {GenericObject} from '$lib/types'
+  import {createRawSnippet} from 'svelte'
   import DataTable from '$lib/components/DataTable.svelte'
   import Edit from '$lib/components/DataTableEdit.svelte'
   let props = $props()
   let entity = $derived(props.data.entity)
 </script>
 
-{#snippet tbody(records: Array<any>)}
+{#snippet tbody(records: GenericObject[])}
   {#each records as { key, lemma, meaning, level, english, language, WordClass }}
     <tr>
       <td>{key}</td>

@@ -1,13 +1,11 @@
-import type {PageServerLoadEvent} from './$types'
-import {error, redirect} from '@sveltejs/kit'
 import db from '$lib/database'
 
-export async function load(event: PageServerLoadEvent) {
+export async function load() {
   const entity = {
     attributes: {
       key: {name: 'Key'},
       lemma: {name: 'Lexeme'},
-      WordClass: {name: 'Word Class', key: 'key'},
+      wordclass: {name: 'Word Class'},
       eng: {name: 'English'},
       deu: {name: 'German'},
       fra: {name: 'French'},
@@ -15,8 +13,8 @@ export async function load(event: PageServerLoadEvent) {
       swa: {name: 'Swahili'},
       mlg: {name: 'Malagasy'}
     },
-    key: 'swadesh',
     isEditable: true,
+    key: 'swadesh',
     name: 'Swadesh List'
   }
   const records = await db.swadesh.findMany({

@@ -10,10 +10,10 @@
       name?: string
       sorting?: {field: string; direction: string}
     }
-    records: Array<GenericObject>
+    records: GenericObject[]
     dispatchData?: Function
-    tbody?: Snippet<[any]>
-    children?: Snippet<[any]>
+    tbody?: Snippet<GenericObject[]>
+    children?: Snippet<any>
   }
 
   let props: TableProps = $props()

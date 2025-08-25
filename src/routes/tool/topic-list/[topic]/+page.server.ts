@@ -1,14 +1,13 @@
-import {error} from '@sveltejs/kit'
 import db from '$lib/database'
 
 const entity = {
   attributes: {
     lemma: {name: 'Lexeme'},
-    WordClass: {name: 'Word Class', key: 'key'},
+    wordclass: {name: 'Word Class'},
     level: {name: 'Level'}
   },
-  key: 'word',
   isEditable: false,
+  key: 'lexeme',
   name: 'Topic List'
 }
 
