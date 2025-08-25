@@ -8,7 +8,7 @@
 <article class="prose">
   <h1>Topics</h1>
   <DataTable {entity} {records}>
-    {#snippet tbody(topics: [any])}
+    {#snippet tbody(topics: Array<any>)}
       {#each topics as topic}
         <tr>
           <td>{topic.key}</td>

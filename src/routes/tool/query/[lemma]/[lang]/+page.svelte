@@ -1,14 +1,14 @@
 <script lang="ts">
   import DataTable from '$lib/components/DataTable.svelte'
   import Edit from '$lib/components/DataTableEdit.svelte'
-  let {data,params} = $props()
+  let {data, params} = $props()
   let {entity, records, wordClasses} = $derived(data)
 </script>
 
 <article class="prose">
   <h1>Query Results</h1>
   <p class="lead">
-    Requested lemma: {params.lemma}<br>
+    Requested lemma: {params.lemma}<br />
     Requested language: {params.lang}
   </p>
   {#each wordClasses as wordClass}

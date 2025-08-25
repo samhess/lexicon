@@ -10,9 +10,9 @@
       name?: string
       sorting?: {field: string; direction: string}
     }
-    records: GenericObject[]
+    records: Array<any>
     dispatchData?: Function
-    tbody?: Snippet<GenericObject[]>
+    tbody?: Snippet<Array<any>>
     children?: Snippet<any>
   }
 
@@ -21,7 +21,7 @@
   let caption = $state(`${props.entity.name} (${props.records.length})`)
 
   let sorting = $state({field: 'name', direction: 'asc'})
-  let sortedRecords = $state(props.records)
+  let sortedRecords: Array<any> = $state(props.records)
 
   function toggleSorting(field = 'name') {
     const direction = sorting.direction === 'asc' ? 'desc' : 'asc'
@@ -52,7 +52,7 @@
       })
     } else {
       console.log(`empty records`)
-      return []
+      return new Array()
     }
   }
 
@@ -86,9 +86,9 @@
     </tr>
   </thead>
   <tbody>
-    {#if props.tbody}
+    {#if props.tbody && Array.isArray(sortedRecords)}
       {@render props.tbody(sortedRecords)}
-    {:else if props.children}
+    {:else if props.children && Array.isArray(sortedRecords)}
       {@render props.children(sortedRecords)}
     {:else}
       {#each sortedRecords as record, index}

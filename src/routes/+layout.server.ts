@@ -8,6 +8,6 @@ export async function load({request, route, locals}: LayoutServerLoadEvent) {
     return {routes, session}
   } else {
     const url = new URL(request.url)
-    error(404, `${url.pathname} route does not exist`)
+    throw error(404, `${url.pathname} route does not exist`)
   }
 }

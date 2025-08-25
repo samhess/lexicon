@@ -18,7 +18,7 @@
 
   <h2>Words</h2>
   <DataTable {entity} records={props.data.words}>
-    {#snippet tbody(words)}
+    {#snippet tbody(words: Array<any>)}
       {#each words as word}
         <tr>
           <td>{word.lemma}</td>

@@ -23,15 +23,14 @@ export const load = async ({params}) => {
   if (language) {
     const records = await db.lexeme.findMany({
       where: {lemma, Language: {alpha2: language.alpha2}},
-      include: {WordClass: true, Language: true, Topic: true, English:true},
+      include: {WordClass: true, Language: true, Topic: true, English: true},
       orderBy: {lemma: 'asc'}
     })
     return {entity, records, language, wordClasses}
-  } 
-  else {
+  } else {
     const records = await db.lexeme.findMany({
       where: {lemma},
-      include: {WordClass: true, Language: true, Topic: true, English:true},
+      include: {WordClass: true, Language: true, Topic: true, English: true},
       orderBy: {lemma: 'asc'}
     })
     return {entity, records, wordClasses}

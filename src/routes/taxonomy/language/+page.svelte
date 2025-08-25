@@ -9,7 +9,7 @@
 <article class="prose">
   <h1>Languages</h1>
   <DataTable {entity} {records}>
-    {#snippet tbody(languages: any[])}
+    {#snippet tbody(languages: Array<any>)}
       {#each languages as language}
         <tr>
           <td>{language.key}</td>

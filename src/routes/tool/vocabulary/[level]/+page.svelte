@@ -11,7 +11,7 @@
     {@const filteredRecords = records.filter((record: any) => record.English.level === level)}
     <h2><a href="/tool/vocabulary/{level}">{level}</a></h2>
     <DataTable {entity} records={filteredRecords}>
-      {#snippet tbody(translations:[any])}
+      {#snippet tbody(translations: Array<any>)}
         {#each translations as { English, German }}
           <tr>
             <td>{English.lemma}</td>

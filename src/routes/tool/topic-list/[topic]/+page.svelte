@@ -4,7 +4,7 @@
   let {entity, records, topic, topics} = $derived(data)
 </script>
 
-{#snippet tbody(words: [any])}
+{#snippet tbody(words: Array<any>)}
   {#each words as word}
     <tr>
       <td>{word.lemma}</td>
