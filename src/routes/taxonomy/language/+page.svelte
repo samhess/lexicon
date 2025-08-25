@@ -15,7 +15,7 @@
           <td>{language.key}</td>
           <td>{language.alpha2}</td>
           <td>{language.name}</td>
-          <td>{language.description ?? ''}</td>
+          <td>{language.description}</td>
           <td>{language._count.Lexeme}</td>
           {#if entity.isEditable}
             <Edit entityKey={entity.key} recordKey={language.key} />

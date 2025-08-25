@@ -1,14 +1,14 @@
 <script lang="ts">
+  import type {PageProps} from './$types'
   import type {GenericObject} from '$lib/types'
-  import {createRawSnippet} from 'svelte'
   import DataTable from '$lib/components/DataTable.svelte'
   import Edit from '$lib/components/DataTableEdit.svelte'
-  let props = $props()
-  let entity = $derived(props.data.entity)
+  let {data}: PageProps = $props()
+  let {entity, language, languages, records} = $derived(data)
 </script>
 
 {#snippet tbody(records: GenericObject[])}
-  {#each records as { key, lemma, meaning, level, english, language, WordClass }}
+  {#each records as { key, lemma, meaning, level, language, WordClass }}
     <tr>
       <td>{key}</td>
       <td>
@@ -17,7 +17,6 @@
       <td>{meaning}</td>
       <td>{WordClass?.name}</td>
       <td>{level}</td>
-      <td>{english}</td>
       {#if entity.isEditable}
         <Edit entityKey={entity.key} recordKey={key} />
       {/if}
@@ -27,16 +26,14 @@
 
 <article class="prose">
   <h1>Lexemes</h1>
-  {#if props.data.languages}
-    {#each props.data.languages as language}
-      {@const records = props.data.records.filter(
-        (record: any) => record.language === language.key
-      )}
+  {#if languages}
+    {#each languages as language}
+      {@const filteredRecords = records.filter((record: any) => record.language === language.key)}
       <h2><a href="/dictionary/lexeme/{language.key}">{language.name}</a></h2>
-      <DataTable {entity} {records} {tbody}></DataTable>
+      <DataTable {entity} records={filteredRecords} {tbody}></DataTable>
     {/each}
-  {:else}
-    <h2>{props.data.language.name}</h2>
-    <DataTable {entity} records={props.data.records} {tbody}></DataTable>
+  {:else if language}
+    <h2>{language.name}</h2>
+    <DataTable {entity} {records} {tbody}></DataTable>
   {/if}
 </article>

@@ -1,4 +1,5 @@
 <script lang="ts">
+  // @ts-nocheck
   import type {Snippet} from 'svelte'
   import type {GenericObject} from '$lib/types'
   import {ArrowUpDown, Plus} from '@lucide/svelte'

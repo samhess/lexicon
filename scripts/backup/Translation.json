@@ -1077,7 +1077,7 @@
   },
   {
     "english": "phrase",
-    "german": "de_satz"
+    "german": "de_set"
   },
   {
     "english": "piano",
@@ -3157,7 +3157,7 @@
   },
   {
     "english": "rest2",
-    "german": "de_rest"
+    "german": "de_pause"
   },
   {
     "english": "review",
@@ -3585,7 +3585,7 @@
   },
   {
     "english": "unit",
-    "german": "de_element"
+    "german": "de_einheit"
   },
   {
     "english": "use",
@@ -3909,7 +3909,7 @@
   },
   {
     "english": "clause",
-    "german": "de_satz"
+    "german": "de_set"
   },
   {
     "english": "client",
@@ -4609,7 +4609,7 @@
   },
   {
     "english": "package",
-    "german": "de_einheit"
+    "german": "de_packstück"
   },
   {
     "english": "pan",
@@ -4869,7 +4869,7 @@
   },
   {
     "english": "ring2",
-    "german": "de_ring"
+    "german": "de_klang"
   },
   {
     "english": "rise",
@@ -4937,7 +4937,7 @@
   },
   {
     "english": "set",
-    "german": "de_satz"
+    "german": "de_set"
   },
   {
     "english": "setting",
@@ -6554,5 +6554,2621 @@
   {
     "english": "worse",
     "german": "de_schlimmeres"
+  },
+  {
+    "english": "add_v",
+    "german": "de_hinzufügen_v"
+  },
+  {
+    "english": "agree_v",
+    "german": "de_einwilligen_v"
+  },
+  {
+    "english": "arrive_v",
+    "german": "de_ankommen_v"
+  },
+  {
+    "english": "ask_v",
+    "german": "de_fragen_v"
+  },
+  {
+    "english": "become_v",
+    "german": "de_werden_v"
+  },
+  {
+    "english": "begin_v",
+    "german": "de_anfangen_v"
+  },
+  {
+    "english": "believe_v",
+    "german": "de_glauben_v"
+  },
+  {
+    "english": "born_v",
+    "german": "de_tragen_v"
+  },
+  {
+    "english": "break_v",
+    "german": "de_brechen_v"
+  },
+  {
+    "english": "bring_v",
+    "german": "de_bringen_v"
+  },
+  {
+    "english": "build_v",
+    "german": "de_bauen_v"
+  },
+  {
+    "english": "buy_v",
+    "german": "de_hamstern_v"
+  },
+  {
+    "english": "call_v",
+    "german": "de_rufen_v"
+  },
+  {
+    "english": "carry_v",
+    "german": "de_tragen_v"
+  },
+  {
+    "english": "change_v",
+    "german": "de_sich ändern_v"
+  },
+  {
+    "english": "check_v",
+    "german": "de_kontrollieren_v"
+  },
+  {
+    "english": "choose_v",
+    "german": "de_auswählen_v"
+  },
+  {
+    "english": "climb_v",
+    "german": "de_klettern_v"
+  },
+  {
+    "english": "close_v",
+    "german": "de_schließen_v"
+  },
+  {
+    "english": "come_v",
+    "german": "de_kommen_v"
+  },
+  {
+    "english": "compare_v",
+    "german": "de_vergleichen_v"
+  },
+  {
+    "english": "create_v",
+    "german": "de_erschaffen_v"
+  },
+  {
+    "english": "cut_v",
+    "german": "de_schneiden_v"
+  },
+  {
+    "english": "decide_v",
+    "german": "de_sich entscheiden_v"
+  },
+  {
+    "english": "describe_v",
+    "german": "de_beschreiben_v"
+  },
+  {
+    "english": "die_v",
+    "german": "de_sterben_v"
+  },
+  {
+    "english": "discuss_v",
+    "german": "de_besprechen_v"
+  },
+  {
+    "english": "draw_v",
+    "german": "de_zeichnen_v"
+  },
+  {
+    "english": "enjoy_v",
+    "german": "de_genießen_v"
+  },
+  {
+    "english": "explain_v",
+    "german": "de_erklären_v"
+  },
+  {
+    "english": "fall_v",
+    "german": "de_fallen_v"
+  },
+  {
+    "english": "feel_v",
+    "german": "de_fühlen_v"
+  },
+  {
+    "english": "fill_v",
+    "german": "de_füllen_v"
+  },
+  {
+    "english": "find_v",
+    "german": "de_finden_v"
+  },
+  {
+    "english": "finish_v",
+    "german": "de_aufhören_v"
+  },
+  {
+    "english": "follow_v",
+    "german": "de_nachfolgen_v"
+  },
+  {
+    "english": "forget_v",
+    "german": "de_vergessen_v"
+  },
+  {
+    "english": "get_v",
+    "german": "de_werden_v"
+  },
+  {
+    "english": "give_v",
+    "german": "de_jmdm. geben_v"
+  },
+  {
+    "english": "go_v",
+    "german": "de_in sich zusammenbrechen"
+  },
+  {
+    "english": "grow_v",
+    "german": "de_wachsen_v"
+  },
+  {
+    "english": "guess_v",
+    "german": "de_erraten_v"
+  },
+  {
+    "english": "happen_v",
+    "german": "de_geschehen_v"
+  },
+  {
+    "english": "hate_v",
+    "german": "de_hassen_v"
+  },
+  {
+    "english": "have_v",
+    "german": "de_haben_v"
+  },
+  {
+    "english": "hear_v",
+    "german": "de_hören_v"
+  },
+  {
+    "english": "help_v",
+    "german": "de_helfen_v"
+  },
+  {
+    "english": "hope_v",
+    "german": "de_hoffen_v"
+  },
+  {
+    "english": "imagine_v",
+    "german": "de_sich vorstellen_v"
+  },
+  {
+    "english": "improve_v",
+    "german": "de_sich bessern_v"
+  },
+  {
+    "english": "include_v",
+    "german": "de_enthalten_v"
+  },
+  {
+    "english": "introduce_v",
+    "german": "de_einführen_v"
+  },
+  {
+    "english": "join_v",
+    "german": "de_beitreten_v"
+  },
+  {
+    "english": "keep_v",
+    "german": "de_behalten_v"
+  },
+  {
+    "english": "know_v",
+    "german": "de_wissen_v"
+  },
+  {
+    "english": "laugh_v",
+    "german": "de_lachen_v"
+  },
+  {
+    "english": "learn_v",
+    "german": "de_erlernen_v"
+  },
+  {
+    "english": "leave_v",
+    "german": "de_abfahren_v"
+  },
+  {
+    "english": "let_v",
+    "german": "de_lassen_v"
+  },
+  {
+    "english": "lie_v1",
+    "german": "de_liegen_v"
+  },
+  {
+    "english": "like_v",
+    "german": "de_mögen_v"
+  },
+  {
+    "english": "listen_v",
+    "german": "de_hören_v"
+  },
+  {
+    "english": "look_v",
+    "german": "de_schauen_v"
+  },
+  {
+    "english": "lose_v",
+    "german": "de_verlieren_v"
+  },
+  {
+    "english": "make_v",
+    "german": "de_machen_v"
+  },
+  {
+    "english": "mean_v",
+    "german": "de_bedeuten_v"
+  },
+  {
+    "english": "meet_v",
+    "german": "de_sich treffen_v"
+  },
+  {
+    "english": "miss_v",
+    "german": "de_versäumen_v"
+  },
+  {
+    "english": "move_v",
+    "german": "de_sich bewegen_v"
+  },
+  {
+    "english": "need_v",
+    "german": "de_benötigen_v"
+  },
+  {
+    "english": "paint_v",
+    "german": "de_malen_v"
+  },
+  {
+    "english": "pay_v",
+    "german": "de_bezahlen_v"
+  },
+  {
+    "english": "play_v",
+    "german": "de_spielen_v"
+  },
+  {
+    "english": "practise_v",
+    "german": "de_üben_v"
+  },
+  {
+    "english": "prefer_v",
+    "german": "de_lieber mögen_v"
+  },
+  {
+    "english": "prepare_v",
+    "german": "de_vorbereiten_v"
+  },
+  {
+    "english": "put_v",
+    "german": "de_legen_v"
+  },
+  {
+    "english": "relax_v",
+    "german": "de_sich entspannen_v"
+  },
+  {
+    "english": "remember_v",
+    "german": "de_sich erinnern_v"
+  },
+  {
+    "english": "repeat_v",
+    "german": "de_wiederholen_v"
+  },
+  {
+    "english": "return_v",
+    "german": "de_zurückkehren_v"
+  },
+  {
+    "english": "ride_v",
+    "german": "de_reiten_v"
+  },
+  {
+    "english": "run_v",
+    "german": "de_laufen_v"
+  },
+  {
+    "english": "say_v",
+    "german": "de_sagen_v"
+  },
+  {
+    "english": "see_v",
+    "german": "de_sehen_v"
+  },
+  {
+    "english": "sell_v",
+    "german": "de_jmdm. verkaufen_v"
+  },
+  {
+    "english": "send_v",
+    "german": "de_versenden_v"
+  },
+  {
+    "english": "share_v",
+    "german": "de_teilen_v"
+  },
+  {
+    "english": "show_v",
+    "german": "de_jmdm. zeigen_v"
+  },
+  {
+    "english": "sing_v",
+    "german": "de_singen_v"
+  },
+  {
+    "english": "sit_v",
+    "german": "de_sich setzen_v"
+  },
+  {
+    "english": "sleep_v",
+    "german": "de_schlafen_v"
+  },
+  {
+    "english": "speak_v",
+    "german": "de_reden_v"
+  },
+  {
+    "english": "spell_v",
+    "german": "de_buchstabieren_v"
+  },
+  {
+    "english": "spend_v",
+    "german": "de_ausgeben_v"
+  },
+  {
+    "english": "stand_v",
+    "german": "de_stehen_v"
+  },
+  {
+    "english": "start_v",
+    "german": "de_anfangen_v"
+  },
+  {
+    "english": "stay_v",
+    "german": "de_bleiben_v"
+  },
+  {
+    "english": "stop_v",
+    "german": "de_aufhören_v"
+  },
+  {
+    "english": "swim_v",
+    "german": "de_schwimmen_v"
+  },
+  {
+    "english": "take_v",
+    "german": "de_nehmen_v"
+  },
+  {
+    "english": "talk_v",
+    "german": "de_reden_v"
+  },
+  {
+    "english": "teach_v",
+    "german": "de_lehren_v"
+  },
+  {
+    "english": "tell_v",
+    "german": "de_erzählen_v"
+  },
+  {
+    "english": "thank_v",
+    "german": "de_sich bedanken_v"
+  },
+  {
+    "english": "travel_v",
+    "german": "de_reisen_v"
+  },
+  {
+    "english": "try_v",
+    "german": "de_versuchen_v"
+  },
+  {
+    "english": "turn_v",
+    "german": "de_sich umdrehen_v"
+  },
+  {
+    "english": "understand_v",
+    "german": "de_verstehen_v"
+  },
+  {
+    "english": "use_v",
+    "german": "de_benutzen_v"
+  },
+  {
+    "english": "visit_v",
+    "german": "de_besuchen_v"
+  },
+  {
+    "english": "wake_v",
+    "german": "de_aufwachen_v"
+  },
+  {
+    "english": "walk_v",
+    "german": "de_gehen_v"
+  },
+  {
+    "english": "want_v",
+    "german": "de_wünschen_v"
+  },
+  {
+    "english": "wash_v",
+    "german": "de_waschen_v"
+  },
+  {
+    "english": "watch_v",
+    "german": "de_zuschauen_v"
+  },
+  {
+    "english": "wear_v",
+    "german": "de_tragen_v"
+  },
+  {
+    "english": "win_v",
+    "german": "de_siegen_v"
+  },
+  {
+    "english": "work_v",
+    "german": "de_arbeiten_v"
+  },
+  {
+    "english": "accept_v",
+    "german": "de_annehmen_v"
+  },
+  {
+    "english": "achieve_v",
+    "german": "de_erreichen_v"
+  },
+  {
+    "english": "act_v",
+    "german": "de_sich verhalten_v"
+  },
+  {
+    "english": "advertise_v",
+    "german": "de_inserieren_v"
+  },
+  {
+    "english": "affect_v",
+    "german": "de_beeinflussen_v"
+  },
+  {
+    "english": "allow_v",
+    "german": "de_erlauben_v"
+  },
+  {
+    "english": "appear_v",
+    "german": "de_auftauchen_v"
+  },
+  {
+    "english": "apply_v",
+    "german": "de_gelten_v"
+  },
+  {
+    "english": "argue_v",
+    "german": "de_argumentieren_v"
+  },
+  {
+    "english": "arrange_v",
+    "german": "de_anordnen_v"
+  },
+  {
+    "english": "attend_v",
+    "german": "de_besuchen_v"
+  },
+  {
+    "english": "avoid_v",
+    "german": "de_vermeiden_v"
+  },
+  {
+    "english": "beat_v",
+    "german": "de_schlagen_v"
+  },
+  {
+    "english": "behave_v",
+    "german": "de_sich benehmen_v"
+  },
+  {
+    "english": "belong_v",
+    "german": "de_gehören_v"
+  },
+  {
+    "english": "blow_v",
+    "german": "de_blasen_v"
+  },
+  {
+    "english": "book_v",
+    "german": "de_buchen_v"
+  },
+  {
+    "english": "borrow_v",
+    "german": "de_ausleihen_v"
+  },
+  {
+    "english": "brush_v",
+    "german": "de_bürsten_v"
+  },
+  {
+    "english": "burn_v",
+    "german": "de_brennen_v"
+  },
+  {
+    "english": "catch_v",
+    "german": "de_erwischen_v"
+  },
+  {
+    "english": "celebrate_v",
+    "german": "de_feiern_v"
+  },
+  {
+    "english": "chat_v",
+    "german": "de_plaudern_v"
+  },
+  {
+    "english": "collect_v",
+    "german": "de_sammeln_v"
+  },
+  {
+    "english": "communicate_v",
+    "german": "de_kommunizieren_v"
+  },
+  {
+    "english": "compete_v",
+    "german": "de_mit jmdm./etw. konkurrieren_v"
+  },
+  {
+    "english": "complain_v",
+    "german": "de_sich beklagen_v"
+  },
+  {
+    "english": "connect_v",
+    "german": "de_verbinden_v"
+  },
+  {
+    "english": "consider_v",
+    "german": "de_berücksichtigen_v"
+  },
+  {
+    "english": "contain_v",
+    "german": "de_enthalten_v"
+  },
+  {
+    "english": "continue_v",
+    "german": "de_fortfahren_v"
+  },
+  {
+    "english": "count_v",
+    "german": "de_zählen_v"
+  },
+  {
+    "english": "cover_v",
+    "german": "de_bedecken_v"
+  },
+  {
+    "english": "cross_v",
+    "german": "de_einfallen_v"
+  },
+  {
+    "english": "cry_v",
+    "german": "de_weinen_v"
+  },
+  {
+    "english": "deal_v",
+    "german": "de_erledigen_v"
+  },
+  {
+    "english": "depend_v",
+    "german": "de_von abhängen_v"
+  },
+  {
+    "english": "destroy_v",
+    "german": "de_zerstören_v"
+  },
+  {
+    "english": "develop_v",
+    "german": "de_sich entwickeln_v"
+  },
+  {
+    "english": "disagree_v",
+    "german": "de_nicht zustimmen_v"
+  },
+  {
+    "english": "disappear_v",
+    "german": "de_verschwinden_v"
+  },
+  {
+    "english": "discover_v",
+    "german": "de_entdecken_v"
+  },
+  {
+    "english": "download_v",
+    "german": "de_downloaden_v"
+  },
+  {
+    "english": "drop_v",
+    "german": "de_fallen_v"
+  },
+  {
+    "english": "earn_v",
+    "german": "de_verdienen_v"
+  },
+  {
+    "english": "employ_v",
+    "german": "de_beschäftigen_v"
+  },
+  {
+    "english": "enter_v",
+    "german": "de_eintreten_v"
+  },
+  {
+    "english": "exist_v",
+    "german": "de_existieren_v"
+  },
+  {
+    "english": "expect_v",
+    "german": "de_erwarten_v"
+  },
+  {
+    "english": "express_v",
+    "german": "de_äußern_v"
+  },
+  {
+    "english": "fail_v",
+    "german": "de_ausfallen_v"
+  },
+  {
+    "english": "farm_v",
+    "german": "de_das feld bestellen_v"
+  },
+  {
+    "english": "feed_v",
+    "german": "de_fressen_v"
+  },
+  {
+    "english": "fight_v",
+    "german": "de_kämpfen_v"
+  },
+  {
+    "english": "film_v",
+    "german": "de_drehen_v"
+  },
+  {
+    "english": "fish_v",
+    "german": "de_fischen_v"
+  },
+  {
+    "english": "fit_v",
+    "german": "de_passen_v"
+  },
+  {
+    "english": "fix_v",
+    "german": "de_reparieren_v"
+  },
+  {
+    "english": "focus_v",
+    "german": "de_sich konzentrieren_v"
+  },
+  {
+    "english": "greet_v",
+    "german": "de_begrüßen_v"
+  },
+  {
+    "english": "hide_v",
+    "german": "de_sich verstecken_v"
+  },
+  {
+    "english": "hit_v",
+    "german": "de_schlagen_v"
+  },
+  {
+    "english": "hold_v",
+    "german": "de_halten_v"
+  },
+  {
+    "english": "hurt_v",
+    "german": "de_schmerzen_v"
+  },
+  {
+    "english": "identify_v",
+    "german": "de_ermitteln_v"
+  },
+  {
+    "english": "increase_v",
+    "german": "de_zunehmen_v"
+  },
+  {
+    "english": "invent_v",
+    "german": "de_erfinden_v"
+  },
+  {
+    "english": "invite_v",
+    "german": "de_einladen_v"
+  },
+  {
+    "english": "involve_v",
+    "german": "de_einbeziehen_v"
+  },
+  {
+    "english": "jump_v",
+    "german": "de_springen_v"
+  },
+  {
+    "english": "kill_v",
+    "german": "de_töten_v"
+  },
+  {
+    "english": "knock_v",
+    "german": "de_anklopfen_v"
+  },
+  {
+    "english": "land_v",
+    "german": "de_landen_v"
+  },
+  {
+    "english": "last_v",
+    "german": "de_dauern_v"
+  },
+  {
+    "english": "lead_v",
+    "german": "de_führen_v"
+  },
+  {
+    "english": "lend_v",
+    "german": "de_verleihen_v"
+  },
+  {
+    "english": "lift_v",
+    "german": "de_anheben_v"
+  },
+  {
+    "english": "light_v",
+    "german": "de_anzünden_v"
+  },
+  {
+    "english": "lock_v",
+    "german": "de_schließen_v"
+  },
+  {
+    "english": "manage_v",
+    "german": "de_führen_v"
+  },
+  {
+    "english": "mark_v",
+    "german": "de_kennzeichnen_v"
+  },
+  {
+    "english": "marry_v",
+    "german": "de_heiraten_v"
+  },
+  {
+    "english": "mention_v",
+    "german": "de_erwähnen_v"
+  },
+  {
+    "english": "notice_v",
+    "german": "de_bemerken_v"
+  },
+  {
+    "english": "number_v",
+    "german": "de_zählen_v"
+  },
+  {
+    "english": "offer_v",
+    "german": "de_anbieten_v"
+  },
+  {
+    "english": "organize_v",
+    "german": "de_organisieren_v"
+  },
+  {
+    "english": "own_v",
+    "german": "de_besitzen_v"
+  },
+  {
+    "english": "pack_v",
+    "german": "de_packen_v"
+  },
+  {
+    "english": "pass_v",
+    "german": "de_vorbeigehen_v"
+  },
+  {
+    "english": "perform_v",
+    "german": "de_vorführen_v"
+  },
+  {
+    "english": "photograph_v",
+    "german": "de_fotografieren_v"
+  },
+  {
+    "english": "pick_v",
+    "german": "de_auswählen_v"
+  },
+  {
+    "english": "plant_v",
+    "german": "de_pflanzen_v"
+  },
+  {
+    "english": "please_v",
+    "german": "de_vergnügen_v"
+  },
+  {
+    "english": "predict_v",
+    "german": "de_voraussagen_v"
+  },
+  {
+    "english": "present_v",
+    "german": "de_präsentieren_v"
+  },
+  {
+    "english": "prevent_v",
+    "german": "de_verhindern_v"
+  },
+  {
+    "english": "print_v",
+    "german": "de_drucken_v"
+  },
+  {
+    "english": "produce_v",
+    "german": "de_erzeugen_v"
+  },
+  {
+    "english": "promise_v",
+    "german": "de_versprechen_v"
+  },
+  {
+    "english": "pronounce_v",
+    "german": "de_aussprechen_v"
+  },
+  {
+    "english": "protect_v",
+    "german": "de_schützen_v"
+  },
+  {
+    "english": "provide_v",
+    "german": "de_bereitstellen_v"
+  },
+  {
+    "english": "publish_v",
+    "german": "de_veröffentlichen_v"
+  },
+  {
+    "english": "pull_v",
+    "german": "de_ziehen_v"
+  },
+  {
+    "english": "push_v",
+    "german": "de_drücken_v"
+  },
+  {
+    "english": "question_v",
+    "german": "de_prüfen_v"
+  },
+  {
+    "english": "raise_v",
+    "german": "de_steigern_v"
+  },
+  {
+    "english": "reach_v",
+    "german": "de_erreichen_v"
+  },
+  {
+    "english": "react_v",
+    "german": "de_reagieren_v"
+  },
+  {
+    "english": "realize_v",
+    "german": "de_merken_v"
+  },
+  {
+    "english": "receive_v",
+    "german": "de_erhalten_v"
+  },
+  {
+    "english": "recognize_v",
+    "german": "de_begreifen_v"
+  },
+  {
+    "english": "recommend_v",
+    "german": "de_empfehlen_v"
+  },
+  {
+    "english": "recycle_v",
+    "german": "de_wiederverwerten_v"
+  },
+  {
+    "english": "reduce_v",
+    "german": "de_herabsetzen_v"
+  },
+  {
+    "english": "refer_v",
+    "german": "de_sich auf beziehen_v"
+  },
+  {
+    "english": "refuse_v",
+    "german": "de_sich weigern_v"
+  },
+  {
+    "english": "remove_v",
+    "german": "de_beseitigen_v"
+  },
+  {
+    "english": "repair_v",
+    "german": "de_reparieren_v"
+  },
+  {
+    "english": "replace_v",
+    "german": "de_ersetzen_v"
+  },
+  {
+    "english": "reply_v",
+    "german": "de_antworten_v"
+  },
+  {
+    "english": "report_v",
+    "german": "de_berichten_v"
+  },
+  {
+    "english": "respond_v",
+    "german": "de_reagieren_v"
+  },
+  {
+    "english": "ring_v",
+    "german": "de_klingeln_v"
+  },
+  {
+    "english": "rise_v",
+    "german": "de_ansteigen_v"
+  },
+  {
+    "english": "save_v",
+    "german": "de_sparen_v"
+  },
+  {
+    "english": "score_v",
+    "german": "de_treffer erzielen_v"
+  },
+  {
+    "english": "seem_v",
+    "german": "de_scheinen_v"
+  },
+  {
+    "english": "serve_v",
+    "german": "de_bedienen_v"
+  },
+  {
+    "english": "shake_v",
+    "german": "de_zittern_v"
+  },
+  {
+    "english": "shout_v",
+    "german": "de_rufen_v"
+  },
+  {
+    "english": "shut_v",
+    "german": "de_schließen_v"
+  },
+  {
+    "english": "ski_v",
+    "german": "de_ski laufen_v"
+  },
+  {
+    "english": "smell_v",
+    "german": "de_riechen_v"
+  },
+  {
+    "english": "smile_v",
+    "german": "de_lächeln_v"
+  },
+  {
+    "english": "solve_v",
+    "german": "de_lösen_v"
+  },
+  {
+    "english": "star_v",
+    "german": "de_die hauptrolle spielen_v"
+  },
+  {
+    "english": "steal_v",
+    "german": "de_stehlen_v"
+  },
+  {
+    "english": "succeed_v",
+    "german": "de_gelingen_v"
+  },
+  {
+    "english": "suggest_v",
+    "german": "de_vorschlagen_v"
+  },
+  {
+    "english": "support_v",
+    "german": "de_fördern_v"
+  },
+  {
+    "english": "suppose_v",
+    "german": "de_annehmen_v"
+  },
+  {
+    "english": "text_v",
+    "german": "de_eine nachricht schreiben_v"
+  },
+  {
+    "english": "throw_v",
+    "german": "de_werfen_v"
+  },
+  {
+    "english": "tie_v",
+    "german": "de_verbinden_v"
+  },
+  {
+    "english": "touch_v",
+    "german": "de_berühren_v"
+  },
+  {
+    "english": "train_v",
+    "german": "de_trainieren_v"
+  },
+  {
+    "english": "wish_v",
+    "german": "de_sich wünschen_v"
+  },
+  {
+    "english": "worry_v",
+    "german": "de_sich sorgen machen_v"
+  },
+  {
+    "english": "admire_v",
+    "german": "de_bewundern_v"
+  },
+  {
+    "english": "admit_v",
+    "german": "de_zugeben_v"
+  },
+  {
+    "english": "advise_v",
+    "german": "de_raten_v"
+  },
+  {
+    "english": "afford_v",
+    "german": "de_sich leisten_v"
+  },
+  {
+    "english": "age_v",
+    "german": "de_altern_v"
+  },
+  {
+    "english": "aim_v",
+    "german": "de_auf zielen_v"
+  },
+  {
+    "english": "analyse_v",
+    "german": "de_untersuchen_v"
+  },
+  {
+    "english": "announce_v",
+    "german": "de_ansagen_v"
+  },
+  {
+    "english": "annoy_v",
+    "german": "de_ärgern_v"
+  },
+  {
+    "english": "apologize_v",
+    "german": "de_sich entschuldigen_v"
+  },
+  {
+    "english": "appreciate_v",
+    "german": "de_schätzen_v"
+  },
+  {
+    "english": "arrest_v",
+    "german": "de_verhaften_v"
+  },
+  {
+    "english": "assist_v",
+    "german": "de_helfen_v"
+  },
+  {
+    "english": "attach_v",
+    "german": "de_befestigen_v"
+  },
+  {
+    "english": "attract_v",
+    "german": "de_anziehen_v"
+  },
+  {
+    "english": "average_v",
+    "german": "de_mitteln_v"
+  },
+  {
+    "english": "award_v",
+    "german": "de_verleihen_v"
+  },
+  {
+    "english": "bake_v",
+    "german": "de_backen_v"
+  },
+  {
+    "english": "ban_v",
+    "german": "de_verbieten_v"
+  },
+  {
+    "english": "bend_v",
+    "german": "de_sich biegen_v"
+  },
+  {
+    "english": "benefit_v",
+    "german": "de_zugutekommen_v"
+  },
+  {
+    "english": "bite_v",
+    "german": "de_beißen_v"
+  },
+  {
+    "english": "board_v",
+    "german": "de_an bord gehen_v"
+  },
+  {
+    "english": "bother_v",
+    "german": "de_sich bemühen_v"
+  },
+  {
+    "english": "breathe_v",
+    "german": "de_atmen_v"
+  },
+  {
+    "english": "bury_v",
+    "german": "de_vergraben_v"
+  },
+  {
+    "english": "centre_v",
+    "german": "de_sich anhäufen_v"
+  },
+  {
+    "english": "cheat_v",
+    "german": "de_betrügen_v"
+  },
+  {
+    "english": "claim_v",
+    "german": "de_beanspruchen_v"
+  },
+  {
+    "english": "clear_v",
+    "german": "de_räumen_v"
+  },
+  {
+    "english": "click_v",
+    "german": "de_klicken_v"
+  },
+  {
+    "english": "coach_v",
+    "german": "de_betreuen_v"
+  },
+  {
+    "english": "combine_v",
+    "german": "de_verbinden_v"
+  },
+  {
+    "english": "comment_v",
+    "german": "de_kommentieren_v"
+  },
+  {
+    "english": "commit_v",
+    "german": "de_begehen_v"
+  },
+  {
+    "english": "concentrate_v",
+    "german": "de_sich konzentrieren_v"
+  },
+  {
+    "english": "conclude_v",
+    "german": "de_abschließen_v"
+  },
+  {
+    "english": "confirm_v",
+    "german": "de_bestätigen_v"
+  },
+  {
+    "english": "confuse_v",
+    "german": "de_mit jmdm./etw. verwechseln_v"
+  },
+  {
+    "english": "consist_v",
+    "german": "de_aus etwas bestehen_v"
+  },
+  {
+    "english": "consume_v",
+    "german": "de_konsumieren_v"
+  },
+  {
+    "english": "convince_v",
+    "german": "de_überzeugen_v"
+  },
+  {
+    "english": "cool_v",
+    "german": "de_abkühlen_v"
+  },
+  {
+    "english": "decorate_v",
+    "german": "de_schmücken_v"
+  },
+  {
+    "english": "define_v",
+    "german": "de_definieren_v"
+  },
+  {
+    "english": "deliver_v",
+    "german": "de_liefern_v"
+  },
+  {
+    "english": "determine_v",
+    "german": "de_bestimmen_v"
+  },
+  {
+    "english": "direct_v",
+    "german": "de_richten_v"
+  },
+  {
+    "english": "dislike_v",
+    "german": "de_ablehnen_v"
+  },
+  {
+    "english": "divide_v",
+    "german": "de_teilen_v"
+  },
+  {
+    "english": "donate_v",
+    "german": "de_spenden_v"
+  },
+  {
+    "english": "educate_v",
+    "german": "de_ausbilden_v"
+  },
+  {
+    "english": "empty_v",
+    "german": "de_entleeren_v"
+  },
+  {
+    "english": "encourage_v",
+    "german": "de_ermutigen_v"
+  },
+  {
+    "english": "entertain_v",
+    "german": "de_einen verdacht hegen_v"
+  },
+  {
+    "english": "escape_v",
+    "german": "de_flüchten_v"
+  },
+  {
+    "english": "examine_v",
+    "german": "de_untersuchen_v"
+  },
+  {
+    "english": "expand_v",
+    "german": "de_expandieren_v"
+  },
+  {
+    "english": "experience_v",
+    "german": "de_erfahren_v"
+  },
+  {
+    "english": "experiment_v",
+    "german": "de_experimentieren_v"
+  },
+  {
+    "english": "explode_v",
+    "german": "de_explodieren_v"
+  },
+  {
+    "english": "explore_v",
+    "german": "de_erforschen_v"
+  },
+  {
+    "english": "face_v",
+    "german": "de_begegnen_v"
+  },
+  {
+    "english": "fancy_v",
+    "german": "de_glauben_v"
+  },
+  {
+    "english": "fasten_v",
+    "german": "de_anheften_v"
+  },
+  {
+    "english": "fear_v",
+    "german": "de_befürchten_v"
+  },
+  {
+    "english": "feature_v",
+    "german": "de_bieten_v"
+  },
+  {
+    "english": "fire_v",
+    "german": "de_schießen_v"
+  },
+  {
+    "english": "flow_v",
+    "german": "de_fließen_v"
+  },
+  {
+    "english": "fold_v",
+    "german": "de_falten_v"
+  },
+  {
+    "english": "freeze_v",
+    "german": "de_gefrieren_v"
+  },
+  {
+    "english": "frighten_v",
+    "german": "de_einen schreck einjagen_v"
+  },
+  {
+    "english": "fry_v",
+    "german": "de_braten_v"
+  },
+  {
+    "english": "gather_v",
+    "german": "de_sich versammeln_v"
+  },
+  {
+    "english": "hand_v",
+    "german": "de_reichen_v"
+  },
+  {
+    "english": "hang_v",
+    "german": "de_hängen_v"
+  },
+  {
+    "english": "head_v",
+    "german": "de_leiten_v"
+  },
+  {
+    "english": "highlight_v",
+    "german": "de_hervorheben_v"
+  },
+  {
+    "english": "hire_v",
+    "german": "de_mieten_v"
+  },
+  {
+    "english": "ignore_v",
+    "german": "de_ignorieren_v"
+  },
+  {
+    "english": "indicate_v",
+    "german": "de_zeigen_v"
+  },
+  {
+    "english": "injure_v",
+    "german": "de_verletzen_v"
+  },
+  {
+    "english": "intend_v",
+    "german": "de_wollen_v"
+  },
+  {
+    "english": "invest_v",
+    "german": "de_investieren_v"
+  },
+  {
+    "english": "investigate_v",
+    "german": "de_untersuchen_v"
+  },
+  {
+    "english": "key_v",
+    "german": "de_verdübeln_v"
+  },
+  {
+    "english": "kick_v",
+    "german": "de_treten_v"
+  },
+  {
+    "english": "kiss_v",
+    "german": "de_küssen_v"
+  },
+  {
+    "english": "lay_v",
+    "german": "de_legen_v"
+  },
+  {
+    "english": "lie_v2",
+    "german": "de_lügen"
+  },
+  {
+    "english": "locate_v",
+    "german": "de_finden_v"
+  },
+  {
+    "english": "market_v",
+    "german": "de_vermarkten_v"
+  },
+  {
+    "english": "measure_v",
+    "german": "de_messen_v"
+  },
+  {
+    "english": "mix_v",
+    "german": "de_mischen_v"
+  },
+  {
+    "english": "note_v",
+    "german": "de_zur kenntnis nehmen_v"
+  },
+  {
+    "english": "occur_v",
+    "german": "de_auftreten_v"
+  },
+  {
+    "english": "participate_v",
+    "german": "de_teilnehmen_v"
+  },
+  {
+    "english": "persuade_v",
+    "german": "de_überzeugen_v"
+  },
+  {
+    "english": "place_v",
+    "german": "de_legen_v"
+  },
+  {
+    "english": "point_v",
+    "german": "de_zeigen_v"
+  },
+  {
+    "english": "pour_v",
+    "german": "de_gießen_v"
+  },
+  {
+    "english": "pray_v",
+    "german": "de_beten_v"
+  },
+  {
+    "english": "pretend_v",
+    "german": "de_vorgeben_v"
+  },
+  {
+    "english": "program_v",
+    "german": "de_ein programm gestalten_v"
+  },
+  {
+    "english": "promote_v",
+    "german": "de_fördern_v"
+  },
+  {
+    "english": "prove_v",
+    "german": "de_belegen_v"
+  },
+  {
+    "english": "punish_v",
+    "german": "de_bestrafen_v"
+  },
+  {
+    "english": "qualify_v",
+    "german": "de_sich qualifizieren_v"
+  },
+  {
+    "english": "quit_v",
+    "german": "de_aufgeben_v"
+  },
+  {
+    "english": "quote_v",
+    "german": "de_zitieren_v"
+  },
+  {
+    "english": "reflect_v",
+    "german": "de_nachdenken_v"
+  },
+  {
+    "english": "reject_v",
+    "german": "de_zurückweisen_v"
+  },
+  {
+    "english": "relate_v",
+    "german": "de_zuordnen_v"
+  },
+  {
+    "english": "release_v",
+    "german": "de_befreien_v"
+  },
+  {
+    "english": "remain_v",
+    "german": "de_übrigbleiben | übrig bleiben_v"
+  },
+  {
+    "english": "remind_v",
+    "german": "de_mahnen_v"
+  },
+  {
+    "english": "represent_v",
+    "german": "de_darstellen_v"
+  },
+  {
+    "english": "request_v",
+    "german": "de_verlangen_v"
+  },
+  {
+    "english": "require_v",
+    "german": "de_benötigen_v"
+  },
+  {
+    "english": "result_v",
+    "german": "de_auftreten_v"
+  },
+  {
+    "english": "retire_v",
+    "german": "de_sich zurückziehen_v"
+  },
+  {
+    "english": "revise_v",
+    "german": "de_lernen_v"
+  },
+  {
+    "english": "roll_v",
+    "german": "de_rollen_v"
+  },
+  {
+    "english": "rule_v",
+    "german": "de_herrschen_v"
+  },
+  {
+    "english": "scan_v",
+    "german": "de_untersuchen_v"
+  },
+  {
+    "english": "separate_v",
+    "german": "de_sich trennen_v"
+  },
+  {
+    "english": "set_v",
+    "german": "de_setzen_v"
+  },
+  {
+    "english": "shine_v",
+    "german": "de_glänzen_v"
+  },
+  {
+    "english": "shoot_v",
+    "german": "de_schießen_v"
+  },
+  {
+    "english": "sink_v",
+    "german": "de_sinken_v"
+  },
+  {
+    "english": "slow_v",
+    "german": "de_abbremsen_v"
+  },
+  {
+    "english": "sort_v",
+    "german": "de_ausscheiden_v"
+  },
+  {
+    "english": "spread_v",
+    "german": "de_sich ausbreiten_v"
+  },
+  {
+    "english": "spring_v",
+    "german": "de_springen_v"
+  },
+  {
+    "english": "stick_v",
+    "german": "de_kleben_v"
+  },
+  {
+    "english": "store_v",
+    "german": "de_lagern_v"
+  },
+  {
+    "english": "suffer_v",
+    "german": "de_leiden_v"
+  },
+  {
+    "english": "suit_v",
+    "german": "de_passen_v"
+  },
+  {
+    "english": "summarize_v",
+    "german": "de_zusammenfassen_v"
+  },
+  {
+    "english": "survive_v",
+    "german": "de_überleben_v"
+  },
+  {
+    "english": "switch_v",
+    "german": "de_schalten_v"
+  },
+  {
+    "english": "tend_v",
+    "german": "de_zu etwas neigen_v"
+  },
+  {
+    "english": "tip_v",
+    "german": "de_abwerfen_v"
+  },
+  {
+    "english": "tour_v",
+    "german": "de_besichtigen_v"
+  },
+  {
+    "english": "translate_v",
+    "german": "de_übersetzen_v"
+  },
+  {
+    "english": "transport_v",
+    "german": "de_transportieren_v"
+  },
+  {
+    "english": "treat_v",
+    "german": "de_behandeln_v"
+  },
+  {
+    "english": "type_v",
+    "german": "de_tippen_v"
+  },
+  {
+    "english": "update_v",
+    "german": "de_aktualisieren_v"
+  },
+  {
+    "english": "view_v",
+    "german": "de_betrachten_v"
+  },
+  {
+    "english": "warm_v",
+    "german": "de_wärmen_v"
+  },
+  {
+    "english": "warn_v",
+    "german": "de_warnen_v"
+  },
+  {
+    "english": "water_v",
+    "german": "de_tränen_v"
+  },
+  {
+    "english": "wave_v",
+    "german": "de_winken_v"
+  },
+  {
+    "english": "weigh_v",
+    "german": "de_wiegen_v"
+  },
+  {
+    "english": "wonder_v",
+    "german": "de_sich fragen_v"
+  },
+  {
+    "english": "abandon_v",
+    "german": "de_verlassen_v"
+  },
+  {
+    "english": "accompany_v",
+    "german": "de_begleiten_v"
+  },
+  {
+    "english": "account_v",
+    "german": "de_ausmachen_v"
+  },
+  {
+    "english": "accuse_v",
+    "german": "de_beschuldigen_v"
+  },
+  {
+    "english": "acknowledge_v",
+    "german": "de_anerkennen_v"
+  },
+  {
+    "english": "acquire_v",
+    "german": "de_erwerben_v"
+  },
+  {
+    "english": "adapt_v",
+    "german": "de_sich anpassen_v"
+  },
+  {
+    "english": "address_v",
+    "german": "de_ansprechen_v"
+  },
+  {
+    "english": "adopt_v",
+    "german": "de_annehmen_v"
+  },
+  {
+    "english": "alarm_v",
+    "german": "de_alarmieren_v"
+  },
+  {
+    "english": "alter_v",
+    "german": "de_ändern_v"
+  },
+  {
+    "english": "amount_v",
+    "german": "de_sich auf belaufen_v"
+  },
+  {
+    "english": "approve_v",
+    "german": "de_billigen_v"
+  },
+  {
+    "english": "arise_v",
+    "german": "de_entstehen_v"
+  },
+  {
+    "english": "assess_v",
+    "german": "de_beurteilen_v"
+  },
+  {
+    "english": "associate_v",
+    "german": "de_verbinden_v"
+  },
+  {
+    "english": "assume_v",
+    "german": "de_annehmen_v"
+  },
+  {
+    "english": "back_v",
+    "german": "de_unterstützen_v"
+  },
+  {
+    "english": "bar_v",
+    "german": "de_versperren_v"
+  },
+  {
+    "english": "battle_v",
+    "german": "de_kämpfen_v"
+  },
+  {
+    "english": "bear_v",
+    "german": "de_tragen_v"
+  },
+  {
+    "english": "beg_v",
+    "german": "de_betteln_v"
+  },
+  {
+    "english": "bet_v",
+    "german": "de_wetten_v"
+  },
+  {
+    "english": "bill_v",
+    "german": "de_fakturieren_v"
+  },
+  {
+    "english": "blame_v",
+    "german": "de_vorwürfe machen_v"
+  },
+  {
+    "english": "border_v",
+    "german": "de_einfassen_v"
+  },
+  {
+    "english": "broadcast_v",
+    "german": "de_ausstrahlen_v"
+  },
+  {
+    "english": "calculate_v",
+    "german": "de_rechnen_v"
+  },
+  {
+    "english": "cancel_v",
+    "german": "de_absagen_v"
+  },
+  {
+    "english": "capture_v",
+    "german": "de_fangen_v"
+  },
+  {
+    "english": "chain_v",
+    "german": "de_verketten_v"
+  },
+  {
+    "english": "chair_v",
+    "german": "de_den vorsitz haben_v"
+  },
+  {
+    "english": "challenge_v",
+    "german": "de_infrage stellen_v"
+  },
+  {
+    "english": "chart_v",
+    "german": "de_kartieren_v"
+  },
+  {
+    "english": "cite_v",
+    "german": "de_zitieren_v"
+  },
+  {
+    "english": "collapse_v",
+    "german": "de_fallen_v"
+  },
+  {
+    "english": "conduct_v",
+    "german": "de_leiten_v"
+  },
+  {
+    "english": "construct_v",
+    "german": "de_bauen_v"
+  },
+  {
+    "english": "contribute_v",
+    "german": "de_spenden_v"
+  },
+  {
+    "english": "convert_v",
+    "german": "de_umwandeln_v"
+  },
+  {
+    "english": "credit_v",
+    "german": "de_kreditieren_v"
+  },
+  {
+    "english": "criticize_v",
+    "german": "de_kritisieren_v"
+  },
+  {
+    "english": "cure_v",
+    "german": "de_heilen_v"
+  },
+  {
+    "english": "date_v",
+    "german": "de_miteinander ausgehen_v"
+  },
+  {
+    "english": "declare_v",
+    "german": "de_erklären_v"
+  },
+  {
+    "english": "decline_v",
+    "german": "de_fallen_v"
+  },
+  {
+    "english": "decrease_v",
+    "german": "de_fallen_v"
+  },
+  {
+    "english": "defeat_v",
+    "german": "de_besiegen_v"
+  },
+  {
+    "english": "defend_v",
+    "german": "de_verteidigen_v"
+  },
+  {
+    "english": "delay_v",
+    "german": "de_verschieben_v"
+  },
+  {
+    "english": "delight_v",
+    "german": "de_erfreuen_v"
+  },
+  {
+    "english": "demonstrate_v",
+    "german": "de_demonstrieren_v"
+  },
+  {
+    "english": "deny_v",
+    "german": "de_bestreiten_v"
+  },
+  {
+    "english": "desert_v",
+    "german": "de_im stich lassen_v"
+  },
+  {
+    "english": "deserve_v",
+    "german": "de_verdienen_v"
+  },
+  {
+    "english": "detail_v",
+    "german": "de_einzeln aufführen_v"
+  },
+  {
+    "english": "detect_v",
+    "german": "de_entdecken_v"
+  },
+  {
+    "english": "dig_v",
+    "german": "de_graben_v"
+  },
+  {
+    "english": "discount_v",
+    "german": "de_abzinsen_v"
+  },
+  {
+    "english": "dismiss_v",
+    "german": "de_entlassen_v"
+  },
+  {
+    "english": "display_v",
+    "german": "de_ausstellen_v"
+  },
+  {
+    "english": "distribute_v",
+    "german": "de_verteilen_v"
+  },
+  {
+    "english": "document_v",
+    "german": "de_dokumentieren_v"
+  },
+  {
+    "english": "dominate_v",
+    "german": "de_beherrschen_v"
+  },
+  {
+    "english": "drag_v",
+    "german": "de_ziehen_v"
+  },
+  {
+    "english": "edit_v",
+    "german": "de_aufbereiten_v"
+  },
+  {
+    "english": "elect_v",
+    "german": "de_wählen_v"
+  },
+  {
+    "english": "emerge_v",
+    "german": "de_aufkommen_v"
+  },
+  {
+    "english": "emphasize_v",
+    "german": "de_betonen_v"
+  },
+  {
+    "english": "enable_v",
+    "german": "de_ermöglichen_v"
+  },
+  {
+    "english": "encounter_v",
+    "german": "de_auf treffen_v"
+  },
+  {
+    "english": "engage_v",
+    "german": "de_engagieren_v"
+  },
+  {
+    "english": "enhance_v",
+    "german": "de_verbessern_v"
+  },
+  {
+    "english": "ensure_v",
+    "german": "de_gewährleisten_v"
+  },
+  {
+    "english": "establish_v",
+    "german": "de_herstellen_v"
+  },
+  {
+    "english": "estimate_v",
+    "german": "de_schätzen_v"
+  },
+  {
+    "english": "evaluate_v",
+    "german": "de_beurteilen_v"
+  },
+  {
+    "english": "expose_v",
+    "german": "de_bloßlegen_v"
+  },
+  {
+    "english": "extend_v",
+    "german": "de_verlängern_v"
+  },
+  {
+    "english": "favour_v",
+    "german": "de_bevorzugen_v"
+  },
+  {
+    "english": "figure_v",
+    "german": "de_eine rolle spielen_v"
+  },
+  {
+    "english": "file_v",
+    "german": "de_feilen_v"
+  },
+  {
+    "english": "float_v",
+    "german": "de_schwimmen_v"
+  },
+  {
+    "english": "forgive_v",
+    "german": "de_verzeihen_v"
+  },
+  {
+    "english": "found_v",
+    "german": "de_gründen_v"
+  },
+  {
+    "english": "free_v",
+    "german": "de_lösen_v"
+  },
+  {
+    "english": "fuel_v",
+    "german": "de_beschicken_v"
+  },
+  {
+    "english": "function_v",
+    "german": "de_funktionieren_v"
+  },
+  {
+    "english": "gain_v",
+    "german": "de_zunehmen_v"
+  },
+  {
+    "english": "generate_v",
+    "german": "de_entwickeln_v"
+  },
+  {
+    "english": "govern_v",
+    "german": "de_regieren_v"
+  },
+  {
+    "english": "grab_v",
+    "german": "de_greifen_v"
+  },
+  {
+    "english": "grade_v",
+    "german": "de_abstufen_v"
+  },
+  {
+    "english": "grant_v",
+    "german": "de_gewähren_v"
+  },
+  {
+    "english": "guarantee_v",
+    "german": "de_gewährleisten_v"
+  },
+  {
+    "english": "handle_v",
+    "german": "de_behandeln_v"
+  },
+  {
+    "english": "hesitate_v",
+    "german": "de_zögern_v"
+  },
+  {
+    "english": "host_v",
+    "german": "de_veranstalten_v"
+  },
+  {
+    "english": "house_v",
+    "german": "de_unterbringen_v"
+  },
+  {
+    "english": "illustrate_v",
+    "german": "de_darstellen_v"
+  },
+  {
+    "english": "imply_v",
+    "german": "de_bedeuten_v"
+  },
+  {
+    "english": "impose_v",
+    "german": "de_erheben_v"
+  },
+  {
+    "english": "impress_v",
+    "german": "de_beeindrucken_v"
+  },
+  {
+    "english": "inform_v",
+    "german": "de_informieren_v"
+  },
+  {
+    "english": "insist_v",
+    "german": "de_auf etwas bestehen_v"
+  },
+  {
+    "english": "inspire_v",
+    "german": "de_begeistern_v"
+  },
+  {
+    "english": "install_v",
+    "german": "de_einsetzen_v"
+  },
+  {
+    "english": "interpret_v",
+    "german": "de_deuten_v"
+  },
+  {
+    "english": "interrupt_v",
+    "german": "de_abbrechen_v"
+  },
+  {
+    "english": "issue_v",
+    "german": "de_ausstellen_v"
+  },
+  {
+    "english": "justify_v",
+    "german": "de_begründen_v"
+  },
+  {
+    "english": "launch_v",
+    "german": "de_starten_v"
+  },
+  {
+    "english": "lean_v",
+    "german": "de_sich beugen_v"
+  },
+  {
+    "english": "level_v",
+    "german": "de_das planum herstellen_v"
+  },
+  {
+    "english": "line_v",
+    "german": "de_ausfüttern_v"
+  },
+  {
+    "english": "lower_v",
+    "german": "de_senken_v"
+  },
+  {
+    "english": "maintain_v",
+    "german": "de_unterstützen_v"
+  },
+  {
+    "english": "map_v",
+    "german": "de_erfassen_v"
+  },
+  {
+    "english": "melt_v",
+    "german": "de_schmelzen_v"
+  },
+  {
+    "english": "mistake_v",
+    "german": "de_irrtümlich für halten_v"
+  },
+  {
+    "english": "model_v",
+    "german": "de_modellieren_v"
+  },
+  {
+    "english": "modify_v",
+    "german": "de_ändern_v"
+  },
+  {
+    "english": "mount_v",
+    "german": "de_errichten_v"
+  },
+  {
+    "english": "multiply_v",
+    "german": "de_malnehmen_v"
+  },
+  {
+    "english": "narrow_v",
+    "german": "de_sich verengen_v"
+  },
+  {
+    "english": "obey_v",
+    "german": "de_gehorchen_v"
+  },
+  {
+    "english": "object_v",
+    "german": "de_einwenden_v"
+  },
+  {
+    "english": "observe_v",
+    "german": "de_beobachten_v"
+  },
+  {
+    "english": "obtain_v",
+    "german": "de_beziehen_v"
+  },
+  {
+    "english": "offend_v",
+    "german": "de_verletzen_v"
+  },
+  {
+    "english": "operate_v",
+    "german": "de_arbeiten_v"
+  },
+  {
+    "english": "oppose_v",
+    "german": "de_opponieren_v"
+  },
+  {
+    "english": "owe_v",
+    "german": "de_verdanken_v"
+  },
+  {
+    "english": "package_v",
+    "german": "de_verpacken_v"
+  },
+  {
+    "english": "permit_v",
+    "german": "de_erlauben_v"
+  },
+  {
+    "english": "picture_v",
+    "german": "de_abbilden_v"
+  },
+  {
+    "english": "plot_v",
+    "german": "de_aufzeichnen_v"
+  },
+  {
+    "english": "pose_v",
+    "german": "de_darstellen_v"
+  },
+  {
+    "english": "position_v",
+    "german": "de_positionieren_v"
+  },
+  {
+    "english": "possess_v",
+    "german": "de_besitzen_v"
+  },
+  {
+    "english": "power_v",
+    "german": "de_mit energie versorgen_v"
+  },
+  {
+    "english": "preserve_v",
+    "german": "de_erhalten_v"
+  },
+  {
+    "english": "price_v",
+    "german": "de_bewerten_v"
+  },
+  {
+    "english": "process_v",
+    "german": "de_verarbeiten_v"
+  },
+  {
+    "english": "cook_v",
+    "german": "de_kochen_v"
+  },
+  {
+    "english": "drive_v",
+    "german": "de_fahren_v"
+  },
+  {
+    "english": "eat_v",
+    "german": "de_essen_v"
+  },
+  {
+    "english": "fly_v",
+    "german": "de_fliegen_v"
+  },
+  {
+    "english": "live_v",
+    "german": "de_leben_v"
+  },
+  {
+    "english": "read_v",
+    "german": "de_lesen_v"
+  },
+  {
+    "english": "think_v",
+    "german": "de_denken_v"
+  },
+  {
+    "english": "wait_v",
+    "german": "de_warten_v"
+  },
+  {
+    "english": "write_v",
+    "german": "de_schreiben_v"
+  },
+  {
+    "english": "boil_v",
+    "german": "de_kochen_v"
+  },
+  {
+    "english": "sail_v",
+    "german": "de_segeln_v"
+  },
+  {
+    "english": "hunt_v",
+    "german": "de_jagen_v"
+  },
+  {
+    "english": "progress_v",
+    "german": "de_fortschreiten_v"
+  },
+  {
+    "english": "project_v",
+    "german": "de_planen_v"
+  },
+  {
+    "english": "propose_v",
+    "german": "de_vorschlagen_v"
+  },
+  {
+    "english": "pursue_v",
+    "german": "de_verfolgen_v"
+  },
+  {
+    "english": "range_v",
+    "german": "de_reichen_v"
+  },
+  {
+    "english": "rate_v",
+    "german": "de_bewerten_v"
+  },
+  {
+    "english": "recall_v",
+    "german": "de_kündigen_v"
+  },
+  {
+    "english": "recover_v",
+    "german": "de_sich erholen_v"
+  },
+  {
+    "english": "regard_v",
+    "german": "de_achten_v"
+  },
+  {
+    "english": "register_v",
+    "german": "de_registrieren_v"
+  },
+  {
+    "english": "regret_v",
+    "german": "de_bereuen_v"
+  },
+  {
+    "english": "rely_v",
+    "german": "de_sich verlassen_v"
+  },
+  {
+    "english": "rescue_v",
+    "german": "de_retten_v"
+  },
+  {
+    "english": "resist_v",
+    "german": "de_widerstehen_v"
+  },
+  {
+    "english": "resolve_v",
+    "german": "de_lösen_v"
+  },
+  {
+    "english": "retain_v",
+    "german": "de_behalten_v"
+  },
+  {
+    "english": "reveal_v",
+    "german": "de_verraten_v"
+  },
+  {
+    "english": "rid_v",
+    "german": "de_loswerden_v"
+  },
+  {
+    "english": "rub_v",
+    "german": "de_reiben_v"
+  },
+  {
+    "english": "rush_v",
+    "german": "de_eilen_v"
+  },
+  {
+    "english": "sample_v",
+    "german": "de_probe entnehmen_v"
+  },
+  {
+    "english": "satisfy_v",
+    "german": "de_befriedigen_v"
+  },
+  {
+    "english": "schedule_v",
+    "german": "de_festlegen_v"
+  },
+  {
+    "english": "scream_v",
+    "german": "de_schreien_v"
+  },
+  {
+    "english": "screen_v",
+    "german": "de_überprüfen_v"
+  },
+  {
+    "english": "seat_v",
+    "german": "de_setzen_v"
+  },
+  {
+    "english": "secure_v",
+    "german": "de_sichern_v"
+  },
+  {
+    "english": "seek_v",
+    "german": "de_suchen_v"
+  },
+  {
+    "english": "select_v",
+    "german": "de_wählen_v"
+  },
+  {
+    "english": "sense_v",
+    "german": "de_fühlen_v"
+  },
+  {
+    "english": "sentence_v",
+    "german": "de_verurteilen_v"
+  },
+  {
+    "english": "settle_v",
+    "german": "de_sich niederlassen_v"
+  },
+  {
+    "english": "shape_v",
+    "german": "de_formen_v"
+  },
+  {
+    "english": "shift_v",
+    "german": "de_verschieben_v"
+  },
+  {
+    "english": "ship_v",
+    "german": "de_anheuern_v"
+  },
+  {
+    "english": "slide_v",
+    "german": "de_rutschen_v"
+  },
+  {
+    "english": "slip_v",
+    "german": "de_ausrutschen_v"
+  },
+  {
+    "english": "speed_v",
+    "german": "de_flitzen_v"
+  },
+  {
+    "english": "split_v",
+    "german": "de_aufteilen_v"
+  },
+  {
+    "english": "sponsor_v",
+    "german": "de_fördern_v"
+  },
+  {
+    "english": "spot_v",
+    "german": "de_erkennen_v"
+  },
+  {
+    "english": "stage_v",
+    "german": "de_bereitstellen_v"
+  },
+  {
+    "english": "stare_v",
+    "german": "de_starren_v"
+  },
+  {
+    "english": "step_v",
+    "german": "de_treten_v"
+  },
+  {
+    "english": "stretch_v",
+    "german": "de_sich strecken_v"
+  },
+  {
+    "english": "strike_v",
+    "german": "de_schlagen_v"
+  },
+  {
+    "english": "structure_v",
+    "german": "de_strukturieren_v"
+  },
+  {
+    "english": "struggle_v",
+    "german": "de_kämpfen_v"
+  },
+  {
+    "english": "stuff_v",
+    "german": "de_füllen_v"
+  },
+  {
+    "english": "submit_v",
+    "german": "de_einreichen_v"
+  },
+  {
+    "english": "surround_v",
+    "german": "de_umgeben_v"
+  },
+  {
+    "english": "survey_v",
+    "german": "de_überprüfen_v"
+  },
+  {
+    "english": "suspect_v",
+    "german": "de_befürchten_v"
+  },
+  {
+    "english": "swear_v",
+    "german": "de_fluchen_v"
+  },
+  {
+    "english": "sweep_v",
+    "german": "de_kehren_v"
+  },
+  {
+    "english": "target_v",
+    "german": "de_planen_v"
+  },
+  {
+    "english": "tear_v",
+    "german": "de_reißen_v"
+  },
+  {
+    "english": "term_v",
+    "german": "de_benennen_v"
+  },
+  {
+    "english": "threaten_v",
+    "german": "de_drohen_v"
+  },
+  {
+    "english": "time_v",
+    "german": "de_zeit messen_v"
+  },
+  {
+    "english": "title_v",
+    "german": "de_betiteln_v"
+  },
+  {
+    "english": "track_v",
+    "german": "de_verfolgen_v"
+  },
+  {
+    "english": "transfer_v",
+    "german": "de_übertragen_v"
+  },
+  {
+    "english": "transform_v",
+    "german": "de_verwandeln_v"
+  },
+  {
+    "english": "trip_v",
+    "german": "de_stolpern_v"
+  },
+  {
+    "english": "trouble_v",
+    "german": "de_stören_v"
+  },
+  {
+    "english": "urge_v",
+    "german": "de_drängen_v"
+  },
+  {
+    "english": "value_v",
+    "german": "de_schätzen_v"
+  },
+  {
+    "english": "vary_v",
+    "german": "de_sich ändern_v"
+  },
+  {
+    "english": "whisper_v",
+    "german": "de_flüstern_v"
+  },
+  {
+    "english": "wind_v",
+    "german": "de_aufziehen_v"
+  },
+  {
+    "english": "wrap_v",
+    "german": "de_wickeln_v"
   }
 ]

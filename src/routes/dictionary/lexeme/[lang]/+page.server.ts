@@ -1,4 +1,3 @@
-import {error} from '@sveltejs/kit'
 import db from '$lib/database'
 
 const languages = await db.language.findMany({
@@ -11,8 +10,7 @@ const entity = {
     lemma: {name: 'Lexeme'},
     meaning: {name: 'Meaning'},
     WordClass: {name: 'Word Class', key: 'key'},
-    level: {name: 'Level'},
-    english: {name: 'English'}
+    level: {name: 'Level'}
   },
   key: 'lexeme',
   isEditable: true,
@@ -27,6 +25,7 @@ export const load = async ({params}) => {
       where: {Language: {alpha2: language.alpha2}},
       orderBy: {lemma: 'asc'}
     })
+    console.log(records)
     return {entity, records, language}
   } else {
     console.warn(`unknown language ${params.lang}, serving all languages`)

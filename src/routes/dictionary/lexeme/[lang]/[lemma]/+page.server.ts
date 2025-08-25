@@ -6,8 +6,8 @@ const entity = {
     key: {name: 'Key'},
     lemma: {name: 'Lexeme'},
     meaning: {name: 'Meaning'},
-    WordClass: {name: 'Word Class'},
-    Language: {name: 'Language'},
+    wordclass: {name: 'Word Class'},
+    language: {name: 'Language'},
     level: {name: 'Level'},
     english: {name: 'English'}
   },
